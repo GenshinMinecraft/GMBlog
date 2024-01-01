@@ -1,19 +1,19 @@
-baseurl: https://c1oudf1are.link
+baseurl: https://blog.highp.ing
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 10
-title: GenshinMinecraftの小小藏身地
+title: HighPing之家の小小藏身地
 
 languages:
     en:
         languageName: English
         title: GenshinMinecraftの小小藏身地
-        description: GenshinMinecraft叽叽喳喳的博客！绝不在外网花一分钱！
+        description: WE LOVE OPEN-SOURCE
         weight: 1
     zh-cn:
         languageName: 中文
         title: GenshinMinecraftの小小藏身地
-        description: GenshinMinecraft叽叽喳喳的博客！绝不在外网花一分钱！
+        description: WE LOVE OPEN-SOURCE
         weight: 2
 
 DefaultContentLanguage: zh-cn
@@ -38,7 +38,7 @@ params:                   # 参数配置
 
     sidebar:              # 侧边栏配置
         emoji: 😇
-        subtitle: GenshinMinecraft
+        subtitle: High Ping Network
         avatar:
             enabled: true
             local: false
