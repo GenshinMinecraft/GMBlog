@@ -1,7 +1,7 @@
 ---
 title: 使用pgp向github提交签名commit
 description: PGP大法好(绿色小锁真好看)
-date: 2023-01-01
+date: 2023-12-31
 slug: pgptogithub
 image: 01d3dd5d4b60d4a8012187f4bf8003.jpg@2o.jpg
 categories:
