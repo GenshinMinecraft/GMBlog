@@ -2,17 +2,17 @@ baseurl: https://blog.highp.ing
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 10
-title: HighPing之家の小小藏身地
+title: HighPing们の小小藏身地
 
 languages:
     en:
         languageName: English
-        title: GenshinMinecraftの小小藏身地
+        title: HighPing们の小小藏身地
         description: WE LOVE OPEN-SOURCE
         weight: 1
     zh-cn:
         languageName: 中文
-        title: GenshinMinecraftの小小藏身地
+        title: HighPing们の小小藏身地
         description: WE LOVE OPEN-SOURCE
         weight: 2
 
