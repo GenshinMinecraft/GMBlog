@@ -42,7 +42,7 @@ params:                   # 参数配置
         avatar:
             enabled: true
             local: false
-            src: https://i2.100024.xyz/2023/07/20/ywvndm.webp
+            src: https://i2.100024.xyz/2024/01/01/umato9.webp
             #src: img/avatar.png
 
     article:              # 文章详情页配置
