@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='PGP大法好（绿色小锁真好看）'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='PGP大法好(绿色小锁真好看)'>
 <title>使用pgp向github提交签名commit</title>
 
 <link rel='canonical' href='https://blog.highp.ing/p/pgptogithub/'>
 
 <link rel="stylesheet" href="/scss/style.min.24ef1cc321916467896e8c70c10c0ad7b98c2a8df14298032fb637216e397f50.css"><meta property='og:title' content='使用pgp向github提交签名commit'>
-<meta property='og:description' content='PGP大法好（绿色小锁真好看）'>
+<meta property='og:description' content='PGP大法好(绿色小锁真好看)'>
 <meta property='og:url' content='https://blog.highp.ing/p/pgptogithub/'>
 <meta property='og:site_name' content='HighPing们の小小藏身地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/p/pgptogithub/01d3dd5d4b60d4a8012187f4bf8003.jpg@2o.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-01-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/p/pgptogithub/01d3dd5d4b60d4a8012187f4bf8003.jpg@2o.jpg' />
 <meta name="twitter:title" content="使用pgp向github提交签名commit">
-<meta name="twitter:description" content="PGP大法好（绿色小锁真好看）"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="PGP大法好(绿色小锁真好看)"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://blog.highp.ing/p/pgptogithub/01d3dd5d4b60d4a8012187f4bf8003.jpg@2o.jpg' />
     </head>
     <body class="
@@ -319,7 +319,7 @@
     
         
         <h3 class="article-subtitle">
-            PGP大法好（绿色小锁真好看）
+            PGP大法好(绿色小锁真好看)
         </h3>
         
     </div>
@@ -340,7 +340,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 01, 2024</time>
+                <time class="article-time--published">Jan 01, 2023</time>
             </div>
         
 
@@ -376,7 +376,7 @@
 <h2 id="快速介绍">快速介绍</h2>
 <h3 id="什么是pgp">什么是pgp</h3>
 <blockquote>
-<p>GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。</p>
+<p>GNU Privacy Guard(GnuPG或GPG)是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。</p>
 </blockquote>
 <h3 id="为什么要提交签名commit">为什么要提交签名commit</h3>
 <p>众所周知，Git的提交只需要自己的邮箱和密码，这就出现了一个漏洞：  只要他人有你的用户名和邮箱，就可以进行提交，就可以更改你的仓库内容。</p>
@@ -403,7 +403,7 @@
 <li>在密钥长度选项处：选择 4096 bits;</li>
 <li>在密钥过期时间处：按照自己的需要选择，建议避免永不过期；</li>
 <li>在我们的<em>用户 ID</em>和<em>邮箱</em>处：常用用户名，并<strong>填入 GitHub 上面认证过的邮箱</strong>;</li>
-<li>最后，为密钥设置一个安全的密码，并一定记住这一密码。（当然你也可以不设置直接回车。不过不建议）
+<li>最后，为密钥设置一个安全的密码，并一定记住这一密码。(当然你也可以不设置直接回车。不过不建议)
 这样，我们就拥有了一个属于自己的密钥对</li>
 </ul>
 <h2 id="查看并上传密钥到github">查看并上传密钥到github</h2>
@@ -416,8 +416,8 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --list-secret-keys --keyid-format LONG
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>其输出应该像这样（Comes from <a class="link" href="https://spencerwoo.com/blog/wait-this-is-not-my-commit"  target="_blank" rel="noopener"
-    >there</a>）</p>
+</div><p>其输出应该像这样(Comes from <a class="link" href="https://spencerwoo.com/blog/wait-this-is-not-my-commit"  target="_blank" rel="noopener"
+    >there</a>)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -436,7 +436,7 @@
 </span></span><span class="line"><span class="cl">ssb   rsa4096/EB754D2B2409E9FE 2020-08-29 <span class="o">[</span>E<span class="o">]</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>其中，第一行的 <code>RSA4096</code> 后的 <code>24CD550268849CA0</code> 为你的PGP指纹。请妥善保存它（后面会用到）。
+</div><p>其中，第一行的 <code>RSA4096</code> 后的 <code>24CD550268849CA0</code> 为你的PGP指纹。请妥善保存它(后面会用到)。
 接着我们需要告诉 GitHub 我们使用的 GPG 公钥。
 使用下面的命令即可导出我们的 GPG 公钥</p>
 <div class="highlight"><div class="chroma">
@@ -447,7 +447,7 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --armor --export <span class="o">[</span>你的指纹<span class="o">]</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>接着将输出（他应该长这样）</p>
+</div><p>接着将输出(他应该长这样)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -463,7 +463,7 @@
 </div><p>粘贴到 <a class="link" href="https://github.com/settings/keys"  target="_blank" rel="noopener"
     >此处</a>，并保存。</p>
 <h2 id="使用git签名commit">使用git签名commit</h2>
-<p>使用如下命令，就可以完成本操作。（此命令会开启所有commit全部签名，如果不需要请查阅后文）</p>
+<p>使用如下命令，就可以完成本操作。(此命令会开启所有commit全部签名，如果不需要请查阅后文)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -484,7 +484,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="完成">完成</h2>
-<p>完成上述步骤后进行一次提交，即可看见自己的commit上有了Verified的绿色标签（如果不行，你可以找谷歌爸爸~~（手动狗头）~~）</p>
+<p>完成上述步骤后进行一次提交，即可看见自己的commit上有了Verified的绿色标签(如果不行，你可以找谷歌爸爸~~(手动狗头)~~)</p>
 
 </section>
 
