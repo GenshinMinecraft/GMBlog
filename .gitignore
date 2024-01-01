@@ -1,4 +1,4 @@
 # Generated files by hugo
-/public/
-/caddy.log
-/resources/_gen/
+#/public/
+#/caddy.log
+#/resources/_gen/

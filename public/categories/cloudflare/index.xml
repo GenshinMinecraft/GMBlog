@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>CloudFlare on GenshinMinecraftの小小藏身地</title>
+        <link>https://c1oudf1are.link/categories/cloudflare/</link>
+        <description>Recent content in CloudFlare on GenshinMinecraftの小小藏身地</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/cloudflare/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何让 Google 快速收录你的网站 / 提升在 Google 的排名</title>
+        <link>https://c1oudf1are.link/p/googlepaiming/</link>
+        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/googlepaiming/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一&lt;/p&gt;
+&lt;p&gt;所以本文会教你如何快速提升在 Google 中&lt;strong&gt;你的网站的排名&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本文会以&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;本博客&lt;/strong&gt;&lt;/a&gt;为例子&lt;/p&gt;
+&lt;h2 id=&#34;1申请收录&#34;&gt;1.申请收录&lt;/h2&gt;
+&lt;p&gt;这一 Part 相信大部分站长都完成了，如果你还未完成的话&lt;/p&gt;
+&lt;p&gt;可以找到 &lt;a class=&#34;link&#34; href=&#34;https://search.google.com/search-console&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Search Console&lt;/a&gt; 来完成谷歌收录设置&lt;/p&gt;
+&lt;h2 id=&#34;2sitemap&#34;&gt;2.Sitemap&lt;/h2&gt;
+&lt;h3 id=&#34;什么是-sitemap&#34;&gt;什么是 Sitemap&lt;/h3&gt;
+&lt;p&gt;Sitemap 是收集了一个站点中所有 URL 的文本文件&lt;/p&gt;
+&lt;p&gt;比如我的站点的 Sitemap 链接就是 &lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/zh-cn/sitemap.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://c1oudf1are.link/zh-cn/sitemap.xml&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一般情况下生成-sitemap&#34;&gt;一般情况下生成 Sitemap&lt;/h3&gt;
+&lt;p&gt;一般的，如果你使用&lt;strong&gt;博客生成工具&lt;/strong&gt;(Hugo/Hexo等) 或 &lt;strong&gt;WordPress&lt;/strong&gt; 等由 PHP 编写的博客程序，都会自动化地生成本站对应的 Sitemap&lt;/p&gt;
+&lt;p&gt;你可以在有关于&lt;strong&gt;博客站点主题&lt;/strong&gt;，&lt;strong&gt;各种 Readme&lt;/strong&gt; 中找到你的站点的 Sitemap&lt;/p&gt;
+&lt;p&gt;Sitemap 可以让 Google 更好地爬取你的网站&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;此方法非常方便，博客程序一般会定期生成你的 Sitemap&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用各种工具生成-sitemap&#34;&gt;使用各种工具生成 Sitemap&lt;/h3&gt;
+&lt;p&gt;当你的博客程序没有提供 Sitemap 生成服务时，可以使用该方法&lt;/p&gt;
+&lt;p&gt;你可以在 &lt;a class=&#34;link&#34; href=&#34;https://www.google.com.hk/search?q=sitemap&amp;#43;generator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google&lt;/a&gt; 搜索到各种在线生成 Sitemap 的工具&lt;/p&gt;
+&lt;p&gt;生成完之后，请将导出的 Sitemap 放置到&lt;strong&gt;你博客的任何一个目录下&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要求就是，可以用你的&lt;strong&gt;博客域名&lt;/strong&gt;访问的范围，比如上文中提到的 &lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/zh-cn/sitemap.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://c1oudf1are.link/zh-cn/sitemap.xml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请注意，如果你的博客发生了变动（比如新增文章），需要重新生成&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;向-google-提交-sitemap&#34;&gt;向 Google 提交 Sitemap&lt;/h3&gt;
+&lt;p&gt;在&lt;code&gt;侧边栏-编制索引-站点地图&lt;/code&gt;中&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image.png&#34;
+	width=&#34;659&#34;
+	height=&#34;1210&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;54&#34;
+		data-flex-basis=&#34;130px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;输入站点地图 URL 后即可完成提交&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-1.png&#34;
+	width=&#34;1888&#34;
+	height=&#34;814&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;231&#34;
+		data-flex-basis=&#34;556px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3访问速度以及优化&#34;&gt;3.访问速度以及优化&lt;/h2&gt;
+&lt;h3 id=&#34;pagespeed-insights&#34;&gt;PageSpeed Insights&lt;/h3&gt;
+&lt;p&gt;Google 会参考&lt;strong&gt;用户的体验&lt;/strong&gt;来进行排序，因此一个好的界面以及访问速度至关重要！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google 的核心排名系统旨在奖励那些提供良好网页体验的内容。Search Console 针对您可能希望考虑的两个方面提供相关报告：Core Web Vitals 和 HTTPS。不过，网页体验并不只是涉及这两个方面。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;你可以通过 &lt;a class=&#34;link&#34; href=&#34;https://pagespeed.web.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google 官方工具 PageSpeed Insights&lt;/a&gt; 来检测你的网站的得分&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-2.png&#34;
+	width=&#34;2119&#34;
+	height=&#34;1541&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;330px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一般来说，得分 95+ 的网站优化已经顶破天了，无需继续优化&lt;/p&gt;
+&lt;p&gt;得分 85+ 的网站可能需要一些小小的优化，但是并没有很大必要&lt;/p&gt;
+&lt;p&gt;在测评下方有对于你网站的&lt;strong&gt;优化建议&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-3.png&#34;
+	width=&#34;2017&#34;
+	height=&#34;1144&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;423px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可以参考 Google 给出的建议，进一步加速你的网站&lt;/p&gt;
+&lt;h3 id=&#34;需要注意优化的地方&#34;&gt;需要注意优化的地方&lt;/h3&gt;
+&lt;h4 id=&#34;服务器本身延迟&#34;&gt;服务器本身延迟&lt;/h4&gt;
+&lt;p&gt;从客户端至服务器本身的延迟如果很高，那么得分不可能好到哪里去&lt;/p&gt;
+&lt;p&gt;如果你是&lt;code&gt;纯 HTML&lt;/code&gt;站长，可以考虑使用 &lt;code&gt;CloudFlare Pages&lt;/code&gt; 或 &lt;code&gt;Github Pages&lt;/code&gt;，既无需服务器，延迟也还不错&lt;/p&gt;
+&lt;p&gt;如果你是&lt;code&gt;拥有自己服务器并搭建站点&lt;/code&gt;的站长，肯定需要一台线路、配置等各方面足够好的机器&lt;/p&gt;
+&lt;p&gt;如果你是&lt;code&gt;CDN&lt;/code&gt;用户，请注意配置合适的缓存规则，避免源站负载过大以及不必要的请求。&lt;/p&gt;
+&lt;h4 id=&#34;图片&#34;&gt;图片&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;图片是博客等项目的重头&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你的机器带宽过小（1M-50M），则应配置&lt;strong&gt;站外图床&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里推荐一个稳定且免费的图床：&lt;a class=&#34;link&#34; href=&#34;https://png.cm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://png.cm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优点就是上传时&lt;strong&gt;自动转换成 Webp 格式&lt;/strong&gt;（PageSpeed Insights 中提醒的使用新一代图片文件格式就是 Webp）&lt;/p&gt;
+&lt;p&gt;而且，一个页面内如果有过多图片，也会降低用户体验，降低测试分数&lt;/p&gt;
+&lt;h4 id=&#34;php&#34;&gt;PHP&lt;/h4&gt;
+&lt;p&gt;如今，大部分博客已经都是 &lt;strong&gt;PHP 应用&lt;/strong&gt;了&lt;/p&gt;
+&lt;p&gt;PHP 博客有其优点，当然也有少许缺点&lt;/p&gt;
+&lt;p&gt;PHP 有一个至今绕不开的难题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;占用过高&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;请求界面时需要运算&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;无法真正做到全缓存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这几点使 PHP 博客需要一台至少 4c4g 的站机才算足够&lt;/p&gt;
+&lt;p&gt;所以，如果&lt;strong&gt;你有一定技术能力&lt;/strong&gt;，可以像我一样，部署一个&lt;strong&gt;纯 HTML&lt;/strong&gt; 博客&lt;/p&gt;
+&lt;p&gt;我个人使用的是 Hugo，当然也有其他类似的选择&lt;/p&gt;
+&lt;h4 id=&#34;https&#34;&gt;HTTPS&lt;/h4&gt;
+&lt;p&gt;HTTPS 也是 Google 所看重的内容之一，相信开启 HTTPS 对于各位站长来说还是不难的，不赘述了&lt;/p&gt;
+&lt;h4 id=&#34;小结&#34;&gt;小结&lt;/h4&gt;
+&lt;p&gt;大概就这些重头戏，其他优化可以不管，这几个优化完了保证分数上85&lt;/p&gt;
+&lt;h2 id=&#34;其他需要注意的地方&#34;&gt;其他需要注意的地方&lt;/h2&gt;
+&lt;h3 id=&#34;刚提交给-google-时&#34;&gt;刚提交给 Google 时&lt;/h3&gt;
+&lt;p&gt;注意：第一次提交给 Google 时并不会马上就收录，大约要等待 2-3 天左右&lt;/p&gt;
+&lt;p&gt;当收录了你的站点时，请手动将博客文章地址输入到 Search Console 中的搜索框内&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-4.png&#34;
+	width=&#34;1488&#34;
+	height=&#34;674&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;220&#34;
+		data-flex-basis=&#34;529px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这样会让 Google 查询你输入的网址&lt;strong&gt;是否已经收录&lt;/strong&gt;，一般是没有的&lt;/p&gt;
+&lt;p&gt;然后点击&lt;code&gt;请求编入索引&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-5.png&#34;
+	width=&#34;786&#34;
+	height=&#34;433&#34;
+	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这样就可以手动让 Google 收录网址了&lt;/p&gt;
+&lt;p&gt;刚开始，需要一篇篇博客手动收录！&lt;/p&gt;
+&lt;h3 id=&#34;等稳定后提交&#34;&gt;等稳定后提交&lt;/h3&gt;
+&lt;p&gt;等你的博客稳定，并定期&lt;strong&gt;有内容产出的时候&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google 就会定期从 Sitemap 中查找还没添加的 Url，进行编入索引&lt;/p&gt;
+&lt;p&gt;这样就可以不用理会 Google Search Console 了！&lt;/p&gt;
+&lt;h3 id=&#34;稳定你的博客&#34;&gt;稳定你的博客&lt;/h3&gt;
+&lt;p&gt;稳定博客一般需要半年左右的时间，每个月发点文章&lt;/p&gt;
+&lt;p&gt;而且不要频繁更换页面主体（比如换主题），长期稳定后就可以等候排名慢慢提升&lt;/p&gt;
+&lt;p&gt;虽然本文的标题是&lt;code&gt;快速提升在 Google 的排名&lt;/code&gt;，但是莫要心急，没有好内容产出是没有用的！&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;本文阐述了我自己所用的方法，相信各位站长能快速提升自己 Google 排名&lt;/p&gt;
+&lt;p&gt;也欢迎各位站长来和我交换友链！&lt;/p&gt;
+&lt;p&gt;发送邮件至 genshinminecraft#duck.com 或 Telegram:@C1oudF1are 来交换友链吧！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>锐评CloudFlare（CloudFlare从来都不是减速器）</title>
+        <link>https://c1oudf1are.link/p/ruipingcloudflare/</link>
+        <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/ruipingcloudflare/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/ruipingcloudflare/OIP-C.jpg" alt="Featured image of post 锐评CloudFlare（CloudFlare从来都不是减速器）" /&gt;&lt;h1 id=&#34;锐评cloudflarecloudflare从来都不是减速器&#34;&gt;锐评CloudFlare（CloudFlare从来都不是减速器）&lt;/h1&gt;
+&lt;p&gt;CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速度，好吧不要睁着眼睛乱说，全球CDN很难的。&lt;/p&gt;
+&lt;p&gt;而且CloudFlare真的不是随便给你做CDN的品牌欸，我跟CF跟了多少年，他怎么被你们滥用的我是最知道的一个人，他都差点把他们家掏给GFW了，差点CloudFlare姓China了，真的乱说。&lt;/p&gt;
+&lt;p&gt;这么多年都是免费的，哪里慢了（很好用的），注册个账号就送你各种可以滥用的服务。&lt;/p&gt;
+&lt;p&gt;有的时候找找自己的原因，这么多年了GFW有没有高，好不？&lt;/p&gt;
+&lt;p&gt;这么多年了都是这个服务，我真的快疯掉了。&lt;/p&gt;
+&lt;p&gt;首发于 &lt;a class=&#34;link&#34; href=&#34;https://t.me/aries_init/6083&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://t.me/aries_init/6083&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/ruipingcloudflare/image.png&#34;
+	width=&#34;888&#34;
+	height=&#34;622&#34;
+	srcset=&#34;https://c1oudf1are.link/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;142&#34;
+		data-flex-basis=&#34;342px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CloudFlare Tunnel(内网穿透) 获取/使用方法</title>
+        <link>https://c1oudf1are.link/p/cloudflare-tunnel/</link>
+        <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/cloudflare-tunnel/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
+&lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
+&lt;p&gt;这个时候我们可以选择CloudFlare家的Tunnel服务，既能拥有&lt;em&gt;&lt;strong&gt;CloudFlare的全球防护CDN&lt;/strong&gt;&lt;/em&gt;，还可以获得&lt;strong&gt;更加安全的体验&lt;/strong&gt;！&lt;/p&gt;
+&lt;p&gt;仅需要以下几样东西即可获取CloudFlare Tunnel的全部功能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;脑子和手&lt;/li&gt;
+&lt;li&gt;一个CloudFlare账户&lt;/li&gt;
+&lt;li&gt;一张银行卡/Paypal（料卡也可）&lt;/li&gt;
+&lt;li&gt;一台用于穿透的设备（如Router）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;创建tunnel隧道&#34;&gt;创建Tunnel隧道&lt;/h2&gt;
+&lt;h3 id=&#34;创建域名前缀&#34;&gt;创建域名前缀&lt;/h3&gt;
+&lt;p&gt;进入&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudFlare管理面板&lt;/a&gt;，在左侧栏找到&lt;code&gt;Zero Trust&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1.png&#34;
+	width=&#34;1617&#34;
+	height=&#34;1000&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;388px&#34;
+	
+&gt;
+在此输入你的&lt;em&gt;前缀&lt;/em&gt;（喜欢即可，后面可以绑定域名）。&lt;/p&gt;
+&lt;h3 id=&#34;选择计划并验卡&#34;&gt;选择计划并验卡&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2.png&#34;
+	width=&#34;2039&#34;
+	height=&#34;1593&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;307px&#34;
+	
+&gt;
+在这里选择最左侧的&lt;em&gt;0刀计划&lt;/em&gt;并继续，随后一路下一步输入自己的卡号信息，即可完成验卡创建。&lt;/p&gt;
+&lt;h3 id=&#34;创建第一个隧道&#34;&gt;创建第一个隧道&lt;/h3&gt;
+&lt;p&gt;回到&lt;a class=&#34;link&#34; href=&#34;https://one.dash.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Zero Trust&lt;/strong&gt;的主界面&lt;/a&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5.png&#34;
+	width=&#34;1739&#34;
+	height=&#34;862&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;201&#34;
+		data-flex-basis=&#34;484px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击左侧的&lt;code&gt;Access-Tunnels&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6.png&#34;
+	width=&#34;1270&#34;
+	height=&#34;879&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;创建Tunnel，点击&lt;code&gt;Create a tunnel&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7.png&#34;
+	width=&#34;2753&#34;
+	height=&#34;615&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;447&#34;
+		data-flex-basis=&#34;1074px&#34;
+	
+&gt;
+填写名称&lt;/p&gt;
+&lt;p&gt;按需下载内网穿透的软件
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8.png&#34;
+	width=&#34;1547&#34;
+	height=&#34;424&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;875px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下一步，填写想&lt;em&gt;连接的域名&lt;/em&gt;以及tunnel穿透的&lt;em&gt;协议&lt;/em&gt;与&lt;em&gt;目标地址&lt;/em&gt;，目标地址可以是本机/内网/公网~~（所以你甚至可以把tunnel当作中转使用）~~
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9.png&#34;
+	width=&#34;2760&#34;
+	height=&#34;1057&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;261&#34;
+		data-flex-basis=&#34;626px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后&lt;strong&gt;完成创建&lt;/strong&gt;即可！&lt;/p&gt;
+&lt;h2 id=&#34;连接到tunnel隧道&#34;&gt;连接到Tunnel隧道&lt;/h2&gt;
+&lt;p&gt;下载好上面所需要的内网穿透软件后，找一个地方放置，并打开终端&lt;/p&gt;
+&lt;p&gt;输入在&lt;code&gt;隧道名-Configure&lt;/code&gt;下的命令（Linux注意&lt;strong&gt;添加可执行权限&lt;/strong&gt;，以及&lt;strong&gt;去掉默认为windows的exe后缀&lt;/strong&gt;）
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
+	width=&#34;2382&#34;
+	height=&#34;1006&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;236&#34;
+		data-flex-basis=&#34;568px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cloudflared service install xxx(一大串Token字符)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Windows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cloudflared.exe service install xxx(一大串Token字符)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后CloudFlared就会&lt;strong&gt;以服务运行&lt;/strong&gt;，这样就算&lt;em&gt;&lt;strong&gt;连接好了Tunnel隧道&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;当隧道名右边的&lt;code&gt;Status&lt;/code&gt;变成绿色时，就算连接成功。可以通过上面填写的域名访问来进行验证。&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;CloudFlare Tunnel的搭建十分简单，而且可以获得CloudFlare CDN的全球防护，还是免费的。&lt;/p&gt;
+&lt;p&gt;可以说是非常良心了，但是还是有一定的缺点，如国内直连访问速度得不到保障等CloudFlare的通病。&lt;/p&gt;
+&lt;p&gt;但是也比国内FRP提供商直接给你强制限速10Mbps好！&lt;/p&gt;
+&lt;p&gt;并且可以使用与网站优选ip相同的方法，优选Tunnel的ip，可以说是自定义功能十分强大！&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;我的大爹，永远都是我的大爹！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CloudFlare R2 获取/使用方法</title>
+        <link>https://c1oudf1are.link/p/cloudflare-r2/</link>
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/cloudflare-r2/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
+&lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;1,000,000 次 A 类操作&lt;/strong&gt;&lt;/em&gt; + 每增加 1,000,000 次操收取 US$4.50&lt;/li&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;10,000,000 次 B 类操作&lt;/strong&gt;&lt;/em&gt; + 每增加 1,000,000 次操收取 US$0.36&lt;/li&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;10 GB 存储&lt;/strong&gt;&lt;/em&gt; + 每增加 1 GB 存储/月收取 US$0.015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而我们仅需要以下的东西就可以得到这&lt;em&gt;&lt;strong&gt;10GB对象存储&lt;/strong&gt;&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;脑子和手&lt;/li&gt;
+&lt;li&gt;一个CloudFlare账号（最好带有一个用于连接至R2储存桶的域名）&lt;/li&gt;
+&lt;li&gt;一张银行卡（0刀验证，可以是料）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;申请&#34;&gt;申请&lt;/h2&gt;
+&lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;此处&lt;/a&gt;登入&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;账户，并在左侧导航栏找到&lt;code&gt;R2&lt;/code&gt;。
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
+	width=&#34;767&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;59&#34;
+		data-flex-basis=&#34;143px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击中间的&lt;code&gt;激活R2&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
+	width=&#34;752&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;进入付款详细信息&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;469&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;272&#34;
+		data-flex-basis=&#34;655px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;输入付款信息，请注意这里并不会有&lt;em&gt;3d验证&lt;/em&gt;，只会扣除银行卡里面的0刀用于验证：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1178&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;260px&#34;
+	
+&gt;
+一路下一步完成验卡。&lt;/p&gt;
+&lt;h2 id=&#34;创建储存桶&#34;&gt;创建储存桶&lt;/h2&gt;
+&lt;p&gt;完成申请并验卡部分后，回到R2界面。
+点击&lt;code&gt;创建储存桶&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;347&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;368&#34;
+		data-flex-basis=&#34;885px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;填写好储存桶的名称，地区建议选择&lt;em&gt;&lt;strong&gt;亚太（APAC）&lt;/strong&gt;&lt;/em&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1058&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;储存桶使用&#34;&gt;储存桶使用&lt;/h2&gt;
+&lt;p&gt;创建完成后，可以在&lt;code&gt;R2界面&lt;/code&gt;中找到自己刚才创建的储存桶，可以在这里上传/查看/删除文件。&lt;/p&gt;
+&lt;h3 id=&#34;绑定域名&#34;&gt;绑定域名&lt;/h3&gt;
+&lt;p&gt;进入储存桶后，点击 &lt;code&gt;设置-公开访问-自定义域-连接域&lt;/code&gt; 来连接自己的域名：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;547&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;561px&#34;
+	
+&gt;
+一路下一步即可完成绑定域名。&lt;/p&gt;
+&lt;h3 id=&#34;创建r2-api-令牌&#34;&gt;创建R2 API 令牌&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;API令牌&lt;/strong&gt;是亚马逊S3储存中的鉴权部分，需要手动创建&lt;strong&gt;API令牌&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;R2界面&lt;/code&gt;右侧点击 &lt;code&gt;管理R2 API 令牌-创建API 令牌&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1034&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;按照自己的需求填写好，&lt;code&gt;客户端 IP 地址筛选&lt;/code&gt;可不写&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;创建API令牌&lt;/code&gt;即可完成创建&lt;em&gt;访问密钥 ID&lt;/em&gt;与&lt;em&gt;机密访问密钥&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注：访问密钥 ID与机密访问密钥只会显示一次，创建后需注意保存&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;案例挂载至alist&#34;&gt;案例：挂载至Alist&lt;/h3&gt;
+&lt;p&gt;挂载内容如图下填写：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1089&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;117&#34;
+		data-flex-basis=&#34;282px&#34;
+	
+&gt;
+其中，&lt;code&gt;储存桶&lt;/code&gt;是在创建时填写的名称；&lt;br&gt;
+&lt;code&gt;Endpoint&lt;/code&gt;是在&lt;code&gt;R2管理界面&lt;/code&gt;名称下的链接（记得去掉后面的储存桶名称）；&lt;br&gt;
+&lt;code&gt;访问密钥 ID&lt;/code&gt;与&lt;code&gt;安全访问密钥&lt;/code&gt;是上面创建的&lt;em&gt;R2 API 令牌&lt;/em&gt;；&lt;br&gt;
+&lt;code&gt;地区&lt;/code&gt;是在创建时填写的区域&lt;strong&gt;后面括号内的字母&lt;/strong&gt;（如亚太为APAC）。&lt;/p&gt;
+&lt;p&gt;这样设置过后，就可以在Alist内使用CloudFlare的R2服务了！&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;CloudFlare大家可能都在折腾他的&lt;strong&gt;CDN&lt;/strong&gt;或者&lt;strong&gt;ZT tunnel&lt;/strong&gt;，没有多少人折腾&lt;strong&gt;R2&lt;/strong&gt;服务。其实用免费的R2对接到一些自建的服务上还是很好用的，详细玩法还是可以查看&lt;a class=&#34;link&#34; href=&#34;https://developers.cloudflare.com/r2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudFlareDoc&lt;/a&gt;！&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example：&lt;/h2&gt;
+&lt;p&gt;下面这首歌是储存在CloudFlareR2中的。可以用来做网站图床、音视频调用，自带全球CDN，还不占用机器资源。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://Vooid.link/YouBrokeMeFirst.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://Vooid.link/YouBrokeMeFirst.mp3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;我的大爹，永远都是我的大爹！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Domain on GenshinMinecraftの小小藏身地</title>
+        <link>https://c1oudf1are.link/categories/domain/</link>
+        <description>Recent content in Domain on GenshinMinecraftの小小藏身地</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/domain/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CloudFlare Tunnel(内网穿透) 获取/使用方法</title>
+        <link>https://c1oudf1are.link/p/cloudflare-tunnel/</link>
+        <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/cloudflare-tunnel/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
+&lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
+&lt;p&gt;这个时候我们可以选择CloudFlare家的Tunnel服务，既能拥有&lt;em&gt;&lt;strong&gt;CloudFlare的全球防护CDN&lt;/strong&gt;&lt;/em&gt;，还可以获得&lt;strong&gt;更加安全的体验&lt;/strong&gt;！&lt;/p&gt;
+&lt;p&gt;仅需要以下几样东西即可获取CloudFlare Tunnel的全部功能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;脑子和手&lt;/li&gt;
+&lt;li&gt;一个CloudFlare账户&lt;/li&gt;
+&lt;li&gt;一张银行卡/Paypal（料卡也可）&lt;/li&gt;
+&lt;li&gt;一台用于穿透的设备（如Router）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;创建tunnel隧道&#34;&gt;创建Tunnel隧道&lt;/h2&gt;
+&lt;h3 id=&#34;创建域名前缀&#34;&gt;创建域名前缀&lt;/h3&gt;
+&lt;p&gt;进入&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudFlare管理面板&lt;/a&gt;，在左侧栏找到&lt;code&gt;Zero Trust&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1.png&#34;
+	width=&#34;1617&#34;
+	height=&#34;1000&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;388px&#34;
+	
+&gt;
+在此输入你的&lt;em&gt;前缀&lt;/em&gt;（喜欢即可，后面可以绑定域名）。&lt;/p&gt;
+&lt;h3 id=&#34;选择计划并验卡&#34;&gt;选择计划并验卡&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2.png&#34;
+	width=&#34;2039&#34;
+	height=&#34;1593&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;307px&#34;
+	
+&gt;
+在这里选择最左侧的&lt;em&gt;0刀计划&lt;/em&gt;并继续，随后一路下一步输入自己的卡号信息，即可完成验卡创建。&lt;/p&gt;
+&lt;h3 id=&#34;创建第一个隧道&#34;&gt;创建第一个隧道&lt;/h3&gt;
+&lt;p&gt;回到&lt;a class=&#34;link&#34; href=&#34;https://one.dash.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Zero Trust&lt;/strong&gt;的主界面&lt;/a&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5.png&#34;
+	width=&#34;1739&#34;
+	height=&#34;862&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;201&#34;
+		data-flex-basis=&#34;484px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击左侧的&lt;code&gt;Access-Tunnels&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6.png&#34;
+	width=&#34;1270&#34;
+	height=&#34;879&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;创建Tunnel，点击&lt;code&gt;Create a tunnel&lt;/code&gt;
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7.png&#34;
+	width=&#34;2753&#34;
+	height=&#34;615&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;447&#34;
+		data-flex-basis=&#34;1074px&#34;
+	
+&gt;
+填写名称&lt;/p&gt;
+&lt;p&gt;按需下载内网穿透的软件
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8.png&#34;
+	width=&#34;1547&#34;
+	height=&#34;424&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;875px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下一步，填写想&lt;em&gt;连接的域名&lt;/em&gt;以及tunnel穿透的&lt;em&gt;协议&lt;/em&gt;与&lt;em&gt;目标地址&lt;/em&gt;，目标地址可以是本机/内网/公网~~（所以你甚至可以把tunnel当作中转使用）~~
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9.png&#34;
+	width=&#34;2760&#34;
+	height=&#34;1057&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;261&#34;
+		data-flex-basis=&#34;626px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后&lt;strong&gt;完成创建&lt;/strong&gt;即可！&lt;/p&gt;
+&lt;h2 id=&#34;连接到tunnel隧道&#34;&gt;连接到Tunnel隧道&lt;/h2&gt;
+&lt;p&gt;下载好上面所需要的内网穿透软件后，找一个地方放置，并打开终端&lt;/p&gt;
+&lt;p&gt;输入在&lt;code&gt;隧道名-Configure&lt;/code&gt;下的命令（Linux注意&lt;strong&gt;添加可执行权限&lt;/strong&gt;，以及&lt;strong&gt;去掉默认为windows的exe后缀&lt;/strong&gt;）
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
+	width=&#34;2382&#34;
+	height=&#34;1006&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;236&#34;
+		data-flex-basis=&#34;568px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cloudflared service install xxx(一大串Token字符)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Windows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cloudflared.exe service install xxx(一大串Token字符)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后CloudFlared就会&lt;strong&gt;以服务运行&lt;/strong&gt;，这样就算&lt;em&gt;&lt;strong&gt;连接好了Tunnel隧道&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;当隧道名右边的&lt;code&gt;Status&lt;/code&gt;变成绿色时，就算连接成功。可以通过上面填写的域名访问来进行验证。&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;CloudFlare Tunnel的搭建十分简单，而且可以获得CloudFlare CDN的全球防护，还是免费的。&lt;/p&gt;
+&lt;p&gt;可以说是非常良心了，但是还是有一定的缺点，如国内直连访问速度得不到保障等CloudFlare的通病。&lt;/p&gt;
+&lt;p&gt;但是也比国内FRP提供商直接给你强制限速10Mbps好！&lt;/p&gt;
+&lt;p&gt;并且可以使用与网站优选ip相同的方法，优选Tunnel的ip，可以说是自定义功能十分强大！&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;我的大爹，永远都是我的大爹！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CloudFlare R2 获取/使用方法</title>
+        <link>https://c1oudf1are.link/p/cloudflare-r2/</link>
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/cloudflare-r2/</guid>
+        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
+&lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;1,000,000 次 A 类操作&lt;/strong&gt;&lt;/em&gt; + 每增加 1,000,000 次操收取 US$4.50&lt;/li&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;10,000,000 次 B 类操作&lt;/strong&gt;&lt;/em&gt; + 每增加 1,000,000 次操收取 US$0.36&lt;/li&gt;
+&lt;li&gt;每月 &lt;em&gt;&lt;strong&gt;10 GB 存储&lt;/strong&gt;&lt;/em&gt; + 每增加 1 GB 存储/月收取 US$0.015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而我们仅需要以下的东西就可以得到这&lt;em&gt;&lt;strong&gt;10GB对象存储&lt;/strong&gt;&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;脑子和手&lt;/li&gt;
+&lt;li&gt;一个CloudFlare账号（最好带有一个用于连接至R2储存桶的域名）&lt;/li&gt;
+&lt;li&gt;一张银行卡（0刀验证，可以是料）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;申请&#34;&gt;申请&lt;/h2&gt;
+&lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;此处&lt;/a&gt;登入&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;账户，并在左侧导航栏找到&lt;code&gt;R2&lt;/code&gt;。
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
+	width=&#34;767&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;59&#34;
+		data-flex-basis=&#34;143px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击中间的&lt;code&gt;激活R2&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
+	width=&#34;752&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;进入付款详细信息&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;469&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;272&#34;
+		data-flex-basis=&#34;655px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;输入付款信息，请注意这里并不会有&lt;em&gt;3d验证&lt;/em&gt;，只会扣除银行卡里面的0刀用于验证：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1178&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;260px&#34;
+	
+&gt;
+一路下一步完成验卡。&lt;/p&gt;
+&lt;h2 id=&#34;创建储存桶&#34;&gt;创建储存桶&lt;/h2&gt;
+&lt;p&gt;完成申请并验卡部分后，回到R2界面。
+点击&lt;code&gt;创建储存桶&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;347&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;368&#34;
+		data-flex-basis=&#34;885px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;填写好储存桶的名称，地区建议选择&lt;em&gt;&lt;strong&gt;亚太（APAC）&lt;/strong&gt;&lt;/em&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1058&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;储存桶使用&#34;&gt;储存桶使用&lt;/h2&gt;
+&lt;p&gt;创建完成后，可以在&lt;code&gt;R2界面&lt;/code&gt;中找到自己刚才创建的储存桶，可以在这里上传/查看/删除文件。&lt;/p&gt;
+&lt;h3 id=&#34;绑定域名&#34;&gt;绑定域名&lt;/h3&gt;
+&lt;p&gt;进入储存桶后，点击 &lt;code&gt;设置-公开访问-自定义域-连接域&lt;/code&gt; 来连接自己的域名：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;547&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;561px&#34;
+	
+&gt;
+一路下一步即可完成绑定域名。&lt;/p&gt;
+&lt;h3 id=&#34;创建r2-api-令牌&#34;&gt;创建R2 API 令牌&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;API令牌&lt;/strong&gt;是亚马逊S3储存中的鉴权部分，需要手动创建&lt;strong&gt;API令牌&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;R2界面&lt;/code&gt;右侧点击 &lt;code&gt;管理R2 API 令牌-创建API 令牌&lt;/code&gt;：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1034&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;按照自己的需求填写好，&lt;code&gt;客户端 IP 地址筛选&lt;/code&gt;可不写&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;创建API令牌&lt;/code&gt;即可完成创建&lt;em&gt;访问密钥 ID&lt;/em&gt;与&lt;em&gt;机密访问密钥&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注：访问密钥 ID与机密访问密钥只会显示一次，创建后需注意保存&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;案例挂载至alist&#34;&gt;案例：挂载至Alist&lt;/h3&gt;
+&lt;p&gt;挂载内容如图下填写：
+&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1089&#34;
+	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;117&#34;
+		data-flex-basis=&#34;282px&#34;
+	
+&gt;
+其中，&lt;code&gt;储存桶&lt;/code&gt;是在创建时填写的名称；&lt;br&gt;
+&lt;code&gt;Endpoint&lt;/code&gt;是在&lt;code&gt;R2管理界面&lt;/code&gt;名称下的链接（记得去掉后面的储存桶名称）；&lt;br&gt;
+&lt;code&gt;访问密钥 ID&lt;/code&gt;与&lt;code&gt;安全访问密钥&lt;/code&gt;是上面创建的&lt;em&gt;R2 API 令牌&lt;/em&gt;；&lt;br&gt;
+&lt;code&gt;地区&lt;/code&gt;是在创建时填写的区域&lt;strong&gt;后面括号内的字母&lt;/strong&gt;（如亚太为APAC）。&lt;/p&gt;
+&lt;p&gt;这样设置过后，就可以在Alist内使用CloudFlare的R2服务了！&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;CloudFlare大家可能都在折腾他的&lt;strong&gt;CDN&lt;/strong&gt;或者&lt;strong&gt;ZT tunnel&lt;/strong&gt;，没有多少人折腾&lt;strong&gt;R2&lt;/strong&gt;服务。其实用免费的R2对接到一些自建的服务上还是很好用的，详细玩法还是可以查看&lt;a class=&#34;link&#34; href=&#34;https://developers.cloudflare.com/r2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudFlareDoc&lt;/a&gt;！&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example：&lt;/h2&gt;
+&lt;p&gt;下面这首歌是储存在CloudFlareR2中的。可以用来做网站图床、音视频调用，自带全球CDN，还不占用机器资源。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://Vooid.link/YouBrokeMeFirst.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://Vooid.link/YouBrokeMeFirst.mp3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;我的大爹，永远都是我的大爹！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>免费领取.Link域名一年</title>
+        <link>https://c1oudf1are.link/p/freelinkdomain/</link>
+        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://c1oudf1are.link/p/freelinkdomain/</guid>
+        <description>&lt;img src="https://i2.100024.xyz/2023/07/20/10fybfn.webp" alt="Featured image of post 免费领取.Link域名一年" /&gt;&lt;h1 id=&#34;免费领取link域名一年&#34;&gt;免费领取.Link域名一年&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;最近大型域名注册商Dynadot推出了一个免费领取.Link域名的活动，现在还有许多短域名/有价值的域名，有需要的朋友可以来领取一下。&lt;/p&gt;
+&lt;h2 id=&#34;详细信息&#34;&gt;详细信息&lt;/h2&gt;
+&lt;p&gt;链接：&lt;a class=&#34;link&#34; href=&#34;https://www.dynadot.com/register-your-free-link-domain&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.dynadot.com/register-your-free-link-domain&lt;/a&gt; &lt;br&gt;
+时长：一年 &lt;br&gt;
+续期费用：3.99刀/9.99刀 &lt;br&gt;
+时间：-2023.08.31&lt;/p&gt;
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+&lt;h3 id=&#34;进入网站httpswwwdynadotcomregister-your-free-link-domain&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dynadot.com/register-your-free-link-domain&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;进入网站&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2023/07/20/10fybfn.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网址&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;查询域名&#34;&gt;查询域名&lt;/h3&gt;
+&lt;p&gt;在中间的输入框内输入你想注册的域名的前缀，并点击右边的查询按钮，&lt;/p&gt;
+&lt;p&gt;当显示
+&lt;code&gt;xxx.link is available&lt;/code&gt;时表示此域名可以注册。&lt;/p&gt;
+&lt;p&gt;当显示&lt;code&gt;xxx.link is taken&lt;/code&gt;或&lt;code&gt;We do not support premium domains for this event.&lt;/code&gt;则表示不可注册。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2023/07/20/10k19qa.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;注册&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;注册&#34;&gt;注册&lt;/h3&gt;
+&lt;p&gt;随后点击下方的&lt;code&gt;Next&lt;/code&gt;即可注册，需要先填写Whois所需要的信息。
+&lt;strong&gt;注：这里所填写的信息不一定需要真实，而且注册域名默认拥有Whois保护。但也不能太离谱，如美国广州省等。推荐使用中国地址生成器：&lt;a class=&#34;link&#34; href=&#34;https://www.meiguodizhi.com/cn-address&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.meiguodizhi.com/cn-address&lt;/a&gt;&lt;/strong&gt;
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/20/10p7dv2.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;注册&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如注册完看见这一画面，即为注册成功。
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/20/10umv5s.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;注册成功&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;验证&#34;&gt;验证&lt;/h3&gt;
+&lt;p&gt;回到邮箱，会有一封叫&lt;code&gt;Verify your account email&lt;/code&gt;的邮件，点进去验证。&lt;br&gt;
+验证完过后，登录输入安全问题以及生日，即可看到自己的域名。
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/21/iqbdao.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ver&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;出现这个画面即为注册.Link域名成功：
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/21/irh8ju.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ok&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;解析至cloudflare&#34;&gt;解析至CloudFlare&lt;/h3&gt;
+&lt;p&gt;这一步是可选的，但是CloudFlare的功能更加强大。&lt;br&gt;
+关于CloudFlare的使用大家肯定不陌生，在此仅讲一下DynaDot的操作。&lt;/p&gt;
+&lt;p&gt;进入域名详情页：
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/21/itrq36.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击下方的&lt;code&gt;DNS Settings&lt;/code&gt;&lt;br&gt;
+将选项切换成&lt;code&gt;Name Servers&lt;/code&gt;
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/21/iuz8z1.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;输入你在CloudFlare的NameServer后点击&lt;code&gt;Save Name Server&lt;/code&gt;即可！&lt;/p&gt;
+&lt;h2 id=&#34;注意&#34;&gt;注意！&lt;/h2&gt;
+&lt;p&gt;注册完域名后，DynaDot会在24小时内给你发送一封名叫&lt;code&gt;Whois Accuracy Verification&lt;/code&gt;的邮件，需要点击进去完成Whois验证。&lt;br&gt;
+其实就是打个勾按一下按钮。&lt;/p&gt;
+&lt;h3 id=&#34;不然你的域名将会在15days内回收&#34;&gt;不然你的域名将会在15Days内回收！&lt;/h3&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;这次的白嫖域名很爽啊，既不用很严格的验证，也不用银行卡验卡。&lt;br&gt;
+朋友们可以使劲薅羊毛了！&lt;/p&gt;
+&lt;p&gt;顺便来一下军火展示:
+&lt;img src=&#34;https://i2.100024.xyz/2023/07/21/iyloee.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

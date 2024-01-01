@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='非常好测速Bot，爱来自GenMin'>
+<title>FullTclash 搭建方法</title>
+
+<link rel='canonical' href='https://c1oudf1are.link/p/fulltclash/'>
+
+<link rel="stylesheet" href="/scss/style.min.24ef1cc321916467896e8c70c10c0ad7b98c2a8df14298032fb637216e397f50.css"><meta property='og:title' content='FullTclash 搭建方法'>
+<meta property='og:description' content='非常好测速Bot，爱来自GenMin'>
+<meta property='og:url' content='https://c1oudf1are.link/p/fulltclash/'>
+<meta property='og:site_name' content='GenshinMinecraftの小小藏身地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-08-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-08-13T00:00:00&#43;00:00'/><meta property='og:image' content='https://c1oudf1are.link/p/fulltclash/image.png' />
+<meta name="twitter:title" content="FullTclash 搭建方法">
+<meta name="twitter:description" content="非常好测速Bot，爱来自GenMin"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://c1oudf1are.link/p/fulltclash/image.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://i2.100024.xyz/2023/07/20/ywvndm.webp" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">😇</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">GenshinMinecraftの小小藏身地</a></h1>
+            <h2 class="site-description">GenshinMinecraft</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/GenshinMinecraft'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://c1oudf1are.link/en/" >English</option>
+                        
+                            <option value="https://c1oudf1are.link/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#安装以debian系列linux为例winmacos用户可以尝试按照以下方法进行部署但个别步骤不一样">安装（以Debian系列Linux为例，Win/MacOS用户可以尝试按照以下方法进行部署，但个别步骤不一样）</a>
+      <ol>
+        <li><a href="#安装环境winmacos自行解决">安装环境（Win/MacOS自行解决</a></li>
+        <li><a href="#拉取项目">拉取项目</a></li>
+        <li><a href="#安装pip依赖">安装pip依赖</a></li>
+        <li><a href="#修改配置文件">修改配置文件</a></li>
+        <li><a href="#添加可执行权限">添加可执行权限</a></li>
+        <li><a href="#编译内核可选">编译内核（可选）</a></li>
+      </ol>
+    </li>
+    <li><a href="#fulltclash启动">FullTclash，启动！</a></li>
+    <li><a href="#保活">保活</a>
+      <ol>
+        <li><a href="#screen-方法保活">Screen 方法保活</a></li>
+        <li><a href="#systemd-方法保活">Systemd 方法保活</a></li>
+      </ol>
+    </li>
+    <li><a href="#小结">小结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/fulltclash/">
+                <img src="/p/fulltclash/image_hue25eb37f3aa55237956a176ec4fdb169_35665_800x0_resize_box_3.png"
+                        srcset="/p/fulltclash/image_hue25eb37f3aa55237956a176ec4fdb169_35665_800x0_resize_box_3.png 800w, /p/fulltclash/image_hue25eb37f3aa55237956a176ec4fdb169_35665_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="171" 
+                        loading="lazy"
+                        alt="Featured image of post FullTclash 搭建方法" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/main/" >
+                Main
+            </a>
+        
+            <a href="/categories/free/" >
+                Free
+            </a>
+        
+            <a href="/categories/fulltclash/" >
+                FullTclash
+            </a>
+        
+            <a href="/categories/linux/" >
+                Linux
+            </a>
+        
+            <a href="/categories/windows/" >
+                Windows
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/fulltclash/">FullTclash 搭建方法</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            非常好测速Bot，爱来自GenMin
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 13, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 7 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="fulltclash-搭建使用方法">FullTclash 搭建/使用方法</h1>
+<h2 id="前言">前言</h2>
+<p><a class="link" href="https://github.com/AirportR/FullTclash.git"  target="_blank" rel="noopener"
+    ><strong>FullTclash</strong></a>是一个 <em>基于clash 核心运作的、进行全量订阅测试的telegram机器人</em>（官方原话）</p>
+<p>也就是我们平常常说的<strong>测速Bot</strong></p>
+<p>其现在已经比较完善，拥有诸多功能，还可以<strong>自定义添加新功能</strong>！</p>
+<p>因为其开源的特性，任何人均可搭建，无需收取<strong>任何费用</strong>！</p>
+<p>官方效果图：<img src="/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f33302f7879544752752e706e67.png"
+	width="1848"
+	height="1080"
+	srcset="/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_7450ee36a90d4e4b134eee9260fc3527.png 480w, /p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_a378d5bc5ebc7dd78c7005a0fdfa7987.png 1024w"
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="171"
+		data-flex-basis="410px"
+	
+></p>
+<p><img src="/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f3330.png"
+	width="1896"
+	height="1620"
+	srcset="/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_771616c92fe83534d6fd08bcf9de0ca9.png 480w, /p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_60b69196dd31346e3ba31ab8a6239a59.png 1024w"
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="117"
+		data-flex-basis="280px"
+	
+></p>
+<p>想要搭建<strong>FullTclash</strong>机器人，你只需要以下的几样东西：</p>
+<ul>
+<li>脑子与手</li>
+<li>一个用于搭建的机器（这一机器的<em>地理位置、网络环境带宽、性能配置</em>等决定了测速bot的<strong>结果准确性与是否需要连接代理服务器以访问Telegram服务器</strong>），推荐使用国内家宽的长期运行设备（软路由等）</li>
+<li>一个Socks5代理，用于国内服务器连接Telegram，本机/内网/公网均可（如为国外服务器可忽略此项）</li>
+<li>一对Telegram api_id与api_hash，可以在<a class="link" href="https://my.telegram.org/apps"  target="_blank" rel="noopener"
+    >这里</a>获取</li>
+<li>一个Telegram Bot Token，可以在Telegram的@BotFather处获取，用于连接机器人</li>
+</ul>
+<p>服务器环境要求：</p>
+<ul>
+<li>系统选择<strong>Win/Linux/MacOS</strong>均可，如架构非x86_64(amd64)可能需要<em>手动编译</em>对应Clash测速内核</li>
+<li>Python3.9+（Ubuntu22.04+具有Py3.9+，Debian12+具有Py3.9+，Win/Mac手动选择Py3.9+，其他Linux请自行确认Py3.9+）</li>
+<li>Pip环境支持（Linux下包名为<code>python3-pip</code>，Win/Mac须在安装时勾选）</li>
+<li>Git环境支持（Linux下包名为<code>git</code>，Win/Mac自行解决）</li>
+</ul>
+<h2 id="安装以debian系列linux为例winmacos用户可以尝试按照以下方法进行部署但个别步骤不一样">安装（以Debian系列Linux为例，Win/MacOS用户可以尝试按照以下方法进行部署，但个别步骤不一样）</h2>
+<h3 id="安装环境winmacos自行解决">安装环境（Win/MacOS自行解决</h3>
+<p>安装所需要的软件包：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">apt install python3 python3-pip wget curl git -y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="拉取项目">拉取项目</h3>
+<p>本项目有<code>master</code>、<code>dev</code>、<code>old</code>三个分支。</p>
+<p><code>old</code>分支较为老旧，不建议使用；<code>master</code>分支为正式版，日常使用可以选择；<code>dev</code>分支为开发版，具有最新的功能和最好的技术支持，建议选择！</p>
+<p>这篇文章选用<code>dev</code>分支作为演示</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone -b dev https://github.com/AirportR/FullTclash.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果因为<em>众所周知</em>的网络问题在国内<strong>无法直接拉取</strong>，可以使用下面二选一代理：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone -b dev https://kgithub.com/AirportR/FullTclash.git
+</span></span><span class="line"><span class="cl">git clone -b dev https://ghproxy.com/https://github.com/AirportR/FullTclash.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="安装pip依赖">安装pip依赖</h3>
+<p>进入项目</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd FullTclash
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装依赖：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip3 install -r requirements.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果因为<em>众所周知</em>的网络问题在国内<strong>无法直接安装pip依赖</strong>，可以使用下面的源：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>稍等片刻（5min）即可完成安装依赖</p>
+<h3 id="修改配置文件">修改配置文件</h3>
+<p><em><strong>这一步相当的重要！！！！！！！修改配置文件错误可能会导致无法启动！！！！！！！</strong></em></p>
+<p>首先在项目文件夹内复制<code>config.yaml.example</code>为<code>config.yaml</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cp resources/config.yaml.example resources/config.yaml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>随后用你喜欢的编辑器打开<code>resources/config.yaml</code>，按照注释修改配置文件</p>
+<p>理论上最简的配置文件为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">admin:
+</span></span><span class="line"><span class="cl">- 12345678 #管理员，此处写你的账户id或用户名，必须配置该项，否则程序会自动退出
+</span></span><span class="line"><span class="cl">bot:
+</span></span><span class="line"><span class="cl"> api_id: 123456 # Telegram的api_id
+</span></span><span class="line"><span class="cl"> api_hash: ABCDEFG # Telegram的api_hash
+</span></span><span class="line"><span class="cl"> bot_token: 123456:ABCDEFG #bot的token
+</span></span><span class="line"><span class="cl"> proxy: xx.xx.xx.xx:xxxx # 用于连接Telegram服务器的Socks5代理，如网络环境支持可不填写
+</span></span><span class="line"><span class="cl">clash:
+</span></span><span class="line"><span class="cl"> path: &#39;./bin/fulltclash-linux-amd64&#39; # bin内核的路径，下面会讲到（每个系统默认不同，Linux Amd64可使用默认）
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>建议先使用上面的模板进行运行成功后，再按照<a class="link" href="https://github.com/AirportR/FullTclash/blob/dev/resources/config.yaml.example"  target="_blank" rel="noopener"
+    >config.yaml.example</a>进行修改/添加！</p>
+<h3 id="添加可执行权限">添加可执行权限</h3>
+<p><em>Win用户可以跳过这一步，除非架构不同</em>
+首先查看你电脑的系统与架构
+如为<code>Macos Amd64/Windows Amd64/Linux Amd64</code>则可以不用自行编译</p>
+<p>添加可执行文件权限：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">chmod +x ./bin/fulltclash-linux-amd64 #如为自编译请检查文件名
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="编译内核可选">编译内核（可选）</h3>
+<p>如系统/架构<strong>非上面的默认</strong>，可以自行编译</p>
+<p>详情可以看这一<strong>FullTclash附属项目</strong>：<a class="link" href="https://github.com/AirportR/FullTCore"  target="_blank" rel="noopener"
+    >https://github.com/AirportR/FullTCore</a></p>
+<p><em><strong>不论你是否自行编译，是否为默认，都应该进行下面的一步！！</strong></em></p>
+<p>将编译后的内核复制到项目的<code>bin/</code>目录下，并添加可执行权限（详见上述）</p>
+<p>然后更改配置文件<code>resources/config.yaml</code>中：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">clash:
+</span></span><span class="line"><span class="cl"> path: &#39;内核路径，以项目路径写起&#39;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="fulltclash启动">FullTclash，启动！</h2>
+<p>进行完上述步骤后，就可以开始启动<strong>FullTclash</strong>了</p>
+<p>请在开始执行前注意以下几点：</p>
+<ul>
+<li>Python版本必须为3.9+</li>
+<li>请确保机器可以连接到Telegram，国内机器可以选择Socks5代理</li>
+<li>确保配置文件已存在</li>
+<li>确保pip依赖已安装完成</li>
+</ul>
+<p>回到项目目录，开始运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">python3 main.py
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>看到以下的输出即为完成启动：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">24.722</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">add_user</span><span class="p">:</span><span class="mi">1037</span> <span class="o">-</span> <span class="err">添加成功</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.858</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">804</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">api_id</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.860</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">806</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">api_hash</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.861</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">808</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">bot_token</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.861</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">botmodule</span><span class="o">.</span><span class="n">init_bot</span><span class="p">:</span><span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span><span class="p">:</span><span class="mi">143</span> <span class="o">-</span> <span class="err">管理员名单加载</span><span class="p">:[</span><span class="n">tgid</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.862</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">botmodule</span><span class="o">.</span><span class="n">init_bot</span><span class="p">:</span><span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span><span class="p">:</span><span class="mi">160</span> <span class="o">-</span> <span class="err">当前代理设置为</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">x</span><span class="p">:</span><span class="n">xxxx</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">25.863</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">botmodule</span><span class="o">.</span><span class="n">init_bot</span><span class="p">:</span><span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span><span class="p">:</span><span class="mi">193</span> <span class="o">-</span> <span class="err">配置已加载</span><span class="p">,</span> <span class="n">Telegram</span> <span class="n">bot程序开始运行</span><span class="o">...</span>
+</span></span><span class="line"><span class="cl"><span class="err">开始启动</span><span class="n">clash</span> <span class="n">core</span>
+</span></span><span class="line"><span class="cl"><span class="err">接收到的端口数量</span><span class="p">:</span> <span class="mi">16</span>
+</span></span><span class="line"><span class="cl"><span class="err">已开始在</span> <span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">11219</span> <span class="err">进行</span><span class="n">socket监听</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">---</span> <span class="n">More</span> <span class="o">---</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mixed</span><span class="p">(</span><span class="n">http</span><span class="o">+</span><span class="n">socks</span><span class="p">)</span> <span class="n">proxy</span> <span class="n">listening</span> <span class="n">at</span><span class="p">:</span> <span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">11230</span>
+</span></span><span class="line"><span class="cl"><span class="o">---</span> <span class="n">More</span> <span class="o">---</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># --------------------------- [ Start bot AsyncIOScheduler Successful ] ---------------------------- # </span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.323</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">init_addons</span><span class="p">:</span><span class="mi">221</span> <span class="o">-</span> <span class="err">模块即将动态加载</span><span class="p">:</span> <span class="p">[</span><span class="o">*</span><span class="n">xxx</span><span class="o">*</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.324</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">init_addons</span><span class="p">:</span><span class="mi">222</span> <span class="o">-</span> <span class="err">正在尝试获取</span> <span class="s1">&#39;SCRIPT&#39;</span> <span class="err">属性组件</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">---</span> <span class="n">More</span> <span class="o">---</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.326</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">init_addons</span><span class="p">:</span><span class="mi">253</span> <span class="o">-</span> <span class="err">已成功加载测试脚本：</span><span class="n">xxx</span>
+</span></span><span class="line"><span class="cl"><span class="o">---</span> <span class="n">More</span> <span class="o">---</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.822</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">init_addons</span><span class="p">:</span><span class="mi">256</span> <span class="o">-</span> <span class="err">外接测试脚本成功导入数量</span><span class="p">:</span> <span class="mi">60</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.829</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">init_callback</span><span class="p">:</span><span class="mi">294</span> <span class="o">-</span> <span class="err">权限回调脚本导入数量</span><span class="p">:</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.831</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">804</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">api_id</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.832</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">806</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">api_hash</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">26.832</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">utils</span><span class="o">.</span><span class="n">cleaner</span><span class="p">:</span><span class="n">getBotconfig</span><span class="p">:</span><span class="mi">808</span> <span class="o">-</span> <span class="err">从配置中获取到了</span><span class="n">bot_token</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">29.222</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">glovar</span><span class="p">:</span><span class="n">bot_info</span><span class="p">:</span><span class="mi">50</span> <span class="o">-</span> <span class="o">&gt;&gt;</span> <span class="n">Bot</span> <span class="n">Started</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2023</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">12</span> <span class="mi">13</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mf">29.224</span> <span class="o">|</span> <span class="n">INFO</span>     <span class="o">|</span> <span class="n">glovar</span><span class="p">:</span><span class="n">bot_info</span><span class="p">:</span><span class="mi">51</span> <span class="o">-</span> <span class="o">&gt;&gt;</span> <span class="n">Bot</span> <span class="n">ID</span><span class="p">:</span> <span class="n">botid</span> <span class="n">Username</span><span class="p">:</span> <span class="err">@</span><span class="n">xxx</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---------------------------- [ Start the bot ] ---------------------------- #   </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---------------------------- [ Check Bot Successful ] ---------------------------- #   </span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><em><strong>恭喜你，你的Telegram FullTclash Bot已经成功启动，可以去对Bot发送<code>/help</code>以测试功能！</strong></em></p>
+<h2 id="保活">保活</h2>
+<p><strong>Windows</strong>的保活可以将cmd/powershell放置在后台，不用关闭即可</p>
+<p><strong>Macos</strong>保活也可以同Windows一样，将Terminal放置后台</p>
+<p>而对于<strong>Linux</strong>，则有多种保活方法，这里介绍两种较为通用的方法：</p>
+<h3 id="screen-方法保活">Screen 方法保活</h3>
+<p>对于更详细的使用方法，可以查看这一篇站内文章：<a class="link" href="https://c1oudf1are.link/p/screen/"  target="_blank" rel="noopener"
+    >https://c1oudf1are.link/p/screen/</a></p>
+<p>其优点是<strong>简单并且容易配置</strong>，缺点是无法使用<strong>开机自启</strong></p>
+<p>简单的命令如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">screen -S fulltclash
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 在screen环境内输入
+</span></span><span class="line"><span class="cl">python3 main.py
+</span></span><span class="line"><span class="cl"># 然后直接关闭Ssh/Terminal即可
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 进入screen环境
+</span></span><span class="line"><span class="cl">screen -d -r fulltclash
+</span></span><span class="line"><span class="cl"># 退出也是直接关闭窗口
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="systemd-方法保活">Systemd 方法保活</h3>
+<p><em><strong>注：此方法需要Linux系统使用Systemd作为进程管理服务，普遍的Ubuntu/Debian/Centos已支持，但个别Linux系统（如Openwrt）不支持Systemd）</strong></em></p>
+<p>首先使用文本编辑器将以下的内容输入至<code>/etc/systemd/system/fulltclash.service</code>中，记得<strong>需要更改下方文本中个别字段</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[Unit]
+</span></span><span class="line"><span class="cl">Description=FullTclash Daemon
+</span></span><span class="line"><span class="cl">After=network.target
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[Install]
+</span></span><span class="line"><span class="cl">WantedBy=multi-user.target
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[Service]
+</span></span><span class="line"><span class="cl">Type=simple
+</span></span><span class="line"><span class="cl">WorkingDirectory=[FullTclash项目的绝对路径]
+</span></span><span class="line"><span class="cl">ExecStart=[启动时的命令，命令必须为绝对路径，一般为 /usr/bin/python3 main.py]
+</span></span><span class="line"><span class="cl">Restart=always
+</span></span><span class="line"><span class="cl">StandardOutput=null
+</span></span><span class="line"><span class="cl">StandardError=null
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后可以使用以下的命令<em>启动/停止/重启/查看状态/设置开机自启</em>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">systemctl start fulltclash # 启动
+</span></span><span class="line"><span class="cl">systemctl stop fulltclash # 停止
+</span></span><span class="line"><span class="cl">systemctl restart fulltclash # 重启
+</span></span><span class="line"><span class="cl">systemctl status fulltclash # 查看运行状态
+</span></span><span class="line"><span class="cl">systemctl enable fulltclash # 设置开机自启
+</span></span><span class="line"><span class="cl">systemctl disable fulltclash # 关闭开机自启
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="小结">小结</h2>
+<p>总的来说，<strong>FullTclash</strong>的配置难度还是十分简单的，没有什么比较困难的部分</p>
+<p>之后还会编写FullTclash的使用方法 <del>摆烂中</del></p>
+<p>有什么不懂得可以来以下的地方提问哦！</p>
+<ul>
+<li>Telegram FullTclash Group: <a class="link" href="https://t.me/&#43;gzjSyp_e5ZA3ZjAx"  target="_blank" rel="noopener"
+    >https://t.me/+gzjSyp_e5ZA3ZjAx</a></li>
+<li>Github Project Issues: <a class="link" href="https://github.com/AirportR/FullTclash/issues"  target="_blank" rel="noopener"
+    >https://github.com/AirportR/FullTclash/issues</a></li>
+</ul>
+<p>总会有大佬给你解决的啦！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/nodepanels/">
+        
+        
+            <div class="article-image">
+                <img src="/p/nodepanels/image-12.8e17f83342ea0f6d6e5a653be01ea1d2_hu216a183f3fc2428818c8b9abaaf23757_5145_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Nodepanels-一个免费的双平台探针"
+                        data-key="nodepanels" 
+                        data-hash="md5-jhf4M0LqD21uWmU74B6h0g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Nodepanels-一个免费的双平台探针</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/homecloud/">
+        
+        
+            <div class="article-image">
+                <img src="/p/homecloud/_hudad6c46779871adc6fa6420f39d139dd_94796_f946a9a6cb61748f976faab9f93381a5.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post HomeCloud 家庭云 折腾心得"
+                        data-key="homecloud" 
+                        data-hash="md5-gizGXSSaeEWe3XmNxK7wsw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">HomeCloud 家庭云 折腾心得</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/sqaipad/">
+        
+        
+            <div class="article-image">
+                <img src="/p/sqaipad/image.5151affcee2ad1e8d263e5bdb7cc37dc_huece66c896fd2110ca62bafc3bffb4b24_19317_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)"
+                        data-key="sqaipad" 
+                        data-hash="md5-UVGv/O4q0ejSY&#43;W9t8w33A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/check-your-card/">
+        
+        
+            <div class="article-image">
+                <img src="/p/check-your-card/_huc4bd43cc750e242472ece50e44050a9a_13745_a8e7bf6db7e0c1512bff59a47d510090.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何免费检测料卡是否 已死/3d"
+                        data-key="check-your-card" 
+                        data-hash="md5-vB1A5&#43;dF1CfsIyFiolhiKw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何免费检测料卡是否 已死/3d</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloudflare-tunnel/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cloudflare-tunnel/image.271d3e1342ded2e37a168bc5a2609326_hu9e893a0ded4670dad563da6901e9b022_97042_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法"
+                        data-key="cloudflare-tunnel" 
+                        data-hash="md5-Jx0&#43;E0Le0uN6FovFomCTJg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CloudFlare Tunnel(内网穿透) 获取/使用方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 GenshinMinecraftの小小藏身地
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
