@@ -87,7 +87,7 @@ menu:
     social:               # 社交链接
         - identifier: github
           name: GitHub
-          url: https://github.com/GenshinMinecraft
+          url: https://github.com/High-Ping-Network
           params:
               icon: brand-github
 
