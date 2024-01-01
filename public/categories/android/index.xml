@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Android on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/android/</link>
+        <link>https://blog.highp.ing/categories/android/</link>
         <description>Recent content in Android on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/android/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/android/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>安卓设备安装Google框架方法汇总(持续更新)</title>
-        <link>https://c1oudf1are.link/p/androidinstallgoogle/</link>
+        <link>https://blog.highp.ing/p/androidinstallgoogle/</link>
         <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/androidinstallgoogle/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/androidinstallgoogle/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;目前，国内手机不内置&lt;code&gt;GMS&lt;/code&gt;已经是常态，转而使用自家的生态以及服务。&lt;/p&gt;
 &lt;p&gt;但是总有人需要&lt;code&gt;Google框架&lt;/code&gt;进行使用，所以就有了以下的安装方法。&lt;/p&gt;
@@ -843,10 +843,10 @@
 &lt;h3 id=&#34;2下载你所需版本的刷机包&#34;&gt;2.下载你所需版本的刷机包&lt;/h3&gt;
 &lt;p&gt;前往着一个网址：&lt;a class=&#34;link&#34; href=&#34;https://opengapps.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://opengapps.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov.webp&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov.webp&#34;
 	width=&#34;453&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt&#34;
@@ -875,10 +875,10 @@
 &lt;p&gt;详细的模块安装方法就&lt;em&gt;不介绍&lt;/em&gt;了，安装完重启即可享受&lt;strong&gt;标准的谷歌服务以及套件&lt;/strong&gt;！&lt;/p&gt;
 &lt;h2 id=&#34;附解决google-play-设备未获得play保护机制认证&#34;&gt;附：解决&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;在一些&lt;em&gt;冷门或是国产设备&lt;/em&gt;上使用上述方法安装&lt;code&gt;Google 框架&lt;/code&gt;时，会出现&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;这一提示：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1.png&#34;
 	width=&#34;745&#34;
 	height=&#34;570&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -896,10 +896,10 @@
     &gt;本站&lt;/a&gt; 任选一个&lt;strong&gt;你可以访问&lt;/strong&gt;的地址下载&lt;/p&gt;
 &lt;p&gt;随后&lt;strong&gt;安装并打开&lt;/strong&gt;即可&lt;/p&gt;
 &lt;h3 id=&#34;2获取gsfid&#34;&gt;2.获取GSFID&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2.png&#34;
 	width=&#34;323&#34;
 	height=&#34;573&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -914,10 +914,10 @@
 &lt;p&gt;前往 &lt;a class=&#34;link&#34; href=&#34;https://www.google.com/android/uncertified/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.google.com/android/uncertified/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;登入你的&lt;code&gt;Google账户&lt;/code&gt;，并输入你上面获取的&lt;code&gt;GSFID&lt;/code&gt;:(图来自知乎)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3.png&#34;
 	width=&#34;1132&#34;
 	height=&#34;584&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -939,11 +939,11 @@
         </item>
         <item>
         <title>松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)</title>
-        <link>https://c1oudf1are.link/p/sqaipad/</link>
+        <link>https://blog.highp.ing/p/sqaipad/</link>
         <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/sqaipad/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/sqaipad/image.png" alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)" /&gt;&lt;h1 id=&#34;松鼠ai学习机v11sqaipad-v11-破解root-适用于所有mtk设备&#34;&gt;松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/sqaipad/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/sqaipad/image.png" alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)" /&gt;&lt;h1 id=&#34;松鼠ai学习机v11sqaipad-v11-破解root-适用于所有mtk设备&#34;&gt;松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)&lt;/h1&gt;
 &lt;p&gt;Root原文方法链接：&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/shenjingwa012/article/details/131018766&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://blog.csdn.net/shenjingwa012/article/details/131018766&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;由于原文方法有些过时，且不是描述得很完整，所以撰写这一篇文章&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -1244,11 +1244,11 @@
         </item>
         <item>
         <title>从Magisk转入Magisk Delta</title>
-        <link>https://c1oudf1are.link/p/magisk/</link>
+        <link>https://blog.highp.ing/p/magisk/</link>
         <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/magisk/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/magisk/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;手机端比较完善的root方法就只有&lt;strong&gt;Magisk&lt;/strong&gt;了（Kernelsu暂不讨论）&lt;/p&gt;
 &lt;p&gt;但是由于众所周知的原因，Magisk官方版本的&lt;strong&gt;Magisk Hide&lt;/strong&gt;被砍掉了&lt;/p&gt;
@@ -1264,10 +1264,10 @@
     &gt;Github官网&lt;/a&gt;，下载&lt;em&gt;app-release.apk&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;安装在安卓设备上&lt;/p&gt;
 &lt;p&gt;打开就可以授权&lt;em&gt;Root&lt;/em&gt;权限并安装&lt;strong&gt;Boot&lt;/strong&gt;了
-&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/magisk/image.png&#34;
 	width=&#34;1057&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1283,10 +1283,10 @@
 &lt;p&gt;理论上来说，安装&lt;em&gt;Magisk Delta&lt;/em&gt;后，&lt;em&gt;原版Magisk&lt;/em&gt;的模块会自动转移到&lt;em&gt;Magisk Delta&lt;/em&gt;。各种设置也可以同步！&lt;/p&gt;
 &lt;p&gt;但是如果有模块未同步的情况，可以手动添加&lt;/p&gt;
 &lt;h2 id=&#34;开启magisk-hide&#34;&gt;开启Magisk Hide&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-1.png&#34;
 	width=&#34;1028&#34;
 	height=&#34;1441&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1296,10 +1296,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在右上角&lt;code&gt;设置图标-MagiskHide&lt;/code&gt;中，打开&lt;code&gt;MagiskHide&lt;/code&gt;与&lt;code&gt;强制使用超级用户列表&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-2.png&#34;
 	width=&#34;1041&#34;
 	height=&#34;945&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1309,10 +1309,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后重启手机，回到设置中的MagiskHide界面，就可以找到&lt;strong&gt;配置超级用户列表&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-3.png&#34;
 	width=&#34;1021&#34;
 	height=&#34;1729&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1&#34;

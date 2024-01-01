@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Free on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/free/</link>
+        <link>https://blog.highp.ing/categories/free/</link>
         <description>Recent content in Free on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/free/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/free/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>FullTclash 搭建方法</title>
-        <link>https://c1oudf1are.link/p/fulltclash/</link>
+        <link>https://blog.highp.ing/p/fulltclash/</link>
         <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/fulltclash/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/fulltclash/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AirportR/FullTclash.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt;是一个 &lt;em&gt;基于clash 核心运作的、进行全量订阅测试的telegram机器人&lt;/em&gt;（官方原话）&lt;/p&gt;
 &lt;p&gt;也就是我们平常常说的&lt;strong&gt;测速Bot&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;其现在已经比较完善，拥有诸多功能，还可以&lt;strong&gt;自定义添加新功能&lt;/strong&gt;！&lt;/p&gt;
 &lt;p&gt;因为其开源的特性，任何人均可搭建，无需收取&lt;strong&gt;任何费用&lt;/strong&gt;！&lt;/p&gt;
-&lt;p&gt;官方效果图：&lt;img src=&#34;https://c1oudf1are.link/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f33302f7879544752752e706e67.png&#34;
+&lt;p&gt;官方效果图：&lt;img src=&#34;https://blog.highp.ing/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f33302f7879544752752e706e67.png&#34;
 	width=&#34;1848&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://c1oudf1are.link/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_7450ee36a90d4e4b134eee9260fc3527.png 480w, https://c1oudf1are.link/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_a378d5bc5ebc7dd78c7005a0fdfa7987.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_7450ee36a90d4e4b134eee9260fc3527.png 480w, https://blog.highp.ing/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_a378d5bc5ebc7dd78c7005a0fdfa7987.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -33,10 +33,10 @@
 		data-flex-basis=&#34;410px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f3330.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f3330.png&#34;
 	width=&#34;1896&#34;
 	height=&#34;1620&#34;
-	srcset=&#34;https://c1oudf1are.link/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_771616c92fe83534d6fd08bcf9de0ca9.png 480w, https://c1oudf1are.link/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_60b69196dd31346e3ba31ab8a6239a59.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_771616c92fe83534d6fd08bcf9de0ca9.png 480w, https://blog.highp.ing/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_60b69196dd31346e3ba31ab8a6239a59.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -391,11 +391,11 @@
         </item>
         <item>
         <title>CloudFlare Tunnel(内网穿透) 获取/使用方法</title>
-        <link>https://c1oudf1are.link/p/cloudflare-tunnel/</link>
+        <link>https://blog.highp.ing/p/cloudflare-tunnel/</link>
         <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/cloudflare-tunnel/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/cloudflare-tunnel/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
 &lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
@@ -411,10 +411,10 @@
 &lt;h3 id=&#34;创建域名前缀&#34;&gt;创建域名前缀&lt;/h3&gt;
 &lt;p&gt;进入&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CloudFlare管理面板&lt;/a&gt;，在左侧栏找到&lt;code&gt;Zero Trust&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-1.png&#34;
 	width=&#34;1617&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -425,10 +425,10 @@
 &gt;
 在此输入你的&lt;em&gt;前缀&lt;/em&gt;（喜欢即可，后面可以绑定域名）。&lt;/p&gt;
 &lt;h3 id=&#34;选择计划并验卡&#34;&gt;选择计划并验卡&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-2.png&#34;
 	width=&#34;2039&#34;
 	height=&#34;1593&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -441,10 +441,10 @@
 &lt;h3 id=&#34;创建第一个隧道&#34;&gt;创建第一个隧道&lt;/h3&gt;
 &lt;p&gt;回到&lt;a class=&#34;link&#34; href=&#34;https://one.dash.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Zero Trust&lt;/strong&gt;的主界面&lt;/a&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-5.png&#34;
 	width=&#34;1739&#34;
 	height=&#34;862&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -454,10 +454,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击左侧的&lt;code&gt;Access-Tunnels&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-6.png&#34;
 	width=&#34;1270&#34;
 	height=&#34;879&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -469,10 +469,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;创建Tunnel，点击&lt;code&gt;Create a tunnel&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-7.png&#34;
 	width=&#34;2753&#34;
 	height=&#34;615&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -485,10 +485,10 @@
 &gt;
 填写名称&lt;/p&gt;
 &lt;p&gt;按需下载内网穿透的软件
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-8.png&#34;
 	width=&#34;1547&#34;
 	height=&#34;424&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -500,10 +500,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;下一步，填写想&lt;em&gt;连接的域名&lt;/em&gt;以及tunnel穿透的&lt;em&gt;协议&lt;/em&gt;与&lt;em&gt;目标地址&lt;/em&gt;，目标地址可以是本机/内网/公网~~（所以你甚至可以把tunnel当作中转使用）~~
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-9.png&#34;
 	width=&#34;2760&#34;
 	height=&#34;1057&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -518,10 +518,10 @@
 &lt;h2 id=&#34;连接到tunnel隧道&#34;&gt;连接到Tunnel隧道&lt;/h2&gt;
 &lt;p&gt;下载好上面所需要的内网穿透软件后，找一个地方放置，并打开终端&lt;/p&gt;
 &lt;p&gt;输入在&lt;code&gt;隧道名-Configure&lt;/code&gt;下的命令（Linux注意&lt;strong&gt;添加可执行权限&lt;/strong&gt;，以及&lt;strong&gt;去掉默认为windows的exe后缀&lt;/strong&gt;）
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
 	width=&#34;2382&#34;
 	height=&#34;1006&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -560,11 +560,11 @@
         </item>
         <item>
         <title>CloudFlare R2 获取/使用方法</title>
-        <link>https://c1oudf1are.link/p/cloudflare-r2/</link>
+        <link>https://blog.highp.ing/p/cloudflare-r2/</link>
         <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/cloudflare-r2/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/cloudflare-r2/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
 &lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;
@@ -582,10 +582,10 @@
 &lt;h2 id=&#34;申请&#34;&gt;申请&lt;/h2&gt;
 &lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;此处&lt;/a&gt;登入&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;账户，并在左侧导航栏找到&lt;code&gt;R2&lt;/code&gt;。
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
 	width=&#34;767&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -595,10 +595,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击中间的&lt;code&gt;激活R2&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
 	width=&#34;752&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -608,10 +608,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击&lt;code&gt;进入付款详细信息&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;469&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -621,10 +621,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;输入付款信息，请注意这里并不会有&lt;em&gt;3d验证&lt;/em&gt;，只会扣除银行卡里面的0刀用于验证：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1178&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -637,10 +637,10 @@
 &lt;h2 id=&#34;创建储存桶&#34;&gt;创建储存桶&lt;/h2&gt;
 &lt;p&gt;完成申请并验卡部分后，回到R2界面。
 点击&lt;code&gt;创建储存桶&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;347&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -650,10 +650,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;填写好储存桶的名称，地区建议选择&lt;em&gt;&lt;strong&gt;亚太（APAC）&lt;/strong&gt;&lt;/em&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1058&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -666,10 +666,10 @@
 &lt;p&gt;创建完成后，可以在&lt;code&gt;R2界面&lt;/code&gt;中找到自己刚才创建的储存桶，可以在这里上传/查看/删除文件。&lt;/p&gt;
 &lt;h3 id=&#34;绑定域名&#34;&gt;绑定域名&lt;/h3&gt;
 &lt;p&gt;进入储存桶后，点击 &lt;code&gt;设置-公开访问-自定义域-连接域&lt;/code&gt; 来连接自己的域名：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;547&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -682,10 +682,10 @@
 &lt;h3 id=&#34;创建r2-api-令牌&#34;&gt;创建R2 API 令牌&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;API令牌&lt;/strong&gt;是亚马逊S3储存中的鉴权部分，需要手动创建&lt;strong&gt;API令牌&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;在&lt;code&gt;R2界面&lt;/code&gt;右侧点击 &lt;code&gt;管理R2 API 令牌-创建API 令牌&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1034&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -699,10 +699,10 @@
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;注：访问密钥 ID与机密访问密钥只会显示一次，创建后需注意保存&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;案例挂载至alist&#34;&gt;案例：挂载至Alist&lt;/h3&gt;
 &lt;p&gt;挂载内容如图下填写：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1089&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -728,10 +728,10 @@
         </item>
         <item>
         <title>免费领取.Link域名一年</title>
-        <link>https://c1oudf1are.link/p/freelinkdomain/</link>
+        <link>https://blog.highp.ing/p/freelinkdomain/</link>
         <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/freelinkdomain/</guid>
+        <guid>https://blog.highp.ing/p/freelinkdomain/</guid>
         <description>&lt;img src="https://i2.100024.xyz/2023/07/20/10fybfn.webp" alt="Featured image of post 免费领取.Link域名一年" /&gt;&lt;h1 id=&#34;免费领取link域名一年&#34;&gt;免费领取.Link域名一年&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;最近大型域名注册商Dynadot推出了一个免费领取.Link域名的活动，现在还有许多短域名/有价值的域名，有需要的朋友可以来领取一下。&lt;/p&gt;

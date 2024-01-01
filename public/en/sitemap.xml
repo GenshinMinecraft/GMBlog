@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://c1oudf1are.link/en/categories/</loc>
+    <loc>https://blog.highp.ing/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://c1oudf1are.link/categories/"
+                href="https://blog.highp.ing/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://c1oudf1are.link/en/categories/"
+                href="https://blog.highp.ing/en/categories/"
                 />
   </url><url>
-    <loc>https://c1oudf1are.link/en/</loc>
+    <loc>https://blog.highp.ing/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://c1oudf1are.link/"
+                href="https://blog.highp.ing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://c1oudf1are.link/en/"
+                href="https://blog.highp.ing/en/"
                 />
   </url><url>
-    <loc>https://c1oudf1are.link/en/tags/</loc>
+    <loc>https://blog.highp.ing/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://c1oudf1are.link/tags/"
+                href="https://blog.highp.ing/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://c1oudf1are.link/en/tags/"
+                href="https://blog.highp.ing/en/tags/"
                 />
   </url>
 </urlset>

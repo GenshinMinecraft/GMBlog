@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Main on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/main/</link>
+        <link>https://blog.highp.ing/categories/main/</link>
         <description>Recent content in Main on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/main/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>如何让 Google 快速收录你的网站 / 提升在 Google 的排名</title>
-        <link>https://c1oudf1are.link/p/googlepaiming/</link>
+        <link>https://blog.highp.ing/p/googlepaiming/</link>
         <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/googlepaiming/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/googlepaiming/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一&lt;/p&gt;
 &lt;p&gt;所以本文会教你如何快速提升在 Google 中&lt;strong&gt;你的网站的排名&lt;/strong&gt;&lt;/p&gt;
@@ -42,10 +42,10 @@
 &lt;p&gt;&lt;strong&gt;请注意，如果你的博客发生了变动（比如新增文章），需要重新生成&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;向-google-提交-sitemap&#34;&gt;向 Google 提交 Sitemap&lt;/h3&gt;
 &lt;p&gt;在&lt;code&gt;侧边栏-编制索引-站点地图&lt;/code&gt;中&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image.png&#34;
 	width=&#34;659&#34;
 	height=&#34;1210&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -55,10 +55,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;输入站点地图 URL 后即可完成提交&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-1.png&#34;
 	width=&#34;1888&#34;
 	height=&#34;814&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -77,10 +77,10 @@
 &lt;/blockquote&gt;
 &lt;p&gt;你可以通过 &lt;a class=&#34;link&#34; href=&#34;https://pagespeed.web.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google 官方工具 PageSpeed Insights&lt;/a&gt; 来检测你的网站的得分&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-2.png&#34;
 	width=&#34;2119&#34;
 	height=&#34;1541&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -94,10 +94,10 @@
 &lt;p&gt;一般来说，得分 95+ 的网站优化已经顶破天了，无需继续优化&lt;/p&gt;
 &lt;p&gt;得分 85+ 的网站可能需要一些小小的优化，但是并没有很大必要&lt;/p&gt;
 &lt;p&gt;在测评下方有对于你网站的&lt;strong&gt;优化建议&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-3.png&#34;
 	width=&#34;2017&#34;
 	height=&#34;1144&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -140,10 +140,10 @@
 &lt;h3 id=&#34;刚提交给-google-时&#34;&gt;刚提交给 Google 时&lt;/h3&gt;
 &lt;p&gt;注意：第一次提交给 Google 时并不会马上就收录，大约要等待 2-3 天左右&lt;/p&gt;
 &lt;p&gt;当收录了你的站点时，请手动将博客文章地址输入到 Search Console 中的搜索框内&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-4.png&#34;
 	width=&#34;1488&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -156,10 +156,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;这样会让 Google 查询你输入的网址&lt;strong&gt;是否已经收录&lt;/strong&gt;，一般是没有的&lt;/p&gt;
 &lt;p&gt;然后点击&lt;code&gt;请求编入索引&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-5.png&#34;
 	width=&#34;786&#34;
 	height=&#34;433&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -188,11 +188,11 @@
         </item>
         <item>
         <title>我的 2023 年度总结！</title>
-        <link>https://c1oudf1are.link/p/2023zongjie/</link>
+        <link>https://blog.highp.ing/p/2023zongjie/</link>
         <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/2023zongjie/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/2023zongjie/TUAPI-EEES-CC--1250773564.jpg" alt="Featured image of post 我的 2023 年度总结！" /&gt;&lt;h1 id=&#34;2023年底总结&#34;&gt;2023年底总结！&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/2023zongjie/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/2023zongjie/TUAPI-EEES-CC--1250773564.jpg" alt="Featured image of post 我的 2023 年度总结！" /&gt;&lt;h1 id=&#34;2023年底总结&#34;&gt;2023年底总结！&lt;/h1&gt;
 &lt;p&gt;今年注定是我人生中比较重要的一年&lt;/p&gt;
 &lt;p&gt;可能本文并没有什么能够帮助你的地方，但是也是我自己对待生活的一个态度，&lt;del&gt;（可以看作我的胡乱发言&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&#34;学习方面&#34;&gt;学习方面&lt;/h2&gt;
@@ -237,11 +237,11 @@
         </item>
         <item>
         <title>HomeCloud 家庭云 折腾心得</title>
-        <link>https://c1oudf1are.link/p/homecloud/</link>
+        <link>https://blog.highp.ing/p/homecloud/</link>
         <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/homecloud/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/homecloud/IMG_20231126_121332_584.jpg" alt="Featured image of post HomeCloud 家庭云 折腾心得" /&gt;&lt;h1 id=&#34;homecloud-家庭云-折腾心得&#34;&gt;HomeCloud 家庭云 折腾心得&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/homecloud/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584.jpg" alt="Featured image of post HomeCloud 家庭云 折腾心得" /&gt;&lt;h1 id=&#34;homecloud-家庭云-折腾心得&#34;&gt;HomeCloud 家庭云 折腾心得&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;作为一个 &lt;strong&gt;新时代网络人&lt;/strong&gt;，在家里放几台小机器，运行一下内网服务，还是非常 INTERESTING 的～～&lt;/p&gt;
 &lt;p&gt;所以本文会介绍，有&lt;em&gt;&lt;strong&gt;哪些服务值得在内网运行&lt;/strong&gt;&lt;/em&gt;，以及&lt;em&gt;&lt;strong&gt;家用低功耗服务器的选择&lt;/strong&gt;&lt;/em&gt;，具有一定的参考价值，也包含一些个人的主观评价！&lt;/p&gt;
@@ -288,10 +288,10 @@
 &lt;p&gt;关于在本博客上关于 &lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/categories/alist/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alist&lt;/a&gt; 的文章，请点击前字查看！&lt;/p&gt;
 &lt;p&gt;搭建过程很简单，就不教程了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_202722_420.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_202722_420.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;501&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_202722_420_hue86f0244e724a79be133fccc955619bb_57947_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231201_202722_420_hue86f0244e724a79be133fccc955619bb_57947_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_202722_420_hue86f0244e724a79be133fccc955619bb_57947_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231201_202722_420_hue86f0244e724a79be133fccc955619bb_57947_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alist&#34;
@@ -321,10 +321,10 @@
     &gt;本博客就有&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;其实现在的 FullTclash 已经&lt;strong&gt;十分先进&lt;/strong&gt;了，由于本博客的教程有点久远(23.08)&lt;/p&gt;
 &lt;p&gt;所以现在来贴上最新版本测试的结果：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_203417_380.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_203417_380.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;351&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_203417_380_hub3b854211fc8153a4f3006df07df21d1_102000_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231201_203417_380_hub3b854211fc8153a4f3006df07df21d1_102000_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_203417_380_hub3b854211fc8153a4f3006df07df21d1_102000_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231201_203417_380_hub3b854211fc8153a4f3006df07df21d1_102000_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;速度测试&#34;
@@ -335,10 +335,10 @@
 		data-flex-basis=&#34;875px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_203406_468.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_203406_468.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1011&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_203406_468_hu07aeceb9e433952e4b2f546557c116d6_204885_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231201_203406_468_hu07aeceb9e433952e4b2f546557c116d6_204885_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_203406_468_hu07aeceb9e433952e4b2f546557c116d6_204885_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231201_203406_468_hu07aeceb9e433952e4b2f546557c116d6_204885_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;延迟测试&#34;
@@ -349,10 +349,10 @@
 		data-flex-basis=&#34;303px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Topo2023-12-01T12-48-11.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Topo2023-12-01T12-48-11.png&#34;
 	width=&#34;2191&#34;
 	height=&#34;5700&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Topo2023-12-01T12-48-11_hu2de514b539be3dc34b4258da1f3b5237_956180_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Topo2023-12-01T12-48-11_hu2de514b539be3dc34b4258da1f3b5237_956180_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Topo2023-12-01T12-48-11_hu2de514b539be3dc34b4258da1f3b5237_956180_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Topo2023-12-01T12-48-11_hu2de514b539be3dc34b4258da1f3b5237_956180_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;拓扑测试&#34;
@@ -363,10 +363,10 @@
 		data-flex-basis=&#34;92px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/2023-12-01T12-46-02.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/2023-12-01T12-46-02.png&#34;
 	width=&#34;17849&#34;
 	height=&#34;5655&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/2023-12-01T12-46-02_hu268e6cd41b9de9f59070ee923277123f_6346380_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/2023-12-01T12-46-02_hu268e6cd41b9de9f59070ee923277123f_6346380_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/2023-12-01T12-46-02_hu268e6cd41b9de9f59070ee923277123f_6346380_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/2023-12-01T12-46-02_hu268e6cd41b9de9f59070ee923277123f_6346380_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;超全流媒体(慎点开)&#34;
@@ -405,10 +405,10 @@
 &lt;p&gt;而宝塔等面板，一般直接是安装在主系统上&lt;/p&gt;
 &lt;p&gt;由于内网，所以服务稍微有点多，而且不想让环境太乱&lt;/p&gt;
 &lt;p&gt;所以全部使用 Docker 进行管理才是最有效的方法！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1Panel Main&#34;
@@ -420,10 +420,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;也有非常多的基于 &lt;strong&gt;Docker&lt;/strong&gt; 的应用
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1Panel AppStore&#34;
@@ -441,10 +441,10 @@
 &lt;a class=&#34;link&#34; href=&#34;https://about.gitea.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Gitea&lt;/a&gt; 是一个&lt;strong&gt;开源&lt;/strong&gt;的 Git 服务，提供类似于 &lt;a class=&#34;link&#34; href=&#34;https://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt; 的体验，但是其更私有化。且由 &lt;strong&gt;Go&lt;/strong&gt; 语言进行开发，这确保了其&lt;strong&gt;快速&lt;/strong&gt;的根本！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231126_121332_584.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;548&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231126_121332_584_hudad6c46779871adc6fa6420f39d139dd_94796_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231126_121332_584_hudad6c46779871adc6fa6420f39d139dd_94796_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584_hudad6c46779871adc6fa6420f39d139dd_94796_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584_hudad6c46779871adc6fa6420f39d139dd_94796_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Gitea&#34;
@@ -455,10 +455,10 @@
 		data-flex-basis=&#34;560px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-213850.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-213850.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-213850_huf7051eabdb6cb3be0a5db229ede87e61_218796_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-213850_huf7051eabdb6cb3be0a5db229ede87e61_218796_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-213850_huf7051eabdb6cb3be0a5db229ede87e61_218796_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-213850_huf7051eabdb6cb3be0a5db229ede87e61_218796_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;仓库界面&#34;
@@ -487,10 +487,10 @@
 &lt;p&gt;我自建 Bot 为：&lt;a class=&#34;link&#34; href=&#34;https://t.me/gxwzbot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@gxwzbot&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;说实话没啥用，获取高音质音乐还需要&lt;strong&gt;网易云音乐会员&lt;/strong&gt;，但是确实挺好玩~~（不是吗&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_214727_683.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_214727_683.jpg&#34;
 	width=&#34;1238&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231201_214727_683_hu99c23cb01170b8e0f74cad80e19245af_171735_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231201_214727_683_hu99c23cb01170b8e0f74cad80e19245af_171735_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_214727_683_hu99c23cb01170b8e0f74cad80e19245af_171735_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231201_214727_683_hu99c23cb01170b8e0f74cad80e19245af_171735_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;@gxwzbot&#34;
@@ -512,10 +512,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/qier222/YesPlayMusic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;YesPlayMusic&lt;/a&gt; 是一个&lt;strong&gt;高颜值的第三方网易云播放器&lt;/strong&gt;（官方原话）&lt;/p&gt;
 &lt;p&gt;为了体现他的高颜值，先来几张图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220159.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220159.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220159_hud239a2205a7a1040867c95a020349a95_2673628_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220159_hud239a2205a7a1040867c95a020349a95_2673628_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220159_hud239a2205a7a1040867c95a020349a95_2673628_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-220159_hud239a2205a7a1040867c95a020349a95_2673628_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主页&#34;
@@ -526,10 +526,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220313.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220313.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220313_huf1521206fe51a3b5a7959b55873bb1c1_757255_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220313_huf1521206fe51a3b5a7959b55873bb1c1_757255_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220313_huf1521206fe51a3b5a7959b55873bb1c1_757255_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-220313_huf1521206fe51a3b5a7959b55873bb1c1_757255_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;歌手&#34;
@@ -540,10 +540,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220328.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220328.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220328_hu10d4d8f5f428f13ec6e192521b385b06_1421042_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-220328_hu10d4d8f5f428f13ec6e192521b385b06_1421042_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-220328_hu10d4d8f5f428f13ec6e192521b385b06_1421042_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-220328_hu10d4d8f5f428f13ec6e192521b385b06_1421042_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;播放&#34;
@@ -569,10 +569,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.onenav.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OneNav&lt;/a&gt; 是一个&lt;strong&gt;开源免费&lt;/strong&gt;的书签管理工具，采用了 &lt;strong&gt;PHP+SQLite3&lt;/strong&gt;，并且支持 &lt;strong&gt;Chrome 浏览器插件&lt;/strong&gt;，与浏览器原生兼容。&lt;/p&gt;
 &lt;p&gt;我采用的 PHP 环境为：由 &lt;strong&gt;1Panel&lt;/strong&gt; 安装的 &lt;strong&gt;OpenResty&lt;/strong&gt;+&lt;strong&gt;PHP8&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-201418.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-201418.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-201418_hu4e4b7808dec7c8689c40fc5c96130644_361133_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231204-201418_hu4e4b7808dec7c8689c40fc5c96130644_361133_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-201418_hu4e4b7808dec7c8689c40fc5c96130644_361133_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231204-201418_hu4e4b7808dec7c8689c40fc5c96130644_361133_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;OneNav&amp;Dark&#34;
@@ -589,10 +589,10 @@
 &lt;h3 id=&#34;小结&#34;&gt;小结&lt;/h3&gt;
 &lt;p&gt;你可以看到，我用 &lt;strong&gt;R4s&lt;/strong&gt; 所运行的服务这么这么多&lt;/p&gt;
 &lt;p&gt;但是以上所有的服务火力全开，占用也很低&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231204_202302_874.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231204_202302_874.jpg&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/IMG_20231204_202302_874_hu2585ff27c8f5db35655b143d81088eef_162072_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/homecloud/IMG_20231204_202302_874_hu2585ff27c8f5db35655b143d81088eef_162072_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/IMG_20231204_202302_874_hu2585ff27c8f5db35655b143d81088eef_162072_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/homecloud/IMG_20231204_202302_874_hu2585ff27c8f5db35655b143d81088eef_162072_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Nezha Panel&#34;
@@ -632,10 +632,10 @@
 &lt;p&gt;而宝塔等面板，一般直接是安装在主系统上&lt;/p&gt;
 &lt;p&gt;由于内网，所以服务稍微有点多，而且不想让环境太乱&lt;/p&gt;
 &lt;p&gt;所以全部使用 Docker 进行管理才是最有效的方法！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-210647_hu939fafde051a6643c2c699a62afa7060_335769_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1Panel Main&#34;
@@ -647,10 +647,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;也有非常多的基于 &lt;strong&gt;Docker&lt;/strong&gt; 的应用
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231201-210803_hu7e2e1c3e896634ca8b0e91bc7ff6b9cd_365757_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1Panel AppStore&#34;
@@ -667,10 +667,10 @@
 &lt;p&gt;这就是我在 J3455 小主机上部署的的重头之一，占用了我的至少&lt;strong&gt;300G&lt;/strong&gt;空间 &lt;del&gt;（硬盘：I am NOT FREE&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/navidrome/navidrome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Navidrome&lt;/a&gt; 是一个&lt;strong&gt;自托管式的，开源的，免费的&lt;/strong&gt;自建流媒体音乐服务（定语是不是有点多了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac_huc91454ad33c794eeddb43f0e9141322f_18832_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac_huc91454ad33c794eeddb43f0e9141322f_18832_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac_huc91454ad33c794eeddb43f0e9141322f_18832_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac_huc91454ad33c794eeddb43f0e9141322f_18832_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Navidrome&#34;
@@ -683,10 +683,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;它&lt;strong&gt;兼容与 Subsonic API&lt;/strong&gt;，也就意味着用于 Subsonic 的客户端都可以使用！&lt;/p&gt;
 &lt;p&gt;话不多说，先来看看他 Web 的表现（客户端的在下面）
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205507.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205507.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205507_hu5aa844f9aa2ebb59e6e41c71fe174b99_2548140_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205507_hu5aa844f9aa2ebb59e6e41c71fe174b99_2548140_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205507_hu5aa844f9aa2ebb59e6e41c71fe174b99_2548140_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231204-205507_hu5aa844f9aa2ebb59e6e41c71fe174b99_2548140_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;专辑&#34;
@@ -697,10 +697,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205516.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205516.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205516_hubeda0931302d362987325d20959ab609_468211_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205516_hubeda0931302d362987325d20959ab609_468211_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205516_hubeda0931302d362987325d20959ab609_468211_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231204-205516_hubeda0931302d362987325d20959ab609_468211_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;专辑详情&#34;
@@ -711,10 +711,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205540.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205540.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205540_huee7bbd706ae184db8680daa4c50a271c_379920_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231204-205540_huee7bbd706ae184db8680daa4c50a271c_379920_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-205540_huee7bbd706ae184db8680daa4c50a271c_379920_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231204-205540_huee7bbd706ae184db8680daa4c50a271c_379920_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;播放&amp;歌词&#34;
@@ -728,10 +728,10 @@
 &lt;p&gt;额，说实话，他的 Web 端表现的真的不是很惊艳，甚至感觉&lt;strong&gt;很丑&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;不过好在他兼容 Subsonic，可以自由地配置客户端&lt;/p&gt;
 &lt;p&gt;下面是安卓客户端 Symfonium：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101054.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101054.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主界面&#34;
@@ -742,10 +742,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101113.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101113.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;播放界面&#34;
@@ -756,10 +756,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101524.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101524.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;歌词界面&#34;
@@ -770,10 +770,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101135.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101135.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;专辑界面&#34;
@@ -784,10 +784,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101150.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101150.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;搜索界面&#34;
@@ -829,10 +829,10 @@
 &lt;p&gt;&lt;code&gt;Tips: 请不要在上面的 URL 后加上 &#39;/&#39;，否则会提示 Unauthorized（奇怪的 Bugs 增加了&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;默认的帐号密码均为 &lt;code&gt;admin&lt;/code&gt;，请根据需要修改&lt;/p&gt;
 &lt;p&gt;用户界面比较简单，仔细研究五分钟就能使用（其实和客户端版 qbittorrent 有啥区别啊
-&lt;img src=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-212012.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-212012.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/homecloud/Screenshot_20231204-212012_huedb874900a00616c542797c1cb6eb2ed_280398_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/homecloud/Screenshot_20231204-212012_huedb874900a00616c542797c1cb6eb2ed_280398_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/homecloud/Screenshot_20231204-212012_huedb874900a00616c542797c1cb6eb2ed_280398_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/homecloud/Screenshot_20231204-212012_huedb874900a00616c542797c1cb6eb2ed_280398_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;qbittorrent&#34;
@@ -859,10 +859,10 @@
         </item>
         <item>
         <title>Navidrome 家庭音乐云 | 从入门到入土</title>
-        <link>https://c1oudf1are.link/p/navidrome/</link>
+        <link>https://blog.highp.ing/p/navidrome/</link>
         <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/navidrome/</guid>
+        <guid>https://blog.highp.ing/p/navidrome/</guid>
         <description>&lt;img src="https://c1oudf1are.link/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png" alt="Featured image of post Navidrome 家庭音乐云 | 从入门到入土" /&gt;&lt;h1 id=&#34;navidrome-家庭音乐云--从入门到入土&#34;&gt;Navidrome 家庭音乐云 | 从入门到入土&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;注：本文为 Ubuntu 22.04 系统环境，Debian 系列可照抄&lt;/strong&gt;&lt;/p&gt;
@@ -1045,10 +1045,10 @@
 &lt;li&gt;专辑序号&lt;/li&gt;
 &lt;li&gt;年代（时间）
 而 &lt;code&gt;Navidrome&lt;/code&gt; 会自动搜索歌曲的 &lt;code&gt;Metadata&lt;/code&gt; ，用于展示歌曲信息
-如：&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038.jpg&#34;
+如：&lt;img src=&#34;https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038.jpg&#34;
 	width=&#34;1171&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IMG_20231125_214837_038.jpg&#34;
@@ -1113,10 +1113,10 @@
 &lt;p&gt;大功告成！&lt;/p&gt;
 &lt;h2 id=&#34;初步设置-navidrome&#34;&gt;初步设置 Navidrome&lt;/h2&gt;
 &lt;p&gt;通过 &lt;code&gt;systemctl start navidrome&lt;/code&gt; 打开 &lt;code&gt;Navidrome&lt;/code&gt; 后，在浏览器访问你所设置的 IP 与 Port，如出现&lt;code&gt;设置管理员&lt;/code&gt;界面即为成功
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/images.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/images.png&#34;
 	width=&#34;197&#34;
 	height=&#34;256&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;images.png&#34;
@@ -1128,10 +1128,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在&lt;code&gt;右上角-个性化&lt;/code&gt;设置项中，可以调整自己喜欢的&lt;strong&gt;主题&lt;/strong&gt;与&lt;strong&gt;界面语言&lt;/strong&gt;等，&lt;strong&gt;还可以和其他流媒体音乐平台进行互通&lt;/strong&gt;，不过一般来说，比较不常使用
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Screenshot_20231126-094053.png&#34;
@@ -1144,10 +1144,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Navidrome&lt;/code&gt; 是一个多用户的系统，每个账号都有独自的&lt;strong&gt;喜欢列表&lt;/strong&gt;，&lt;strong&gt;歌单&lt;/strong&gt;等，我们可以在&lt;code&gt;用户&lt;/code&gt;设置项中&lt;em&gt;&lt;strong&gt;管理帐号&lt;/strong&gt;&lt;/em&gt;，包括但不限于：&lt;strong&gt;新增账号、管理帐号、修改密码&lt;/strong&gt;等
 &lt;del&gt;其实好像在 Homecloud 没啥用（&lt;/del&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Screenshot_20231126-094441.png&#34;
@@ -1190,10 +1190,10 @@
 &lt;p&gt;然后就可以尽情享用这自建 &lt;code&gt;Navidrome&lt;/code&gt; 了！&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Shut on Android Symfonium
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主界面&#34;
@@ -1204,10 +1204,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;播放界面&#34;
@@ -1218,10 +1218,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;歌词界面&#34;
@@ -1232,10 +1232,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;专辑界面&#34;
@@ -1246,10 +1246,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;搜索界面&#34;
@@ -1264,11 +1264,11 @@
         </item>
         <item>
         <title>锐评CloudFlare（CloudFlare从来都不是减速器）</title>
-        <link>https://c1oudf1are.link/p/ruipingcloudflare/</link>
+        <link>https://blog.highp.ing/p/ruipingcloudflare/</link>
         <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/ruipingcloudflare/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/ruipingcloudflare/OIP-C.jpg" alt="Featured image of post 锐评CloudFlare（CloudFlare从来都不是减速器）" /&gt;&lt;h1 id=&#34;锐评cloudflarecloudflare从来都不是减速器&#34;&gt;锐评CloudFlare（CloudFlare从来都不是减速器）&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/ruipingcloudflare/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/ruipingcloudflare/OIP-C.jpg" alt="Featured image of post 锐评CloudFlare（CloudFlare从来都不是减速器）" /&gt;&lt;h1 id=&#34;锐评cloudflarecloudflare从来都不是减速器&#34;&gt;锐评CloudFlare（CloudFlare从来都不是减速器）&lt;/h1&gt;
 &lt;p&gt;CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速度，好吧不要睁着眼睛乱说，全球CDN很难的。&lt;/p&gt;
 &lt;p&gt;而且CloudFlare真的不是随便给你做CDN的品牌欸，我跟CF跟了多少年，他怎么被你们滥用的我是最知道的一个人，他都差点把他们家掏给GFW了，差点CloudFlare姓China了，真的乱说。&lt;/p&gt;
 &lt;p&gt;这么多年都是免费的，哪里慢了（很好用的），注册个账号就送你各种可以滥用的服务。&lt;/p&gt;
@@ -1276,10 +1276,10 @@
 &lt;p&gt;这么多年了都是这个服务，我真的快疯掉了。&lt;/p&gt;
 &lt;p&gt;首发于 &lt;a class=&#34;link&#34; href=&#34;https://t.me/aries_init/6083&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://t.me/aries_init/6083&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/ruipingcloudflare/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/ruipingcloudflare/image.png&#34;
 	width=&#34;888&#34;
 	height=&#34;622&#34;
-	srcset=&#34;https://c1oudf1are.link/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/ruipingcloudflare/image_hu718b66c59a1b409d589364cfa0f01449_82054_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1294,11 +1294,11 @@
         </item>
         <item>
         <title>🎵音乐推荐🎵</title>
-        <link>https://c1oudf1are.link/p/greatmusic/</link>
+        <link>https://blog.highp.ing/p/greatmusic/</link>
         <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/greatmusic/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/greatmusic/image.png" alt="Featured image of post 🎵音乐推荐🎵" /&gt;&lt;h1 id=&#34;音乐推荐&#34;&gt;🎵音乐推荐🎵&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/greatmusic/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/greatmusic/image.png" alt="Featured image of post 🎵音乐推荐🎵" /&gt;&lt;h1 id=&#34;音乐推荐&#34;&gt;🎵音乐推荐🎵&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;虽然说是音乐推荐，其实就是&lt;strong&gt;我的歌单&lt;/strong&gt;啦！&lt;/p&gt;
 &lt;p&gt;我的口味&lt;em&gt;很复杂&lt;/em&gt;，啥歌曲&lt;em&gt;都听&lt;/em&gt;&lt;/p&gt;
@@ -1306,10 +1306,10 @@
 &lt;p&gt;在每一首歌曲的下方都会配上&lt;strong&gt;试听链接&lt;/strong&gt;与&lt;strong&gt;个人评价&lt;/strong&gt;，很&lt;em&gt;主观向&lt;/em&gt;的哦！&lt;/p&gt;
 &lt;h2 id=&#34;推荐&#34;&gt;推荐&lt;/h2&gt;
 &lt;h3 id=&#34;you-broke-me-first&#34;&gt;You Broke Me First&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/greatmusic/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/greatmusic/image-1.png&#34;
 	width=&#34;316&#34;
 	height=&#34;316&#34;
-	srcset=&#34;https://c1oudf1are.link/p/greatmusic/image-1_hu7b438194688a946c41f52e84243f1d6d_190153_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/greatmusic/image-1_hu7b438194688a946c41f52e84243f1d6d_190153_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/greatmusic/image-1_hu7b438194688a946c41f52e84243f1d6d_190153_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/greatmusic/image-1_hu7b438194688a946c41f52e84243f1d6d_190153_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;You Broke Me First&#34;
@@ -1325,10 +1325,10 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;《You Broke Me First》&lt;/code&gt;是加拿大歌手&lt;code&gt;Tate McRae&lt;/code&gt;创作的一首歌。是一位好友将其发在一个群内，听完马上感到&lt;strong&gt;舒适&lt;/strong&gt;的歌曲&lt;/p&gt;
 &lt;p&gt;很适合&lt;strong&gt;单曲循环&lt;/strong&gt;，比如我写&lt;em&gt;这篇博客&lt;/em&gt;的时候就在&lt;strong&gt;循环&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/greatmusic/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/greatmusic/image-2.png&#34;
 	width=&#34;2007&#34;
 	height=&#34;137&#34;
-	srcset=&#34;https://c1oudf1are.link/p/greatmusic/image-2_hu9715b12af915d839f07a241c2c5e1fe7_14335_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/greatmusic/image-2_hu9715b12af915d839f07a241c2c5e1fe7_14335_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/greatmusic/image-2_hu9715b12af915d839f07a241c2c5e1fe7_14335_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/greatmusic/image-2_hu9715b12af915d839f07a241c2c5e1fe7_14335_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1346,10 +1346,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/greatmusic/YouBrokeMeFirst.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://c1oudf1are.link/p/greatmusic/YouBrokeMeFirst.mp3&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;凄美地&#34;&gt;凄美地&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/greatmusic/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/greatmusic/image-3.png&#34;
 	width=&#34;300&#34;
 	height=&#34;300&#34;
-	srcset=&#34;https://c1oudf1are.link/p/greatmusic/image-3_hu2bc83d873827142236d58cfd2fab865e_188213_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/greatmusic/image-3_hu2bc83d873827142236d58cfd2fab865e_188213_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/greatmusic/image-3_hu2bc83d873827142236d58cfd2fab865e_188213_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/greatmusic/image-3_hu2bc83d873827142236d58cfd2fab865e_188213_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;凄美地&#34;
@@ -1380,10 +1380,10 @@
     &gt;https://c1oudf1are.link/p/greatmusic/凄美地.mp3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PS：&lt;code&gt;《飞行器的执行周期》&lt;/code&gt;里面的歌曲都挺好听的，譬如&lt;code&gt;《水星记》&lt;/code&gt;，与&lt;code&gt;《凄美地》&lt;/code&gt;齐名&lt;/p&gt;
 &lt;h3 id=&#34;僕らの手には何もないけど-儘管我們的手中一無所有&#34;&gt;僕らの手には何もないけど、 (儘管我們的手中一無所有)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/greatmusic/image-4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/greatmusic/image-4.png&#34;
 	width=&#34;640&#34;
 	height=&#34;640&#34;
-	srcset=&#34;https://c1oudf1are.link/p/greatmusic/image-4_hu517b6df9559ba5be2f86d21cbe3ab917_467797_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/greatmusic/image-4_hu517b6df9559ba5be2f86d21cbe3ab917_467797_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/greatmusic/image-4_hu517b6df9559ba5be2f86d21cbe3ab917_467797_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/greatmusic/image-4_hu517b6df9559ba5be2f86d21cbe3ab917_467797_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1406,10 +1406,10 @@
 &lt;p&gt;&lt;code&gt;《当年菜鸟》&lt;/code&gt;：&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/greatmusic/%e5%bd%93%e5%b9%b4%e8%8f%9c%e9%b8%9f.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://c1oudf1are.link/p/greatmusic/当年菜鸟.mp3&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;都选c&#34;&gt;都选C&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/greatmusic/image-5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/greatmusic/image-5.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;720&#34;
-	srcset=&#34;https://c1oudf1are.link/p/greatmusic/image-5_hu3346c30d2e2ba5c7511254879e703489_1043539_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/greatmusic/image-5_hu3346c30d2e2ba5c7511254879e703489_1043539_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/greatmusic/image-5_hu3346c30d2e2ba5c7511254879e703489_1043539_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/greatmusic/image-5_hu3346c30d2e2ba5c7511254879e703489_1043539_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1452,11 +1452,11 @@
         </item>
         <item>
         <title>总结一下&#34;QQ小学生&#34;的特点</title>
-        <link>https://c1oudf1are.link/p/qqpupil/</link>
+        <link>https://blog.highp.ing/p/qqpupil/</link>
         <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/qqpupil/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/qqpupil/qq.jpg" alt="Featured image of post 总结一下&#34;QQ小学生&#34;的特点" /&gt;&lt;h1 id=&#34;总结一下qq小学生的特点&#34;&gt;总结一下&amp;quot;QQ小学生&amp;quot;的特点&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/qqpupil/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/qqpupil/qq.jpg" alt="Featured image of post 总结一下&#34;QQ小学生&#34;的特点" /&gt;&lt;h1 id=&#34;总结一下qq小学生的特点&#34;&gt;总结一下&amp;quot;QQ小学生&amp;quot;的特点&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;本文含有非常个人的主观评价，请酌情观看！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;本文&lt;strong&gt;仅仅只是我无聊的时候突发奇想&lt;/strong&gt;写的，&lt;em&gt;没有对任何人进行攻击&lt;/em&gt;，请勿对号入座！&lt;/p&gt;
@@ -1505,11 +1505,11 @@
         </item>
         <item>
         <title>安卓设备安装Google框架方法汇总(持续更新)</title>
-        <link>https://c1oudf1are.link/p/androidinstallgoogle/</link>
+        <link>https://blog.highp.ing/p/androidinstallgoogle/</link>
         <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/androidinstallgoogle/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/androidinstallgoogle/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;目前，国内手机不内置&lt;code&gt;GMS&lt;/code&gt;已经是常态，转而使用自家的生态以及服务。&lt;/p&gt;
 &lt;p&gt;但是总有人需要&lt;code&gt;Google框架&lt;/code&gt;进行使用，所以就有了以下的安装方法。&lt;/p&gt;
@@ -2340,10 +2340,10 @@
 &lt;h3 id=&#34;2下载你所需版本的刷机包&#34;&gt;2.下载你所需版本的刷机包&lt;/h3&gt;
 &lt;p&gt;前往着一个网址：&lt;a class=&#34;link&#34; href=&#34;https://opengapps.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://opengapps.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov.webp&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov.webp&#34;
 	width=&#34;453&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt&#34;
@@ -2372,10 +2372,10 @@
 &lt;p&gt;详细的模块安装方法就&lt;em&gt;不介绍&lt;/em&gt;了，安装完重启即可享受&lt;strong&gt;标准的谷歌服务以及套件&lt;/strong&gt;！&lt;/p&gt;
 &lt;h2 id=&#34;附解决google-play-设备未获得play保护机制认证&#34;&gt;附：解决&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;在一些&lt;em&gt;冷门或是国产设备&lt;/em&gt;上使用上述方法安装&lt;code&gt;Google 框架&lt;/code&gt;时，会出现&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;这一提示：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1.png&#34;
 	width=&#34;745&#34;
 	height=&#34;570&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -2393,10 +2393,10 @@
     &gt;本站&lt;/a&gt; 任选一个&lt;strong&gt;你可以访问&lt;/strong&gt;的地址下载&lt;/p&gt;
 &lt;p&gt;随后&lt;strong&gt;安装并打开&lt;/strong&gt;即可&lt;/p&gt;
 &lt;h3 id=&#34;2获取gsfid&#34;&gt;2.获取GSFID&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2.png&#34;
 	width=&#34;323&#34;
 	height=&#34;573&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2411,10 +2411,10 @@
 &lt;p&gt;前往 &lt;a class=&#34;link&#34; href=&#34;https://www.google.com/android/uncertified/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.google.com/android/uncertified/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;登入你的&lt;code&gt;Google账户&lt;/code&gt;，并输入你上面获取的&lt;code&gt;GSFID&lt;/code&gt;:(图来自知乎)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3.png&#34;
 	width=&#34;1132&#34;
 	height=&#34;584&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -2436,11 +2436,11 @@
         </item>
         <item>
         <title>松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)</title>
-        <link>https://c1oudf1are.link/p/sqaipad/</link>
+        <link>https://blog.highp.ing/p/sqaipad/</link>
         <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/sqaipad/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/sqaipad/image.png" alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)" /&gt;&lt;h1 id=&#34;松鼠ai学习机v11sqaipad-v11-破解root-适用于所有mtk设备&#34;&gt;松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/sqaipad/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/sqaipad/image.png" alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)" /&gt;&lt;h1 id=&#34;松鼠ai学习机v11sqaipad-v11-破解root-适用于所有mtk设备&#34;&gt;松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)&lt;/h1&gt;
 &lt;p&gt;Root原文方法链接：&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/shenjingwa012/article/details/131018766&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://blog.csdn.net/shenjingwa012/article/details/131018766&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;由于原文方法有些过时，且不是描述得很完整，所以撰写这一篇文章&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -2741,21 +2741,21 @@
         </item>
         <item>
         <title>FullTclash 搭建方法</title>
-        <link>https://c1oudf1are.link/p/fulltclash/</link>
+        <link>https://blog.highp.ing/p/fulltclash/</link>
         <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/fulltclash/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/fulltclash/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AirportR/FullTclash.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt;是一个 &lt;em&gt;基于clash 核心运作的、进行全量订阅测试的telegram机器人&lt;/em&gt;（官方原话）&lt;/p&gt;
 &lt;p&gt;也就是我们平常常说的&lt;strong&gt;测速Bot&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;其现在已经比较完善，拥有诸多功能，还可以&lt;strong&gt;自定义添加新功能&lt;/strong&gt;！&lt;/p&gt;
 &lt;p&gt;因为其开源的特性，任何人均可搭建，无需收取&lt;strong&gt;任何费用&lt;/strong&gt;！&lt;/p&gt;
-&lt;p&gt;官方效果图：&lt;img src=&#34;https://c1oudf1are.link/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f33302f7879544752752e706e67.png&#34;
+&lt;p&gt;官方效果图：&lt;img src=&#34;https://blog.highp.ing/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f33302f7879544752752e706e67.png&#34;
 	width=&#34;1848&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://c1oudf1are.link/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_7450ee36a90d4e4b134eee9260fc3527.png 480w, https://c1oudf1are.link/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_a378d5bc5ebc7dd78c7005a0fdfa7987.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_7450ee36a90d4e4b134eee9260fc3527.png 480w, https://blog.highp.ing/p/fulltclash/_hubec25327ddde1368da412369f251fcb5_426797_a378d5bc5ebc7dd78c7005a0fdfa7987.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -2766,10 +2766,10 @@
 		data-flex-basis=&#34;410px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f3330.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/fulltclash/68747470733a2f2f75706c6f61642e63632f69312f323032332f30332f3330.png&#34;
 	width=&#34;1896&#34;
 	height=&#34;1620&#34;
-	srcset=&#34;https://c1oudf1are.link/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_771616c92fe83534d6fd08bcf9de0ca9.png 480w, https://c1oudf1are.link/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_60b69196dd31346e3ba31ab8a6239a59.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_771616c92fe83534d6fd08bcf9de0ca9.png 480w, https://blog.highp.ing/p/fulltclash/_hu4242fdb392a92636917a670558e3661b_412792_60b69196dd31346e3ba31ab8a6239a59.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3124,11 +3124,11 @@
         </item>
         <item>
         <title>从Magisk转入Magisk Delta</title>
-        <link>https://c1oudf1are.link/p/magisk/</link>
+        <link>https://blog.highp.ing/p/magisk/</link>
         <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/magisk/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/magisk/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;手机端比较完善的root方法就只有&lt;strong&gt;Magisk&lt;/strong&gt;了（Kernelsu暂不讨论）&lt;/p&gt;
 &lt;p&gt;但是由于众所周知的原因，Magisk官方版本的&lt;strong&gt;Magisk Hide&lt;/strong&gt;被砍掉了&lt;/p&gt;
@@ -3144,10 +3144,10 @@
     &gt;Github官网&lt;/a&gt;，下载&lt;em&gt;app-release.apk&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;安装在安卓设备上&lt;/p&gt;
 &lt;p&gt;打开就可以授权&lt;em&gt;Root&lt;/em&gt;权限并安装&lt;strong&gt;Boot&lt;/strong&gt;了
-&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/magisk/image.png&#34;
 	width=&#34;1057&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3163,10 +3163,10 @@
 &lt;p&gt;理论上来说，安装&lt;em&gt;Magisk Delta&lt;/em&gt;后，&lt;em&gt;原版Magisk&lt;/em&gt;的模块会自动转移到&lt;em&gt;Magisk Delta&lt;/em&gt;。各种设置也可以同步！&lt;/p&gt;
 &lt;p&gt;但是如果有模块未同步的情况，可以手动添加&lt;/p&gt;
 &lt;h2 id=&#34;开启magisk-hide&#34;&gt;开启Magisk Hide&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-1.png&#34;
 	width=&#34;1028&#34;
 	height=&#34;1441&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3176,10 +3176,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在右上角&lt;code&gt;设置图标-MagiskHide&lt;/code&gt;中，打开&lt;code&gt;MagiskHide&lt;/code&gt;与&lt;code&gt;强制使用超级用户列表&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-2.png&#34;
 	width=&#34;1041&#34;
 	height=&#34;945&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3189,10 +3189,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后重启手机，回到设置中的MagiskHide界面，就可以找到&lt;strong&gt;配置超级用户列表&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/magisk/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/magisk/image-3.png&#34;
 	width=&#34;1021&#34;
 	height=&#34;1729&#34;
-	srcset=&#34;https://c1oudf1are.link/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1&#34;
@@ -3210,11 +3210,11 @@
         </item>
         <item>
         <title>Nodepanels-一个免费的双平台探针</title>
-        <link>https://c1oudf1are.link/p/nodepanels/</link>
+        <link>https://blog.highp.ing/p/nodepanels/</link>
         <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/nodepanels/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/nodepanels/image-12.png" alt="Featured image of post Nodepanels-一个免费的双平台探针" /&gt;&lt;h1 id=&#34;nodepanels-一个免费的双平台探针&#34;&gt;Nodepanels-一个免费的双平台探针&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/nodepanels/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/nodepanels/image-12.png" alt="Featured image of post Nodepanels-一个免费的双平台探针" /&gt;&lt;h1 id=&#34;nodepanels-一个免费的双平台探针&#34;&gt;Nodepanels-一个免费的双平台探针&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;探针是管理并查看服务器状态的重要工具，十分适合网站运维和服务器监视。&lt;/p&gt;
 &lt;p&gt;而免费且完全开源无限制的&lt;em&gt;&lt;strong&gt;哪吒面板&lt;/strong&gt;&lt;/em&gt;，就是其中的代表。&lt;/p&gt;
@@ -3238,10 +3238,10 @@
 &lt;h2 id=&#34;创建账号&#34;&gt;创建账号&lt;/h2&gt;
 &lt;p&gt;进入到&lt;a class=&#34;link&#34; href=&#34;https://nodepanels.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Nodepanels官网&lt;/a&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image.png&#34;
 	width=&#34;1581&#34;
 	height=&#34;963&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image_huf6d6d1aafc31748cec4224d68ef8bfc4_101827_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image_huf6d6d1aafc31748cec4224d68ef8bfc4_101827_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image_huf6d6d1aafc31748cec4224d68ef8bfc4_101827_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image_huf6d6d1aafc31748cec4224d68ef8bfc4_101827_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3253,10 +3253,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;注册一个账号
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-1.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-1.png&#34;
 	width=&#34;927&#34;
 	height=&#34;1158&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-1_hu8adad2343c8a1a7e917a55516f3c09b5_110256_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-1_hu8adad2343c8a1a7e917a55516f3c09b5_110256_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-1_hu8adad2343c8a1a7e917a55516f3c09b5_110256_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-1_hu8adad2343c8a1a7e917a55516f3c09b5_110256_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3271,10 +3271,10 @@
 &lt;h2 id=&#34;连接到服务器&#34;&gt;连接到服务器&lt;/h2&gt;
 &lt;p&gt;登入&lt;a class=&#34;link&#34; href=&#34;https://nodepanels.com/server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;面板&lt;/a&gt;，点击&lt;code&gt;服务器列表&lt;/code&gt;左侧的&lt;code&gt;添加服务器&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/photo_2023-07-24_12-21-08.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/photo_2023-07-24_12-21-08.jpg&#34;
 	width=&#34;1219&#34;
 	height=&#34;434&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/photo_2023-07-24_12-21-08_hud30450a75a8f80d5078211e67cc70151_61693_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/nodepanels/photo_2023-07-24_12-21-08_hud30450a75a8f80d5078211e67cc70151_61693_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/photo_2023-07-24_12-21-08_hud30450a75a8f80d5078211e67cc70151_61693_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/nodepanels/photo_2023-07-24_12-21-08_hud30450a75a8f80d5078211e67cc70151_61693_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3289,10 +3289,10 @@
 &lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt;可以直接复制并在&lt;em&gt;终端&lt;/em&gt;执行；&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;可以使用&lt;em&gt;cmd/powershell&lt;/em&gt;执行。&lt;/p&gt;
 &lt;p&gt;执行完成后，刷新界面，在&lt;code&gt;服务器列表&lt;/code&gt;下&lt;strong&gt;能看见自己的服务器并且显示在线&lt;/strong&gt;即为添加完成！
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-2.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-2.png&#34;
 	width=&#34;1567&#34;
 	height=&#34;477&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-2_huc09dbc0767b515a02365bb11a2c79670_51322_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-2_huc09dbc0767b515a02365bb11a2c79670_51322_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-2_huc09dbc0767b515a02365bb11a2c79670_51322_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-2_huc09dbc0767b515a02365bb11a2c79670_51322_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3306,10 +3306,10 @@
 &lt;h2 id=&#34;设置服务器可选&#34;&gt;设置服务器（可选）&lt;/h2&gt;
 &lt;p&gt;我们还可以在*&lt;strong&gt;Nodepanels&lt;/strong&gt;中设置服务器&lt;/p&gt;
 &lt;p&gt;点击&lt;strong&gt;列表的右侧&lt;/strong&gt;部分来进行对服务器的设置
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-3.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-3.png&#34;
 	width=&#34;332&#34;
 	height=&#34;198&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-3_huef4eb9d9b7e8b917fa7479e296bff32c_2089_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-3_huef4eb9d9b7e8b917fa7479e296bff32c_2089_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-3_huef4eb9d9b7e8b917fa7479e296bff32c_2089_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-3_huef4eb9d9b7e8b917fa7479e296bff32c_2089_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3321,10 +3321,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;也可以点击服务器名称，对服务器进行更加详细的监测与调试
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-4.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-4.png&#34;
 	width=&#34;678&#34;
 	height=&#34;1743&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-4_hude9af2a2009e79f2ad753a6f4ce27233_77521_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-4_hude9af2a2009e79f2ad753a6f4ce27233_77521_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-4_hude9af2a2009e79f2ad753a6f4ce27233_77521_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-4_hude9af2a2009e79f2ad753a6f4ce27233_77521_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3339,10 +3339,10 @@
 &lt;h2 id=&#34;设置告警可选&#34;&gt;设置告警（可选）&lt;/h2&gt;
 &lt;p&gt;对于一些网站服务器来说，当遭遇攻击时更需要及时地提醒。&lt;/p&gt;
 &lt;p&gt;在顶部导航栏的&lt;code&gt;设置-告警设置&lt;/code&gt;中，可以使用&lt;strong&gt;QQ/微信/邮箱/Telegram/Webhook&lt;/strong&gt;多种方式进行提醒，只需要把右边的按钮打开即可
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-5.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-5.png&#34;
 	width=&#34;1115&#34;
 	height=&#34;913&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-5_hu9f3898b67b46957fdf99aa6988576101_48612_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-5_hu9f3898b67b46957fdf99aa6988576101_48612_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-5_hu9f3898b67b46957fdf99aa6988576101_48612_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-5_hu9f3898b67b46957fdf99aa6988576101_48612_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3354,10 +3354,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击下面的&lt;code&gt;添加规则&lt;/code&gt;，详尽地添加需要告警地条件以及需要告警的服务器，可以做到更有规则地管理
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-6.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-6.png&#34;
 	width=&#34;1221&#34;
 	height=&#34;1331&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-6_hub2c956386b4c7ae5f2d018c057b5e8e2_88375_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-6_hub2c956386b4c7ae5f2d018c057b5e8e2_88375_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-6_hub2c956386b4c7ae5f2d018c057b5e8e2_88375_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-6_hub2c956386b4c7ae5f2d018c057b5e8e2_88375_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3371,10 +3371,10 @@
 &lt;h2 id=&#34;分享服务器状态&#34;&gt;分享服务器状态&lt;/h2&gt;
 &lt;p&gt;我们可以把服务器状态分享&lt;del&gt;炫耀&lt;/del&gt;给朋友们看&lt;/p&gt;
 &lt;p&gt;在顶部导航栏的&lt;code&gt;设置-分享设置&lt;/code&gt;中，可以对需要分享的服务器进行选择，还可以根据需要&lt;em&gt;隐藏信息&lt;/em&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-7.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-7.png&#34;
 	width=&#34;1066&#34;
 	height=&#34;897&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-7_hu410118f1a4c6408460a387ba368d4551_84544_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-7_hu410118f1a4c6408460a387ba368d4551_84544_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-7_hu410118f1a4c6408460a387ba368d4551_84544_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-7_hu410118f1a4c6408460a387ba368d4551_84544_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3392,10 +3392,10 @@
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Nodepanels&lt;/strong&gt;&lt;/em&gt;基础的功能就这么多啦，作为日常的探针还是足足够用的。&lt;/p&gt;
 &lt;p&gt;对于一些&lt;em&gt;&lt;strong&gt;比较懒（belike me）的人&lt;/strong&gt;&lt;/em&gt;，或者是&lt;em&gt;&lt;strong&gt;服务器较少的人&lt;/strong&gt;&lt;/em&gt;来说就是不二之选！&lt;/p&gt;
 &lt;p&gt;有需要也可以付费支持，在此附上价格表：
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-8.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-8.png&#34;
 	width=&#34;948&#34;
 	height=&#34;794&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-8_huf31c64f4fb3cb3be59866661dde7a722_31354_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-8_huf31c64f4fb3cb3be59866661dde7a722_31354_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-8_huf31c64f4fb3cb3be59866661dde7a722_31354_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-8_huf31c64f4fb3cb3be59866661dde7a722_31354_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3406,10 +3406,10 @@
 		data-flex-basis=&#34;286px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-9.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-9.png&#34;
 	width=&#34;972&#34;
 	height=&#34;797&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-9_hu912b1d4d4db469328e9510ea6e351d88_29403_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-9_hu912b1d4d4db469328e9510ea6e351d88_29403_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-9_hu912b1d4d4db469328e9510ea6e351d88_29403_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-9_hu912b1d4d4db469328e9510ea6e351d88_29403_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3420,10 +3420,10 @@
 		data-flex-basis=&#34;292px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-10.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-10.png&#34;
 	width=&#34;1003&#34;
 	height=&#34;828&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-10_hucc32cffe068db61a0b9e210178214302_30349_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-10_hucc32cffe068db61a0b9e210178214302_30349_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-10_hucc32cffe068db61a0b9e210178214302_30349_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-10_hucc32cffe068db61a0b9e210178214302_30349_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3434,10 +3434,10 @@
 		data-flex-basis=&#34;290px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/nodepanels/image-11.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/nodepanels/image-11.png&#34;
 	width=&#34;1046&#34;
 	height=&#34;902&#34;
-	srcset=&#34;https://c1oudf1are.link/p/nodepanels/image-11_hufad01fb901076c7f458845d868f91fa4_42242_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/nodepanels/image-11_hufad01fb901076c7f458845d868f91fa4_42242_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/nodepanels/image-11_hufad01fb901076c7f458845d868f91fa4_42242_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/nodepanels/image-11_hufad01fb901076c7f458845d868f91fa4_42242_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3452,11 +3452,11 @@
         </item>
         <item>
         <title>CloudFlare Tunnel(内网穿透) 获取/使用方法</title>
-        <link>https://c1oudf1are.link/p/cloudflare-tunnel/</link>
+        <link>https://blog.highp.ing/p/cloudflare-tunnel/</link>
         <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/cloudflare-tunnel/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/cloudflare-tunnel/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
 &lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
@@ -3472,10 +3472,10 @@
 &lt;h3 id=&#34;创建域名前缀&#34;&gt;创建域名前缀&lt;/h3&gt;
 &lt;p&gt;进入&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CloudFlare管理面板&lt;/a&gt;，在左侧栏找到&lt;code&gt;Zero Trust&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-1.png&#34;
 	width=&#34;1617&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-1_hufbf891a149816eccf91968c94ac31ad9_57867_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3486,10 +3486,10 @@
 &gt;
 在此输入你的&lt;em&gt;前缀&lt;/em&gt;（喜欢即可，后面可以绑定域名）。&lt;/p&gt;
 &lt;h3 id=&#34;选择计划并验卡&#34;&gt;选择计划并验卡&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-2.png&#34;
 	width=&#34;2039&#34;
 	height=&#34;1593&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-2_hu74b333d2b90ea798509170eff4782a2d_197285_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3502,10 +3502,10 @@
 &lt;h3 id=&#34;创建第一个隧道&#34;&gt;创建第一个隧道&lt;/h3&gt;
 &lt;p&gt;回到&lt;a class=&#34;link&#34; href=&#34;https://one.dash.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Zero Trust&lt;/strong&gt;的主界面&lt;/a&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-5.png&#34;
 	width=&#34;1739&#34;
 	height=&#34;862&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-5_hu6030793502461686cd11911513f92788_104943_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3515,10 +3515,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击左侧的&lt;code&gt;Access-Tunnels&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-6.png&#34;
 	width=&#34;1270&#34;
 	height=&#34;879&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-6_hub65f6b6d6e96421c195d6d24d70a4b68_42038_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3530,10 +3530,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;创建Tunnel，点击&lt;code&gt;Create a tunnel&lt;/code&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-7.png&#34;
 	width=&#34;2753&#34;
 	height=&#34;615&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-7_huf82b932414f99ed755d01e4918deae17_40014_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3546,10 +3546,10 @@
 &gt;
 填写名称&lt;/p&gt;
 &lt;p&gt;按需下载内网穿透的软件
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-8.png&#34;
 	width=&#34;1547&#34;
 	height=&#34;424&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-8_huf60f2bcd208b235f1c482675190c1af9_31083_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3561,10 +3561,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;下一步，填写想&lt;em&gt;连接的域名&lt;/em&gt;以及tunnel穿透的&lt;em&gt;协议&lt;/em&gt;与&lt;em&gt;目标地址&lt;/em&gt;，目标地址可以是本机/内网/公网~~（所以你甚至可以把tunnel当作中转使用）~~
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-9.png&#34;
 	width=&#34;2760&#34;
 	height=&#34;1057&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image-9_hu9fe0d4a40ed247839883518044db8c2d_82515_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -3579,10 +3579,10 @@
 &lt;h2 id=&#34;连接到tunnel隧道&#34;&gt;连接到Tunnel隧道&lt;/h2&gt;
 &lt;p&gt;下载好上面所需要的内网穿透软件后，找一个地方放置，并打开终端&lt;/p&gt;
 &lt;p&gt;输入在&lt;code&gt;隧道名-Configure&lt;/code&gt;下的命令（Linux注意&lt;strong&gt;添加可执行权限&lt;/strong&gt;，以及&lt;strong&gt;去掉默认为windows的exe后缀&lt;/strong&gt;）
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32.png&#34;
 	width=&#34;2382&#34;
 	height=&#34;1006&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/cloudflare-tunnel/image_2023-07-23_21-14-32_hu93ed59d4d8c338a40d1e1886029a6299_358422_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3621,11 +3621,11 @@
         </item>
         <item>
         <title>Linux通用保活方式-Screen教程</title>
-        <link>https://c1oudf1are.link/p/screen/</link>
+        <link>https://blog.highp.ing/p/screen/</link>
         <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/screen/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/screen/11.jpg" alt="Featured image of post Linux通用保活方式-Screen教程" /&gt;&lt;h1 id=&#34;linux通用保活方式-screen教程&#34;&gt;Linux通用保活方式-Screen教程&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/screen/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/screen/11.jpg" alt="Featured image of post Linux通用保活方式-Screen教程" /&gt;&lt;h1 id=&#34;linux通用保活方式-screen教程&#34;&gt;Linux通用保活方式-Screen教程&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;我们都知道，在ssh终端内运行的命令，断开连接后将会快速地被杀死，这才需要我们去使用保活的方法。&lt;/p&gt;
 &lt;p&gt;常见的保活方法有很多，如&lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;screen&lt;/code&gt;、&lt;code&gt;nohup&lt;/code&gt;等。其各有优缺点。我最推荐的是&lt;code&gt;screen&lt;/code&gt;，它有以下的优点：&lt;/p&gt;
@@ -3731,11 +3731,11 @@
         </item>
         <item>
         <title>CloudFlare R2 获取/使用方法</title>
-        <link>https://c1oudf1are.link/p/cloudflare-r2/</link>
+        <link>https://blog.highp.ing/p/cloudflare-r2/</link>
         <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/cloudflare-r2/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/cloudflare-r2/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
 &lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;
@@ -3753,10 +3753,10 @@
 &lt;h2 id=&#34;申请&#34;&gt;申请&lt;/h2&gt;
 &lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;此处&lt;/a&gt;登入&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;账户，并在左侧导航栏找到&lt;code&gt;R2&lt;/code&gt;。
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42.jpg&#34;
 	width=&#34;767&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-10-42_hued18e281a2273998e57ac81bb6482ed5_52289_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3766,10 +3766,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击中间的&lt;code&gt;激活R2&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38.jpg&#34;
 	width=&#34;752&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-12-38_huf7dcb403459bd964471f4284101b4d45_88599_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3779,10 +3779,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击&lt;code&gt;进入付款详细信息&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;469&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-14-04_hud2c0757c9c24c01654e08718b183cd71_50867_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3792,10 +3792,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;输入付款信息，请注意这里并不会有&lt;em&gt;3d验证&lt;/em&gt;，只会扣除银行卡里面的0刀用于验证：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1178&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-16-08_hu8da3a25eec1b3de9c4e7f02eadb046b2_147958_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3808,10 +3808,10 @@
 &lt;h2 id=&#34;创建储存桶&#34;&gt;创建储存桶&lt;/h2&gt;
 &lt;p&gt;完成申请并验卡部分后，回到R2界面。
 点击&lt;code&gt;创建储存桶&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;347&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-19-01_hu5bed765400661949c531c33f8a5be656_29437_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3821,10 +3821,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;填写好储存桶的名称，地区建议选择&lt;em&gt;&lt;strong&gt;亚太（APAC）&lt;/strong&gt;&lt;/em&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1058&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-21-30_hu82baf825fb65a7796e80035bab7465f5_107504_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3837,10 +3837,10 @@
 &lt;p&gt;创建完成后，可以在&lt;code&gt;R2界面&lt;/code&gt;中找到自己刚才创建的储存桶，可以在这里上传/查看/删除文件。&lt;/p&gt;
 &lt;h3 id=&#34;绑定域名&#34;&gt;绑定域名&lt;/h3&gt;
 &lt;p&gt;进入储存桶后，点击 &lt;code&gt;设置-公开访问-自定义域-连接域&lt;/code&gt; 来连接自己的域名：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;547&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-25-06_hu4a3bf291984ee947f92c62c78b13d107_56563_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3853,10 +3853,10 @@
 &lt;h3 id=&#34;创建r2-api-令牌&#34;&gt;创建R2 API 令牌&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;API令牌&lt;/strong&gt;是亚马逊S3储存中的鉴权部分，需要手动创建&lt;strong&gt;API令牌&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;在&lt;code&gt;R2界面&lt;/code&gt;右侧点击 &lt;code&gt;管理R2 API 令牌-创建API 令牌&lt;/code&gt;：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1034&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-29-01_hu810f4ee6c1a5429313cf028b28d01d7b_90488_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3870,10 +3870,10 @@
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;注：访问密钥 ID与机密访问密钥只会显示一次，创建后需注意保存&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;案例挂载至alist&#34;&gt;案例：挂载至Alist&lt;/h3&gt;
 &lt;p&gt;挂载内容如图下填写：
-&lt;img src=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;1089&#34;
-	srcset=&#34;https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-36-02_hu92f8ec69d278ca20d1b8c82fcc349bfd_79074_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -3899,10 +3899,10 @@
         </item>
         <item>
         <title>Alist避免踩坑小技巧</title>
-        <link>https://c1oudf1are.link/p/alist/</link>
+        <link>https://blog.highp.ing/p/alist/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/alist/</guid>
+        <guid>https://blog.highp.ing/p/alist/</guid>
         <description>&lt;img src="https://i2.100024.xyz/2023/07/21/sfr1h3.webp" alt="Featured image of post Alist避免踩坑小技巧" /&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;注：此文并非一分钱不花的白嫖类型&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;&lt;strong&gt;也需要一定的技术能力&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id=&#34;alist避免踩坑小技巧&#34;&gt;Alist避免踩坑小技巧&lt;/h1&gt;
@@ -3944,11 +3944,11 @@
         </item>
         <item>
         <title>Rclone挂载以及Fuse问题解决</title>
-        <link>https://c1oudf1are.link/p/rclone-fuse/</link>
+        <link>https://blog.highp.ing/p/rclone-fuse/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/rclone-fuse/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/rclone-fuse/logo_on_light__horizontal_color.svg" alt="Featured image of post Rclone挂载以及Fuse问题解决" /&gt;&lt;h1 id=&#34;rclone挂载以及fuse问题解决&#34;&gt;Rclone挂载以及Fuse问题解决&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/rclone-fuse/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/rclone-fuse/logo_on_light__horizontal_color.svg" alt="Featured image of post Rclone挂载以及Fuse问题解决" /&gt;&lt;h1 id=&#34;rclone挂载以及fuse问题解决&#34;&gt;Rclone挂载以及Fuse问题解决&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;关于Rclone添加储存以及文件复制的问题可以参考这一篇博客：&lt;a class=&#34;link&#34; href=&#34;https://vpslog.org/blog/%E4%BD%BF%E7%94%A8-rclone-%E5%9C%A8-nas-%E5%92%8C-google-drive-%E4%B9%8B%E9%97%B4%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VPSLOG&lt;/a&gt;，这里很好地写出了添加储存的过程。本文不再赘述。&lt;/p&gt;
@@ -4019,11 +4019,11 @@
         </item>
         <item>
         <title>提问/回答的智慧🤔</title>
-        <link>https://c1oudf1are.link/p/ask-for-help/</link>
+        <link>https://blog.highp.ing/p/ask-for-help/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/ask-for-help/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/ask-for-help/ask.svg" alt="Featured image of post 提问/回答的智慧🤔" /&gt;&lt;h1 id=&#34;提问的智慧&#34;&gt;提问的智慧🤔&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/ask-for-help/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/ask-for-help/ask.svg" alt="Featured image of post 提问/回答的智慧🤔" /&gt;&lt;h1 id=&#34;提问的智慧&#34;&gt;提问的智慧🤔&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;提问前&#34;&gt;提问前&lt;/h2&gt;
@@ -4073,10 +4073,10 @@
         </item>
         <item>
         <title>免费领取.Link域名一年</title>
-        <link>https://c1oudf1are.link/p/freelinkdomain/</link>
+        <link>https://blog.highp.ing/p/freelinkdomain/</link>
         <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/freelinkdomain/</guid>
+        <guid>https://blog.highp.ing/p/freelinkdomain/</guid>
         <description>&lt;img src="https://i2.100024.xyz/2023/07/20/10fybfn.webp" alt="Featured image of post 免费领取.Link域名一年" /&gt;&lt;h1 id=&#34;免费领取link域名一年&#34;&gt;免费领取.Link域名一年&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;最近大型域名注册商Dynadot推出了一个免费领取.Link域名的活动，现在还有许多短域名/有价值的域名，有需要的朋友可以来领取一下。&lt;/p&gt;

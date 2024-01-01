@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>rclone on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/rclone/</link>
+        <link>https://blog.highp.ing/categories/rclone/</link>
         <description>Recent content in rclone on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/rclone/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/rclone/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Alist避免踩坑小技巧</title>
-        <link>https://c1oudf1are.link/p/alist/</link>
+        <link>https://blog.highp.ing/p/alist/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/alist/</guid>
+        <guid>https://blog.highp.ing/p/alist/</guid>
         <description>&lt;img src="https://i2.100024.xyz/2023/07/21/sfr1h3.webp" alt="Featured image of post Alist避免踩坑小技巧" /&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;注：此文并非一分钱不花的白嫖类型&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;&lt;strong&gt;也需要一定的技术能力&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id=&#34;alist避免踩坑小技巧&#34;&gt;Alist避免踩坑小技巧&lt;/h1&gt;
@@ -53,11 +53,11 @@
         </item>
         <item>
         <title>Rclone挂载以及Fuse问题解决</title>
-        <link>https://c1oudf1are.link/p/rclone-fuse/</link>
+        <link>https://blog.highp.ing/p/rclone-fuse/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/rclone-fuse/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/rclone-fuse/logo_on_light__horizontal_color.svg" alt="Featured image of post Rclone挂载以及Fuse问题解决" /&gt;&lt;h1 id=&#34;rclone挂载以及fuse问题解决&#34;&gt;Rclone挂载以及Fuse问题解决&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/rclone-fuse/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/rclone-fuse/logo_on_light__horizontal_color.svg" alt="Featured image of post Rclone挂载以及Fuse问题解决" /&gt;&lt;h1 id=&#34;rclone挂载以及fuse问题解决&#34;&gt;Rclone挂载以及Fuse问题解决&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;关于Rclone添加储存以及文件复制的问题可以参考这一篇博客：&lt;a class=&#34;link&#34; href=&#34;https://vpslog.org/blog/%E4%BD%BF%E7%94%A8-rclone-%E5%9C%A8-nas-%E5%92%8C-google-drive-%E4%B9%8B%E9%97%B4%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VPSLOG&lt;/a&gt;，这里很好地写出了添加储存的过程。本文不再赘述。&lt;/p&gt;

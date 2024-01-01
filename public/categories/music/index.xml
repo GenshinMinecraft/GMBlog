@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Music on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/music/</link>
+        <link>https://blog.highp.ing/categories/music/</link>
         <description>Recent content in Music on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Navidrome 家庭音乐云 | 从入门到入土</title>
-        <link>https://c1oudf1are.link/p/navidrome/</link>
+        <link>https://blog.highp.ing/p/navidrome/</link>
         <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/navidrome/</guid>
+        <guid>https://blog.highp.ing/p/navidrome/</guid>
         <description>&lt;img src="https://c1oudf1are.link/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png" alt="Featured image of post Navidrome 家庭音乐云 | 从入门到入土" /&gt;&lt;h1 id=&#34;navidrome-家庭音乐云--从入门到入土&#34;&gt;Navidrome 家庭音乐云 | 从入门到入土&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;注：本文为 Ubuntu 22.04 系统环境，Debian 系列可照抄&lt;/strong&gt;&lt;/p&gt;
@@ -194,10 +194,10 @@
 &lt;li&gt;专辑序号&lt;/li&gt;
 &lt;li&gt;年代（时间）
 而 &lt;code&gt;Navidrome&lt;/code&gt; 会自动搜索歌曲的 &lt;code&gt;Metadata&lt;/code&gt; ，用于展示歌曲信息
-如：&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038.jpg&#34;
+如：&lt;img src=&#34;https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038.jpg&#34;
 	width=&#34;1171&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_480x0_resize_q75_box.jpg 480w, https://c1oudf1are.link/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/navidrome/IMG_20231125_214837_038_hu446e43c2ae592d3fbff80464c9382db0_122736_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IMG_20231125_214837_038.jpg&#34;
@@ -262,10 +262,10 @@
 &lt;p&gt;大功告成！&lt;/p&gt;
 &lt;h2 id=&#34;初步设置-navidrome&#34;&gt;初步设置 Navidrome&lt;/h2&gt;
 &lt;p&gt;通过 &lt;code&gt;systemctl start navidrome&lt;/code&gt; 打开 &lt;code&gt;Navidrome&lt;/code&gt; 后，在浏览器访问你所设置的 IP 与 Port，如出现&lt;code&gt;设置管理员&lt;/code&gt;界面即为成功
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/images.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/images.png&#34;
 	width=&#34;197&#34;
 	height=&#34;256&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/images_hu1a613b15de73ad4b575d4cac9ea158d8_5087_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;images.png&#34;
@@ -277,10 +277,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在&lt;code&gt;右上角-个性化&lt;/code&gt;设置项中，可以调整自己喜欢的&lt;strong&gt;主题&lt;/strong&gt;与&lt;strong&gt;界面语言&lt;/strong&gt;等，&lt;strong&gt;还可以和其他流媒体音乐平台进行互通&lt;/strong&gt;，不过一般来说，比较不常使用
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-094053_hu3b0f94e238f14d6fe2ec999f1ee62250_121961_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Screenshot_20231126-094053.png&#34;
@@ -293,10 +293,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Navidrome&lt;/code&gt; 是一个多用户的系统，每个账号都有独自的&lt;strong&gt;喜欢列表&lt;/strong&gt;，&lt;strong&gt;歌单&lt;/strong&gt;等，我们可以在&lt;code&gt;用户&lt;/code&gt;设置项中&lt;em&gt;&lt;strong&gt;管理帐号&lt;/strong&gt;&lt;/em&gt;，包括但不限于：&lt;strong&gt;新增账号、管理帐号、修改密码&lt;/strong&gt;等
 &lt;del&gt;其实好像在 Homecloud 没啥用（&lt;/del&gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-094441_hu286234365b7f1a6f3a899829cb640484_97479_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Screenshot_20231126-094441.png&#34;
@@ -339,10 +339,10 @@
 &lt;p&gt;然后就可以尽情享用这自建 &lt;code&gt;Navidrome&lt;/code&gt; 了！&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Shut on Android Symfonium
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101054_huba5f1381fe97125c58c01dd20e27b923_1763018_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主界面&#34;
@@ -353,10 +353,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101113_hu7ccbcfe764b21cff3c25936841d1a780_872905_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;播放界面&#34;
@@ -367,10 +367,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101524_hu793bd4a6ba8b0685fc4cf13f8069512a_175440_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;歌词界面&#34;
@@ -381,10 +381,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101135_huf7bb31e8039961409b0f98c94e7f46e3_945065_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;专辑界面&#34;
@@ -395,10 +395,10 @@
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;
-&lt;img src=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150.png&#34;
+&lt;img src=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1600&#34;
-	srcset=&#34;https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/navidrome/Screenshot_20231126-101150_huf3edb77be737e56599f66fcffd4f5edd_396031_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;搜索界面&#34;

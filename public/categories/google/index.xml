@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Google on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/categories/google/</link>
+        <link>https://blog.highp.ing/categories/google/</link>
         <description>Recent content in Google on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/categories/google/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/google/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>如何让 Google 快速收录你的网站 / 提升在 Google 的排名</title>
-        <link>https://c1oudf1are.link/p/googlepaiming/</link>
+        <link>https://blog.highp.ing/p/googlepaiming/</link>
         <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/googlepaiming/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/googlepaiming/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一&lt;/p&gt;
 &lt;p&gt;所以本文会教你如何快速提升在 Google 中&lt;strong&gt;你的网站的排名&lt;/strong&gt;&lt;/p&gt;
@@ -42,10 +42,10 @@
 &lt;p&gt;&lt;strong&gt;请注意，如果你的博客发生了变动（比如新增文章），需要重新生成&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;向-google-提交-sitemap&#34;&gt;向 Google 提交 Sitemap&lt;/h3&gt;
 &lt;p&gt;在&lt;code&gt;侧边栏-编制索引-站点地图&lt;/code&gt;中&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image.png&#34;
 	width=&#34;659&#34;
 	height=&#34;1210&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image_huc20eb71805d1a9bc598df2e3835b4967_63950_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -55,10 +55,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;输入站点地图 URL 后即可完成提交&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-1.png&#34;
 	width=&#34;1888&#34;
 	height=&#34;814&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-1_hu452659b8d1fbedd83a38c1b7fdb1d2cb_96296_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -77,10 +77,10 @@
 &lt;/blockquote&gt;
 &lt;p&gt;你可以通过 &lt;a class=&#34;link&#34; href=&#34;https://pagespeed.web.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google 官方工具 PageSpeed Insights&lt;/a&gt; 来检测你的网站的得分&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-2.png&#34;
 	width=&#34;2119&#34;
 	height=&#34;1541&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-2_hu8589f1993322a946f657644f110be99d_258520_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -94,10 +94,10 @@
 &lt;p&gt;一般来说，得分 95+ 的网站优化已经顶破天了，无需继续优化&lt;/p&gt;
 &lt;p&gt;得分 85+ 的网站可能需要一些小小的优化，但是并没有很大必要&lt;/p&gt;
 &lt;p&gt;在测评下方有对于你网站的&lt;strong&gt;优化建议&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-3.png&#34;
 	width=&#34;2017&#34;
 	height=&#34;1144&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-3_hu50b2ef427351cb8944cc900bdc9476de_166357_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -140,10 +140,10 @@
 &lt;h3 id=&#34;刚提交给-google-时&#34;&gt;刚提交给 Google 时&lt;/h3&gt;
 &lt;p&gt;注意：第一次提交给 Google 时并不会马上就收录，大约要等待 2-3 天左右&lt;/p&gt;
 &lt;p&gt;当收录了你的站点时，请手动将博客文章地址输入到 Search Console 中的搜索框内&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-4.png&#34;
 	width=&#34;1488&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-4_hu98a81f2a72535e4c78d874cb3a2bd2c7_87130_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -156,10 +156,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;这样会让 Google 查询你输入的网址&lt;strong&gt;是否已经收录&lt;/strong&gt;，一般是没有的&lt;/p&gt;
 &lt;p&gt;然后点击&lt;code&gt;请求编入索引&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/googlepaiming/image-5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/googlepaiming/image-5.png&#34;
 	width=&#34;786&#34;
 	height=&#34;433&#34;
-	srcset=&#34;https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/googlepaiming/image-5_hue401a5d14cd41456e4c53cd28e0b383d_31213_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -188,11 +188,11 @@
         </item>
         <item>
         <title>安卓设备安装Google框架方法汇总(持续更新)</title>
-        <link>https://c1oudf1are.link/p/androidinstallgoogle/</link>
+        <link>https://blog.highp.ing/p/androidinstallgoogle/</link>
         <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/p/androidinstallgoogle/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
+        <guid>https://blog.highp.ing/p/androidinstallgoogle/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;目前，国内手机不内置&lt;code&gt;GMS&lt;/code&gt;已经是常态，转而使用自家的生态以及服务。&lt;/p&gt;
 &lt;p&gt;但是总有人需要&lt;code&gt;Google框架&lt;/code&gt;进行使用，所以就有了以下的安装方法。&lt;/p&gt;
@@ -1023,10 +1023,10 @@
 &lt;h3 id=&#34;2下载你所需版本的刷机包&#34;&gt;2.下载你所需版本的刷机包&lt;/h3&gt;
 &lt;p&gt;前往着一个网址：&lt;a class=&#34;link&#34; href=&#34;https://opengapps.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://opengapps.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov.webp&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov.webp&#34;
 	width=&#34;453&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://c1oudf1are.link/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, https://blog.highp.ing/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt&#34;
@@ -1055,10 +1055,10 @@
 &lt;p&gt;详细的模块安装方法就&lt;em&gt;不介绍&lt;/em&gt;了，安装完重启即可享受&lt;strong&gt;标准的谷歌服务以及套件&lt;/strong&gt;！&lt;/p&gt;
 &lt;h2 id=&#34;附解决google-play-设备未获得play保护机制认证&#34;&gt;附：解决&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;在一些&lt;em&gt;冷门或是国产设备&lt;/em&gt;上使用上述方法安装&lt;code&gt;Google 框架&lt;/code&gt;时，会出现&lt;code&gt;Google Play 设备未获得Play保护机制认证&lt;/code&gt;这一提示：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1.png&#34;
 	width=&#34;745&#34;
 	height=&#34;570&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;
@@ -1076,10 +1076,10 @@
     &gt;本站&lt;/a&gt; 任选一个&lt;strong&gt;你可以访问&lt;/strong&gt;的地址下载&lt;/p&gt;
 &lt;p&gt;随后&lt;strong&gt;安装并打开&lt;/strong&gt;即可&lt;/p&gt;
 &lt;h3 id=&#34;2获取gsfid&#34;&gt;2.获取GSFID&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2.png&#34;
 	width=&#34;323&#34;
 	height=&#34;573&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1094,10 +1094,10 @@
 &lt;p&gt;前往 &lt;a class=&#34;link&#34; href=&#34;https://www.google.com/android/uncertified/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.google.com/android/uncertified/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;登入你的&lt;code&gt;Google账户&lt;/code&gt;，并输入你上面获取的&lt;code&gt;GSFID&lt;/code&gt;:(图来自知乎)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3.png&#34;
 	width=&#34;1132&#34;
 	height=&#34;584&#34;
-	srcset=&#34;https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://c1oudf1are.link/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Alt text&#34;

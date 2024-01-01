@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on GenshinMinecraftの小小藏身地</title>
-        <link>https://c1oudf1are.link/page/</link>
+        <link>https://blog.highp.ing/page/</link>
         <description>Recent content in Pages on GenshinMinecraftの小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://c1oudf1are.link/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://c1oudf1are.link/archives/</link>
+        <link>https://blog.highp.ing/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/archives/</guid>
+        <guid>https://blog.highp.ing/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://c1oudf1are.link/links/</link>
+        <link>https://blog.highp.ing/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/links/</guid>
+        <guid>https://blog.highp.ing/links/</guid>
         <description>&lt;!--
 To use this feature, add `links` section to frontmatter.
 
@@ -48,18 +48,18 @@ links:
         </item>
         <item>
         <title>Search</title>
-        <link>https://c1oudf1are.link/search/</link>
+        <link>https://blog.highp.ing/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/search/</guid>
+        <guid>https://blog.highp.ing/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://c1oudf1are.link/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://blog.highp.ing/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://c1oudf1are.link/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://blog.highp.ing/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;h2 id=&#34;genshinminecraft&#34;&gt;GenshinMinecraft&lt;/h2&gt;
 &lt;p&gt;一个年仅14岁的初中生&lt;/p&gt;
 &lt;p&gt;常年活跃于TeleGram（@C1oudF1are)&lt;/p&gt;
