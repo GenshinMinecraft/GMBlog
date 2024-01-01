@@ -7,6 +7,129 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用pgp向github提交签名commit</title>
+        <link>https://blog.highp.ing/p/pgptogithub/</link>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/pgptogithub/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/pgptogithub/01d3dd5d4b60d4a8012187f4bf8003.jpg@2o.jpg" alt="Featured image of post 使用pgp向github提交签名commit" /&gt;&lt;h1 id=&#34;使用pgp向github提交签名commit&#34;&gt;使用pgp向github提交签名commit&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 sam 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.jyf.icu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sam 的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;快速介绍&#34;&gt;快速介绍&lt;/h2&gt;
+&lt;h3 id=&#34;什么是pgp&#34;&gt;什么是pgp&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;为什么要提交签名commit&#34;&gt;为什么要提交签名commit&lt;/h3&gt;
+&lt;p&gt;众所周知，Git的提交只需要自己的邮箱和密码，这就出现了一个漏洞：  只要他人有你的用户名和邮箱，就可以进行提交，就可以更改你的仓库内容。&lt;/p&gt;
+&lt;p&gt;一个典型的案例：
+&lt;code&gt;https://spencerwoo.com/blog/wait-this-is-not-my-commit&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;阅前须知&#34;&gt;阅前须知&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;阅读本教程，&lt;strong&gt;默认&lt;/strong&gt;您拥有一定的&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/qq_44094296/article/details/114324505&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;git基础&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本教程环境为 &lt;code&gt;Ubuntu22.04&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;创建pgp密钥&#34;&gt;创建PGP密钥&lt;/h2&gt;
+&lt;p&gt;使用下列命令来创建一个属于你的密钥对&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gpg --full-generate-key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;在密钥种类处：选择默认 RSA and DSA 即可;&lt;/li&gt;
+&lt;li&gt;在密钥长度选项处：选择 4096 bits;&lt;/li&gt;
+&lt;li&gt;在密钥过期时间处：按照自己的需要选择，建议避免永不过期；&lt;/li&gt;
+&lt;li&gt;在我们的&lt;em&gt;用户 ID&lt;/em&gt;和&lt;em&gt;邮箱&lt;/em&gt;处：常用用户名，并&lt;strong&gt;填入 GitHub 上面认证过的邮箱&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;最后，为密钥设置一个安全的密码，并一定记住这一密码。（当然你也可以不设置直接回车。不过不建议）
+这样，我们就拥有了一个属于自己的密钥对&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;查看并上传密钥到github&#34;&gt;查看并上传密钥到github&lt;/h2&gt;
+&lt;p&gt;使用下列命令来查看密钥&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gpg --list-secret-keys --keyid-format LONG
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其输出应该像这样（Comes from &lt;a class=&#34;link&#34; href=&#34;https://spencerwoo.com/blog/wait-this-is-not-my-commit&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;there&lt;/a&gt;）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/home/spencer/.gnupg/pubring.kbx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sec   rsa4096/24CD550268849CA0 2020-08-29 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;SC&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      9433E1B6807DE7C15E20DC3B24CD550268849CA0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uid                 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;ultimate&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Spencer Woo &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;My GPG key&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &amp;lt;my@email.com&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssb   rsa4096/EB754D2B2409E9FE 2020-08-29 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;E&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中，第一行的 &lt;code&gt;RSA4096&lt;/code&gt; 后的 &lt;code&gt;24CD550268849CA0&lt;/code&gt; 为你的PGP指纹。请妥善保存它（后面会用到）。
+接着我们需要告诉 GitHub 我们使用的 GPG 公钥。
+使用下面的命令即可导出我们的 GPG 公钥&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gpg --armor --export &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;你的指纹&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接着将输出（他应该长这样）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dasSJDsiiiaF......
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----END PGP PUBLIC KEY BLOCK---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;粘贴到 &lt;a class=&#34;link&#34; href=&#34;https://github.com/settings/keys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;此处&lt;/a&gt;，并保存。&lt;/p&gt;
+&lt;h2 id=&#34;使用git签名commit&#34;&gt;使用git签名commit&lt;/h2&gt;
+&lt;p&gt;使用如下命令，就可以完成本操作。（此命令会开启所有commit全部签名，如果不需要请查阅后文）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.signingkey &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;你的指纹&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global commit.gpgsign &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如需单次签名 使用&lt;code&gt;git commit&lt;/code&gt;命令时，在结尾加入&lt;code&gt;-S&lt;/code&gt;参数，即：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -S -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;commit注释&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;完成&#34;&gt;完成&lt;/h2&gt;
+&lt;p&gt;完成上述步骤后进行一次提交，即可看见自己的commit上有了Verified的绿色标签（如果不行，你可以找谷歌爸爸~~（手动狗头）~~）&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>新年新气象－－新博客，新域名，新ASN！</title>
         <link>https://blog.highp.ing/p/2024new/</link>
         <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
