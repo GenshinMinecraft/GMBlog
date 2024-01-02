@@ -1,7 +1,7 @@
 ---
 title: 在VPS中使用OPENVPN内置代理
 description: 也许对搭建节点有点用
-date: 2024-01-01
+date: 2024-01-02
 slug: vps-openvpn
 image: image.png
 categories:
