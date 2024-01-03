@@ -9,6 +9,9 @@ categories:
 ---
 
 # 2023年底总结！
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 今年注定是我人生中比较重要的一年
 
 可能本文并没有什么能够帮助你的地方，但是也是我自己对待生活的一个态度，~~（可以看作我的胡乱发言~~

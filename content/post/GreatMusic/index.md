@@ -10,6 +10,8 @@ categories:
 
 # 🎵音乐推荐🎵
 
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 
 虽然说是音乐推荐，其实就是**我的歌单**啦！

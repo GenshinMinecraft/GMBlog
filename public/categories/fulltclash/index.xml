@@ -13,6 +13,8 @@
         
         <guid>https://blog.highp.ing/p/fulltclash/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AirportR/FullTclash.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt;是一个 &lt;em&gt;基于clash 核心运作的、进行全量订阅测试的telegram机器人&lt;/em&gt;（官方原话）&lt;/p&gt;

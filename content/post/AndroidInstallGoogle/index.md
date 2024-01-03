@@ -12,6 +12,8 @@ categories:
 
 # 安卓设备安装Google框架方法汇总(持续更新)
 
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 目前，国内手机不内置`GMS`已经是常态，转而使用自家的生态以及服务。
 

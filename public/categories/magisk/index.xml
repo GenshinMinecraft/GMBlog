@@ -13,6 +13,8 @@
         
         <guid>https://blog.highp.ing/p/magisk/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;手机端比较完善的root方法就只有&lt;strong&gt;Magisk&lt;/strong&gt;了（Kernelsu暂不讨论）&lt;/p&gt;
 &lt;p&gt;但是由于众所周知的原因，Magisk官方版本的&lt;strong&gt;Magisk Hide&lt;/strong&gt;被砍掉了&lt;/p&gt;

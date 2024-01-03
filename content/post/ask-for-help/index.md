@@ -9,6 +9,9 @@ categories:
 ---
 
 # 提问的智慧🤔
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 <https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md>
 ## 提问前
 请在提问任何问题前做好以下准备（包括但不限于）：

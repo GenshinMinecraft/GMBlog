@@ -6,7 +6,361 @@
         <description>Recent content on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>对于博客而言的 Markdown 写作规范</title>
+        <link>https://blog.highp.ing/p/writemarkdown/</link>
+        <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/writemarkdown/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/writemarkdown/image-16.png" alt="Featured image of post 对于博客而言的 Markdown 写作规范" /&gt;&lt;h1 id=&#34;对于博客而言的-markdown-写作规范&#34;&gt;对于博客而言的 Markdown 写作规范&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本文会严格地按照 &lt;code&gt;本文所讲述的 Markdown 规范&lt;/code&gt; 进行编写&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;关于-markdown&#34;&gt;关于 Markdown&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。———— &lt;a class=&#34;link&#34; href=&#34;https://markdown.com.cn/basic-syntax/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Markdown 官方教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;由于其可以&lt;strong&gt;快速转化成为&lt;/strong&gt; &lt;code&gt;Html&lt;/code&gt; 等基本文件格式，广泛地被博客程序所采用。在如今，&lt;strong&gt;大部分的博客用的都是基于 Markdown 的编辑器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;也许是 &lt;code&gt;可视化编辑器&lt;/code&gt;，也有可能是像我一样使用 &lt;code&gt;Vim&lt;/code&gt; 或者 &lt;code&gt;Visual Studio Code&lt;/code&gt; 进行写作的&lt;/p&gt;
+&lt;p&gt;现在的大部分博客程序，都采用了 &lt;code&gt;Markdown&lt;/code&gt; 进行渲染 &lt;code&gt;Html&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo: 本博客所使用的就是 &lt;code&gt;Hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hexo: 与 &lt;code&gt;Hugo&lt;/code&gt; 类似的纯 &lt;code&gt;Html&lt;/code&gt; 博客程序&lt;/li&gt;
+&lt;li&gt;WordPress: 一款 &lt;code&gt;PHP&lt;/code&gt; 博客程序，为&lt;strong&gt;最受欢迎的网站内容管理系统&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Typecho: 也是一款 &lt;code&gt;PHP&lt;/code&gt; 博客程序，也被广泛地运用在个人博客上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正确地编写博客，让阅读者有&lt;em&gt;更好的阅读体验&lt;/em&gt;，是内容创作者的工作之一&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PS: 各大搜索引擎也会根据用户浏览体验来进行排名的微调&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;规范&#34;&gt;规范&lt;/h2&gt;
+&lt;h3 id=&#34;适当的空格与大写&#34;&gt;适当的空格与大写&lt;/h3&gt;
+&lt;p&gt;可能很多内容创作者都没有意识到这一点，我们需要在 &lt;strong&gt;英文/数字与汉字&lt;/strong&gt; 之间输入恰当的空格&lt;/p&gt;
+&lt;p&gt;正确示范:
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image.png&#34;
+	width=&#34;1088&#34;
+	height=&#34;238&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image_hu635f2cd7e607786ab363f3e48e84e506_151707_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image_hu635f2cd7e607786ab363f3e48e84e506_151707_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;适当的空格&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;457&#34;
+		data-flex-basis=&#34;1097px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;错误示范:
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-1.png&#34;
+	width=&#34;1059&#34;
+	height=&#34;227&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-1_huc7fbc20f72c316f9155253474ff6d28e_147751_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-1_huc7fbc20f72c316f9155253474ff6d28e_147751_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;不适当的空格与大小写&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;466&#34;
+		data-flex-basis=&#34;1119px&#34;
+	
+&gt;
+上图应改为 &lt;code&gt;本教程环境为 Ubuntu 22.04&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一般的，大部分单词开头首字母&lt;strong&gt;都应该大写&lt;/strong&gt;，当数字与字母连接时，也应该使用空格！&lt;/p&gt;
+&lt;h3 id=&#34;适当的高亮&#34;&gt;适当的高亮&lt;/h3&gt;
+&lt;p&gt;高亮不是随便整的，一般用于比较需要重点突出的文字&lt;/p&gt;
+&lt;h4 id=&#34;需要高亮的地方&#34;&gt;需要高亮的地方&lt;/h4&gt;
+&lt;p&gt;一些专有名词，比如本文的 &lt;code&gt;High Ping Network&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-2.png&#34;
+	width=&#34;1062&#34;
+	height=&#34;232&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-2_hu037ca335496dcd7db7bd476499897f1c_140821_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-2_hu037ca335496dcd7db7bd476499897f1c_140821_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;适当的高亮&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;457&#34;
+		data-flex-basis=&#34;1098px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;或是一些介绍的对象，都应当有适当的高亮，不然会造成阅读困难，让读者抓不住重点&lt;/p&gt;
+&lt;h4 id=&#34;无需高亮的地方&#34;&gt;无需高亮的地方&lt;/h4&gt;
+&lt;p&gt;不需要高亮的地方，有列表和标题&lt;/p&gt;
+&lt;p&gt;列表所介绍的东西，前面不需要，后面需要&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-3.png&#34;
+	width=&#34;1022&#34;
+	height=&#34;243&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-3_huaf0658dcc9006b752c71954c69fb97f4_73106_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-3_huaf0658dcc9006b752c71954c69fb97f4_73106_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;列表高亮&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;420&#34;
+		data-flex-basis=&#34;1009px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当列表没有对每个项目的介绍时 (可以想象为无冒号)，全都不需要高亮&lt;/p&gt;
+&lt;h3 id=&#34;图片的用法&#34;&gt;图片的用法&lt;/h3&gt;
+&lt;p&gt;图片的基本 &lt;code&gt;Markdown&lt;/code&gt; 语法为&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Markdown&#34; data-lang=&#34;Markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Alt text&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;FileName&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中，&lt;code&gt;FileName&lt;/code&gt; 并不重要，重要的是 &lt;code&gt;Alt text&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;应当在 &lt;code&gt;Alt text&lt;/code&gt; 中写一些关于这张图片的信息，简单介绍即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-4.png&#34;
+	width=&#34;510&#34;
+	height=&#34;137&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-4_hucb33d07a49066b05bddf20b8a205f076_12092_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-4_hucb33d07a49066b05bddf20b8a205f076_12092_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图片的用法&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;372&#34;
+		data-flex-basis=&#34;893px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;标题的递进&#34;&gt;标题的递进&lt;/h3&gt;
+&lt;p&gt;千万，千万不要乱递进标题&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-5.png&#34;
+	width=&#34;532&#34;
+	height=&#34;325&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-5_hu5e70388e30743c2c001943ce5905e530_199393_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-5_hu5e70388e30743c2c001943ce5905e530_199393_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;标题错误示范&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;392px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;上面的图片 从两个#，直接跳到四个#了&lt;/p&gt;
+&lt;p&gt;这样的递进可能对你的行文有所帮助，但是&lt;strong&gt;非常不符合规范&lt;/strong&gt;，而且在部分有生成目录功能的博客软件中，&lt;strong&gt;目录可能会变得非常奇怪&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;标点符号&#34;&gt;标点符号&lt;/h3&gt;
+&lt;h4 id=&#34;无需出现的标点符号&#34;&gt;无需出现的标点符号&lt;/h4&gt;
+&lt;p&gt;这里以中文的标点符号作为演示&lt;/p&gt;
+&lt;p&gt;在每一句话的&lt;em&gt;结尾&lt;/em&gt;，当不需要强调突出的时候，尽量避免出现&lt;em&gt;句号与逗号&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-6.png&#34;
+	width=&#34;1189&#34;
+	height=&#34;1584&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-6_hu68424e478918e62359eb36d02c971bcb_280806_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-6_hu68424e478918e62359eb36d02c971bcb_280806_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;标点符号&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到，本文每一段的结尾，从来都没有句号与逗号&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;但是可以出现感叹号、省略号等具有突出强调作用标点&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;英文标点符号&#34;&gt;英文标点符号&lt;/h4&gt;
+&lt;p&gt;由于 &lt;code&gt;Markdown&lt;/code&gt; 的解析原因，请不要使用 &lt;strong&gt;除了逗号句号以外的中文符号&lt;/strong&gt;，或者叫它们全角符号&lt;/p&gt;
+&lt;p&gt;这会导致不同的 &lt;code&gt;Markdown 解析器&lt;/code&gt; 出现不同的结果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-7.png&#34;
+	width=&#34;1080&#34;
+	height=&#34;213&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-7_hu0886f30a3dcb9c17f5f186b92757821e_130173_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-7_hu0886f30a3dcb9c17f5f186b92757821e_130173_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;括号的错误实验&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;507&#34;
+		data-flex-basis=&#34;1216px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;上图中的删除线，在不同的 &lt;code&gt;Markdown 解析器&lt;/code&gt; 中出现了不同的结果:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VSCode: 可以正常显示删除线
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-10.png&#34;
+	width=&#34;1081&#34;
+	height=&#34;198&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-10_hu5a3db85960774bac2e99b043e3d07569_36828_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-10_hu5a3db85960774bac2e99b043e3d07569_36828_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;VSCode下划线&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;545&#34;
+		data-flex-basis=&#34;1310px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;Hexo: 可以正常显示删除线
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-9.png&#34;
+	width=&#34;896&#34;
+	height=&#34;451&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-9_hu9846161b5ec9fd20cf4a89e9c1a23ae3_123046_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-9_hu9846161b5ec9fd20cf4a89e9c1a23ae3_123046_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hexo删除线&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;198&#34;
+		data-flex-basis=&#34;476px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;Hugo: 无法正常显示删除线
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-8.png&#34;
+	width=&#34;910&#34;
+	height=&#34;682&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-8_hudd3ecbca27384714cfffa3096225aeee_184678_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-8_hudd3ecbca27384714cfffa3096225aeee_184678_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hugo删除线&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们也可以从上图的比较中看出，使用全角标点符号会有不可预想的后果&lt;/p&gt;
+&lt;p&gt;所以，这里列出一些建议使用 &lt;code&gt;英文标点符号&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;冒号: 使用半角符号时候，一般需要在 半角冒号后加一个空格
+&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-11.png&#34;
+	width=&#34;1027&#34;
+	height=&#34;236&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-11_hue99bf810d424a353e566bd4c5738bfd7_244268_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-11_hue99bf810d424a353e566bd4c5738bfd7_244268_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;冒号正确用法&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;435&#34;
+		data-flex-basis=&#34;1044px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;括号&lt;/li&gt;
+&lt;li&gt;下划线&lt;/li&gt;
+&lt;li&gt;连字符&lt;/li&gt;
+&lt;li&gt;其他的不常用符号 (如 &lt;code&gt;~ | \ / 等&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Markdown&lt;/code&gt; 的列表分为两种，&lt;code&gt;有序列表&lt;/code&gt; 和 &lt;code&gt;无序列表&lt;/code&gt;，最常使用的时无序列表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-12.png&#34;
+	width=&#34;916&#34;
+	height=&#34;330&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-12_hu7329661ca6265d7b3e7e499b9fe36f74_50901_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-12_hu7329661ca6265d7b3e7e499b9fe36f74_50901_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;无序列表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;277&#34;
+		data-flex-basis=&#34;666px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在定义一个有序列表时，建议使用 &lt;code&gt;数字.&lt;/code&gt; 的形式&lt;/p&gt;
+&lt;p&gt;正确示范:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-13.png&#34;
+	width=&#34;223&#34;
+	height=&#34;161&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-13_hu2cddfb5aec7dcbaa8cdb92ebbe4f36cf_6044_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-13_hu2cddfb5aec7dcbaa8cdb92ebbe4f36cf_6044_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;有序列表正确示范&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;错误示范:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-14.png&#34;
+	width=&#34;213&#34;
+	height=&#34;168&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-14_hu50094da53d0dc070176b574d17538c63_5125_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-14_hu50094da53d0dc070176b574d17538c63_5125_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;有序列表错误示范&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;304px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;虽然是错误的示范，但是 &lt;code&gt;Markdown&lt;/code&gt; 会自动帮我们纠正 (部分 &lt;code&gt;Markdown 解析器&lt;/code&gt; 无此功能)&lt;/p&gt;
+&lt;p&gt;显示效果:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-15.png&#34;
+	width=&#34;390&#34;
+	height=&#34;272&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-15_hu329119036cd476941931e3a7c024dc38_6779_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-15_hu329119036cd476941931e3a7c024dc38_6779_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;有序列表错误示范显示效果&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;引用&#34;&gt;引用&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Markdown&lt;/code&gt; 有一个专门用来引用的语法，那就是 &lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;比如:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-17.png&#34;
+	width=&#34;1076&#34;
+	height=&#34;278&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-17_hue689863cb04161f3b34567b4c99659db_84192_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-17_hue689863cb04161f3b34567b4c99659db_84192_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;引用&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;387&#34;
+		data-flex-basis=&#34;928px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;请不要简单地使用一个 &lt;code&gt;Tab&lt;/code&gt; 进行引用，这样的引用会产生歧义&lt;/p&gt;
+&lt;p&gt;错误示范:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/writemarkdown/image-18.png&#34;
+	width=&#34;1101&#34;
+	height=&#34;242&#34;
+	srcset=&#34;https://blog.highp.ing/p/writemarkdown/image-18_hu22338486a4ac9f844c25bd932169a354_58481_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/writemarkdown/image-18_hu22338486a4ac9f844c25bd932169a354_58481_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;引用错误示范&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;454&#34;
+		data-flex-basis=&#34;1091px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;上文提到的就是我们在使用 &lt;code&gt;Markdown&lt;/code&gt; 进行内容创作时需要注意的地方，更全面的 &lt;code&gt;Markdown&lt;/code&gt; 教程可以在 &lt;a class=&#34;link&#34; href=&#34;https://markdown.com.cn/basic-syntax/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Markdown 官方教程&lt;/a&gt; 查阅&lt;/p&gt;
+&lt;p&gt;本文收录的一些写作规范也是我平常在写作中经常遇到的，我也会帮助 &lt;code&gt;High Ping Network&lt;/code&gt; 的伙伴们进行适当的修改，才可以发布到博客上&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>在VPS中使用OPENVPN内置代理</title>
         <link>https://blog.highp.ing/p/vps-openvpn/</link>
         <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
@@ -635,6 +989,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/googlepaiming/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一&lt;/p&gt;
 &lt;p&gt;所以本文会教你如何快速提升在 Google 中&lt;strong&gt;你的网站的排名&lt;/strong&gt;&lt;/p&gt;
@@ -815,6 +1171,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/2023zongjie/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/2023zongjie/TUAPI-EEES-CC--1250773564.jpg" alt="Featured image of post 我的 2023 年度总结！" /&gt;&lt;h1 id=&#34;2023年底总结&#34;&gt;2023年底总结！&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;今年注定是我人生中比较重要的一年&lt;/p&gt;
 &lt;p&gt;可能本文并没有什么能够帮助你的地方，但是也是我自己对待生活的一个态度，&lt;del&gt;（可以看作我的胡乱发言&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&#34;学习方面&#34;&gt;学习方面&lt;/h2&gt;
@@ -864,6 +1222,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/homecloud/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584.jpg" alt="Featured image of post HomeCloud 家庭云 折腾心得" /&gt;&lt;h1 id=&#34;homecloud-家庭云-折腾心得&#34;&gt;HomeCloud 家庭云 折腾心得&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;作为一个 &lt;strong&gt;新时代网络人&lt;/strong&gt;，在家里放几台小机器，运行一下内网服务，还是非常 INTERESTING 的～～&lt;/p&gt;
 &lt;p&gt;所以本文会介绍，有&lt;em&gt;&lt;strong&gt;哪些服务值得在内网运行&lt;/strong&gt;&lt;/em&gt;，以及&lt;em&gt;&lt;strong&gt;家用低功耗服务器的选择&lt;/strong&gt;&lt;/em&gt;，具有一定的参考价值，也包含一些个人的主观评价！&lt;/p&gt;
@@ -1485,8 +1845,10 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/p/navidrome/</guid>
-        <description>&lt;img src="https://c1oudf1are.link/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png" alt="Featured image of post Navidrome 家庭音乐云 | 从入门到入土" /&gt;&lt;h1 id=&#34;navidrome-家庭音乐云--从入门到入土&#34;&gt;Navidrome 家庭音乐云 | 从入门到入土&lt;/h1&gt;
+        <description>&lt;img src="https://blog.highp.ing/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png" alt="Featured image of post Navidrome 家庭音乐云 | 从入门到入土" /&gt;&lt;h1 id=&#34;navidrome-家庭音乐云--从入门到入土&#34;&gt;Navidrome 家庭音乐云 | 从入门到入土&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注：本文为 Ubuntu 22.04 系统环境，Debian 系列可照抄&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Navidrome&lt;/strong&gt;是一个自托管(Self-Hosted)、低占用、兼容&lt;strong&gt;Subsonic&lt;/strong&gt;的开源音乐流媒体服务，常被用于家庭云、NAS等内网服务器上。&lt;/p&gt;
 &lt;h3 id=&#34;与其他自建流媒体服务的比较&#34;&gt;与其他自建流媒体服务的比较：&lt;/h3&gt;
@@ -1891,6 +2253,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/ruipingcloudflare/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/ruipingcloudflare/OIP-C.jpg" alt="Featured image of post 锐评CloudFlare（CloudFlare从来都不是减速器）" /&gt;&lt;h1 id=&#34;锐评cloudflarecloudflare从来都不是减速器&#34;&gt;锐评CloudFlare（CloudFlare从来都不是减速器）&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速度，好吧不要睁着眼睛乱说，全球CDN很难的。&lt;/p&gt;
 &lt;p&gt;而且CloudFlare真的不是随便给你做CDN的品牌欸，我跟CF跟了多少年，他怎么被你们滥用的我是最知道的一个人，他都差点把他们家掏给GFW了，差点CloudFlare姓China了，真的乱说。&lt;/p&gt;
 &lt;p&gt;这么多年都是免费的，哪里慢了（很好用的），注册个账号就送你各种可以滥用的服务。&lt;/p&gt;
@@ -1921,6 +2285,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/greatmusic/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/greatmusic/image.png" alt="Featured image of post 🎵音乐推荐🎵" /&gt;&lt;h1 id=&#34;音乐推荐&#34;&gt;🎵音乐推荐🎵&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;虽然说是音乐推荐，其实就是&lt;strong&gt;我的歌单&lt;/strong&gt;啦！&lt;/p&gt;
 &lt;p&gt;我的口味&lt;em&gt;很复杂&lt;/em&gt;，啥歌曲&lt;em&gt;都听&lt;/em&gt;&lt;/p&gt;
@@ -2079,6 +2445,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/qqpupil/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/qqpupil/qq.jpg" alt="Featured image of post 总结一下&#34;QQ小学生&#34;的特点" /&gt;&lt;h1 id=&#34;总结一下qq小学生的特点&#34;&gt;总结一下&amp;quot;QQ小学生&amp;quot;的特点&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;本文含有非常个人的主观评价，请酌情观看！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;本文&lt;strong&gt;仅仅只是我无聊的时候突发奇想&lt;/strong&gt;写的，&lt;em&gt;没有对任何人进行攻击&lt;/em&gt;，请勿对号入座！&lt;/p&gt;
@@ -2132,6 +2500,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/androidinstallgoogle/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/androidinstallgoogle/google.jpg" alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" /&gt;&lt;h1 id=&#34;安卓设备安装google框架方法汇总持续更新&#34;&gt;安卓设备安装Google框架方法汇总(持续更新)&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;目前，国内手机不内置&lt;code&gt;GMS&lt;/code&gt;已经是常态，转而使用自家的生态以及服务。&lt;/p&gt;
 &lt;p&gt;但是总有人需要&lt;code&gt;Google框架&lt;/code&gt;进行使用，所以就有了以下的安装方法。&lt;/p&gt;
@@ -3063,6 +3433,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/sqaipad/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/sqaipad/image.png" alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)" /&gt;&lt;h1 id=&#34;松鼠ai学习机v11sqaipad-v11-破解root-适用于所有mtk设备&#34;&gt;松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Root原文方法链接：&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/shenjingwa012/article/details/131018766&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://blog.csdn.net/shenjingwa012/article/details/131018766&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;由于原文方法有些过时，且不是描述得很完整，所以撰写这一篇文章&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -3368,6 +3740,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/fulltclash/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AirportR/FullTclash.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt;是一个 &lt;em&gt;基于clash 核心运作的、进行全量订阅测试的telegram机器人&lt;/em&gt;（官方原话）&lt;/p&gt;
@@ -3751,6 +4125,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/magisk/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png" alt="Featured image of post 从Magisk转入Magisk Delta" /&gt;&lt;h1 id=&#34;从magisk转入magisk-delta&#34;&gt;从Magisk转入Magisk Delta&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;手机端比较完善的root方法就只有&lt;strong&gt;Magisk&lt;/strong&gt;了（Kernelsu暂不讨论）&lt;/p&gt;
 &lt;p&gt;但是由于众所周知的原因，Magisk官方版本的&lt;strong&gt;Magisk Hide&lt;/strong&gt;被砍掉了&lt;/p&gt;
@@ -3837,6 +4213,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/nodepanels/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/nodepanels/image-12.png" alt="Featured image of post Nodepanels-一个免费的双平台探针" /&gt;&lt;h1 id=&#34;nodepanels-一个免费的双平台探针&#34;&gt;Nodepanels-一个免费的双平台探针&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;探针是管理并查看服务器状态的重要工具，十分适合网站运维和服务器监视。&lt;/p&gt;
 &lt;p&gt;而免费且完全开源无限制的&lt;em&gt;&lt;strong&gt;哪吒面板&lt;/strong&gt;&lt;/em&gt;，就是其中的代表。&lt;/p&gt;
@@ -4079,6 +4457,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/cloudflare-tunnel/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
 &lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
@@ -4248,6 +4628,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/screen/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/screen/11.jpg" alt="Featured image of post Linux通用保活方式-Screen教程" /&gt;&lt;h1 id=&#34;linux通用保活方式-screen教程&#34;&gt;Linux通用保活方式-Screen教程&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;我们都知道，在ssh终端内运行的命令，断开连接后将会快速地被杀死，这才需要我们去使用保活的方法。&lt;/p&gt;
 &lt;p&gt;常见的保活方法有很多，如&lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;screen&lt;/code&gt;、&lt;code&gt;nohup&lt;/code&gt;等。其各有优缺点。我最推荐的是&lt;code&gt;screen&lt;/code&gt;，它有以下的优点：&lt;/p&gt;
@@ -4358,6 +4740,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/cloudflare-r2/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
 &lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;
@@ -4528,6 +4912,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         <description>&lt;img src="https://i2.100024.xyz/2023/07/21/sfr1h3.webp" alt="Featured image of post Alist避免踩坑小技巧" /&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;注：此文并非一分钱不花的白嫖类型&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;&lt;strong&gt;也需要一定的技术能力&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id=&#34;alist避免踩坑小技巧&#34;&gt;Alist避免踩坑小技巧&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;part1网盘的选择&#34;&gt;Part1：网盘的选择&lt;/h2&gt;
 &lt;p&gt;搭建alist最重要的，就是选好&lt;strong&gt;主力网盘&lt;/strong&gt;&lt;br&gt;
 给大家列出几个网盘以及他的优缺点：&lt;br&gt;
@@ -4571,6 +4957,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/rclone-fuse/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/rclone-fuse/logo_on_light__horizontal_color.svg" alt="Featured image of post Rclone挂载以及Fuse问题解决" /&gt;&lt;h1 id=&#34;rclone挂载以及fuse问题解决&#34;&gt;Rclone挂载以及Fuse问题解决&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;关于Rclone添加储存以及文件复制的问题可以参考这一篇博客：&lt;a class=&#34;link&#34; href=&#34;https://vpslog.org/blog/%E4%BD%BF%E7%94%A8-rclone-%E5%9C%A8-nas-%E5%92%8C-google-drive-%E4%B9%8B%E9%97%B4%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VPSLOG&lt;/a&gt;，这里很好地写出了添加储存的过程。本文不再赘述。&lt;/p&gt;
@@ -4646,6 +5034,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/ask-for-help/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/ask-for-help/ask.svg" alt="Featured image of post 提问/回答的智慧🤔" /&gt;&lt;h1 id=&#34;提问的智慧&#34;&gt;提问的智慧🤔&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;提问前&#34;&gt;提问前&lt;/h2&gt;
@@ -4700,6 +5090,8 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
         
         <guid>https://blog.highp.ing/p/freelinkdomain/</guid>
         <description>&lt;img src="https://i2.100024.xyz/2023/07/20/10fybfn.webp" alt="Featured image of post 免费领取.Link域名一年" /&gt;&lt;h1 id=&#34;免费领取link域名一年&#34;&gt;免费领取.Link域名一年&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;最近大型域名注册商Dynadot推出了一个免费领取.Link域名的活动，现在还有许多短域名/有价值的域名，有需要的朋友可以来领取一下。&lt;/p&gt;
 &lt;h2 id=&#34;详细信息&#34;&gt;详细信息&lt;/h2&gt;

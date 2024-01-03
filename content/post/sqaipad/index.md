@@ -12,6 +12,8 @@ categories:
 
 # 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)
 
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 Root原文方法链接：<https://blog.csdn.net/shenjingwa012/article/details/131018766>
 
 ***由于原文方法有些过时，且不是描述得很完整，所以撰写这一篇文章***

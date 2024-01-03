@@ -10,6 +10,9 @@ categories:
     - Domain
 ---
 # 免费领取.Link域名一年
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 最近大型域名注册商Dynadot推出了一个免费领取.Link域名的活动，现在还有许多短域名/有价值的域名，有需要的朋友可以来领取一下。
 

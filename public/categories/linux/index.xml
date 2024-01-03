@@ -561,6 +561,8 @@
         
         <guid>https://blog.highp.ing/p/homecloud/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/homecloud/IMG_20231126_121332_584.jpg" alt="Featured image of post HomeCloud 家庭云 折腾心得" /&gt;&lt;h1 id=&#34;homecloud-家庭云-折腾心得&#34;&gt;HomeCloud 家庭云 折腾心得&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;作为一个 &lt;strong&gt;新时代网络人&lt;/strong&gt;，在家里放几台小机器，运行一下内网服务，还是非常 INTERESTING 的～～&lt;/p&gt;
 &lt;p&gt;所以本文会介绍，有&lt;em&gt;&lt;strong&gt;哪些服务值得在内网运行&lt;/strong&gt;&lt;/em&gt;，以及&lt;em&gt;&lt;strong&gt;家用低功耗服务器的选择&lt;/strong&gt;&lt;/em&gt;，具有一定的参考价值，也包含一些个人的主观评价！&lt;/p&gt;
@@ -1183,6 +1185,8 @@
         
         <guid>https://blog.highp.ing/p/fulltclash/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/fulltclash/image.png" alt="Featured image of post FullTclash 搭建方法" /&gt;&lt;h1 id=&#34;fulltclash-搭建使用方法&#34;&gt;FullTclash 搭建/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AirportR/FullTclash.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt;是一个 &lt;em&gt;基于clash 核心运作的、进行全量订阅测试的telegram机器人&lt;/em&gt;（官方原话）&lt;/p&gt;
@@ -1566,6 +1570,8 @@
         
         <guid>https://blog.highp.ing/p/nodepanels/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/nodepanels/image-12.png" alt="Featured image of post Nodepanels-一个免费的双平台探针" /&gt;&lt;h1 id=&#34;nodepanels-一个免费的双平台探针&#34;&gt;Nodepanels-一个免费的双平台探针&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;探针是管理并查看服务器状态的重要工具，十分适合网站运维和服务器监视。&lt;/p&gt;
 &lt;p&gt;而免费且完全开源无限制的&lt;em&gt;&lt;strong&gt;哪吒面板&lt;/strong&gt;&lt;/em&gt;，就是其中的代表。&lt;/p&gt;
@@ -1808,6 +1814,8 @@
         
         <guid>https://blog.highp.ing/p/screen/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/screen/11.jpg" alt="Featured image of post Linux通用保活方式-Screen教程" /&gt;&lt;h1 id=&#34;linux通用保活方式-screen教程&#34;&gt;Linux通用保活方式-Screen教程&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;我们都知道，在ssh终端内运行的命令，断开连接后将会快速地被杀死，这才需要我们去使用保活的方法。&lt;/p&gt;
 &lt;p&gt;常见的保活方法有很多，如&lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;screen&lt;/code&gt;、&lt;code&gt;nohup&lt;/code&gt;等。其各有优缺点。我最推荐的是&lt;code&gt;screen&lt;/code&gt;，它有以下的优点：&lt;/p&gt;

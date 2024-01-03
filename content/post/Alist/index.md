@@ -13,6 +13,8 @@ categories:
 ***也需要一定的技术能力***
 # Alist避免踩坑小技巧 
 
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## Part1：网盘的选择
 搭建alist最重要的，就是选好**主力网盘**\
 给大家列出几个网盘以及他的优缺点：\

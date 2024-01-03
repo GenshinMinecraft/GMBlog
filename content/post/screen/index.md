@@ -10,6 +10,9 @@ categories:
 ---
 
 # Linux通用保活方式-Screen教程
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 我们都知道，在ssh终端内运行的命令，断开连接后将会快速地被杀死，这才需要我们去使用保活的方法。
 

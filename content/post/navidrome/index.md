@@ -3,7 +3,7 @@ title: Navidrome 家庭音乐云 | 从入门到入土
 description: 应该是本站最详细的教程了（maybe
 date: 2023-11-25
 slug: navidrome
-image: https://c1oudf1are.link/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png
+image: https://blog.highp.ing/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_18c0978d2ac.png
 categories:
     - Main
     - HomeCloud
@@ -12,6 +12,9 @@ categories:
 # Navidrome 家庭音乐云 | 从入门到入土
 
 ## 前言
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 **注：本文为 Ubuntu 22.04 系统环境，Debian 系列可照抄**
 
 **Navidrome**是一个自托管(Self-Hosted)、低占用、兼容**Subsonic**的开源音乐流媒体服务，常被用于家庭云、NAS等内网服务器上。

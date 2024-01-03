@@ -11,6 +11,9 @@ categories:
 ---
 
 # Nodepanels-一个免费的双平台探针
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 探针是管理并查看服务器状态的重要工具，十分适合网站运维和服务器监视。
 

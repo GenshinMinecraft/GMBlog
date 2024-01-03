@@ -13,6 +13,8 @@
         
         <guid>https://blog.highp.ing/p/googlepaiming/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/googlepaiming/image-6.png" alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名" /&gt;&lt;h1 id=&#34;如何让-google-快速收录你的网站--提升在-google-的排名&#34;&gt;如何让 Google 快速收录你的网站 / 提升在 Google 的排名&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一&lt;/p&gt;
 &lt;p&gt;所以本文会教你如何快速提升在 Google 中&lt;strong&gt;你的网站的排名&lt;/strong&gt;&lt;/p&gt;
@@ -193,6 +195,8 @@
         
         <guid>https://blog.highp.ing/p/ruipingcloudflare/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/ruipingcloudflare/OIP-C.jpg" alt="Featured image of post 锐评CloudFlare（CloudFlare从来都不是减速器）" /&gt;&lt;h1 id=&#34;锐评cloudflarecloudflare从来都不是减速器&#34;&gt;锐评CloudFlare（CloudFlare从来都不是减速器）&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速度，好吧不要睁着眼睛乱说，全球CDN很难的。&lt;/p&gt;
 &lt;p&gt;而且CloudFlare真的不是随便给你做CDN的品牌欸，我跟CF跟了多少年，他怎么被你们滥用的我是最知道的一个人，他都差点把他们家掏给GFW了，差点CloudFlare姓China了，真的乱说。&lt;/p&gt;
 &lt;p&gt;这么多年都是免费的，哪里慢了（很好用的），注册个账号就送你各种可以滥用的服务。&lt;/p&gt;
@@ -223,6 +227,8 @@
         
         <guid>https://blog.highp.ing/p/cloudflare-tunnel/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/cloudflare-tunnel/image.png" alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-tunnel内网穿透-获取使用方法&#34;&gt;CloudFlare Tunnel(内网穿透) 获取/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在生活中，我们经常会遇到需要&lt;em&gt;访问家里设备&lt;/em&gt;（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。&lt;/p&gt;
 &lt;p&gt;而国内的免费FRP服务有诸多限制，比如&lt;strong&gt;带宽小、需实名&lt;/strong&gt;，还不是很稳定。&lt;/p&gt;
@@ -392,6 +398,8 @@
         
         <guid>https://blog.highp.ing/p/cloudflare-r2/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg" alt="Featured image of post CloudFlare R2 获取/使用方法" /&gt;&lt;h1 id=&#34;cloudflare-r2-获取使用方法&#34;&gt;CloudFlare R2 获取/使用方法&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;众所周知，&lt;em&gt;&lt;strong&gt;CloudFlare&lt;/strong&gt;&lt;/em&gt;有一个自家的&lt;strong&gt;对象存储&lt;/strong&gt;服务：&lt;strong&gt;R2&lt;/strong&gt;。并且兼容与亚马逊的S3，可以做出许多玩法。&lt;/p&gt;
 &lt;p&gt;而CloudFlare出了名的好心，为我们提供了一个免费的额度：&lt;/p&gt;

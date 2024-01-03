@@ -12,6 +12,9 @@ categories:
 ---
 
 # CloudFlare R2 获取/使用方法
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 众所周知，***CloudFlare***有一个自家的**对象存储**服务：**R2**。并且兼容与亚马逊的S3，可以做出许多玩法。
 

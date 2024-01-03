@@ -11,6 +11,9 @@ categories:
 ---
 
 # 如何让 Google 快速收录你的网站 / 提升在 Google 的排名
+
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 前言
 针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一
 
