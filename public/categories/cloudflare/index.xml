@@ -6,7 +6,32 @@
         <description>Recent content in CloudFlare on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/cloudflare/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/cloudflare/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客访问速度提升指南</title>
+        <link>https://blog.highp.ing/p/blogspeedup/</link>
+        <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/blogspeedup/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/blogspeedup/difference-between-internet-and-download-speed-excitel.jpg" alt="Featured image of post 博客访问速度提升指南" /&gt;&lt;h1 id=&#34;博客访问速度提升指南&#34;&gt;博客访问速度提升指南&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 Lemonawa 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用静态资源cdn服务&#34;&gt;使用静态资源CDN服务&lt;/h2&gt;
+&lt;p&gt;使用静态资源 CDN 上的资源可以加快页面加载的时间, 静态资源 CDN 的服务器大多离访问者较近, 源站只需加载很少的内容即可完成页面加载, 同时减轻了源站的网络负载&lt;/p&gt;
+&lt;p&gt;具体测评可参考: &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/public-cdn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;常用静态公共CDN评测&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用节点分布广泛的图床&#34;&gt;使用节点分布广泛的图床&lt;/h2&gt;
+&lt;p&gt;图床最初为减轻源站负担而设立, 更可用于加快页面访问速度&lt;/p&gt;
+&lt;p&gt;具体测评可参考: &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/pic-hosting/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;各类主流图床评测&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本站采用的是B站图床, 节点众多&lt;/p&gt;
+&lt;h2 id=&#34;尽量采用静态驱动程序&#34;&gt;尽量采用静态驱动程序&lt;/h2&gt;
+&lt;p&gt;对于博客，WordPress 虽然绚丽多彩&lt;/p&gt;
+&lt;p&gt;相比 Hexo 有更为丰富的主题资源和易用性&lt;/p&gt;
+&lt;p&gt;但其加载速度远远慢于Hexo&lt;/p&gt;
+&lt;p&gt;博客类网站强烈建议使用静态驱动程序(如: hexo, jekyll等), 加载速度将获得显著提升&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何让 Google 快速收录你的网站 / 提升在 Google 的排名</title>
         <link>https://blog.highp.ing/p/googlepaiming/</link>
         <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
