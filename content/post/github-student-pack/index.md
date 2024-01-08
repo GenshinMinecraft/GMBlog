@@ -1,7 +1,7 @@
 ---
 title: GitHub Student Developer Pack 的申请教程
 description: 羡慕高校学生可以用自己的 EDU 邮箱
-date: 2024-01-07
+date: 2024-01-08
 slug: github-student-park
 image: 4b0317bc-4599-11e4-8bc3-0ca4dd5223e8.png
 categories:
@@ -39,8 +39,8 @@ categories:
 * 填写/上传个人及学校信息
 
 * 等10天  
-  如果幸运的话，就会像我一样收到这样的邮件：  
-  ![](https://i0.hdslb.com/bfs/album/6ed746ed0ec686f541018551b6b03d5a7a5ee842.png)  
+  如果幸运的话，就会收到邮件
+
   否则就要再次申请
   
 ## 全部福利
