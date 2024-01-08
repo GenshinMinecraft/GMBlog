@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Magisk Delta还是比较不错的，还有最好的Magisk Hide！'>
+<title>从Magisk转入Magisk Delta</title>
+
+<link rel='canonical' href='https://blog.highp.ing/p/magisk/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='从Magisk转入Magisk Delta'>
+<meta property='og:description' content='Magisk Delta还是比较不错的，还有最好的Magisk Hide！'>
+<meta property='og:url' content='https://blog.highp.ing/p/magisk/'>
+<meta property='og:site_name' content='HighPing们の小小藏身地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-07-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-07-30T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png' />
+<meta name="twitter:title" content="从Magisk转入Magisk Delta">
+<meta name="twitter:description" content="Magisk Delta还是比较不错的，还有最好的Magisk Hide！"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.highp.ing/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://i2.100024.xyz/2024/01/01/umato9.webp" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">😇</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">HighPing们の小小藏身地</a></h1>
+            <h2 class="site-description">High Ping Network</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/High-Ping-Network'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://blog.highp.ing/en/" >English</option>
+                        
+                            <option value="https://blog.highp.ing/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#安装magisk-delta">安装Magisk Delta</a></li>
+    <li><a href="#转移magisk模块">转移Magisk模块</a></li>
+    <li><a href="#开启magisk-hide">开启Magisk Hide</a></li>
+    <li><a href="#小结">小结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/magisk/">
+                <img src="/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3_hu09a75327a2e4900423de0aad85250811_111196_800x0_resize_box_3.png"
+                        srcset="/p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3_hu09a75327a2e4900423de0aad85250811_111196_800x0_resize_box_3.png 800w, /p/magisk/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3_hu09a75327a2e4900423de0aad85250811_111196_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="319" 
+                        loading="lazy"
+                        alt="Featured image of post 从Magisk转入Magisk Delta" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/main/" >
+                Main
+            </a>
+        
+            <a href="/categories/android/" >
+                Android
+            </a>
+        
+            <a href="/categories/magisk/" >
+                Magisk
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/magisk/">从Magisk转入Magisk Delta</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Magisk Delta还是比较不错的，还有最好的Magisk Hide！
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 30, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="从magisk转入magisk-delta">从Magisk转入Magisk Delta</h1>
+<p>本文由 <code>High Ping Network</code> 的小伙伴 GenshinMinecraft 进行编撰，首发于 <a class="link" href="https://blog.highp.ing"  target="_blank" rel="noopener"
+    >本博客</a></p>
+<h2 id="前言">前言</h2>
+<p>手机端比较完善的root方法就只有<strong>Magisk</strong>了（Kernelsu暂不讨论）</p>
+<p>但是由于众所周知的原因，Magisk官方版本的<strong>Magisk Hide</strong>被砍掉了</p>
+<p>所以就有了<strong>Magisk Delta</strong>的出现</p>
+<p><strong>Magisk Delta</strong>总结来说有以下的优点：</p>
+<ol>
+<li>拥有<strong>Magisk Hide</strong>;</li>
+<li>Ui改版（个人觉得还不错）;</li>
+<li>&hellip;（忘了）</li>
+</ol>
+<h2 id="安装magisk-delta">安装Magisk Delta</h2>
+<p>首先去到<a class="link" href="https://github.com/HuskyDG/magisk-files/releases"  target="_blank" rel="noopener"
+    >Github官网</a>，下载<em>app-release.apk</em></p>
+<p>安装在安卓设备上</p>
+<p>打开就可以授权<em>Root</em>权限并安装<strong>Boot</strong>了
+<img src="/p/magisk/image.png"
+	width="1057"
+	height="480"
+	srcset="/p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_480x0_resize_box_3.png 480w, /p/magisk/image_hu5efaf2ac5653ed7dde77940e68e99506_76442_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="220"
+		data-flex-basis="528px"
+	
+></p>
+<p><em>注：初次进入Magisk Delta也许没有<code>直接安装</code>选项，可以杀死后台再进入Magisk Delta，修复环境后，即可直接安装！</em></p>
+<h2 id="转移magisk模块">转移Magisk模块</h2>
+<p>理论上来说，安装<em>Magisk Delta</em>后，<em>原版Magisk</em>的模块会自动转移到<em>Magisk Delta</em>。各种设置也可以同步！</p>
+<p>但是如果有模块未同步的情况，可以手动添加</p>
+<h2 id="开启magisk-hide">开启Magisk Hide</h2>
+<p><img src="/p/magisk/image-1.png"
+	width="1028"
+	height="1441"
+	srcset="/p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_480x0_resize_box_3.png 480w, /p/magisk/image-1_hu33c5eed6f550660aa47d688396e9cab8_300877_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="71"
+		data-flex-basis="171px"
+	
+></p>
+<p>在右上角<code>设置图标-MagiskHide</code>中，打开<code>MagiskHide</code>与<code>强制使用超级用户列表</code></p>
+<p><img src="/p/magisk/image-2.png"
+	width="1041"
+	height="945"
+	srcset="/p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_480x0_resize_box_3.png 480w, /p/magisk/image-2_hu499a97faf1173b49a90361455c7473e5_226285_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="110"
+		data-flex-basis="264px"
+	
+></p>
+<p>然后重启手机，回到设置中的MagiskHide界面，就可以找到<strong>配置超级用户列表</strong></p>
+<p><img src="/p/magisk/image-3.png"
+	width="1021"
+	height="1729"
+	srcset="/p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_480x0_resize_box_3.png 480w, /p/magisk/image-3_hu26af88a41140108ace152477ce15094f_404612_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="1"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="59"
+		data-flex-basis="141px"
+	
+></p>
+<p>在里面可以设置需要使用<strong>Root权限</strong>的应用，可以说是最强劲的<em>隐藏root</em>！</p>
+<h2 id="小结">小结</h2>
+<p><strong>Magisk Delta</strong>是一个还不错的<em>Magisk</em>分支，具有已经被阉割掉的<strong>Magisk Hide</strong>功能。适合养老使用！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/androidinstallgoogle/">
+        
+        
+            <div class="article-image">
+                <img src="/p/androidinstallgoogle/google.b28e6fba0e9172ee88ecbac0364ba6a6_hu3f702e6e1ce3a606711e748c9797982c_21465_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)"
+                        data-key="AndroidInstallGoogle" 
+                        data-hash="md5-so5vug6Rcu6I7LrANkumpg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">安卓设备安装Google框架方法汇总(持续更新)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/sqaipad/">
+        
+        
+            <div class="article-image">
+                <img src="/p/sqaipad/image.5151affcee2ad1e8d263e5bdb7cc37dc_huece66c896fd2110ca62bafc3bffb4b24_19317_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)"
+                        data-key="sqaipad" 
+                        data-hash="md5-UVGv/O4q0ejSY&#43;W9t8w33A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/github-student-pack/">
+        
+        
+            <div class="article-image">
+                <img src="/p/github-student-pack/_hud0c2b695a2cb0b7c98d0157fecff51a7_37474_fb8ff94d7b95516d355b139280e32268.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post GitHub Student Developer Pack 的申请教程"
+                        data-key="github-student-pack" 
+                        data-hash="md5-&#43;gbeSoe&#43;audiIM3cZf7OTw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">GitHub Student Developer Pack 的申请教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/musicbot/">
+        
+        
+            <div class="article-image">
+                <img src="/p/musicbot/YukkiMusicBot.b1c194937c8541d3e0b8573e7993a290_hub5579f3c003bab5f6fceabdeb4e48c29_80448_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Yukki Music Bot 的部署"
+                        data-key="musicbot" 
+                        data-hash="md5-scGUk3yFQdPguFc&#43;eZOikA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Yukki Music Bot 的部署</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/blogspeedup/">
+        
+        
+            <div class="article-image">
+                <img src="/p/blogspeedup/_hu46e96ed12b86df3a7e839119365d7c4e_138250_ce4e301020cf7e63ffd22c622191173e.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 博客访问速度提升指南"
+                        data-key="blogspeedup" 
+                        data-hash="md5-ltZ9nn&#43;i3Z3PF5xl/oFCNA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客访问速度提升指南</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 HighPing们の小小藏身地
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
