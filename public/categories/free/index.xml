@@ -7,6 +7,71 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/free/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>GitHub Student Developer Pack 的申请教程</title>
+        <link>https://blog.highp.ing/p/github-student-park/</link>
+        <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/github-student-park/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/github-student-park/4b0317bc-4599-11e4-8bc3-0ca4dd5223e8.png" alt="Featured image of post GitHub Student Developer Pack 的申请教程" /&gt;&lt;h1 id=&#34;github-student-pack&#34;&gt;github-student-pack&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 Lemonawa 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;申请要求&#34;&gt;申请要求&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目前就读于授予学位或文凭的学习课程，例如高中、中学、学院、大学、家庭学校或类似的教育机构。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拥有一个可验证的学校颁发的电子邮件地址或上传证明您当前学生身份的文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拥有 GitHub 用户帐户。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;至少 13 岁。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;避坑点&#34;&gt;避坑点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;建议使用学生证之类的&lt;strong&gt;实体证件&lt;/strong&gt;，邮箱大多被BAN&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;提交的文件要求有&lt;strong&gt;有效期&lt;/strong&gt;，有毕业年月就好，没有也可以自己P一个上去&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果自己在学校附近就&lt;strong&gt;不要使用代理服务器/VPN等&lt;/strong&gt;，Github会识别IP地址所在城市与学校位置&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;打开 &lt;a class=&#34;link&#34; href=&#34;https://education.github.com/discount_requests/student_application&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://education.github.com/discount_requests/student_application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;填写/上传个人及学校信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等10天&lt;br&gt;
+如果幸运的话，就会像我一样收到这样的邮件：&lt;br&gt;
+&lt;img src=&#34;https://i0.hdslb.com/bfs/album/6ed746ed0ec686f541018551b6b03d5a7a5ee842.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+否则就要再次申请&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;全部福利&#34;&gt;全部福利&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://education.github.com/pack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://education.github.com/pack&lt;/a&gt;&lt;br&gt;
+都在这了，自己看吧&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客访问速度提升指南</title>
         <link>https://blog.highp.ing/p/blogspeedup/</link>
         <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>

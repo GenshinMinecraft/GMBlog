@@ -12,6 +12,8 @@ categories:
 
 # 各大厂商公共 DNS 大全
 
+本文由 `High Ping Network` 的小伙伴 Lemonawa 进行编撰，首发于 [本博客](https://blog.highp.ing)
+
 ## 名词解释
 
 此处仅展示**广义上**的概念，部分(如Cloudflare)有特殊解释的将会在后面说明  
