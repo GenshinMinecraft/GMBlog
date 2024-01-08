@@ -1,6 +1,0 @@
-# robots.txt generated at http://tool.chinaz.com/robots/ 
-User-agent: *
-Disallow: 
-Disallow: /cdn-cgi/
-Sitemap: https://c1oudf1are.link/zh-cn/sitemap.xml
-

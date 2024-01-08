@@ -3,6 +3,7 @@ languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 10
 title: HighPing们の小小藏身地
+timeout: 60s
 
 languages:
     en:
