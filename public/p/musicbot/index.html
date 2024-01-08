@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='不会吧不会吧，不会还有人2023都没有自己的alist把！'>
-<title>Alist避免踩坑小技巧</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Telegram 淫帕 Bot！'>
+<title>Yukki Music Bot 的部署</title>
 
-<link rel='canonical' href='https://blog.highp.ing/p/alist/'>
+<link rel='canonical' href='https://blog.highp.ing/p/musicbot/'>
 
-<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Alist避免踩坑小技巧'>
-<meta property='og:description' content='不会吧不会吧，不会还有人2023都没有自己的alist把！'>
-<meta property='og:url' content='https://blog.highp.ing/p/alist/'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Yukki Music Bot 的部署'>
+<meta property='og:description' content='Telegram 淫帕 Bot！'>
+<meta property='og:url' content='https://blog.highp.ing/p/musicbot/'>
 <meta property='og:site_name' content='HighPing们の小小藏身地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://i2.100024.xyz/2023/07/21/sfr1h3.webp' />
-<meta name="twitter:title" content="Alist避免踩坑小技巧">
-<meta name="twitter:description" content="不会吧不会吧，不会还有人2023都没有自己的alist把！"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://i2.100024.xyz/2023/07/21/sfr1h3.webp' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-01-08T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-08T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/YukkiMusicBot.png' />
+<meta name="twitter:title" content="Yukki Music Bot 的部署">
+<meta name="twitter:description" content="Telegram 淫帕 Bot！"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.highp.ing/YukkiMusicBot.png' />
     </head>
     <body class="
     article-page
@@ -260,9 +260,10 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#part1网盘的选择">Part1：网盘的选择</a></li>
-    <li><a href="#part2搭建机器的选择">Part2：搭建机器的选择</a></li>
-    <li><a href="#小结">小结</a></li>
+    <li><a href="#环境准备">环境准备</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#配置">配置</a></li>
+    <li><a href="#启动">启动</a></li>
   </ol>
 </nav>
         </div>
@@ -277,9 +278,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/alist/">
+            <a href="/p/musicbot/">
                 
-                    <img src="https://i2.100024.xyz/2023/07/21/sfr1h3.webp" loading="lazy" alt="Featured image of post Alist避免踩坑小技巧" />
+                    <img src="/YukkiMusicBot.png" loading="lazy" alt="Featured image of post Yukki Music Bot 的部署" />
                 
             </a>
         </div>
@@ -293,12 +294,8 @@
                 Main
             </a>
         
-            <a href="/categories/alist/" >
-                alist
-            </a>
-        
-            <a href="/categories/rclone/" >
-                rclone
+            <a href="/categories/free/" >
+                Free
             </a>
         
     </header>
@@ -306,12 +303,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/alist/">Alist避免踩坑小技巧</a>
+            <a href="/p/musicbot/">Yukki Music Bot 的部署</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            不会吧不会吧，不会还有人2023都没有自己的alist把！
+            Telegram 淫帕 Bot！
         </h3>
         
     </div>
@@ -332,7 +329,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 21, 2023</time>
+                <time class="article-time--published">Jan 08, 2024</time>
             </div>
         
 
@@ -347,7 +344,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 3 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -362,46 +359,126 @@
     <section class="article-content">
     
     
-    <p><em><strong>注：此文并非一分钱不花的白嫖类型</strong></em><br>
-<em><strong>也需要一定的技术能力</strong></em></p>
-<h1 id="alist避免踩坑小技巧">Alist避免踩坑小技巧</h1>
-<p>本文由 <code>High Ping Network</code> 的小伙伴 GenshinMinecraft 进行编撰，首发于 <a class="link" href="https://blog.highp.ing"  target="_blank" rel="noopener"
+    <h1 id="yukki-music-bot-的部署">Yukki Music Bot 的部署</h1>
+<p>本文由 <code>High Ping Network</code> 的小伙伴 Lemonawa 进行编撰，首发于 <a class="link" href="https://blog.highp.ing"  target="_blank" rel="noopener"
     >本博客</a></p>
-<h2 id="part1网盘的选择">Part1：网盘的选择</h2>
-<p>搭建alist最重要的，就是选好<strong>主力网盘</strong><br>
-给大家列出几个网盘以及他的优缺点：<br>
-(斜体为推荐网盘)</p>
-<ul>
-<li>阿里云盘：目前阿里云盘有两种挂载方式，<code>阿里云盘</code>与<code>阿里云盘 Open</code>，但是前者不稳定，后者限制幅度较大。据群友反馈已经低于5mb/s。<code>主力网盘或副网盘都不错</code>，但是目前尚不清楚以后吃相会不会和百度一样。<strong><code>不建议充值会员</code></strong></li>
-<li>百度云盘：大家都知道，百度云盘不开会员约等于不能用，而且302重定向方法有诸多限制。<strong><code>不建议充值会员</code></strong></li>
-<li>115网盘：价格已经算是国内最贵的了（月卡55，年卡500），但是速度与服务都不咋样。<strong><code>不建议充值会员</code></strong></li>
-<li><em>夸克网盘</em>：最推荐的一个，VIP便宜，还稳定，更可以<strong>转存磁力</strong>，网上热门磁力直接转存不要太爽！也是我目前用的最多的一个。<strong><code>推荐充值会员</code></strong></li>
-<li>123网盘：网盘本身不错，价格也便宜，但是最近天天修改接口，还有加密签名。可以说在努力地阻止Alist这类挂载。<strong><code>建议先观望</code></strong></li>
-<li><em>OneDrive</em>：挂载国内版的免费5G没有意义，所以大多数人都是折腾国外的E5。<strong>免费</strong>的<strong>5Tx25个子号</strong>。国内速度不错，还可以存色色，是建造公开影视站的首选。<strong><code>建议使用</code></strong></li>
-<li>GoogleDrive：需要国外网络连接，你懂的。之前有无限容量的教育号/公司号，但现在基本已经灭绝，不做推荐。</li>
-<li>运营商网盘：可以根据自己的运营商选择对应的运营商网盘：电信天翼云盘，中国移动云盘（和彩云），中国联通云盘。各大运营商云盘对自己家的客户都有免费空间。最为推荐的是<strong>中国移动云盘</strong>，每月可以领取30G定向流量，不限速，稳定。<strong><code>推荐在自己的运营商网盘充值会员</code></strong></li>
-</ul>
-<p>其余的蓝奏、海外百度Terabox、yandex等由于限制过多，或需要科学，不做推荐。</p>
-<p><em><strong>平民玩家（不充钱）可以选择阿里云盘以及Onedrive做搭配一起使用</strong></em> <br>
-<em><strong>富哥可以选择夸克云盘，便宜超级稳定，百兆轻松跑满</strong></em>
-<img src="https://i2.100024.xyz/2023/07/21/uky4e4.webp"
-	
-	
-	
-	loading="lazy"
-	
-	
-></p>
-<h2 id="part2搭建机器的选择">Part2：搭建机器的选择</h2>
-<ul>
-<li>最推荐的是在家里搭建与<em>Openwrt</em>这种<em>低功耗网络设备</em>上，既可以跑满宽带，还能在内网获得最佳速度。缺点是出门在外也许<em>需要公网ip/内网穿透</em>。</li>
-<li>其次是<em>国外大带宽服务器</em>，一些具有好的线路的国外服务器，在国内可以做到<code>延迟很低</code>，比如GCP、AzureJp/Hk/Sg。国外服务器一般拥有1Gbps以上的带宽，在挂载的同时还可以使用<em><strong>aria2</strong></em>下载BT(请注意DMCA)。而在国外服务器上面，建议使用<strong>302跳转模式</strong>，以获得最佳速度</li>
-<li>还有<del>滥用哥</del>折腾玩家最喜欢的<em>容器云</em>，折腾难度较大，但是免费。许多发烧级玩家会使用，但基本不适用于真实生产力环境。</li>
-<li>最后是国内服务商的VPS，一是<strong>要实名</strong>，二是<strong>带宽小</strong>，三是<strong>有监管</strong>。本机代理基本无望，只能302。</li>
-</ul>
-<h2 id="小结">小结</h2>
-<p>本文简单地总结了各类可挂载网盘的<em>优缺点</em>，以及搭建机器的<em>选择</em>，对于想要搭建的朋友们来说有些参考意义。</p>
-
+<h2 id="环境准备">环境准备</h2>
+<p>示例系统：Debian 11 x64</p>
+<p>此外，你需要准备一个用于播放音乐的Telegram账号（助理账户）和一个Telegram Bot（可在<a class="link" href="https://t.me/botfather"  target="_blank" rel="noopener"
+    >@BotFather</a>处创建Bot），然后把这两个账号拉进一个群（作为Log群）</p>
+<p>连接上ssh，开始操作：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#先更新下软件源</span>
+</span></span><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span class="line"><span class="cl"><span class="c1">#安装一些必要的包</span>
+</span></span><span class="line"><span class="cl">sudo apt install python3-pip ffmpeg git curl -y
+</span></span><span class="line"><span class="cl"><span class="c1">#更新一下pip</span>
+</span></span><span class="line"><span class="cl">sudo pip3 install -U pip
+</span></span><span class="line"><span class="cl"><span class="c1">#安装Node.js</span>
+</span></span><span class="line"><span class="cl">curl -fssL https://deb.nodesource.com/setup_19.x <span class="p">|</span> sudo -E bash - <span class="o">&amp;&amp;</span> sudo apt-get install nodejs -y <span class="o">&amp;&amp;</span> npm i -g npm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="安装">安装</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#把代码克隆下来</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/notreallyshikhar/YukkiMusicBot <span class="o">&amp;&amp;</span>  <span class="nb">cd</span> YukkiMusicBot
+</span></span><span class="line"><span class="cl"><span class="c1">#安装必要的pip包</span>
+</span></span><span class="line"><span class="cl">pip3 install -U -r requirements.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="配置">配置</h2>
+<p>用你喜欢的方式（如<code>vim</code>/<code>nano</code>）打开<code>.env</code>，配置以下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-env" data-lang="env"><span class="line"><span class="cl"><span class="nv">STRING_SESSION</span> <span class="o">=</span> <span class="c1">#从@yukkistringbot获取（助理账户）</span>
+</span></span><span class="line"><span class="cl"><span class="nv">API_ID</span> <span class="o">=</span> <span class="c1">#从my.telegram.org获取（主账户）</span>
+</span></span><span class="line"><span class="cl"><span class="nv">API_HASH</span> <span class="o">=</span> <span class="c1">#从my.telegram.org获取（主账户）</span>
+</span></span><span class="line"><span class="cl"><span class="nv">BOT_TOKEN</span> <span class="o">=</span> <span class="c1">#从botfather获取token（主账户）</span>
+</span></span><span class="line"><span class="cl"><span class="nv">MONGO_DB_URI</span> <span class="o">=</span> <span class="c1">#从mongodb.com获取</span>
+</span></span><span class="line"><span class="cl"><span class="nv">LOG_GROUP_ID</span> <span class="o">=</span> <span class="c1">#Log群组的ID</span>
+</span></span><span class="line"><span class="cl"><span class="nv">MUSIC_BOT_NAME</span> <span class="o">=</span> <span class="c1">#给自己的bot取个名字</span>
+</span></span><span class="line"><span class="cl"><span class="nv">OWNER_ID</span> <span class="o">=</span> <span class="c1">#主账户的ID</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="启动">启动</h2>
+<p>配置守护进程：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-systemd" data-lang="systemd"><span class="line"><span class="cl"><span class="err">cat</span> <span class="err">&lt;&lt;&#39;TEXT&#39;</span> <span class="err">&gt;</span> <span class="err">/etc/systemd/system/musicbot.service</span>
+</span></span><span class="line"><span class="cl"><span class="k">[Unit]</span>
+</span></span><span class="line"><span class="cl"><span class="na">Description</span><span class="o">=</span><span class="s">YukkiMusicBot daemon</span>
+</span></span><span class="line"><span class="cl"><span class="na">After</span><span class="o">=</span><span class="s">network.target</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[Install]</span>
+</span></span><span class="line"><span class="cl"><span class="na">WantedBy</span><span class="o">=</span><span class="s">multi-user.target</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[Service]</span>
+</span></span><span class="line"><span class="cl"><span class="na">Type</span><span class="o">=</span><span class="s">simple</span>
+</span></span><span class="line"><span class="cl"><span class="na">WorkingDirectory</span><span class="o">=</span><span class="s">/root/YukkiMusicBot</span>
+</span></span><span class="line"><span class="cl"><span class="na">ExecStart</span><span class="o">=</span><span class="s">/usr/bin/bash /root/YukkiMusicBot/start</span>
+</span></span><span class="line"><span class="cl"><span class="na">Restart</span><span class="o">=</span><span class="s">always</span>
+</span></span><span class="line"><span class="cl"><span class="err">TEXT</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1">#启动</span>
+</span></span><span class="line"><span class="cl">systemctl start musicbot
+</span></span><span class="line"><span class="cl"><span class="c1">#设置开机自启</span>
+</span></span><span class="line"><span class="cl">ystemctl <span class="nb">enable</span> musicbot
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -461,25 +538,6 @@
             
                 
 <article class="has-image">
-    <a href="/p/musicbot/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/YukkiMusicBot.png" loading="lazy" data-key="musicbot" data-hash="/YukkiMusicBot.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Yukki Music Bot 的部署</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/blogspeedup/">
         
         
@@ -504,23 +562,23 @@
             
                 
 <article class="has-image">
-    <a href="/p/dns/">
+    <a href="/p/fulltclash/">
         
         
             <div class="article-image">
-                <img src="/p/dns/_hu7867c6149207359e7156020ef0f2bed9_113482_d7dbff20153757179643f367c930fd1d.jpg" 
+                <img src="/p/fulltclash/image.224ddeb23a43497c54234f6454bcedd1_hue25eb37f3aa55237956a176ec4fdb169_35665_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 各大厂商公共 DNS 大全"
-                        data-key="dns" 
-                        data-hash="md5-/n/IauaMF/E11zLoinZFRA==">
+                        alt="Featured image of post FullTclash 搭建方法"
+                        data-key="fulltclash" 
+                        data-hash="md5-Ik3esjpDSXxUI09kVLzt0Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">各大厂商公共 DNS 大全</h2>
+            <h2 class="article-title">FullTclash 搭建方法</h2>
         </div>
     </a>
 </article>
@@ -528,23 +586,47 @@
             
                 
 <article class="has-image">
-    <a href="/p/writemarkdown/">
+    <a href="/p/cloudflare-tunnel/">
         
         
             <div class="article-image">
-                <img src="/p/writemarkdown/image-16.ef65fd5f7c08348037c86771686e6649_hucaed53c3386eabc3ed1d9c996cb20685_207073_250x150_fill_box_smart1_3.png" 
+                <img src="/p/cloudflare-tunnel/image.271d3e1342ded2e37a168bc5a2609326_hu9e893a0ded4670dad563da6901e9b022_97042_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 对于博客而言的 Markdown 写作规范"
-                        data-key="writemarkdown" 
-                        data-hash="md5-72X9X3wINIA3yGdxaG5mSQ==">
+                        alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法"
+                        data-key="cloudflare-tunnel" 
+                        data-hash="md5-Jx0&#43;E0Le0uN6FovFomCTJg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">对于博客而言的 Markdown 写作规范</h2>
+            <h2 class="article-title">CloudFlare Tunnel(内网穿透) 获取/使用方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloudflare-r2/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cloudflare-r2/_hu75a7ec911bd9a387d80671413ec46103_4635_1b0119e6e2cd875deb9f76208a45b479.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post CloudFlare R2 获取/使用方法"
+                        data-key="cloudflare-r2" 
+                        data-hash="md5-tiJuDg8spMeaMnqkVBkMVg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CloudFlare R2 获取/使用方法</h2>
         </div>
     </a>
 </article>

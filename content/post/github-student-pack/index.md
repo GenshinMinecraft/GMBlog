@@ -2,7 +2,7 @@
 title: GitHub Student Developer Pack 的申请教程
 description: 羡慕高校学生可以用自己的 EDU 邮箱
 date: 2024-01-08
-slug: github-student-park
+slug: github-student-pack
 image: 4b0317bc-4599-11e4-8bc3-0ca4dd5223e8.png
 categories:
   - Main
