@@ -6,6 +6,7 @@ slug: ceping-poloukv6
 image: 2e4c51c7b02c7ecc4c064c575b7910e3.jpg
 categories:
     - Main
+    - CePing
 ---
 
 # [测评] PoloCloud UKLite IPv6 1rmb小鸡 测评
