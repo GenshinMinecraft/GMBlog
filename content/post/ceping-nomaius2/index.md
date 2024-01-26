@@ -2,7 +2,7 @@
 title: 虚妄猫 美国2号主机 4.9rmb/m 2c512m 测评
 description: 慈善埋给我开的SSD！
 date: 2024-01-26
-slug: ceping-rackdog
+slug: ceping-nomaius2
 image: 5a2e8b12f2e48.jpg
 categories:
     - Main
