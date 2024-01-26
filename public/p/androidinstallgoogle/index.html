@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='无root以及第三方Rec安装原生的Google框架是不现实的！'>
+<title>安卓设备安装Google框架方法汇总(持续更新)</title>
+
+<link rel='canonical' href='https://blog.highp.ing/p/androidinstallgoogle/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='安卓设备安装Google框架方法汇总(持续更新)'>
+<meta property='og:description' content='无root以及第三方Rec安装原生的Google框架是不现实的！'>
+<meta property='og:url' content='https://blog.highp.ing/p/androidinstallgoogle/'>
+<meta property='og:site_name' content='HighPing们の小小藏身地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-09-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-09-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/p/androidinstallgoogle/google.jpg' />
+<meta name="twitter:title" content="安卓设备安装Google框架方法汇总(持续更新)">
+<meta name="twitter:description" content="无root以及第三方Rec安装原生的Google框架是不现实的！"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.highp.ing/p/androidinstallgoogle/google.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://i2.100024.xyz/2024/01/01/umato9.webp" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">😇</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">HighPing们の小小藏身地</a></h1>
+            <h2 class="site-description">High Ping Network</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/High-Ping-Network'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://blog.highp.ing/en/" >English</option>
+                        
+                            <option value="https://blog.highp.ing/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#第一种方法gapps-recovery">第一种方法：Gapps (Recovery)</a>
+      <ol>
+        <li><a href="#1-寻找适合你的gapps版本">1. 寻找适合你的<code>Gapps</code>版本</a></li>
+        <li><a href="#2下载你所需版本的刷机包">2.下载你所需版本的刷机包</a></li>
+        <li><a href="#3从第三方recovery刷入例twrp">3.从第三方Recovery刷入(例TWRP)</a></li>
+        <li><a href="#4重启-享受谷歌服务">4.重启 享受谷歌服务</a></li>
+      </ol>
+    </li>
+    <li><a href="#第二种方法litegapps-magisk模块">第二种方法：LiteGapps (Magisk模块)</a></li>
+    <li><a href="#附解决google-play-设备未获得play保护机制认证">附：解决<code>Google Play 设备未获得Play保护机制认证</code></a>
+      <ol>
+        <li><a href="#1安装deviceid">1.安装DeviceID</a></li>
+        <li><a href="#2获取gsfid">2.获取GSFID</a></li>
+        <li><a href="#3注册id">3.注册ID</a></li>
+        <li><a href="#重置google-play数据">重置Google Play数据</a></li>
+      </ol>
+    </li>
+    <li><a href="#小结">小结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/androidinstallgoogle/">
+                <img src="/p/androidinstallgoogle/google_hu3f702e6e1ce3a606711e748c9797982c_21465_800x0_resize_q75_box.jpg"
+                        srcset="/p/androidinstallgoogle/google_hu3f702e6e1ce3a606711e748c9797982c_21465_800x0_resize_q75_box.jpg 800w, /p/androidinstallgoogle/google_hu3f702e6e1ce3a606711e748c9797982c_21465_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 安卓设备安装Google框架方法汇总(持续更新)" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/main/" >
+                Main
+            </a>
+        
+            <a href="/categories/android/" >
+                Android
+            </a>
+        
+            <a href="/categories/google/" >
+                Google
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/androidinstallgoogle/">安卓设备安装Google框架方法汇总(持续更新)</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            无root以及第三方Rec安装原生的Google框架是不现实的！
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 03, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="安卓设备安装google框架方法汇总持续更新">安卓设备安装Google框架方法汇总(持续更新)</h1>
+<p>本文由 <code>High Ping Network</code> 的小伙伴 GenshinMinecraft 进行编撰，首发于 <a class="link" href="https://blog.highp.ing"  target="_blank" rel="noopener"
+    >本博客</a></p>
+<h2 id="前言">前言</h2>
+<p>目前，国内手机不内置<code>GMS</code>已经是常态，转而使用自家的生态以及服务。</p>
+<p>但是总有人需要<code>Google框架</code>进行使用，所以就有了以下的安装方法。</p>
+<p>请注意，本文教的是<code>货真价实的Google框架</code>，不是<code>MicroG</code>这种<em>非官方服务</em>！</p>
+<p>还有，<strong>不root或从Recovery刷入</strong>安装的<code>Google框架</code>基本是<strong>废的</strong>，大多数情况为<code>xxxx 已停止运行</code>，无法使用！</p>
+<p>一般来说，一个<em>完整可以运行</em>的<code>Google框架</code>至少需要包含以下三件东西：</p>
+<ul>
+<li>Google Services Framework</li>
+<li>Google Play services</li>
+<li>Google Play Store</li>
+</ul>
+<p>这三件东西<strong>缺一不可</strong>，且在新版本<strong>无法使用默认的<code>软件包管理器</code>进行安装至<code>/data</code>目录下</strong>！</p>
+<p>所以，请在<strong>Root</strong>/<strong>刷入第三方Recovery</strong>的情况下再查阅以下的文章！</p>
+<h2 id="第一种方法gapps-recovery">第一种方法：Gapps (Recovery)</h2>
+<p>按道理来讲，使用<strong>第三方Recovery</strong>刷入<code>Gapps</code>是最稳定也是最快捷的方法，但是这一方法需要系统的<code>/system</code>分区拥有足够的空间，但手机普遍可以刷入一个最小的<code>pico</code></p>
+<h3 id="1-寻找适合你的gapps版本">1. 寻找适合你的<code>Gapps</code>版本</h3>
+<p>可以按照下面的表格寻找适合你的<code>Gapps</code>版本：(本表来源于<a class="link" href="https://github.com/opengapps/opengapps/wiki/Package-Comparison"  target="_blank" rel="noopener"
+    >Gapps</a>)</p>
+<p>&mdash;&mdash;&ndash;分界线&mdash;&mdash;&ndash;</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">Legend</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">X</td>
+<td>Installs application by default</td>
+</tr>
+<tr>
+<td style="text-align:center">O</td>
+<td>Replaces the Stock/AOSP version of the application by default</td>
+</tr>
+<tr>
+<td style="text-align:center">+</td>
+<td>Only installed if Google Calendar is NOT installed</td>
+</tr>
+<tr>
+<td style="text-align:center">4.4</td>
+<td>Application is installed on Android 4.4 only</td>
+</tr>
+<tr>
+<td style="text-align:center">7.1</td>
+<td>Application is installed on Android 7.1 only</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">Application Name</th>
+<th style="text-align:center">gapps-config keyword</th>
+<th style="text-align:center">p<br>i<br>c<br>o</th>
+<th style="text-align:center">n<br>a<br>n<br>o</th>
+<th style="text-align:center">m<br>i<br>c<br>r<br>o</th>
+<th style="text-align:center">m<br>i<br>n<br>i</th>
+<th style="text-align:center">f<br>u<br>l<br>l</th>
+<th style="text-align:center">s<br>t<br>o<br>c<br>k</th>
+<th style="text-align:center">s<br>u<br>p<br>e<br>r</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Google Play Services</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Play Store</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google System Base</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Android Auto stub⁵</td>
+<td style="text-align:center"><code>GearheadStub</code></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Calendar Sync</td>
+<td style="text-align:center"><code>CalSync</code></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">+</td>
+<td style="text-align:center">+</td>
+<td style="text-align:center">+</td>
+<td style="text-align:center">+</td>
+<td style="text-align:center">+</td>
+</tr>
+<tr>
+<td style="text-align:center">Dialer Framework</td>
+<td style="text-align:center"><code>DialerFramework</code></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Text-to-Speech</td>
+<td style="text-align:center"><code>GoogleTTS</code></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Package Installer</td>
+<td style="text-align:center"><code>PackageInstallerGoogle</code></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Sounds</td>
+<td style="text-align:center"><code>SoundPicker</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Device Health Services</td>
+<td style="text-align:center"><code>BatteryUsage</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Markup</td>
+<td style="text-align:center"><code>Markup</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google App (Search)</td>
+<td style="text-align:center"><code>Search</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Offline Speech Files</td>
+<td style="text-align:center"><code>Speech</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Digital Wellbeing</td>
+<td style="text-align:center"><code>Wellbeing</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Actions Services²</td>
+<td style="text-align:center"><code>ActionsServices</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Calendar¹</td>
+<td style="text-align:center"><code>CalendarGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Exchange Services¹</td>
+<td style="text-align:center"><code>ExchangeGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Gmail</td>
+<td style="text-align:center"><code>Gmail</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Now Launcher²</td>
+<td style="text-align:center"><code>GoogleNow</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">4.4</td>
+<td style="text-align:center">4.4</td>
+<td style="text-align:center">4.4</td>
+<td style="text-align:center">4.4</td>
+<td style="text-align:center">4.4</td>
+</tr>
+<tr>
+<td style="text-align:center">Pixel Icons</td>
+<td style="text-align:center"><code>PixelIcons</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">7.1</td>
+<td style="text-align:center">7.1</td>
+<td style="text-align:center">7.1</td>
+<td style="text-align:center">7.1</td>
+<td style="text-align:center">7.1</td>
+</tr>
+<tr>
+<td style="text-align:center">Pixel Launcher²</td>
+<td style="text-align:center"><code>PixelLauncher</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Wallpapers</td>
+<td style="text-align:center"><code>Wallpapers</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Calculator¹</td>
+<td style="text-align:center"><code>CalculatorGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Carrier Services</td>
+<td style="text-align:center"><code>CarrierServices</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Clock¹</td>
+<td style="text-align:center"><code>ClockGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Maps</td>
+<td style="text-align:center"><code>Maps</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Messages¹</td>
+<td style="text-align:center"><code>Messenger</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Photos</td>
+<td style="text-align:center"><code>Photos</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Tags¹</td>
+<td style="text-align:center"><code>TagGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">YouTube</td>
+<td style="text-align:center"><code>YouTube</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Play Books</td>
+<td style="text-align:center"><code>Books</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Chrome⁴</td>
+<td style="text-align:center"><code>Chrome</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Cloud Print</td>
+<td style="text-align:center"><code>CloudPrint</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Drive</td>
+<td style="text-align:center"><code>Drive</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Keep Notes</td>
+<td style="text-align:center"><code>Keep</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Play Movies &amp; TV</td>
+<td style="text-align:center"><code>Movies</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Play Music</td>
+<td style="text-align:center"><code>Music</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google News</td>
+<td style="text-align:center"><code>Newsstand</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Play Games</td>
+<td style="text-align:center"><code>PlayGames</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Accessibility Suite</td>
+<td style="text-align:center"><code>TalkBack</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Recorder</td>
+<td style="text-align:center"><code>Recorder</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Android Auto</td>
+<td style="text-align:center"><code>AndroidAuto</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Camera¹</td>
+<td style="text-align:center"><code>CameraGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Contacts¹</td>
+<td style="text-align:center"><code>ContactsGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Phone²</td>
+<td style="text-align:center"><code>DialerGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Duo</td>
+<td style="text-align:center"><code>Duo</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Pay</td>
+<td style="text-align:center"><code>GooglePay</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Keyboard¹</td>
+<td style="text-align:center"><code>KeyboardGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Print Recommendation Service</td>
+<td style="text-align:center"><code>PrintServiceGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Smart Storage</td>
+<td style="text-align:center"><code>StorageManagerGoogle</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Translate</td>
+<td style="text-align:center"><code>Translate</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google VR Services</td>
+<td style="text-align:center"><code>VRService</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Android System Webview¹⁴</td>
+<td style="text-align:center"><code>WebViewGoogle</code> <code>WebViewStub</code>³</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">O</td>
+</tr>
+<tr>
+<td style="text-align:center">Better Together</td>
+<td style="text-align:center"><code>BetterTogether</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Apps Device Policy</td>
+<td style="text-align:center"><code>DMAgent</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Docs</td>
+<td style="text-align:center"><code>Docs</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Earth</td>
+<td style="text-align:center"><code>Earth</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Fit</td>
+<td style="text-align:center"><code>Fitness</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Connectivity Services</td>
+<td style="text-align:center"><code>GCS</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Hangouts</td>
+<td style="text-align:center"><code>Hangouts</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Indic Keyboard</td>
+<td style="text-align:center"><code>Indic</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Japanese Input</td>
+<td style="text-align:center"><code>Japanese</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Korean Input</td>
+<td style="text-align:center"><code>Korean</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Pinyin Input</td>
+<td style="text-align:center"><code>Pinyin</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Project Fi²</td>
+<td style="text-align:center"><code>ProjectFi</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Sheets</td>
+<td style="text-align:center"><code>Sheets</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Slides</td>
+<td style="text-align:center"><code>Slides</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Street View</td>
+<td style="text-align:center"><code>Street</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">Google Zhuyin Input</td>
+<td style="text-align:center"><code>Zhuyin</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+</tr>
+</tbody>
+</table></div>
+<p>&mdash;&mdash;&ndash;分界线&mdash;&mdash;&ndash;</p>
+<p>一般来说，选择<code>pico/nano/micro</code>版本已经足够，更大的版本不仅是<code>/system</code>装不下，而且也很多冗余的物品！</p>
+<h3 id="2下载你所需版本的刷机包">2.下载你所需版本的刷机包</h3>
+<p>前往着一个网址：<a class="link" href="https://opengapps.org/"  target="_blank" rel="noopener"
+    >https://opengapps.org/</a></p>
+<p><img src="/p/androidinstallgoogle/umxgov.webp"
+	width="453"
+	height="800"
+	srcset="/p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_480x0_resize_q75_h2_box_2.webp 480w, /p/androidinstallgoogle/umxgov_hu60f29ff57dd6a0512c32094a27fd27f6_15008_1024x0_resize_q75_h2_box_2.webp 1024w"
+	loading="lazy"
+	
+		alt="Alt"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="56"
+		data-flex-basis="135px"
+	
+></p>
+<p>在图中选择你设备的<code>架构(一般为ARM64)</code>、<code>安卓版本</code>、<code>你所需要的Gapps的版本</code></p>
+<p>然后点击<code>下方的下载图标</code>，就可以跳转到&lt;sourceforge.net&gt;进行下载了！</p>
+<h3 id="3从第三方recovery刷入例twrp">3.从第三方Recovery刷入(例TWRP)</h3>
+<p>由于Rec模式不好截图，这里就用文本描述！</p>
+<p>重启至<code>Recovery</code>，按照普通方式在<code>安装/Install</code>模式下选择保存在手机内的<code>Gappsxxx.zip</code>即可！</p>
+<h3 id="4重启-享受谷歌服务">4.重启 享受谷歌服务</h3>
+<p>刷入完成后重启即可，一开机就会发现有<strong>标准的谷歌服务以及套件</strong>了！</p>
+<h2 id="第二种方法litegapps-magisk模块">第二种方法：LiteGapps (Magisk模块)</h2>
+<p><code>LiteGapps</code>是一个<code>Gapps</code>的分支，其拥有比原版<code>Gapps</code>更小的体积，但是功能也一点没有减少</p>
+<p>其官网为：<a class="link" href="https://litegapps.site/"  target="_blank" rel="noopener"
+    >https://litegapps.site/</a></p>
+<p><code>LiteGapps</code>模块在<a class="link" href="https://magisk.suchenqaq.club/"  target="_blank" rel="noopener"
+    >Magisk资源分享</a>网站上有分享，可以通过下面的链接下载模块并安装：</p>
+<p><a class="link" href="https://downloads1.suchenqaq.club/magisk_module/tool/[MAGISK]LiteGapps%20%20_v2.3_official.zip"  target="_blank" rel="noopener"
+    >LiteGapps模块(来自于Magisk资源分享)</a></p>
+<p>详细的模块安装方法就<em>不介绍</em>了，安装完重启即可享受<strong>标准的谷歌服务以及套件</strong>！</p>
+<h2 id="附解决google-play-设备未获得play保护机制认证">附：解决<code>Google Play 设备未获得Play保护机制认证</code></h2>
+<p>在一些<em>冷门或是国产设备</em>上使用上述方法安装<code>Google 框架</code>时，会出现<code>Google Play 设备未获得Play保护机制认证</code>这一提示：</p>
+<p><img src="/p/androidinstallgoogle/image-1.png"
+	width="745"
+	height="570"
+	srcset="/p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_480x0_resize_box_3.png 480w, /p/androidinstallgoogle/image-1_hu796b94baed978ecc2ec9f3558577d49d_171803_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="313px"
+	
+></p>
+<h3 id="1安装deviceid">1.安装DeviceID</h3>
+<p>在 <a class="link" href="https://play.google.com/store/apps/details?id=com.evozi.deviceid&amp;hl=zh"  target="_blank" rel="noopener"
+    >Google Play</a> / <a class="link" href="https://apkpure.com/store/apps/details?id=com.evozi.deviceid&amp;hl=zh"  target="_blank" rel="noopener"
+    >Apkpure</a> / <a class="link" href="https://c1oudf1are.link/com.evozi.deviceid_1.3.2-8_minAPI14%28nodpi%29.apk"  target="_blank" rel="noopener"
+    >本站</a> 任选一个<strong>你可以访问</strong>的地址下载</p>
+<p>随后<strong>安装并打开</strong>即可</p>
+<h3 id="2获取gsfid">2.获取GSFID</h3>
+<p><img src="/p/androidinstallgoogle/image-2.png"
+	width="323"
+	height="573"
+	srcset="/p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_480x0_resize_box_3.png 480w, /p/androidinstallgoogle/image-2_hu0dfe3fa4ca1e7b05b1ef0de2929ddab6_50933_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="56"
+		data-flex-basis="135px"
+	
+></p>
+<p>如图，在第二行的<code>Google Service Framework (GSF)</code>中获取你自己设备的<strong>独一无二的</strong>ID！</p>
+<p>复制保存下来，下一步<strong>需要用到</strong>！</p>
+<h3 id="3注册id">3.注册ID</h3>
+<p>前往 <a class="link" href="https://www.google.com/android/uncertified/"  target="_blank" rel="noopener"
+    >https://www.google.com/android/uncertified/</a></p>
+<p>登入你的<code>Google账户</code>，并输入你上面获取的<code>GSFID</code>:(图来自知乎)</p>
+<p><img src="/p/androidinstallgoogle/image-3.png"
+	width="1132"
+	height="584"
+	srcset="/p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_480x0_resize_box_3.png 480w, /p/androidinstallgoogle/image-3_hu0ce0c69be0dff336a4a259b6e6d73b09_332702_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="193"
+		data-flex-basis="465px"
+	
+></p>
+<p>点击<code>注册</code>，等待一会即可！</p>
+<h3 id="重置google-play数据">重置Google Play数据</h3>
+<p>进入 <strong>系统设置-软件-Google Play-储存空间-清除数据</strong> ，确认后<em>重启设备</em>，就可以正常使用<code>Google Play</code>了！</p>
+<h2 id="小结">小结</h2>
+<p>安装过程挺简单的，希望大家都能用上Google 框架！</p>
+<p>如有问题，可以来 Telegram:<a class="link" href="https://t.me/C1oudF1are"  target="_blank" rel="noopener"
+    >@C1oudF1are</a> 找我，免费咨询任何我所知道的问题！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/googlepaiming/">
+        
+        
+            <div class="article-image">
+                <img src="/p/googlepaiming/image-6.1d669d76e60e2c25a4c18c221f024afd_hu50316e0d1fec334779019ec2d8547438_58497_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何让 Google 快速收录你的网站 / 提升在 Google 的排名"
+                        data-key="googlepaiming" 
+                        data-hash="md5-HWadduYOLCWkwYwiHwJK/Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何让 Google 快速收录你的网站 / 提升在 Google 的排名</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/sqaipad/">
+        
+        
+            <div class="article-image">
+                <img src="/p/sqaipad/image.5151affcee2ad1e8d263e5bdb7cc37dc_huece66c896fd2110ca62bafc3bffb4b24_19317_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)"
+                        data-key="sqaipad" 
+                        data-hash="md5-UVGv/O4q0ejSY&#43;W9t8w33A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/magisk/">
+        
+        
+            <div class="article-image">
+                <img src="/p/magisk/_hu09a75327a2e4900423de0aad85250811_111196_a165208b6001240e78668f726b7378f1.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 从Magisk转入Magisk Delta"
+                        data-key="magisk" 
+                        data-hash="md5-dwIex5dIMKYLaAghDHKhVg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">从Magisk转入Magisk Delta</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/github-student-pack/">
+        
+        
+            <div class="article-image">
+                <img src="/p/github-student-pack/_hud0c2b695a2cb0b7c98d0157fecff51a7_37474_fb8ff94d7b95516d355b139280e32268.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post GitHub Student Developer Pack 的申请教程"
+                        data-key="github-student-pack" 
+                        data-hash="md5-&#43;gbeSoe&#43;audiIM3cZf7OTw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">GitHub Student Developer Pack 的申请教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/musicbot/">
+        
+        
+            <div class="article-image">
+                <img src="/p/musicbot/YukkiMusicBot.b1c194937c8541d3e0b8573e7993a290_hub5579f3c003bab5f6fceabdeb4e48c29_80448_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Yukki Music Bot 的部署"
+                        data-key="musicbot" 
+                        data-hash="md5-scGUk3yFQdPguFc&#43;eZOikA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Yukki Music Bot 的部署</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 HighPing们の小小藏身地
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
