@@ -6,7 +6,23 @@
         <description>Recent content in Categories on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CePing</title>
+        <link>https://blog.highp.ing/categories/ceping/</link>
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/ceping/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Main</title>
+        <link>https://blog.highp.ing/categories/main/</link>
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/main/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Domain</title>
         <link>https://blog.highp.ing/categories/domain/</link>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
@@ -20,14 +36,6 @@
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/free/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Main</title>
-        <link>https://blog.highp.ing/categories/main/</link>
-        <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.highp.ing/categories/main/</guid>
         <description></description>
         </item>
         <item>
@@ -132,14 +140,6 @@
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/rclone/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>CePing</title>
-        <link>https://blog.highp.ing/categories/ceping/</link>
-        <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.highp.ing/categories/ceping/</guid>
         <description></description>
         </item>
         <item>

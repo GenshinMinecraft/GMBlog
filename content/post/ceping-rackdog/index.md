@@ -1,7 +1,7 @@
 ---
 title: Rackdog 冷门商家 $3 1C512M 测评
 description: 我妈!
-date: 2023-01-26
+date: 2024-01-26
 slug: ceping-rackdog
 image: 5b7595e45ebeb.jpg
 categories:

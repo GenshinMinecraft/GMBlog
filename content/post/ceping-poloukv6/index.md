@@ -1,7 +1,7 @@
 ---
 title: PoloCloud UKLite IPv6 1rmb小鸡 测评
 description: 1rmb的小鸡有 6000 CPU分数是不是太离谱了
-date: 2023-01-25
+date: 2024-01-25
 slug: ceping-poloukv6
 image: 2e4c51c7b02c7ecc4c064c575b7910e3.jpg
 categories:
