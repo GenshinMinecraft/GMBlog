@@ -91,7 +91,7 @@ adb shell pm disable-user com.boll.tutorialclasslauncher
 
 ### 安装安装狮并授权
 
-在这里下载`安装狮`APK：<https://c1oudf1are.link/p/sqaipad/com.modosa.apkinstaller-3.7.5-42-231938.apk>
+在这里下载`安装狮`APK：<https://blog.highp.ing/p/sqaipad/com.modosa.apkinstaller-3.7.5-42-231938.apk>
 
 通过`ADB`安装至设备上：
 ```cmd
