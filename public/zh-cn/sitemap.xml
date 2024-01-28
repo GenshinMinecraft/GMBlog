@@ -28,10 +28,22 @@
                 href="https://blog.highp.ing/categories/"
                 />
   </url><url>
+    <loc>https://blog.highp.ing/categories/ceping/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/categories/gpt/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.highp.ing/categories/linux/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/categories/main/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/categories/openai/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/p/samopenai/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/post/</loc>
@@ -39,9 +51,6 @@
   </url><url>
     <loc>https://blog.highp.ing/p/xui-scanner/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.highp.ing/categories/ceping/</loc>
-    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/p/ceping-rackdog/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>

@@ -7,6 +7,22 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CePing</title>
+        <link>https://blog.highp.ing/categories/ceping/</link>
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/ceping/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>GPT</title>
+        <link>https://blog.highp.ing/categories/gpt/</link>
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/gpt/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Linux</title>
         <link>https://blog.highp.ing/categories/linux/</link>
         <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
@@ -23,11 +39,11 @@
         <description></description>
         </item>
         <item>
-        <title>CePing</title>
-        <link>https://blog.highp.ing/categories/ceping/</link>
-        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        <title>OpenAI</title>
+        <link>https://blog.highp.ing/categories/openai/</link>
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.highp.ing/categories/ceping/</guid>
+        <guid>https://blog.highp.ing/categories/openai/</guid>
         <description></description>
         </item>
         <item>
