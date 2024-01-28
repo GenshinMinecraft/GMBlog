@@ -91,9 +91,10 @@ menu:
           url: https://github.com/High-Ping-Network
           params:
               icon: brand-github
+        
         - identifier: telegram
           name: telegram
-          url: https:/t.me/HighPingNetwork
+          url: http:/t.me/HighPingNetwork
           params:
               icon: brand-telegram
 
