@@ -91,6 +91,11 @@ menu:
           url: https://github.com/High-Ping-Network
           params:
               icon: brand-github
+        - identifier: telegram
+          name: telegram
+          url: https:/t.me/HighPingNetwork
+          params:
+              icon: brand-telegram
 
 related:                 # 相关文章配置
     includeNewer: true    # 是否包含更新的文章
