@@ -45,7 +45,7 @@ categories:
 
 试听链接：
 
-<https://c1oudf1are.link/p/greatmusic/YouBrokeMeFirst.mp3>
+<https://blog.highp.ing/p/greatmusic/YouBrokeMeFirst.mp3>
 
 ### 凄美地
 
@@ -67,7 +67,7 @@ categories:
 
 试听链接：
 
-<https://c1oudf1are.link/p/greatmusic/凄美地.mp3>
+<https://blog.highp.ing/p/greatmusic/凄美地.mp3>
 
 PS：`《飞行器的执行周期》`里面的歌曲都挺好听的，譬如`《水星记》`，与`《凄美地》`齐名
 
@@ -90,7 +90,7 @@ PS：`《飞行器的执行周期》`里面的歌曲都挺好听的，譬如`《
 
 `《僕らの手には何もないけど》`：<https://www.youtube.com/watch?v=TXpGWhdwXuo&list=WL&index=15>
 
-`《当年菜鸟》`：<https://c1oudf1are.link/p/greatmusic/当年菜鸟.mp3>
+`《当年菜鸟》`：<https://blog.highp.ing/p/greatmusic/当年菜鸟.mp3>
 
 ### 都选C
 

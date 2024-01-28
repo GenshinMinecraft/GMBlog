@@ -12,7 +12,7 @@ categories:
 
 # OpenAI 测评
 
-本文由 `High Ping Network` 的小伙伴 sam 进行编撰，首发于 [Sam博客](https://)
+本文由 `High Ping Network` 的小伙伴 sam 进行编撰，首发于 [Sam博客](https://blog.sam1314.com/)
 
 ## 引言
 > 作为2023年的爆炸性事件，Openai这家公司可以说是改变了世界。虽然网络上已经有很多对他们的模型进行了试用和测评的文章，但是经过博主的深度尝试，为大家带来这篇测评
