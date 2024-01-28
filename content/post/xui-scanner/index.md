@@ -2,7 +2,7 @@
 title: 扫描弱密码的 X-ui 面板
 description: 一点技术含量都没有，仅作为技术研究文，麻烦看看宇宙安全声明
 date: 2024-01-28
-draft:false
+hidden: true 
 slug: xui-scanner
 image: O1CN018qw1rw1nQWUL5Ppa7_!!2401945084.jpg
 categories:
