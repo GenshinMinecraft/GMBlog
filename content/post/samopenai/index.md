@@ -5,6 +5,7 @@ date: 2024-01-28
 slug: samopenai
 image: 1_5ecJKPe4wDKIJ197h5r3bQ.png
 categories:
+    - Main
     - OpenAI
     - GPT
     - CePing
