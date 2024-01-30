@@ -9,6 +9,10 @@ links:
     description: 铭哥的扯淡博客
     website: http://blog.mingge.link/
     image: http://blog.mingge.link/favicon.ico
+  - title: Lemon Space
+    description: Lemonawa's Space
+    website: https://lma.moe/
+    image: https://lma.moe/_next/image?url=https://lma.moe/api/v2/objects/avatar/bdzsvuauase01sq36t.jpg&w=640&q=75&dpl=dpl_PfVQwB1KgXUKU8tAujNenz1wrKAz
   - title: 黑弩的博客
     description: 黑弩的瞎jb乱写博客
     website: https://www.heinu.cc/
