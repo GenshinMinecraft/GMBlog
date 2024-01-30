@@ -8,15 +8,11 @@ links:
   - title: 铭哥のBlog
     description: 铭哥的扯淡博客
     website: http://blog.mingge.link/
-    image: http://blog.mingge.link/favicon.ico
+    image: https://pic.saozhu.me/file/7dd8a2d1fcf4c6ec0aaa3.png
   - title: Lemon Space
     description: Lemonawa's Space
     website: https://lma.moe/
     image: https://lma.moe/_next/image?url=https://lma.moe/api/v2/objects/avatar/bdzsvuauase01sq36t.jpg&w=640&q=75&dpl=dpl_PfVQwB1KgXUKU8tAujNenz1wrKAz
-  - title: 黑弩的博客
-    description: 黑弩的瞎jb乱写博客
-    website: https://www.heinu.cc/
-    image: https://www.heinu.cc/118418714.jpg
 menu:
     main: 
         weight: -50
@@ -46,6 +42,6 @@ links:
 
 -->
 ## 友链哒哒哒~
-### 可以来与我交换友链哦~
-### 邮件:GenshinMinecraft@Duck.com
-### TG:@C1oudF1are
+### 可以来与 High Ping Blog 交换友链哦~
+### E-mail: noc@highp.ing
+### TG: @HighPingChat
