@@ -1,5 +1,5 @@
 ---
-title: Rackdog 冷门商家 $3 1C512M 测评
+title: Rackdog 冷门商家 美国芝加哥 $3 1C512M 测评
 description: 我妈!
 date: 2024-01-26
 slug: ceping-rackdog
@@ -9,7 +9,7 @@ categories:
     - CePing
 ---
 
-# [测评] Rackdog 冷门商家 $3 1C512M 测评
+# [测评] Rackdog 冷门商家 美国芝加哥 $3 1C512M 测评
 
 本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
 
