@@ -18,7 +18,7 @@ Hi! 这里是 `High Ping Network` 的官方博客
 
 我们是由 11 个人组成的小团队：(按照首字母顺序排列)
 - [@GenshinMinecraft](https://t.me/C1oudF1are)
-- [@HighPingCat](https://t.me/HighPingCat)
+- [@HighPingKat](https://t.me/HighPingKat)
 - [@imkcp](https://t.me/cn_imkcp)
 - [@Lemonawa](https://t.me/Lemonawa)
 - [@Lengz1m0](https://t.me/Lengz1m0)
