@@ -86,6 +86,12 @@ menu:
     main: []              # 主菜单
 
     social:               # 社交链接
+        - identifier: web
+          name: web
+          url: http://highp.ing
+          params:
+              icon: web
+
         - identifier: github
           name: GitHub
           url: https://github.com/High-Ping-Network
