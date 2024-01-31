@@ -87,10 +87,10 @@ menu:
 
     social:               # 社交链接
         - identifier: web
-          name: web
+          name: Web
           url: http://highp.ing
           params:
-              icon: web
+              icon: brand-web
 
         - identifier: github
           name: GitHub
