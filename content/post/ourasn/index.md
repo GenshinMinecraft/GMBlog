@@ -1,5 +1,5 @@
 ---
-title: High Ping Network 的 ASN 到达了!
+title: High Ping Network's ASN Got!
 description: Glad to meet you, the Internet!
 date: 2024-02-03
 hidden: true
@@ -10,7 +10,7 @@ categories:
     - ASN
 ---
 
-# High Ping Network 的 ASN 拿到了
+# High Ping Network's ASN Got!
 
 `High Ping Network` 的 AS Number 为 `ASxxxxxxxxx`
 
