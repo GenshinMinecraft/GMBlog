@@ -1,7 +1,7 @@
 ---
 title: High Ping Network's ASN Got!
 description: Glad to meet you, the Internet!
-date: 2024-02-03
+date: 2024-02-05
 hidden: true
 slug: ourasn
 image: 466f79e8ly1fw5ohcs2vfj21380rsqmg.jpg
@@ -12,7 +12,7 @@ categories:
 
 # High Ping Network's ASN Got!
 
-`High Ping Network` 的 AS Number 为 `ASxxxxxxxxx`
+`High Ping Network` 的 AS Number 为 `AS215575`
 
 ## We
 
@@ -35,6 +35,24 @@ categories:
 - 总计 IP 数量: `19,342,813,113,834,066,795,298,816`个可用 IPv6 地址
 
 用人话来说，就是约有 19 亿亿亿个 IPv6，用十辈子都用不完（
+
+我们的分配 (将一个 /44 平均分成 16 等份，每份为 /48，剩余5个为备用段):
+- 2a0f:7803:fb20::/48 -- [@rtx ςαΤ](https://t.me/rtx5000ada)
+- 2a0f:7803:fb21::/48 --  
+- 2a0f:7803:fb22::/48 -- [@UniOreoX](https://t.me/UniOreoX)
+- 2a0f:7803:fb23::/48 --  
+- 2a0f:7803:fb24::/48 -- [@GenshinMinecraft](https://t.me/C1oudF1are)
+- 2a0f:7803:fb25::/48 -- [@Lemonawa](https://t.me/Lemonawa)
+- 2a0f:7803:fb26::/48 --  
+- 2a0f:7803:fb27::/48 --  
+- 2a0f:7803:fb28::/48 --  
+- 2a0f:7803:fb29::/48 --  
+- 2a0f:7803:fb2a::/48 --  
+- 2a0f:7803:fb2b::/48 -- [@HighPingKat](https://t.me/HighPingKat)
+- 2a0f:7803:fb2c::/48 --  
+- 2a0f:7803:fb2d::/48 --  
+- 2a0f:7803:fb2e::/48 --  
+- 2a0f:7803:fb2f::/48 -- [@Mio](https://t.me/Akiyama_mio_hi)
 
 ### 关于我们的信息
 
