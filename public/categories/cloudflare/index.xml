@@ -6,7 +6,83 @@
         <description>Recent content in CloudFlare on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/cloudflare/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/cloudflare/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>仅依靠 CloudFlare 完成带路径参数重定向</title>
+        <link>https://blog.highp.ing/p/cf302/</link>
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/cf302/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/cf302/kS4EzZ3v7gNHWJG.jpg" alt="Featured image of post 仅依靠 CloudFlare 完成带路径参数重定向" /&gt;&lt;h1 id=&#34;仅依靠-cloudflare-完成带路径参数重定向&#34;&gt;仅依靠 CloudFlare 完成带路径参数重定向&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;本博文会&lt;strong&gt;十分短&lt;/strong&gt;，因为比较简单而且也是随手一记。&lt;/p&gt;
+&lt;p&gt;做到的效果大约是: &lt;em&gt;中国大陆用户&lt;/em&gt;访问 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/xxx/xxxx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.highp.ing/xxx/xxxx&lt;/a&gt; 时会被 CloudFlare 在边缘重定向到 &lt;a class=&#34;link&#34; href=&#34;https://nomao.blog.highp.ing/xxx/xxxx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://nomao.blog.highp.ing/xxx/xxxx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不论 URL 中的 &lt;em&gt;目录/请求参数&lt;/em&gt; 是什么，都可以一并转发到目标网站&lt;/p&gt;
+&lt;p&gt;整个过程是为了让&lt;em&gt;中国大陆&lt;/em&gt;访问者更快访问，且不影响浏览体验，&lt;strong&gt;无感302&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Powered By CloudFlare&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;h3 id=&#34;step-1&#34;&gt;Step 1&lt;/h3&gt;
+&lt;p&gt;转到 &lt;a class=&#34;link&#34; href=&#34;https://dash.cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://dash.cloudflare.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_172840_978.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;718&#34;
+	srcset=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_172840_978_hu5e02898a84d8884b0bd20b2575f580b5_181199_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cf302/IMG_20240205_172840_978_hu5e02898a84d8884b0bd20b2575f580b5_181199_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;427px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;进入侧边栏的 &lt;code&gt;规则-重定向规则&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-2&#34;&gt;Step 2&lt;/h3&gt;
+&lt;p&gt;点击 &lt;code&gt;创建规则&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_173103_327.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;651&#34;
+	srcset=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_173103_327_hua6132f045f2f252a25331af8632b324d_88490_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cf302/IMG_20240205_173103_327_hua6132f045f2f252a25331af8632b324d_88490_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;471px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;为你的规则起一个名字&lt;/p&gt;
+&lt;h3 id=&#34;step-3&#34;&gt;Step 3&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_173239_121.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;1174&#34;
+	srcset=&#34;https://blog.highp.ing/p/cf302/IMG_20240205_173239_121_hub8aacdc0832ed18574c6ee791b1702cd_99229_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/cf302/IMG_20240205_173239_121_hub8aacdc0832ed18574c6ee791b1702cd_99229_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;68&#34;
+		data-flex-basis=&#34;163px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;其中，&lt;code&gt;如果...-当传入请求匹配时...&lt;/code&gt; 根据需要写入规则的前提&lt;/p&gt;
+&lt;p&gt;比如我的就是检测 &lt;em&gt;中国大陆&lt;/em&gt; 的请求，其表达式为: &lt;code&gt;(ip.geoip.country eq &amp;quot;CN&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;则...-URL 重定向&lt;/code&gt; 中，类型选择 &lt;code&gt;动态&lt;/code&gt;，表达式这样写:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;concat(&amp;quot;https://nomao.blog.highp.ing&amp;quot;, http.request.uri.path)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其中，&lt;code&gt;https://nomao.blog.highp.ing&lt;/code&gt; 需要替换为你的重定向后的域名&lt;/p&gt;
+&lt;p&gt;状态代码 &lt;code&gt;301&lt;/code&gt; 与 &lt;code&gt;302&lt;/code&gt; 均可，差别只是一个是&lt;em&gt;永久重定向&lt;/em&gt;一个是&lt;em&gt;临时重定向&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;记得勾选上 &lt;code&gt;保留查询字符串&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;enjoy-it&#34;&gt;Enjoy it!&lt;/h3&gt;
+&lt;p&gt;保存并部署上面的重定向规则，测试完成后就差不多了！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt; 在 &lt;em&gt;中国大陆&lt;/em&gt; 地区访问会跳转到 &lt;a class=&#34;link&#34; href=&#34;https://nomao.blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://nomao.blog.highp.ing&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客访问速度提升指南</title>
         <link>https://blog.highp.ing/p/blogspeedup/</link>
         <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>

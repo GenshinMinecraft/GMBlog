@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='优选算不算滥用'>
+<title>仅依靠 CloudFlare 完成带路径参数重定向</title>
+
+<link rel='canonical' href='https://blog.highp.ing/p/cf302/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='仅依靠 CloudFlare 完成带路径参数重定向'>
+<meta property='og:description' content='优选算不算滥用'>
+<meta property='og:url' content='https://blog.highp.ing/p/cf302/'>
+<meta property='og:site_name' content='HighPing们の小小藏身地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-02-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-02-05T00:00:00&#43;00:00'/><meta property='og:image' content='https://blog.highp.ing/p/cf302/kS4EzZ3v7gNHWJG.jpg' />
+<meta name="twitter:title" content="仅依靠 CloudFlare 完成带路径参数重定向">
+<meta name="twitter:description" content="优选算不算滥用"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.highp.ing/p/cf302/kS4EzZ3v7gNHWJG.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://i2.100024.xyz/2024/01/01/umato9.webp" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">😇</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">HighPing们の小小藏身地</a></h1>
+            <h2 class="site-description">High Ping Network</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/High-Ping-Network'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1706662022006" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4198" width="200" height="200"><path d="M512.465 98.744c-236.05-2.401-429.41 187.034-431.998 423.242 0.894 183.912 120.176 346.283 295.332 402.018 21.6 3.93 29.451-9.04 29.451-20.436v-71.916c-120.17 25.545-145.7-56.59-145.7-56.59a112.364 112.364 0 0 0-47.914-62.089c-39.272-25.937 3.141-25.545 3.141-25.545a90.702 90.702 0 0 1 65.978 43.624c25.358 43.993 81.26 59.548 125.678 34.976a91.569 91.569 0 0 1 27.487-56.59c-95.825-10.615-196.36-46.768-196.36-209.067a163.13 163.13 0 0 1 43.591-114.358 148.652 148.652 0 0 1 4.32-111.609c15.896-35.223 36.525-11.397 117.815 43.229a419.24 419.24 0 0 1 216.002 0c82.471-54.626 117.82-43.229 117.82-43.229a148.657 148.657 0 0 1 4.32 111.61 163.145 163.145 0 0 1 45.945 113.57c0 162.695-101.321 198.458-196.36 209.067a98.273 98.273 0 0 1 29.452 78.594v115.933c0 13.752 7.856 24.756 29.457 20.43 174.63-56.071 293.466-218.106 294.545-401.622C941.878 285.778 748.52 96.343 512.465 98.744" fill="#231F20" p-id="4199"></path></svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http:/t.me/HighPingNetwork'
+                        target="_blank"
+                        title="telegram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1706421640444" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4205" width="200" height="200"><path d="M912.213333 154.026667A85.333333 85.333333 0 0 0 853.333333 128a85.333333 85.333333 0 0 0-33.28 6.826667l-708.266666 306.773333a42.666667 42.666667 0 0 0-26.453334 42.666667V512a42.666667 42.666667 0 0 0 29.44 42.666667L298.666667 616.106667l55.466666 187.306666a75.946667 75.946667 0 0 0 56.32 53.333334 62.72 62.72 0 0 0 15.36 0 73.813333 73.813333 0 0 0 50.773334-20.48l67.84-64 131.413333 103.68a85.333333 85.333333 0 0 0 90.026667 9.386666l14.08-7.253333a88.32 88.32 0 0 0 46.506666-62.72L938.666667 235.093333a90.026667 90.026667 0 0 0-26.453334-81.066666zM763.733333 805.12a25.173333 25.173333 0 0 1-12.8 17.493333l-14.08 7.253334a19.626667 19.626667 0 0 1-8.96 2.133333 19.626667 19.626667 0 0 1-12.373333-4.693333l-160.426667-128a20.906667 20.906667 0 0 0-27.733333 0l-94.72 89.173333a11.093333 11.093333 0 0 1-5.973333 2.133333V640a21.76 21.76 0 0 1 6.826666-15.786667c136.106667-128 217.6-199.68 266.24-240.64a15.786667 15.786667 0 0 0 5.12-11.093333 13.653333 13.653333 0 0 0-4.266666-11.093333 14.933333 14.933333 0 0 0-17.92-4.266667l-322.56 203.52a21.333333 21.333333 0 0 1-18.346667 0L149.333333 494.933333l694.186667-301.226666a16.64 16.64 0 0 1 7.68 0 22.186667 22.186667 0 0 1 16.213333 7.68 26.88 26.88 0 0 1 6.826667 23.466666z" p-id="4206"></path></svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http://highp.ing'
+                        target="_blank"
+                        title="Web"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1706661682676" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4223" width="200" height="200"><path d="M698.026667 597.333333C701.44 569.173333 704 541.013333 704 512 704 482.986667 701.44 454.826667 698.026667 426.666667L842.24 426.666667C849.066667 453.973333 853.333333 482.56 853.333333 512 853.333333 541.44 849.066667 570.026667 842.24 597.333333M622.506667 834.56C648.106667 787.2 667.733333 736 681.386667 682.666667L807.253333 682.666667C766.293333 753.066667 701.013333 807.68 622.506667 834.56M611.84 597.333333 412.16 597.333333C407.893333 569.173333 405.333333 541.013333 405.333333 512 405.333333 482.986667 407.893333 454.4 412.16 426.666667L611.84 426.666667C615.68 454.4 618.666667 482.986667 618.666667 512 618.666667 541.013333 615.68 569.173333 611.84 597.333333M512 851.626667C476.586667 800.426667 448 743.68 430.506667 682.666667L593.493333 682.666667C576 743.68 547.413333 800.426667 512 851.626667M341.333333 341.333333 216.746667 341.333333C257.28 270.506667 322.986667 215.893333 401.066667 189.44 375.466667 236.8 356.266667 288 341.333333 341.333333M216.746667 682.666667 341.333333 682.666667C356.266667 736 375.466667 787.2 401.066667 834.56 322.986667 807.68 257.28 753.066667 216.746667 682.666667M181.76 597.333333C174.933333 570.026667 170.666667 541.44 170.666667 512 170.666667 482.56 174.933333 453.973333 181.76 426.666667L325.973333 426.666667C322.56 454.826667 320 482.986667 320 512 320 541.013333 322.56 569.173333 325.973333 597.333333M512 171.946667C547.413333 223.146667 576 280.32 593.493333 341.333333L430.506667 341.333333C448 280.32 476.586667 223.146667 512 171.946667M807.253333 341.333333 681.386667 341.333333C667.733333 288 648.106667 236.8 622.506667 189.44 701.013333 216.32 766.293333 270.506667 807.253333 341.333333M512 85.333333C276.053333 85.333333 85.333333 277.333333 85.333333 512 85.333333 747.52 276.48 938.666667 512 938.666667 747.52 938.666667 938.666667 747.52 938.666667 512 938.666667 276.48 747.52 85.333333 512 85.333333Z" p-id="4224"></path></svg>
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://blog.highp.ing/en/" >English</option>
+                        
+                            <option value="https://blog.highp.ing/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#配置">配置</a>
+      <ol>
+        <li><a href="#step-1">Step 1</a></li>
+        <li><a href="#step-2">Step 2</a></li>
+        <li><a href="#step-3">Step 3</a></li>
+        <li><a href="#enjoy-it">Enjoy it!</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/cf302/">
+                <img src="/p/cf302/kS4EzZ3v7gNHWJG_huddee8d4853eae2dac09114992a9b0569_224618_800x0_resize_q75_box.jpg"
+                        srcset="/p/cf302/kS4EzZ3v7gNHWJG_huddee8d4853eae2dac09114992a9b0569_224618_800x0_resize_q75_box.jpg 800w, /p/cf302/kS4EzZ3v7gNHWJG_huddee8d4853eae2dac09114992a9b0569_224618_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 仅依靠 CloudFlare 完成带路径参数重定向" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/main/" >
+                Main
+            </a>
+        
+            <a href="/categories/cloudflare/" >
+                CloudFlare
+            </a>
+        
+            <a href="/categories/free/" >
+                Free
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/cf302/">仅依靠 CloudFlare 完成带路径参数重定向</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            优选算不算滥用
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 05, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="仅依靠-cloudflare-完成带路径参数重定向">仅依靠 CloudFlare 完成带路径参数重定向</h1>
+<p>本文由 <code>High Ping Network</code> 的小伙伴 GenshinMinecraft 进行编撰，首发于 <a class="link" href="https://blog.highp.ing/"  target="_blank" rel="noopener"
+    >本博客</a></p>
+<h2 id="前言">前言</h2>
+<p>本博文会<strong>十分短</strong>，因为比较简单而且也是随手一记。</p>
+<p>做到的效果大约是: <em>中国大陆用户</em>访问 <a class="link" href="https://blog.highp.ing/xxx/xxxx"  target="_blank" rel="noopener"
+    >https://blog.highp.ing/xxx/xxxx</a> 时会被 CloudFlare 在边缘重定向到 <a class="link" href="https://nomao.blog.highp.ing/xxx/xxxx"  target="_blank" rel="noopener"
+    >https://nomao.blog.highp.ing/xxx/xxxx</a></p>
+<p>不论 URL 中的 <em>目录/请求参数</em> 是什么，都可以一并转发到目标网站</p>
+<p>整个过程是为了让<em>中国大陆</em>访问者更快访问，且不影响浏览体验，<strong>无感302</strong></p>
+<p><strong>Powered By CloudFlare</strong></p>
+<h2 id="配置">配置</h2>
+<h3 id="step-1">Step 1</h3>
+<p>转到 <a class="link" href="https://dash.cloudflare.com"  target="_blank" rel="noopener"
+    >https://dash.cloudflare.com</a></p>
+<p><img src="/p/cf302/IMG_20240205_172840_978.jpg"
+	width="1280"
+	height="718"
+	srcset="/p/cf302/IMG_20240205_172840_978_hu5e02898a84d8884b0bd20b2575f580b5_181199_480x0_resize_q75_box.jpg 480w, /p/cf302/IMG_20240205_172840_978_hu5e02898a84d8884b0bd20b2575f580b5_181199_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="178"
+		data-flex-basis="427px"
+	
+></p>
+<p>进入侧边栏的 <code>规则-重定向规则</code></p>
+<h3 id="step-2">Step 2</h3>
+<p>点击 <code>创建规则</code></p>
+<p><img src="/p/cf302/IMG_20240205_173103_327.jpg"
+	width="1280"
+	height="651"
+	srcset="/p/cf302/IMG_20240205_173103_327_hua6132f045f2f252a25331af8632b324d_88490_480x0_resize_q75_box.jpg 480w, /p/cf302/IMG_20240205_173103_327_hua6132f045f2f252a25331af8632b324d_88490_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="196"
+		data-flex-basis="471px"
+	
+></p>
+<p>为你的规则起一个名字</p>
+<h3 id="step-3">Step 3</h3>
+<p><img src="/p/cf302/IMG_20240205_173239_121.jpg"
+	width="800"
+	height="1174"
+	srcset="/p/cf302/IMG_20240205_173239_121_hub8aacdc0832ed18574c6ee791b1702cd_99229_480x0_resize_q75_box.jpg 480w, /p/cf302/IMG_20240205_173239_121_hub8aacdc0832ed18574c6ee791b1702cd_99229_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="68"
+		data-flex-basis="163px"
+	
+></p>
+<p>其中，<code>如果...-当传入请求匹配时...</code> 根据需要写入规则的前提</p>
+<p>比如我的就是检测 <em>中国大陆</em> 的请求，其表达式为: <code>(ip.geoip.country eq &quot;CN&quot;)</code></p>
+<p><code>则...-URL 重定向</code> 中，类型选择 <code>动态</code>，表达式这样写:</p>
+<p><code>concat(&quot;https://nomao.blog.highp.ing&quot;, http.request.uri.path)</code></p>
+<p>其中，<code>https://nomao.blog.highp.ing</code> 需要替换为你的重定向后的域名</p>
+<p>状态代码 <code>301</code> 与 <code>302</code> 均可，差别只是一个是<em>永久重定向</em>一个是<em>临时重定向</em></p>
+<p>记得勾选上 <code>保留查询字符串</code></p>
+<h3 id="enjoy-it">Enjoy it!</h3>
+<p>保存并部署上面的重定向规则，测试完成后就差不多了！</p>
+<p><a class="link" href="https://blog.highp.ing"  target="_blank" rel="noopener"
+    >本博客</a> 在 <em>中国大陆</em> 地区访问会跳转到 <a class="link" href="https://nomao.blog.highp.ing"  target="_blank" rel="noopener"
+    >https://nomao.blog.highp.ing</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/blogspeedup/">
+        
+        
+            <div class="article-image">
+                <img src="/p/blogspeedup/_hu46e96ed12b86df3a7e839119365d7c4e_138250_ce4e301020cf7e63ffd22c622191173e.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 博客访问速度提升指南"
+                        data-key="blogspeedup" 
+                        data-hash="md5-ltZ9nn&#43;i3Z3PF5xl/oFCNA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客访问速度提升指南</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloudflare-tunnel/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cloudflare-tunnel/image.271d3e1342ded2e37a168bc5a2609326_hu9e893a0ded4670dad563da6901e9b022_97042_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post CloudFlare Tunnel(内网穿透) 获取/使用方法"
+                        data-key="cloudflare-tunnel" 
+                        data-hash="md5-Jx0&#43;E0Le0uN6FovFomCTJg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CloudFlare Tunnel(内网穿透) 获取/使用方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloudflare-r2/">
+        
+        
+            <div class="article-image">
+                <img src="/p/cloudflare-r2/_hu75a7ec911bd9a387d80671413ec46103_4635_1b0119e6e2cd875deb9f76208a45b479.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post CloudFlare R2 获取/使用方法"
+                        data-key="cloudflare-r2" 
+                        data-hash="md5-tiJuDg8spMeaMnqkVBkMVg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CloudFlare R2 获取/使用方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/github-student-pack/">
+        
+        
+            <div class="article-image">
+                <img src="/p/github-student-pack/_hud0c2b695a2cb0b7c98d0157fecff51a7_37474_fb8ff94d7b95516d355b139280e32268.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post GitHub Student Developer Pack 的申请教程"
+                        data-key="github-student-pack" 
+                        data-hash="md5-&#43;gbeSoe&#43;audiIM3cZf7OTw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">GitHub Student Developer Pack 的申请教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/musicbot/">
+        
+        
+            <div class="article-image">
+                <img src="/p/musicbot/YukkiMusicBot.b1c194937c8541d3e0b8573e7993a290_hub5579f3c003bab5f6fceabdeb4e48c29_80448_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Yukki Music Bot 的部署"
+                        data-key="musicbot" 
+                        data-hash="md5-scGUk3yFQdPguFc&#43;eZOikA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Yukki Music Bot 的部署</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 HighPing们の小小藏身地
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
