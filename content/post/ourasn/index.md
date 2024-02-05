@@ -18,12 +18,23 @@ categories:
 
 我们是一个 11 人的小团队，在 Telegram 相识，想共同在互联网上留下自己来过的足迹🐾
 
-### Thank you, zhnet!
+### Thank you!
 
 非常感谢在我们踏下脚印的那一刻帮助过我们的人
-- [zhnet](https://zhnet.co.uk/) -- 我们的公司代注册以及 Lir
+- [zhnet](https://zhnet.co.uk/) -- 我们的公司代注册以及 Lir。与 zhnet 的合作尽管有些小插曲，但是我们还是非常感谢他们对我们的帮助
 
-与 zhnet 的合作尽管有些小插曲，但是我们还是非常感谢他们对我们的帮助
+### 我们的 IP Ranges
+目前，我们只有 IPv6 ~~(说白了就是没钱买 IPv4~~
+
+我们的 IPv6 Ranges 为 `2a0f:7803:fb20::/44`
+
+可能大家不是很理解 /44 是一个什么数量级别
+
+- 起-始: `2a0f:7803:fb20:0000:0000:0000:0000:0000`-`2a0f:7803:fb2f:ffff:ffff:ffff:ffff:ffff`
+- CIDR: `2a0f:7803:fb20::/44`
+- 总计 IP 数量: `19,342,813,113,834,066,795,298,816`个可用 IPv6 地址
+
+用人话来说，就是约有 19 亿亿亿个 IPv6，用十辈子都用不完（
 
 ### 关于我们的信息
 
@@ -32,16 +43,18 @@ categories:
 - 我们的博客: <https://blog.highp.ing>
 - 我们的官方邮箱: <noc@highp.ing>
 - 我们的投诉邮箱: <abuse@highp.ing>
+- 我们的 Telegram 频道: [@HighPingNetwork](https://t.me/HighPingNetwork)
+- 我们的 Telegram 群组: [@HighPingChat](https://t.me/highpingchat)
 
 ## Love
 
 我们因热爱互联网而走到一起，可能我们的出现并不会在互联网激起什么水花，但我们仍乐在其中
 
 ### Q&A
-> Q: 为什么要整一个 ASN ？  
+> Q: 为什么要整一个 ASN?
 > A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一个小众的圈子内不怎么好玩，所以产生了一个大胆的想法，那就是 **整一个ASN!**
 
-> Q: 将来这个 ASN 会用来干什么\
+> Q: 将来这个 ASN 会用来干什么?\
 > A: 这个问题...我们也许没有答案。由于我们的 IP 段是平均分给每一位成员的，所以只要不违反道德以及法律底线，我们都可以接受。
 
 > Q: ASN 的花费?\
