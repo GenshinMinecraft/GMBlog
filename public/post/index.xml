@@ -75,7 +75,7 @@
 &lt;p&gt;其中，&lt;code&gt;https://nomao.blog.highp.ing&lt;/code&gt; 需要替换为你的重定向后的域名&lt;/p&gt;
 &lt;p&gt;状态代码 &lt;code&gt;301&lt;/code&gt; 与 &lt;code&gt;302&lt;/code&gt; 均可，差别只是一个是&lt;em&gt;永久重定向&lt;/em&gt;一个是&lt;em&gt;临时重定向&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;记得勾选上 &lt;code&gt;保留查询字符串&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;enjoy-it&#34;&gt;Enjoy it!&lt;/h3&gt;
+&lt;h2 id=&#34;enjoy-it&#34;&gt;Enjoy it!&lt;/h2&gt;
 &lt;p&gt;保存并部署上面的重定向规则，测试完成后就差不多了！&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;本博客&lt;/a&gt; 在 &lt;em&gt;中国大陆&lt;/em&gt; 地区访问会跳转到 &lt;a class=&#34;link&#34; href=&#34;https://nomao.blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
