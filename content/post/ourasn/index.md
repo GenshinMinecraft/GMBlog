@@ -48,7 +48,7 @@ categories:
 - 2a0f:7803:fb29::/48 --  
 - 2a0f:7803:fb2a::/48 --  
 - 2a0f:7803:fb2b::/48 -- [@HighPingKat](https://t.me/HighPingKat)
-- 2a0f:7803:fb2c::/48 --  
+- 2a0f:7803:fb2c::/48 -- [@re:NoAries](https://t.me/CNVET)
 - 2a0f:7803:fb2d::/48 --  
 - 2a0f:7803:fb2e::/48 --  
 - 2a0f:7803:fb2f::/48 -- [@Mio](https://t.me/Akiyama_mio_hi)
