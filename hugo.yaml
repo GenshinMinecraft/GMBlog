@@ -104,6 +104,12 @@ menu:
           params:
               icon: brand-telegram
 
+        - identifier: rss
+          name: rss
+          url: https://blog.highp.ing/index.xml
+          params:
+              icon: brand-rss
+
 related:                 # 相关文章配置
     includeNewer: true    # 是否包含更新的文章
     threshold: 60         # 相似度阈值
