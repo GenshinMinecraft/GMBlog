@@ -4701,7 +4701,7 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
 &lt;h3 id=&#34;alist&#34;&gt;Alist&lt;/h3&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://alist.nn.ci/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alist&lt;/a&gt; 是一个适合部署于自己服务器上的&lt;strong&gt;网盘聚合文件列表&lt;/strong&gt;应用，其将数十个服务商的网盘服务&lt;strong&gt;整合&lt;/strong&gt;起来，提供&lt;em&gt;网页访问&lt;/em&gt;或 &lt;em&gt;Webdav 服务&lt;/em&gt;，一般用于存储影视等&lt;strong&gt;流媒体资源&lt;/strong&gt;，还是挺不错的&lt;/p&gt;
-&lt;p&gt;关于在本博客上关于 &lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/categories/alist/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;关于在本博客上关于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/categories/alist/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alist&lt;/a&gt; 的文章，请点击前字查看！&lt;/p&gt;
 &lt;p&gt;搭建过程很简单，就不教程了&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/homecloud/IMG_20231201_202722_420.jpg&#34;
@@ -4719,9 +4719,9 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;对于 Alist 的使用上，我一般配合 &lt;a class=&#34;link&#34; href=&#34;https://rclone.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Rclone&lt;/a&gt; 进行使用，对于 Rclone 的各文章，请参阅&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/categories/rclone/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rclone&lt;/a&gt; 进行使用，对于 Rclone 的各文章，请参阅&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/categories/rclone/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;本博客的 Rclone Tag 食用&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;对于网盘选择，&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/alist/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;对于网盘选择，&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/alist/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这篇文章&lt;/a&gt;已经介绍的很清楚了！&lt;/p&gt;
 &lt;p&gt;但不妨我再说一次：Onedrive + 夸克！&lt;/p&gt;
 &lt;p&gt;Onedrive 用于储存一些&lt;strong&gt;备份内容&lt;/strong&gt;，夸克因为其可以&lt;strong&gt;转存 BT 磁力&lt;/strong&gt;的特性，很适合用来当影视盘！&lt;/p&gt;
@@ -4733,7 +4733,7 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
     &gt;&lt;strong&gt;FullTclash&lt;/strong&gt;&lt;/a&gt; 是一个 &lt;em&gt;基于clash 核心&lt;/em&gt;运作的、进行全量订阅测试的telegram机器人（官方原话）&lt;/p&gt;
 &lt;p&gt;听不懂？简单来说就是&lt;strong&gt;测速 Telegram 机器人&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;其作用，有的人很需要，有的人其实没什么需要&lt;/p&gt;
-&lt;p&gt;对于其搭建方法，&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/fulltclash/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;对于其搭建方法，&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/fulltclash/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;本博客就有&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;其实现在的 FullTclash 已经&lt;strong&gt;十分先进&lt;/strong&gt;了，由于本博客的教程有点久远(23.08)&lt;/p&gt;
 &lt;p&gt;所以现在来贴上最新版本测试的结果：&lt;/p&gt;
@@ -4805,7 +4805,7 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
 &lt;li&gt;配置简单：官方给你一键命令，连&lt;strong&gt;进程守护&lt;/strong&gt;都可以根据系统&lt;strong&gt;自动配置&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;与 Cloudflare 深度绑定：与 Cloudflare 其他服务&lt;strong&gt;深度绑定&lt;/strong&gt;，比如域名等直接&lt;strong&gt;一键配置&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;本博客也有关于 Cloudflare Tunnel 的教程：&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/cloudflare-tunnel/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;本博客也有关于 Cloudflare Tunnel 的教程：&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/cloudflare-tunnel/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;There&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;总结还是那句话：&lt;em&gt;&lt;strong&gt;Cloudflare 大爹永远是你大爹！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;但是其也有缺点：&lt;/p&gt;
@@ -5214,7 +5214,7 @@ A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一�
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Navidrome&lt;/strong&gt; 的部署方法也在本博客中，详情请点击&lt;a class=&#34;link&#34; href=&#34;https://c1oudf1are.link/p/navidrome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;&lt;strong&gt;Navidrome&lt;/strong&gt; 的部署方法也在本博客中，详情请点击&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/navidrome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这里&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;你知道吗：在家部署一个歌曲&lt;strong&gt;音质超好&lt;/strong&gt;的音乐云，真的很爽&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;qbittorrent&#34;&gt;qbittorrent&lt;/h3&gt;
