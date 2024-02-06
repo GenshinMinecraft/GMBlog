@@ -1,5 +1,5 @@
 ---
-title: High Ping Network's ASN Got!
+title: A "Hello, The Internet" from AS215575
 description: Glad to meet you, the Internet!
 date: 2024-02-05
 slug: ourasn
@@ -9,9 +9,11 @@ categories:
     - ASN
 ---
 
-# High Ping Network's ASN Got!
+# A "Hello, The Internet" from AS215575
 
 `High Ping Network` 的 AS Number 为 `AS215575`
+
+2024.02.05 必然是个值得令我们纪念的日子，我们终于拿到了我们心心念念的 ASN
 
 ## We
 
