@@ -44,7 +44,7 @@ categories:
 - 2a0f:7803:fb25::/48 -- [@Lemonawa](https://t.me/Lemonawa)
 - 2a0f:7803:fb26::/48 --  
 - 2a0f:7803:fb27::/48 --  
-- 2a0f:7803:fb28::/48 --  
+- 2a0f:7803:fb28::/48 -- [@imkcp](https://t.me/cn_imkcp)
 - 2a0f:7803:fb29::/48 --  
 - 2a0f:7803:fb2a::/48 --  
 - 2a0f:7803:fb2b::/48 -- [@HighPingKat](https://t.me/HighPingKat)
