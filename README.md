@@ -4,6 +4,6 @@
 
 还有，在 hugo build 之前麻烦把 `public` 和 `resources` 文件夹清空下，
 
-如果可以的话，麻烦参阅一下 <https://blog.highp.ing/p/writemarkdown/>
+如果可以的话，麻烦参阅一下 <[对于博客而言的 Markdown 写作规范](https://nomao.blog.highp.ing/p/writemarkdown/)>
 
 别写出一些离谱语法，我也会协助你们修改的
