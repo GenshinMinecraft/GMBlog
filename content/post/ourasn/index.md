@@ -48,7 +48,7 @@ categories:
 - 2a0f:7803:fb27::/48 -- [@Lengz1m0](https://t.me/Lengz1m0)
 - 2a0f:7803:fb28::/48 -- [@imkcp](https://t.me/cn_imkcp)
 - 2a0f:7803:fb29::/48 --  
-- 2a0f:7803:fb2a::/48 --  
+- 2a0f:7803:fb2a::/48 -- [@Toothless](https://t.me/dann2333)
 - 2a0f:7803:fb2b::/48 -- [@HighPingKat](https://t.me/HighPingKat)
 - 2a0f:7803:fb2c::/48 -- [@re:NoAries](https://t.me/CNVET)
 - 2a0f:7803:fb2d::/48 --  
