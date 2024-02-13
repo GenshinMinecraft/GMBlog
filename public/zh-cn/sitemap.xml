@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.highp.ing/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,14 +15,11 @@
                 href="https://blog.highp.ing/"
                 />
   </url><url>
-    <loc>https://blog.highp.ing/p/ourasn/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.highp.ing/categories/asn/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/categories/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,16 +31,25 @@
                 href="https://blog.highp.ing/categories/"
                 />
   </url><url>
+    <loc>https://blog.highp.ing/categories/dn42/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/p/dn42/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/categories/main/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/post/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/p/ourasn/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.highp.ing/categories/cloudflare/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/categories/free/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.highp.ing/categories/main/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.highp.ing/post/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/p/cf302/</loc>
