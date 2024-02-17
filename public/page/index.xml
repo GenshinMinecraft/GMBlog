@@ -64,6 +64,7 @@ links:
 &lt;p&gt;Hi! 这里是 &lt;code&gt;High Ping Network&lt;/code&gt; 的官方 Blog&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;High Ping Network&lt;/code&gt; 的 ASN 为 &lt;a class=&#34;link&#34; href=&#34;https://bgp.he.net/AS215575&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AS215575&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2024.02.05 必然是个值得令我们纪念的日子，我们终于拿到了我们心心念念的 ASN&lt;/p&gt;
 &lt;h2 id=&#34;基本成员&#34;&gt;基本成员&lt;/h2&gt;
 &lt;p&gt;我们是由 11 个人组成的小团队：(按照首字母顺序排列)&lt;/p&gt;
 &lt;ul&gt;
@@ -111,6 +112,13 @@ links:
     &gt;zhnet&lt;/a&gt; &amp;ndash; 我们的 LIR&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/gugumnt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Rinne&lt;/a&gt; &amp;ndash; zhnet 的一员，为我们提供了很多的帮助与服务&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cloudflare.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cloudflare&lt;/a&gt;: 提供了 Cloudflare Pages 等服务支撑我们&lt;strong&gt;官网&lt;/strong&gt;以及&lt;strong&gt;博客&lt;/strong&gt;的搭建，同时 DNS、CDN 等服务都极度依赖于 Cloudflare&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://port.moonport.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;虚妄猫&lt;/a&gt;: 提供了&lt;em&gt;面向中国大陆&lt;/em&gt;的博客托管&lt;strong&gt;免费虚拟主机&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://nomao.blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://nomao.blog.highp.ing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github&lt;/a&gt;: 提供了 Git 托管服务，为我们的编辑以及项目开发提供了&lt;strong&gt;基础平台&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;我们的-ip-ranges&#34;&gt;我们的 IP Ranges&lt;/h2&gt;
 &lt;p&gt;目前，我们只有 IPv6 &lt;del&gt;(说白了就是没钱买 IPv4&lt;/del&gt;&lt;/p&gt;
@@ -125,7 +133,7 @@ links:
 &lt;ul&gt;
 &lt;li&gt;2a0f:7803:fb20::/48 &amp;ndash; &lt;a class=&#34;link&#34; href=&#34;https://t.me/rtx5000ada&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@rtx ςαΤ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2a0f:7803:fb21::/48 &amp;ndash;  &lt;a class=&#34;link&#34; href=&#34;https://t.me/samandjyf1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;2a0f:7803:fb21::/48 &amp;ndash; &lt;a class=&#34;link&#34; href=&#34;https://t.me/samandjyf1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@sam&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;2a0f:7803:fb22::/48 &amp;ndash; &lt;a class=&#34;link&#34; href=&#34;https://t.me/UniOreoX&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@UniOreoX&lt;/a&gt;&lt;/li&gt;
@@ -165,16 +173,57 @@ links:
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;由于不希望让 ASN Name 变得那么长，所以我们将 &lt;code&gt;High Ping Network&lt;/code&gt; 中的 &lt;code&gt;Network&lt;/code&gt; 删去了&lt;/p&gt;
-&lt;h2 id=&#34;glad-to-meet-you-the-internet&#34;&gt;Glad To Meet You, The Internet!&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;我家跨上了“信息高速路”&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;love&#34;&gt;Love&lt;/h2&gt;
+&lt;p&gt;我们因热爱互联网而走到一起，可能我们的出现并不会在互联网激起什么水花，但我们仍乐在其中&lt;/p&gt;
+&lt;h3 id=&#34;qa&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Q: 为什么要整一个 ASN ？&lt;br&gt;
-A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一个小众的圈子内不怎么好玩，所以产生了一个大胆的想法，那就是 &lt;strong&gt;整一个ASN!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Q: 为什么要整一个 ASN?
+A: 在之前，我们初次接触到了 DN42 网络，但是觉得在这样一个小众的圈子内不怎么好玩，所以产生了一个大胆的想法，那就是 &lt;strong&gt;整一个ASN!&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;这是我们跨入 Internet 的又一个脚印，也是我们接触新事物的一个开始！&lt;/p&gt;
-&lt;p&gt;正如那篇课文《我家跨上了“信息高速路”》，这次，我们是真的跨上了 &lt;strong&gt;信息高速路！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有了自己的 ASN 后，我想对 Internet 的各位说一句：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Glad To Meet You, The Internet!&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q: 将来这个 ASN 会用来干什么?&lt;br&gt;
+A: 这个问题&amp;hellip;我们也许没有答案。由于我们的 IP 段是平均分给每一位成员的，所以只要不违反道德以及法律底线，我们都可以接受。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q: ASN 的花费?&lt;br&gt;
+A: 从头到尾，我们在该 ASN 上约花费了 700CNY，包括了 zhnet 的公司代注册以及 Lir，还有一个域名 &lt;code&gt;highp.ing&lt;/code&gt;。加起来还有剩余，所以你可以看到，一个 ASN 也不是那么的贵。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;dn42&#34;&gt;DN42&lt;/h3&gt;
+&lt;p&gt;我们是从 DN42 出来的，当然欢迎来 DN42 Peer&lt;/p&gt;
+&lt;p&gt;我们有一部分的人有自己的 DN42 ASN:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/C1oudF1are&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GenshinMinecraft&lt;/a&gt;: AS4242421304&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/samandjyf1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sam&lt;/a&gt;: AS4242422503&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/Akiyama_mio_hi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mio&lt;/a&gt;: AS4242422406&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/rtx5000ada&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rtx ςαΤ&lt;/a&gt;: AS4242423608&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果您想要与我们在 DN42 中 Peer，可以通过上方的链接找到我们!&lt;/p&gt;
+&lt;h2 id=&#34;open-source&#34;&gt;Open-Source&lt;/h2&gt;
+&lt;p&gt;我们热爱开源，从我们网站大致就可以看出&lt;/p&gt;
+&lt;p&gt;同时非常感谢为&lt;strong&gt;开源项目&lt;/strong&gt;做出贡献的&lt;strong&gt;每一位&lt;/strong&gt;开源人！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官网 &lt;a class=&#34;link&#34; href=&#34;https://highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://highp.ing&lt;/a&gt; : &lt;a class=&#34;link&#34; href=&#34;https://vitepress.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vitepress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;博客 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.highp.ing&lt;/a&gt; : &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;glad-to-meet-you-the-internet&#34;&gt;Glad To Meet You, The Internet!&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;WE LOVE OPEN-SOURCE&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这句话，出自于 Arduino。如果你曾经买过 Arduino 的开发板，那你应该会发现开发板的盒子上都会印着这句话。这句话也是我们某位成员的座右铭&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们因热爱互联网而走到一起，可能我们的出现并不会在互联网激起什么水花，但我们仍乐在其中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;正如 &lt;strong&gt;《我家跨上了“信息高速路”》&lt;/strong&gt; 那篇课文，我们这一次是真正地跨上了 &lt;strong&gt;信息高速路&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;它就像一个遍布全球的巨大蜘蛛网，把每一个国家、每一个城市甚至每一个家庭连接到一起。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们没有那么远大的理想将全世界都连接到一起，但是我们可以让我们自身与朋友连接在一起，That enough!&lt;/p&gt;
 </description>
         </item>
         
