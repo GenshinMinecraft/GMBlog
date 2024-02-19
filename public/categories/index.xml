@@ -6,10 +6,26 @@
         <description>Recent content in Categories on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Android</title>
+        <link>https://blog.highp.ing/categories/android/</link>
+        <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/android/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Free</title>
+        <link>https://blog.highp.ing/categories/free/</link>
+        <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/free/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Main</title>
         <link>https://blog.highp.ing/categories/main/</link>
-        <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/main/</guid>
         <description></description>
@@ -36,14 +52,6 @@
         <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/cloudflare/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Free</title>
-        <link>https://blog.highp.ing/categories/free/</link>
-        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.highp.ing/categories/free/</guid>
         <description></description>
         </item>
         <item>
@@ -116,14 +124,6 @@
         <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/music/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Android</title>
-        <link>https://blog.highp.ing/categories/android/</link>
-        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.highp.ing/categories/android/</guid>
         <description></description>
         </item>
         <item>

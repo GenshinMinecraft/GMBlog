@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.highp.ing/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="https://blog.highp.ing/"
                 />
   </url><url>
+    <loc>https://blog.highp.ing/categories/android/</loc>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.highp.ing/categories/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,11 +31,17 @@
                 href="https://blog.highp.ing/categories/"
                 />
   </url><url>
+    <loc>https://blog.highp.ing/categories/free/</loc>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.highp.ing/categories/main/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/post/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.highp.ing/p/yidongyunshouji/</loc>
+    <lastmod>2024-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/p/jianshiweb/</loc>
     <lastmod>2024-02-14T00:00:00+00:00</lastmod>
@@ -50,9 +59,6 @@
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/categories/cloudflare/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.highp.ing/categories/free/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/p/cf302/</loc>
@@ -153,9 +159,6 @@
   </url><url>
     <loc>https://blog.highp.ing/p/qqpupil/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.highp.ing/categories/android/</loc>
-    <lastmod>2023-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.highp.ing/p/androidinstallgoogle/</loc>
     <lastmod>2023-09-03T00:00:00+00:00</lastmod>
