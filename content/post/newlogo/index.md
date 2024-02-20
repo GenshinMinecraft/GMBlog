@@ -32,6 +32,12 @@ categories:
 
 这一 Logo 比较有创意，就算不看上面的介绍我也认为它非常好看
 
+甚至还有一个看板娘（猫娘
+
+![](https://highp.ing/logo/高频猫.png)
+
+她的名字也很直接，就叫 `高频猫`，是制作 Logo 附赠的，超可爱！
+
 详细的设计详情可以查看 [Shiro Atelier 白翎工作室](https://www.shiroaudio.eu.org/2024/02/20/视觉设计作品集highping-network视觉设计/)
 
 ***本视觉设计著作权归白翎工作室所有，授权 HIGH PING LTD 使用，未经许可禁止使用***
