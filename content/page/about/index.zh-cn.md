@@ -43,12 +43,13 @@ Hi! 这里是 `High Ping Network` 的官方 Blog
 
 ## 特别鸣谢
 
-- [zhnet](https://zhnet.co.uk/) -- 我们的 LIR
 - [Rinne](https://t.me/gugumnt) -- zhnet 的一员，为我们提供了很多的帮助与服务
-- [Cloudflare](https://cloudflare.com): 提供了 Cloudflare Pages 等服务支撑我们**官网**以及**博客**的搭建，同时 DNS、CDN 等服务都极度依赖于 Cloudflare
-- [虚妄猫](https://port.moonport.top/): 提供了*面向中国大陆*的博客托管**免费虚拟主机** <https://nomao.blog.highp.ing>
-- [Github](https://github.com): 提供了 Git 托管服务，为我们的编辑以及项目开发提供了**基础平台**
+- [tanglu](https://tang.lu): 提供了*面向中国大陆*的 BlogCDN <https://blogcdn.blog.highp.ing>
+- [Shiro Atelier](http://shiroaudio.eu.org): 为我们设计了视觉形象，有关于我们的 Logo 欢迎参观[博客相关内容](https://blog.highp.ing/p/newlogo/)
 
+- [Cloudflare](https://cloudflare.com): 提供了 Cloudflare Pages 等服务支撑我们**官网**以及**博客**的搭建，同时 DNS、CDN 等服务都极度依赖于 Cloudflare
+- [Github](https://github.com): 提供了 Git 托管服务，为我们的编辑以及项目开发提供了**基础平台**
+- [zhnet](https://zhnet.co.uk/) -- 我们的 LIR
 
 ## 我们的 IP Ranges
 目前，我们只有 IPv6 ~~(说白了就是没钱买 IPv4~~
@@ -119,10 +120,10 @@ Hi! 这里是 `High Ping Network` 的官方 Blog
 
 我们热爱开源，从我们网站大致就可以看出
 
-同时非常感谢为**开源项目**做出贡献的**每一位**开源人！
-
 - 官网 <https://highp.ing> : [Vitepress](https://vitepress.dev/)
 - 博客 <https://blog.highp.ing> : [Hugo](https://gohugo.io/)
+
+同时非常感谢为**开源项目**做出贡献的**每一位**开源人！
 
 ## Glad To Meet You, The Internet!
 
