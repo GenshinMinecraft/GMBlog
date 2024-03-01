@@ -6,6 +6,7 @@ slug: ruipingcloudflare
 image: OIP-C.jpg
 categories:
     - Main
+    - RuiPing
     - CloudFlare
 ---
 

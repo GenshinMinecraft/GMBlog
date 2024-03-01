@@ -6,7 +6,129 @@
         <description>Recent content on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>锐评 CSDN</title>
+        <link>https://blog.highp.ing/p/ruipingcsdn/</link>
+        <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/ruipingcsdn/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/ruipingcsdn/2560px-CSDN_Logo.svg.png" alt="Featured image of post 锐评 CSDN" /&gt;&lt;h1 id=&#34;锐评-csdn&#34;&gt;锐评 CSDN&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;免责声明&#34;&gt;免责声明&lt;/h2&gt;
+&lt;p&gt;今后，&lt;code&gt;High Ping Blog&lt;/code&gt; 会有一个专门的 Tag &lt;code&gt;RuiPing&lt;/code&gt;，里面会存放一些对于最近事件的吐槽以及评价，非常主观，仅代表编撰者个人意见，不代表 High Ping LTD&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;CSDN 想必各位都知道，很符合我对中国开源社区的想象&lt;/p&gt;
+&lt;p&gt;CSDN 造成现在这样开发者们人人唾弃的国内平台是有原因的，包括但不限于:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发布者(有时候是剽窃者)&lt;/li&gt;
+&lt;li&gt;CSDN 本身&lt;/li&gt;
+&lt;li&gt;阅读者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;为什么要锐评它&#34;&gt;为什么要锐评它&lt;/h2&gt;
+&lt;h3 id=&#34;fulltclash&#34;&gt;FullTclash&lt;/h3&gt;
+&lt;p&gt;它最近搞出来的动作有点多，比如我比较喜欢的 FullTclash 服务&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122142_096.jpg&#34;
+	width=&#34;1122&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122142_096_hua95fdf94e9b6780323be28ea0bc40e72_182462_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122142_096_hua95fdf94e9b6780323be28ea0bc40e72_182462_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IMG_20240301_122142_096.jpg&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;很抽象，案发链接: &lt;a class=&#34;link&#34; href=&#34;https://download.csdn.net/download/m0_63168877/88807333&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://download.csdn.net/download/m0_63168877/88807333&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122345_343.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;683&#34;
+	srcset=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122345_343_hu1c5c227c5a09ab01190d3267faf2bc8c_306825_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122345_343_hu1c5c227c5a09ab01190d3267faf2bc8c_306825_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;449px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一个在 Github 以 BSD2 协议开源的一个服务，在 CSDN 公然标价 60CNY&lt;/p&gt;
+&lt;p&gt;而且，由于这一项目接触敏感性较高，CSDN 能够上架带有 &lt;code&gt;Telegram&lt;/code&gt; 字眼的压缩包也是抽象&lt;/p&gt;
+&lt;h3 id=&#34;awavenuv&#34;&gt;AWAvenuv&lt;/h3&gt;
+&lt;p&gt;还有另一个项目，AWAvenuv&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122747_563.jpg&#34;
+	width=&#34;442&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122747_563_hu22582d597a46e17e526f7893fff2765b_193121_480x0_resize_q75_box.jpg 480w, https://blog.highp.ing/p/ruipingcsdn/IMG_20240301_122747_563_hu22582d597a46e17e526f7893fff2765b_193121_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;34&#34;
+		data-flex-basis=&#34;82px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;很喜欢他的一句话:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;什么是CSDN？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;C&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;opy(复制),&lt;/em&gt; &lt;strong&gt;&lt;em&gt;S&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;teal(剽窃) and pay-&lt;/em&gt;&lt;strong&gt;&lt;em&gt;D&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;ownload(下载付费)&lt;/em&gt; &lt;strong&gt;&lt;em&gt;N&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;et(网).&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;我的评价&#34;&gt;我的评价&lt;/h2&gt;
+&lt;p&gt;我觉得，导致 CSDN 变成目前这一情况的原因有多个&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CSDN 官方
+如果你有见过 CSDN 网站的话，你会发现: 广告比例太严重了&lt;/p&gt;
+&lt;p&gt;最经典的就是各种云服务商的广告，比如阿里云&lt;/p&gt;
+&lt;p&gt;可以让人阅读的区域，最多仅有三分之一，其余全是杂乱信息流以及无用玩意&lt;/p&gt;
+&lt;p&gt;还有各种的限制，比如&lt;strong&gt;登录后复制&lt;/strong&gt;，&lt;strong&gt;付费阅读全文&lt;/strong&gt;等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内容创作者
+当然，这里并不是指全部的内容创作者&lt;/p&gt;
+&lt;p&gt;但是个别创作者，为了敛财，把已经开源的东西，直接搬过来，付费下载&lt;/p&gt;
+&lt;p&gt;很佩服他们的勇气，难道 License 就不是一个具有法律效应的文件吗？&lt;/p&gt;
+&lt;p&gt;这种剽窃他人劳动成果的行为，你会喜欢吗？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;搜索引擎
+当你在搜索引擎使用中文检索技术向问题时，大概率在前五个网站中就有一个是 CSDN&lt;/p&gt;
+&lt;p&gt;其中，最突出的就是国内搜索引擎&lt;/p&gt;
+&lt;p&gt;当然，搜索引擎并不是主要原因，但也确实为 CSDN 引流了很多&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这就是中国
+中国由于政治等各方面的原因，导致了国内用户/开发者参阅外国网站获取知识的道路并不多&lt;/p&gt;
+&lt;p&gt;其他我不好说&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;我不知道 CSDN 以及剽窃他人劳动成果发布至 CSDN 的剽窃者挣了多少钱&lt;/p&gt;
+&lt;p&gt;但我知道，大部分开发者(们)，都是用爱发电，没有收过一分钱，全依靠开源平台的世界各地的参与者们支持&lt;/p&gt;
+&lt;p&gt;当他们看见自己的作品被 CSDN 剽窃去之后，他们会是什么心情？&lt;/p&gt;
+&lt;p&gt;开源界中流传着一个笑话，说的是当你的项目已经被 CSDN 拿走了之后，你这个项目就已经逐渐开始有人气了&lt;/p&gt;
+&lt;p&gt;我觉得说的很有道理&lt;/p&gt;
+&lt;p&gt;最后，我想送 CSDN 一首歌曲:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CSDN 你听我说
+就让我来说说你
+这个&amp;quot;开源&amp;quot;是你创造的
+求求你把&amp;quot;付费&amp;quot;关闭
+用户是钱真多
+开发者是怒火中烧
+一天到晚都在数钱
+嘴里就笑呵呵&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;WE LOVE OPEN-SOURCE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>利用 中国移动游戏加速器 代理 非游戏软件 实现出国代理服务 (漏洞复现)</title>
         <link>https://blog.highp.ing/p/chinamobilegamebooster/</link>
         <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>

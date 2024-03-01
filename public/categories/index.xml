@@ -6,12 +6,20 @@
         <description>Recent content in Categories on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Main</title>
         <link>https://blog.highp.ing/categories/main/</link>
-        <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/main/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>RuiPing</title>
+        <link>https://blog.highp.ing/categories/ruiping/</link>
+        <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/categories/ruiping/</guid>
         <description></description>
         </item>
         <item>
