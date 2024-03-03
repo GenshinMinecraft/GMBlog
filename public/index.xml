@@ -6,7 +6,147 @@
         <description>Recent content on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>贡献 Nodecook 测试后端</title>
+        <link>https://blog.highp.ing/p/nodecook/</link>
+        <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/nodecook/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/nodecook/TUAPI-EEES-CC--961089562.jpg" alt="Featured image of post 贡献 Nodecook 测试后端" /&gt;&lt;h1 id=&#34;贡献-nodecook-测试后端&#34;&gt;贡献 Nodecook 测试后端&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;Nodecook 是一位论坛老哥 @dsa231sd 开发的全球 ping 检测网站&lt;/p&gt;
+&lt;p&gt;详情可以参考: &lt;a class=&#34;link&#34; href=&#34;https://www.nodeseek.com/post-74548-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;爆肝两个月，做了一个全球 ping 检测网站！贡献节点，让你的吃灰小鸡发光发热！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你曾经使用过 Itdog、Pingpe 等类似的服务，那么 Nodecook 就是类似于前两个站点的服务&lt;/p&gt;
+&lt;p&gt;不同于 Itdog 等服务，Nodecook 让全世界的用户&lt;strong&gt;都可以接入他们的设备来成为测试节点之一&lt;/strong&gt;，供全球使用&lt;/p&gt;
+&lt;p&gt;现在，Nodecook 还是一个尚未完善的雏形，但是我相信，在&lt;strong&gt;开源&lt;/strong&gt;之力的推动下，会变得更好！&lt;/p&gt;
+&lt;p&gt;你至少需要以下的东西来为 Nodecook 贡献测试后端:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个邮箱 (有人没有?)&lt;/li&gt;
+&lt;li&gt;一台机器 (可以是任何地区的机器，有网络连接即可，IPv4/6 均可)&lt;/li&gt;
+&lt;li&gt;一个内网穿透服务 (如果你有稳定的公网 IP，可以不需要)&lt;/li&gt;
+&lt;li&gt;一份乐于助人、热爱开源的心&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;你需要注意的是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;他人可以获取你设备的 IP 地址&lt;/li&gt;
+&lt;li&gt;目前界面仅适配了 PC 端，手机端开发者说正在适配&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+&lt;h2 id=&#34;获取-api-令牌&#34;&gt;获取 API 令牌&lt;/h2&gt;
+&lt;p&gt;打开&lt;a class=&#34;link&#34; href=&#34;https://www.nodecook.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;，右上角登录，可选 邮箱/ Github / Google 等，邮箱登陆需要在邮箱内获取登录链接&lt;/p&gt;
+&lt;p&gt;登录后，后台转到 &lt;a class=&#34;link&#34; href=&#34;https://www.nodecook.com/zh/dashboard/apikey&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;API 令牌&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;获取到自己的令牌后，保存备用，格式为 UUID&lt;/p&gt;
+&lt;p&gt;该令牌是为了验证该后端为谁的&lt;/p&gt;
+&lt;h2 id=&#34;配置后端&#34;&gt;配置后端&lt;/h2&gt;
+&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
+&lt;p&gt;推荐使用 Docker 来运行，但&lt;strong&gt;仅支持 AMD64 架构&lt;/strong&gt;，其他架构请参考下文&lt;/p&gt;
+&lt;p&gt;安装 Docker:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -fsSL https://test.docker.com -o test-docker.sh  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo sh test-docker.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;运行 Docker 容器:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	--user=root \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	--name nodecook-agent \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	-e NCA_API_KEY=[your_api_key] \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	-e NCA_PORT=[port]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	-e NCA_ENDPOINT=[url]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	--restart=always \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	--network=host \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	ghcr.io/nodecook/agent
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;NCA_API_KEY&lt;/code&gt; 部分是上文获取到的 API 令牌&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NCA_PORT&lt;/code&gt;  部分为后端监听的端口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NCA_ENDPOINT&lt;/code&gt; 为访问至后端的 URL，格式为: &lt;code&gt;http://[IP/DOMAIN]:[PORT]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;请注意，如果你的机器为 NAT 或者没有公网 IP，请记得配置好 FRP 等内网穿透/端口转发服务&lt;/p&gt;
+&lt;p&gt;当你配置内网穿透/端口转发服务时，请记得要把 &lt;code&gt;NCA_ENDPOINT&lt;/code&gt; 改成对应的 URL&lt;/p&gt;
+&lt;h3 id=&#34;编译二进制并运行&#34;&gt;编译二进制并运行&lt;/h3&gt;
+&lt;p&gt;当你的架构不是 AMD64 或无法使用 Docker 时，可以采用下文方法编译并运行&lt;/p&gt;
+&lt;p&gt;本文以 Debian 11 为例，其他系统请对应更改命令&lt;/p&gt;
+&lt;p&gt;安装环境:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt install libssl-dev cargo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;克隆仓库:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/nodecook/agent.git &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; agent
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;开始编译:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cargo build --release --bin nodecook-agent
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;等待几分钟，编译就完成了&lt;/p&gt;
+&lt;p&gt;出来的二进制文件应该在 &lt;code&gt;./target/[架构]/nodecook-agent&lt;/code&gt;，将其复制到 &lt;code&gt;/usr/bin/&lt;/code&gt; 目录下即可&lt;/p&gt;
+&lt;p&gt;运行:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nodecook-agent -p [NCA_PORT] -a [NCA_API_KEY] -e [NCA_ENDPOINT] --debug
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;NCA_API_KEY&lt;/code&gt; 部分是上文获取到的 API 令牌&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NCA_PORT&lt;/code&gt;  部分为后端监听的端口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NCA_ENDPOINT&lt;/code&gt; 为访问至后端的 URL，格式为: &lt;code&gt;http://[IP/DOMAIN]:[PORT]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;请注意，使用命令行运行时，需要配置保活等服务，可以使用 Screen，&lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing/p/screen/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;教程参考&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置完成&#34;&gt;配置完成&lt;/h2&gt;
+&lt;p&gt;配置完成后，你应该可以在&lt;a class=&#34;link&#34; href=&#34;https://www.nodecook.com/zh/dashboard/node&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;节点管理&lt;/a&gt;找到自己刚才新加的节点，&lt;/p&gt;
+&lt;h3 id=&#34;关于广告&#34;&gt;关于广告&lt;/h3&gt;
+&lt;p&gt;你可以在&lt;a class=&#34;link&#34; href=&#34;https://www.nodecook.com/zh/dashboard/advertise&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;广告投放&lt;/a&gt;配置在你的测速节点右边展示的内容，这是你作为贡献者的权利，但请注意，投放广告需要审核！&lt;/p&gt;
+&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;添加节点差不多就到这里了，其他功能可以自行玩玩，不赘述了&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>锐评 CSDN</title>
         <link>https://blog.highp.ing/p/ruipingcsdn/</link>
         <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
