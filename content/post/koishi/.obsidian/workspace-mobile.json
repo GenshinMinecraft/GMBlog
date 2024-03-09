@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "075c2b8a05e6d25d",
+    "type": "split",
+    "children": [
+      {
+        "id": "02cd452fc7a60b98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c300b7125025a9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d53cbc3a43c5ccdd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0b6e87741078b791",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "abf9f146afbdbdae",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "29f3f6cfafd6f25a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "100598c95310e02e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1709805f2fcaacdd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4e1d9d203be24bee",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "index.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "22a2f4bf17b95454",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "index.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fde8d7ba46a62239",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "index.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8c300b7125025a9b",
+  "lastOpenFiles": [
+    "5b7595e429e43.jpg",
+    "IMG_20240309_201711_342.jpg",
+    "IMG_20240309_201709_167.jpg",
+    "IMG_20240309_201332_189.jpg",
+    "IMG_20240309_201327_251.jpg",
+    "IMG_20240309_201025_398.jpg",
+    "IMG_20240309_200809_116.jpg",
+    "IMG_20240309_200327_601.jpg",
+    "IMG_20240309_200047_072.jpg",
+    "IMG_20240309_194654_105.jpg",
+    "IMG_20240309_194632_782.jpg",
+    "index.md",
+    "index.md.bak",
+    "Via_com.battleon.aq3d.apk",
+    "Via_v5.1.1(20231110)_mod.apk",
+    "HighPing Network视觉设计.psd",
+    "HighPing/HighPing Network视觉设计.psd",
+    "HighPing"
+  ]
+}
