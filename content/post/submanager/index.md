@@ -3,7 +3,7 @@ title: SubManager 的搭建和使用
 description: 一站式管理订阅链接的 Telegram Bot
 date: 2024-04-04
 slug: submanager
-image: 
+image: wallhaven-3zlrp3.webp
 categories:
     - Main
 ---
