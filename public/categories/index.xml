@@ -6,10 +6,10 @@
         <description>Recent content in Categories on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Main</title>
         <link>https://blog.highp.ing/categories/main/</link>
-        <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/categories/main/</guid>
         <description></description>
@@ -159,7 +159,7 @@
         <description></description>
         </item>
         <item>
-        <title>Alist</title>
+        <title>alist</title>
         <link>https://blog.highp.ing/categories/alist/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         
@@ -167,7 +167,7 @@
         <description></description>
         </item>
         <item>
-        <title>Rclone</title>
+        <title>rclone</title>
         <link>https://blog.highp.ing/categories/rclone/</link>
         <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
         

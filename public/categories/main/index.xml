@@ -6,13 +6,116 @@
         <description>Recent content in Main on HighPing们の小小藏身地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.highp.ing/categories/main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SubManager 的搭建和使用</title>
+        <link>https://blog.highp.ing/p/submanager/</link>
+        <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/submanager/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/submanager/wallhaven-3zlrp3.webp" alt="Featured image of post SubManager 的搭建和使用" /&gt;&lt;h1 id=&#34;submanager-的搭建和使用&#34;&gt;SubManager 的搭建和使用&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;SubManager 是一个由 adm1nSQL (来自 Telegram 的一位熟人?) 开发的基于 Telegram Bot 的开源订阅管理平台，可以方便、快捷地管理你的订阅，非常适合订阅多的人使用&lt;/p&gt;
+&lt;p&gt;虽然是一个比较老的项目 (你猜为什么我要写它) ，但还是非常好用的&lt;/p&gt;
+&lt;p&gt;我的一位朋友继续开发了这项目，但是并不开源，比起原版拥有了更多的功能，But WE DO NOT LOVE OPEN-SOURCE&lt;/p&gt;
+&lt;p&gt;你只需要:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一台机器 (直连/代理至 Telegram)&lt;/li&gt;
+&lt;li&gt;一个 Telegram 账号&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;搭建&#34;&gt;搭建&lt;/h2&gt;
+&lt;p&gt;搭建非常简单，仅需要安装简单的环境即可，以 Ubuntu 20.04 为例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt install -y python3-pip git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后拉取项目:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/adm1nSQL/Sub_Manger.git &amp;amp;&amp;amp; cd Sub_Manger
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;配置 Pypi 模块:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip3 install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;前往 &lt;code&gt;@Bot_Father&lt;/code&gt; 获取一个 Bot 的 BOT_TOKEN，这里不再赘述&lt;/p&gt;
+&lt;p&gt;然后获取你的 Telegram ID，部分第三方 Telegram 客户端有这一功能，你也可以通过 &lt;code&gt;@getmyid_bot&lt;/code&gt; 进行查询&lt;/p&gt;
+&lt;p&gt;第一次启动:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 main.py -s [超级管理员的 Telegram ID] -a [普通管理员的 Telegram ID] -t [BOT_TOKEN]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;需要注意的是，[普通管理员的 Telegram ID] 可以填写你朋友的 Telegram ID，这样他也会有权限使用这一 Bot，使用 &lt;code&gt;,&lt;/code&gt; 分割&lt;/p&gt;
+&lt;p&gt;请注意，也要把超级管理员的 Telegram ID 填入 [普通管理员的 Telegram ID] 处&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;接下来就可以开始使用了！&lt;/p&gt;
+&lt;p&gt;命令教程:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    1. 添加数据：/add url 备注
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    2. 删除数据：/del 行数
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    3. 查找数据：/search 内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    4. 修改数据：/update 行数 订阅链接 备注
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    5. 导入xlsx表格：发送xlsx或xls表格（注意文件格式！A列为订阅地址，B列为对应的备注）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    6. 备份数据库：私聊发送 /backup ，该功能仅限超级管理员
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    7. 日志输出： 私聊发送 /log ，该功能仅限超级管理员
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;简单好用爱用&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.highp.ing/p/submanager/image.png&#34;
+	width=&#34;948&#34;
+	height=&#34;749&#34;
+	srcset=&#34;https://blog.highp.ing/p/submanager/image_hu6d1e240e36088f87fa1c377262872e9f_321020_480x0_resize_box_3.png 480w, https://blog.highp.ing/p/submanager/image_hu6d1e240e36088f87fa1c377262872e9f_321020_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;303px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;结尾&#34;&gt;结尾&lt;/h2&gt;
+&lt;p&gt;如果你有兴趣，可以看看我的 Fork 的修改版: &lt;a class=&#34;link&#34; href=&#34;https://github.com/GenshinMinecraft/Sub_Manger&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/GenshinMinecraft/Sub_Manger&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相比原版多了一些功能，比如查询订阅信息之类的&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>全能机器人框架 -- Koishi</title>
         <link>https://blog.highp.ing/p/koishi/</link>
         <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.highp.ing/p/koishi/</guid>
         <description>&lt;img src="https://blog.highp.ing/p/koishi/5b7595e429e43.jpg" alt="Featured image of post 全能机器人框架 -- Koishi" /&gt;&lt;h1 id=&#34;全能机器人框架----koishi&#34;&gt;全能机器人框架 &amp;ndash; Koishi&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Koishi 是一个跨平台、可扩展、高性能的聊天机器人框架。&lt;/p&gt;
@@ -4530,6 +4633,46 @@ A: 从头到尾，我们在该 ASN 上约花费了 700CNY，包括了 zhnet 的�
 </description>
         </item>
         <item>
+        <title>虚妄猫 免费Blog 虚拟空间 测评</title>
+        <link>https://blog.highp.ing/p/ceping-nomaifreehost/</link>
+        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.highp.ing/p/ceping-nomaifreehost/</guid>
+        <description>&lt;img src="https://blog.highp.ing/p/ceping-nomaifreehost/f17416c525531a46068f5f76dacf003b5.png" alt="Featured image of post 虚妄猫 免费Blog 虚拟空间 测评" /&gt;&lt;h1 id=&#34;测评-虚妄猫-免费blog-虚拟空间-测评&#34;&gt;[测评] 虚妄猫 免费Blog 虚拟空间 测评&lt;/h1&gt;
+&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;
+&lt;p&gt;慈善埋今天早上在群里说给大伙来个免费的Blog 虚拟主机，&lt;strong&gt;仅支持Blog，合法的Blog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2024/01/25/oxdd7j.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;刚才就给我们开了，是人工手动审核的&lt;/p&gt;
+&lt;p&gt;测试站：&lt;a class=&#34;link&#34; href=&#34;http://nomao.blog.highp.ing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://nomao.blog.highp.ing/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以看到，线路还是很不错的，国内访问性满分&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2024/01/25/oyp53r.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Screenshot_20240125-150927&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;甚至&lt;strong&gt;高墙地区都可以连&lt;/strong&gt;(泉州等地)，慈善埋太好了&lt;/p&gt;
+&lt;p&gt;需要注意的是，这虚拟主机仅支持 php5.4/7.4/HTML 纯静态，并且只有 300GB 月流量&lt;/p&gt;
+&lt;p&gt;对于小型Blog站点来说已经够了，还带 FTP 支持和 MYSQL 数据库&lt;/p&gt;
+&lt;p&gt;我个人使用的是 纯Html静态，所以访问速度会很快，如果PHP 可能稍微慢点&lt;/p&gt;
+&lt;p&gt;慈善埋简直就是超人！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>虚妄猫 美国2号主机 4.9rmb/m 2c512m 测评</title>
         <link>https://blog.highp.ing/p/ceping-nomaius2/</link>
         <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
@@ -5082,46 +5225,6 @@ A: 从头到尾，我们在该 ASN 上约花费了 700CNY，包括了 zhnet 的�
 	
 	
 &gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>虚妄猫 免费Blog 虚拟空间 测评</title>
-        <link>https://blog.highp.ing/p/ceping-nomaifreehost/</link>
-        <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.highp.ing/p/ceping-nomaifreehost/</guid>
-        <description>&lt;img src="https://blog.highp.ing/p/ceping-nomaifreehost/f17416c525531a46068f5f76dacf003b5.png" alt="Featured image of post 虚妄猫 免费Blog 虚拟空间 测评" /&gt;&lt;h1 id=&#34;测评-虚妄猫-免费blog-虚拟空间-测评&#34;&gt;[测评] 虚妄猫 免费Blog 虚拟空间 测评&lt;/h1&gt;
-&lt;p&gt;本文由 &lt;code&gt;High Ping Network&lt;/code&gt; 的小伙伴 GenshinMinecraft 进行编撰，首发于 &lt;a class=&#34;link&#34; href=&#34;https://blog.highp.ing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;本博客&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;
-&lt;p&gt;慈善埋今天早上在群里说给大伙来个免费的Blog 虚拟主机，&lt;strong&gt;仅支持Blog，合法的Blog&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2024/01/25/oxdd7j.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;刚才就给我们开了，是人工手动审核的&lt;/p&gt;
-&lt;p&gt;测试站：&lt;a class=&#34;link&#34; href=&#34;http://nomao.blog.highp.ing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://nomao.blog.highp.ing/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;可以看到，线路还是很不错的，国内访问性满分&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i2.100024.xyz/2024/01/25/oyp53r.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Screenshot_20240125-150927&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;甚至&lt;strong&gt;高墙地区都可以连&lt;/strong&gt;(泉州等地)，慈善埋太好了&lt;/p&gt;
-&lt;p&gt;需要注意的是，这虚拟主机仅支持 php5.4/7.4/HTML 纯静态，并且只有 300GB 月流量&lt;/p&gt;
-&lt;p&gt;对于小型Blog站点来说已经够了，还带 FTP 支持和 MYSQL 数据库&lt;/p&gt;
-&lt;p&gt;我个人使用的是 纯Html静态，所以访问速度会很快，如果PHP 可能稍微慢点&lt;/p&gt;
-&lt;p&gt;慈善埋简直就是超人！&lt;/p&gt;
 </description>
         </item>
         <item>
