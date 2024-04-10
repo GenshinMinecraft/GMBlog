@@ -57,3 +57,9 @@ apt install fuse
 ln /usr/bin/fusermount /usr/bin/fusermount3
 ```
 因为rclone默认寻找的是`fusermount3`，而软件包默认安装至`fusermount`。这条命令将创建一个`"快捷方式"`，再次运行挂载命令即可。
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

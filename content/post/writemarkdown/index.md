@@ -160,3 +160,9 @@ categories:
 上文提到的就是我们在使用 `Markdown` 进行内容创作时需要注意的地方，更全面的 `Markdown` 教程可以在 [Markdown 官方教程](https://markdown.com.cn/basic-syntax/) 查阅
 
 本文收录的一些写作规范也是我平常在写作中经常遇到的，我也会帮助 `High Ping Network` 的伙伴们进行适当的修改，才可以发布到博客上
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

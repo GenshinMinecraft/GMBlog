@@ -209,3 +209,9 @@ IP类型: Data Center/Web Hosting/Transit⑤
 流媒体解锁也超牛逼，IPV6全绿
 
 可以说是非常牛逼了
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

@@ -198,3 +198,9 @@ categories:
 安装过程挺简单的，希望大家都能用上Google 框架！
 
 如有问题，可以来 Telegram:[@C1oudF1are](https://t.me/C1oudF1are) 找我，免费咨询任何我所知道的问题！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

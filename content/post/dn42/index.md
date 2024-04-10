@@ -788,3 +788,9 @@ PING 172.20.0.53 (172.20.0.53) 56(84) bytes of data.
 当你需要无偿/有偿帮助时，可以联系 Telegram: [@C1oudF1are](https://t.me/C1oudF1are)
 
 当然，我们也欢迎在 DN42 网络中 Peer，详情请移步 [@HighPingChat](https://t.me/HighPingChat)
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

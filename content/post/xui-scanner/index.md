@@ -230,3 +230,9 @@ pip install requests
 - 开启安全入口
 - 设置 Https
 - 设置强帐密
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

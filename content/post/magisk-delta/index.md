@@ -56,3 +56,9 @@ categories:
 
 ## 小结
 **Magisk Delta**是一个还不错的*Magisk*分支，具有已经被阉割掉的**Magisk Hide**功能。适合养老使用！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

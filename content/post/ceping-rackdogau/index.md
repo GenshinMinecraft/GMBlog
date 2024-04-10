@@ -239,3 +239,9 @@ Ipinfo 数据为 AU，但是你可以从 Speedtest 看出，Au(Speedtest.net) �
 一看就是拨出去的，IP 库都没更新完全，流媒体解锁是 Au 夹着 Us
 
 CPU 和内存啥的不想说了，差不多，都是正常小鸡标准
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

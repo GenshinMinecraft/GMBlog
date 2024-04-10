@@ -192,3 +192,9 @@ Koishi 的功能远远不止这一点，可以去细细地了解所有的插件�
 我的 Bot 连上了 20+ 个 Telegram 与 Discord 群组，日常交流完全没有感觉到卡顿 (也有可能是我的机器比较好)
 
 总的来说，只要你按照上面的方法体验了一次 Koishi 后，你就已经基本会使用 Koishi 了，去发现并研究你的新天地吧！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

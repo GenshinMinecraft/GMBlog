@@ -84,3 +84,8 @@ git commit -S -m "commit注释"
 ## 完成
 完成上述步骤后进行一次提交，即可看见自己的commit上有了Verified的绿色标签(如果不行，你可以找谷歌爸爸~~(手动狗头)~~)
 
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

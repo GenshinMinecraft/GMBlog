@@ -52,3 +52,9 @@ categories:
 
 ## 总结
 互联网生来就是为了解决大家的疑问的。所以，提问与回答的智慧，是维护互联网的重要部分
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

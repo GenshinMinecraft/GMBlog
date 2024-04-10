@@ -76,3 +76,9 @@ categories:
 
 顺便来一下军火展示:
 ![](https://i2.100024.xyz/2023/07/21/iyloee.webp)
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

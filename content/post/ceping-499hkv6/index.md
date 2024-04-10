@@ -272,3 +272,9 @@ Speedtest.net	 296.24 Mbps	 67.75 Mbps	 3.03	  0.0%
 解锁 NF，虽然但是还不错 (?)
 
 也就那样，猜测之后会有人溢价几块钱收
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

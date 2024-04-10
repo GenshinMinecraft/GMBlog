@@ -71,3 +71,9 @@ I LOVE YOU, CHJ
 预祝各位新年快乐！
 
 ***GLAD TO MEET YOU! 2024!***
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

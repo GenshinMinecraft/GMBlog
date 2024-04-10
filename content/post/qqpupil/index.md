@@ -85,3 +85,9 @@ java -jar xxx.jar
 `QQ小学生`其实*说好也不好，说坏也不坏*，它主要代表着互联网**低龄化**
 
 所以我对于`QQ小学生`的评价是：***当乐子看***
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

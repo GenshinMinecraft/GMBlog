@@ -130,3 +130,9 @@ nodecook-agent -p [NCA_PORT] -a [NCA_API_KEY] -e [NCA_ENDPOINT] --debug
 ## 小结
 
 添加节点差不多就到这里了，其他功能可以自行玩玩，不赘述了
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

@@ -114,3 +114,9 @@ Cisco提供，老牌，国外不错
 Neustar提供，有国内节点，移动会被丢到国外  
 - IPv4: `64.6.64.6`, `64.6.65.6`  
 - IPv6: `2620:74:1b::1:1`, `2620:74:1c::2:2`  
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

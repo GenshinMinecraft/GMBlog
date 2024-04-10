@@ -296,3 +296,9 @@ IPV6的ping在联通和电信都挺好的，但是一到移动就拉跨了，丢
 
 附上我家本地网络ping
 ![91ad38ca9f0c898dace46d19b795fe6d.png](https://i.miji.bid/2023/12/31/91ad38ca9f0c898dace46d19b795fe6d.png)
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

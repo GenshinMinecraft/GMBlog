@@ -82,3 +82,8 @@ python3 main.py -s [超级管理员的 Telegram ID] -a [普通管理员的 Teleg
 
 相比原版多了一些功能，比如查询订阅信息之类的
 
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

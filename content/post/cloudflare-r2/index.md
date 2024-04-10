@@ -90,3 +90,9 @@ CloudFlare大家可能都在折腾他的**CDN**或者**ZT tunnel**，没有多�
 
 
 ***我的大爹，永远都是我的大爹！***
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

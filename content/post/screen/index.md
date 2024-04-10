@@ -87,3 +87,8 @@ screen -x -S [窗口名] -p 0 -X stuff "命令" && screen -x -S [窗口名] -p 0
 对于一些小型的项目，使用screen保活是*最好用的方法*，也可以在里面运行一些***测试脚本、编译***之类的。\
 但是请注意机器的内存使用情况，也许会把运行在screen内的大内存进程Killed！
 
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

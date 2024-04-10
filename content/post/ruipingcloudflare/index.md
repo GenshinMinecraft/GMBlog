@@ -27,3 +27,9 @@ CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速
 首发于 <https://t.me/aries_init/6083>
 
 ![Alt text](image.png)
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

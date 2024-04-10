@@ -163,3 +163,9 @@ Google 就会定期从 Sitemap 中查找还没添加的 Url，进行编入索引
 也欢迎各位站长来和我交换友链！
 
 发送邮件至 genshinminecraft#duck.com 或 Telegram:@C1oudF1are 来交换友链吧！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

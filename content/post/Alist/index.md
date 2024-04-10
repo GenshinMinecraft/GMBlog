@@ -43,3 +43,9 @@ categories:
 
 ## 小结
 本文简单地总结了各类可挂载网盘的*优缺点*，以及搭建机器的*选择*，对于想要搭建的朋友们来说有些参考意义。
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

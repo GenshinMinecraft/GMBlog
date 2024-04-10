@@ -126,3 +126,9 @@ PS：`《飞行器的执行周期》`里面的歌曲都挺好听的，譬如`《
 ## 小结
 
 这个列表将会永远更新，一直存放我喜欢的歌曲，也可以不定期来看一眼，补充一下自己的音乐列表！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

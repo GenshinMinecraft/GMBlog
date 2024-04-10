@@ -37,3 +37,9 @@ categories:
 但其加载速度远远慢于Hexo
 
 博客类网站强烈建议使用静态驱动程序(如: hexo, jekyll等), 加载速度将获得显著提升
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

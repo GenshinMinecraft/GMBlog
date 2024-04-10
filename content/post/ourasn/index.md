@@ -121,3 +121,8 @@ categories:
 
 我们没有那么远大的理想将全世界都连接到一起，但是我们可以让我们自身于朋友连接在一起，That enough!
 
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

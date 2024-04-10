@@ -262,3 +262,9 @@ Speedtest.net	 8849.05 Mbps	 8534.30 Mbps	 1.34	  0.0%
 但是大部分时间都可以跑满
 
 只要稳定使用就行了，商家基本不管什么，BT也很松
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

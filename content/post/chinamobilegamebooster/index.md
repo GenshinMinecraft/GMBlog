@@ -73,3 +73,9 @@ categories:
 修复非常简单，在客户端进行游戏应用检测即可，只检测个包名还是炸裂了
 
 或者，在客户端/服务端双双配置好游戏需要访问的域名 / IP，限制访问
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

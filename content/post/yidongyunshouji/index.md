@@ -58,3 +58,9 @@ categories:
 这个移动云手机的活动已经很久了，~~没事又水一篇博客而已~~
 
 平时在外面玩点小游戏还是不错的，延迟表现从物理上就比其他云手机优秀多了，流畅度由于目前人不是很多，所以没有感觉到卡顿
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

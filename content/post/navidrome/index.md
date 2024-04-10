@@ -219,3 +219,9 @@ Windows
 ![歌词界面](Screenshot_20231126-101524.png)
 ![专辑界面](Screenshot_20231126-101135.png)
 ![搜索界面](Screenshot_20231126-101150.png)
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

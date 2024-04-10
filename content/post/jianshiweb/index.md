@@ -101,3 +101,9 @@ Clarity 的特点有:
 生效挺快的，直接就可以在后台看到访问的信息，功能就自行研究了，最好用当属浏览录像，每一次点击、滑动、输入都是被记录的，这个自行斟酌
 
 本博客也开了 Clarity，虽然没啥用，但是随时随地看看访客数据，统计下流量，还是可以的
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

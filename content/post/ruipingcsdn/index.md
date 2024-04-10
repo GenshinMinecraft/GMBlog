@@ -113,3 +113,9 @@ CSDN 造成现在这样开发者们人人唾弃的国内平台是有原因的，
 > 嘴里就笑呵呵
 
 **WE LOVE OPEN-SOURCE**
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

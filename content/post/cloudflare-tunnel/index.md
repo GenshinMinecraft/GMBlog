@@ -87,3 +87,9 @@ CloudFlare Tunnel的搭建十分简单，而且可以获得CloudFlare CDN的全�
 并且可以使用与网站优选ip相同的方法，优选Tunnel的ip，可以说是自定义功能十分强大！
 
 ***我的大爹，永远都是我的大爹！***
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

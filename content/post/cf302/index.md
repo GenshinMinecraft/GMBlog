@@ -67,3 +67,9 @@ categories:
 保存并部署上面的重定向规则，测试完成后就差不多了！
 
 [本博客](https://blog.highp.ing) 在 *中国大陆* 地区访问会跳转到 <https://nomao.blog.highp.ing>
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

@@ -36,3 +36,9 @@ categories:
 我个人使用的是 纯Html静态，所以访问速度会很快，如果PHP 可能稍微慢点
 
 慈善埋简直就是超人！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

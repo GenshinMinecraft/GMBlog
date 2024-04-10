@@ -374,3 +374,9 @@ qbittorrent-nox -d
 - x86 架构首选 N100 这类**小型主机**，TDP 越小越好
 - 存储方面，如非 BT/流媒体 等方面需求，普通 HomeCloud 1T 完全足够
 - 接上一条，硬盘无需太高的级别，普通 500G/1T SATA HDD 已经顶天了
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

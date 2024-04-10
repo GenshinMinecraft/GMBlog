@@ -390,3 +390,9 @@ wg
 ![Screenshot_20240128_131318_com.openai.chatgpt.jpg](https://s2.loli.net/2024/01/28/iRO7fb4mTuyCvkc.jpg)
 是不是还挺好玩
 后续会有一篇文章来更新Openai提示词
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

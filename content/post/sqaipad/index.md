@@ -299,3 +299,9 @@ fastboot reboot
 ***祝所有打着《AI教育》幌子的垃圾企业们 早日倒闭***
 
 ***祝所有打着《AI教育》幌子的垃圾企业们 早日倒闭***
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)

@@ -72,3 +72,9 @@ Hi! 这里是 `High Ping Network` 的官方博客
 感谢之前所有小伙伴的支持，谢谢你们！
 
 ## 最后，祝大家新年快乐！
+
+欢迎加入 High Ping 大家庭:
+- [官网](https://highp.ing)
+- [Blog](https://blog.highp.ing)
+- [@HighPingNetwork](https://t.me/HighPingNetwork)
+- [@HighPingChat](https://t.me/highpingchat)
