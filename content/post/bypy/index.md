@@ -8,7 +8,7 @@ categories:
     - Main
 ---
 
-# 在命令行使用百度网盘 -- Bypy 的使用
+# 在命令行使用百度网盘 -- bypy 的使用
 
 本文由 `High Ping Network` 的小伙伴 Lemonawa 进行编撰，首发于 [本博客](https://blog.highp.ing)
 
