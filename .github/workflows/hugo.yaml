@@ -17,7 +17,7 @@ jobs:
         with:
           hugo-version: 'latest'
       - name: Build
-        run: hugo --gc ---logLevel debug --buildDrafts --buildExpired --buildFuture
+        run: hugo --gc --logLevel debug --buildDrafts --buildExpired --buildFuture
       - name: Upload Site
         uses: actions/upload-artifact@v3
         with:
