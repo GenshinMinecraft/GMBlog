@@ -1,4 +1,4 @@
-hugo --gc -v --buildDrafts --buildExpired --buildFuture
+hugo --gc ---logLevel debug --buildDrafts --buildExpired --buildFuture
 
 git checkout main
 git add .
