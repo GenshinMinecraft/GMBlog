@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.119.0'
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v3.0.0
+
+
       - name: Build
         run: hugo --gc -v --buildDrafts --buildExpired --buildFuture
       - name: Upload Site
