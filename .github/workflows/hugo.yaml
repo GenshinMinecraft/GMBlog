@@ -15,7 +15,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.123.0'
       - name: Build
         run: hugo --gc --logLevel debug --buildDrafts --buildExpired --buildFuture
       - name: Upload Site
