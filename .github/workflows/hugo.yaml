@@ -1,31 +1,25 @@
-name: Windows Build
+name: Hugo Build
 
 on:
   push:
     branches:
-      - "main"
+      - *
 
 jobs:
   release:
-    name: Release - Windows
+    name: Hugo Build
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Install Protoc
-        uses: arduino/setup-protoc@v3
-      - name: Set up nasm
-        uses: ilammy/setup-nasm@v1
-      - name: Set up Rust
-        uses: actions-rs/toolchain@v1
+        uses: actions/checkout@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          toolchain: stable
-          profile: minimal
-          override: true
+          hugo-version: '0.119.0'
       - name: Build
-        run: cargo build --release
-      - name: Upload binary
+        run: hugo --gc -v --buildDrafts --buildExpired --buildFuture
+      - name: Upload Site
         uses: actions/upload-artifact@v3
         with:
-          name: x86_64-pc-windows-msvc
-          path: target/release/CloudflareSpeedtest-Slave.exe
+          name: Hugo-Public
+          path: ./public
