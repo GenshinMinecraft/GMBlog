@@ -8,10 +8,7 @@ categories:
   - Main
   - Linux
 ---
-
 # MiaoSpeed
-
-本文由 `High Ping Network` 的朋友 Poxei Doon 进行编撰
 
 MiaoSpeed 于 4.0.0 与 MiaoKo 分离，正式成为独立的开源项目。一般来说，MiaoSpeed 依然被认为是 MiaoKo 的专用后端，但也能成为一个通用型后端。[[1]]
 
@@ -30,7 +27,7 @@ MiaoSpeed 后端是一个无状态的服务器。这意味着你可以和你的�
 
 ## 关于数据安全
 
-MiaoSpeed 不储存任何日志、且只会与 MiaoKo 和 节点服务器发生数据交换。[[2]]
+MiaoSpeed 不储存任何日志、且只会与 主端 和 节点服务器发生数据交换。[[2]]
 
 ## 搭建
 
@@ -135,7 +132,7 @@ MiaoSpeed 在 GitHub 上已进行了开源，官方的仓库为
 
 ##### misc
 
-> 运行临时脚本测试来测试脚本的正确性
+> 提供MiaoSpeed额外功能
 
 子命令 misc 的使用方法:
 ```
