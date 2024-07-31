@@ -17,7 +17,7 @@ categories:
 
 ## 前言
 
-nezha-agent-rs 是一个 Rust 编写的，用于连接 Nezha Panel 的监控，基于 [Nezha](https://github.com/naiba/nezha) 以及 [Nezha Agent](https://github.com/nezhahq/agent)
+[nezha-agent-rs](https://github.com/GenshinMinecraft/nezha-agent-rs) 是一个 Rust 编写的，用于连接 Nezha Panel 的监控，基于 [Nezha](https://github.com/naiba/nezha) 以及 [Nezha Agent](https://github.com/nezhahq/agent)
 
 写这个纯粹是为了好玩，只是想用 Rust 写个小项目来练习读取系统占用等情况，所以 nezha-agent-rs 这个项目就非常自然地产生了
 
