@@ -26,9 +26,9 @@ categories:
 
 ![](index/2024-08-08-14-58-53-image.png)
 
-![](index/2024-08-08-15-08-05-image%20(1).png)
+![](index/1.png)
 
-![](index/2024-08-08-15-31-01-image%20(2).png)
+![](index/2.png)
 
 Netcraft 公司通过扫描检测到了位于 <https://blogcdn.blog.highp.ing/p/chinamobilegamebooster/Via_com.battleon.aq3d.apk> 的文件为恶意软件
 
@@ -50,13 +50,9 @@ Via 浏览器原包名为 `mark.via`，只是将其更改为 `com.battleon.aq3d`
 
 目前该事件并未收到正式的回应，我们希望 Netcraft 公司可以重新鉴定该文件，并撤下 Abuse
 
-
-
 欢迎加入 High Ping 大家庭:
 
 - [官网](https://highp.ing)
 - [Blog](https://blog.highp.ing)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)
-
-
