@@ -14,6 +14,7 @@ categories:
 本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
 
 官网介绍：
+
 ```
 Nat-kvm-美国-独立v6-2号母鸡
 ¥4.90 CNY
@@ -28,7 +29,6 @@ IP 独立ipv6/128 一个
 是否可续费 可以续费
 ```
 
-
 该机器探针地址：<https://te1egram.link/>
 
 ## 测试
@@ -42,7 +42,8 @@ IP 独立ipv6/128 一个
 测试脚本: [ECS融合怪](https://github.com/spiritLHLS/ecs)
 
 ### 基础信息
-```                    
+
+```
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Opteron(TM) Processor 6272
  CPU 核心数        : 2
@@ -70,6 +71,7 @@ IP 独立ipv6/128 一个
 ```
 
 ### CPU
+
 ```
 ---------------------CPU测试--感谢lemonbench开源------------------------
  -> CPU 测试中 (Fast Mode, 1-Pass @ 5sec)
@@ -78,6 +80,7 @@ IP 独立ipv6/128 一个
 ```
 
 ### 内存
+
 ```
 ---------------------内存测试--感谢lemonbench开源-----------------------
  -> 内存测试 Test (Fast Mode, 1-Pass @ 5sec)
@@ -86,7 +89,9 @@ IP 独立ipv6/128 一个
 ```
 
 ### 磁盘
+
 > IO测试不对，这台机器不具备参考。这台的服务器明显是固态SSD，可能后台开通出现了问题。不知道咋创建成固态了，所以这台机器不具备参考意义。
+
 ```
 ------------------磁盘dd读写测试--感谢lemonbench开源--------------------
  -> 磁盘IO测试中 (4K Block/1M Block, Direct Mode)
@@ -107,6 +112,7 @@ Total      | 43.00 MB/s      (83) | 42.03 MB/s      (40)
 ```
 
 ### 解锁(IPV4 解锁是 Warp 的作用，IPV6 未开启)
+
 ```
 ---------------------流媒体解锁--感谢sjlleo开源-------------------------
 以下测试的解锁地区是准确的，但是不是完整解锁的判断可能有误，这方面仅作参考使用
@@ -175,7 +181,9 @@ NF所识别的IP地域信息：美国
 ---------------TikTok解锁--感谢lmc999的源脚本及fscarmen PR--------------
  Tiktok Region:         【US】
 ```
+
 ### IP(无参考意义，测试为 CloudFlare 的 WarpIP)
+
 ```
 -------------------欺诈分数以及IP质量检测--本脚本原创-------------------
 数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
@@ -213,6 +221,7 @@ IP类型: Content Delivery Network⑤
 ```
 
 ### Trace(无参考意义，测试为 CloudFlare 的 WarpIP)
+
 ```
 ----------------三网回程--感谢zhanghanyun/backtrace开源-----------------
 国家: US 城市: Wichita 服务商: AS13335 Cloudflare, Inc.
@@ -268,6 +277,7 @@ IP类型: Content Delivery Network⑤
 ```
 
 ### Speedtest(Warp)
+
 ```
 --------------------自动更新测速节点列表--本脚本原创--------------------
 位置             上传速度        下载速度        延迟     丢包率
@@ -278,12 +288,15 @@ Speedtest.net        932.24 Mbps     927.97 Mbps     5.11     0.0%
 ```
 
 ### 全球Ping(Itdog Ipv6)
+
 ![9d5e76035db082f05260ff37d2cfffe3.png](https://i.miji.bid/2023/12/31/9d5e76035db082f05260ff37d2cfffe3.png)
 
 ### 全球持续Ping(Itdog Ipv6)
+
 ![0a2034041bc41eaba859212ef83ced94.png](https://i.miji.bid/2023/12/31/0a2034041bc41eaba859212ef83ced94.png)
 
 ## 评价
+
 小埋家的都知道，低价机器多了去了
 
 也不能说是灵车，买来也是探针+1
@@ -298,6 +311,7 @@ IPV6的ping在联通和电信都挺好的，但是一到移动就拉跨了，丢
 ![91ad38ca9f0c898dace46d19b795fe6d.png](https://i.miji.bid/2023/12/31/91ad38ca9f0c898dace46d19b795fe6d.png)
 
 欢迎加入 High Ping 大家庭:
+
 - [官网](https://highp.ing)
 - [Blog](https://blog.highp.ing)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
