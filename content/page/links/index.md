@@ -5,6 +5,10 @@ links:
     description: 探寻极限，感受力量
     website: https://dfs.moe/
     image: https://backend.dfs.moe/api/v2/objects/avatar/litu839xb2ehxplt2f.jpg
+  - title: 白翎工作室
+    description: 可爱
+    website: https://shiroaudio.link/
+    image: https://shiroaudio.link/wp-content/uploads/2024/04/Shiro-Audio-Banner.png.webp
 menu:
     main: 
         weight: -50
