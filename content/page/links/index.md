@@ -1,18 +1,10 @@
 ---
 title: Links
 links:
-  - title: VPSLOG
-    description: VPS 学习日志
-    website: https://vpslog.org/
-    image: https://i2.100024.xyz/2023/07/21/khy9c1.webp
-  - title: 铭哥のBlog
-    description: 铭哥的扯淡博客
-    website: http://blog.mingge.link/
-    image: https://pic.saozhu.me/file/7dd8a2d1fcf4c6ec0aaa3.png
-  - title: Lemon Space
-    description: Lemonawa's Space
-    website: https://lma.moe/
-    image: https://lma.moe/_next/image?url=https://lma.moe/api/v2/objects/avatar/bdzsvuauase01sq36t.jpg&w=640&q=75&dpl=dpl_PfVQwB1KgXUKU8tAujNenz1wrKAz
+  - title: 龙青的瞎羁绊哔哔
+    description: 探寻极限，感受力量
+    website: https://dfs.moe/
+    image: https://backend.dfs.moe/api/v2/objects/avatar/litu839xb2ehxplt2f.jpg
 menu:
     main: 
         weight: -50
