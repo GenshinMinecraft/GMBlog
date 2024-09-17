@@ -1,16 +1,16 @@
-baseurl: https://blog.highp.ing
+baseurl: https://blog.c1oudf1are.eu.org
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 10
-title: HighPing们の小小藏身地
+title: GenshinMinecraftの小小藏身地
 timeout: 60s
 
 languages:
   zh-cn:
     params:
       languageCode: zh-cn
-      title: HighPing们の小小藏身地
-      description: High Ping Network 官方博客
+      title: GenshinMinecraftの小小藏身地
+      description: WE LOVE OPEN-SOURCE
 
 
 DefaultContentLanguage: zh-cn
@@ -35,12 +35,11 @@ params:                   # 参数配置
 
     sidebar:              # 侧边栏配置
         emoji: 😇
-        subtitle: High Ping Network
+        subtitle: WE LOVE OPEN-SOURCE
         avatar:
             enabled: true
             local: false
-            src: /HighPingBlog.png
-            #src: img/avatar.png
+            src: /photo_2024-04-28_19-52-06.jpg
 
     article:              # 文章详情页配置
         math: false
@@ -82,21 +81,15 @@ menu:
     main: []              # 主菜单
 
     social:               # 社交链接
-        - identifier: web
-          name: Web
-          url: http://highp.ing
-          params:
-              icon: brand-web
-
         - identifier: github
           name: GitHub
-          url: https://github.com/High-Ping-Network
+          url: https://github.com/GenshinMinecraft
           params:
               icon: brand-github
         
         - identifier: telegram
           name: telegram
-          url: http:/t.me/HighPingNetwork
+          url: http:/t.me/C1oudf1are
           params:
               icon: brand-telegram
 
