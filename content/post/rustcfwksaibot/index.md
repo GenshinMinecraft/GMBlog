@@ -13,13 +13,13 @@ categories:
 
 # 200 行 Rust 代码实现简单 CF Workers AI Bot | Rust 学习日记
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 
 又是我，又来开新坑了，这次是在朋友的推荐下去认真学习了一下 Rust，真的是太好玩了 ~~(全群没有几个人不会Rust了)~~
 
-这次主要是用 Rust 重写了[之前用 Python3 写的 Cloudflare Workers AI Telegram 机器人](https://blogcdn.blog.highp.ing/p/workersaibot/)
+这次主要是用 Rust 重写了[之前用 Python3 写的 Cloudflare Workers AI Telegram 机器人](https://blog.c1oudf1are.eu.org/p/workersaibot/)
 
 一边看着 《Rust 圣经》 一边 Coding，还是挺好玩的
 
@@ -652,10 +652,10 @@ cargo build --release
 
 这次主要是了解了 Rust 的基本语法，更深层次的还尚未触及到，对于代码中解释有误或代码有问题的请多多谅解
 
-同时也可以看看[它的 Python 实现](https://github.com/GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot) ([相关文章](https://blogcdn.blog.highp.ing/p/workersaibot/))
+同时也可以看看[它的 Python 实现](https://github.com/GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot) ([相关文章](https://blog.c1oudf1are.eu.org/p/workersaibot/))
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

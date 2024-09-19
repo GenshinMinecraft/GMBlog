@@ -12,7 +12,7 @@ categories:
 
 # DN42 最简教程
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 >**去中心化网络 42**（英语：Decentralized Network 42，简称 **dn42**），是一个[去中心化](https://zh.wikipedia.org/wiki/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96 "去中心化")、[端到端](https://zh.wikipedia.org/wiki/%E5%B0%8D%E7%AD%89%E7%B6%B2%E8%B7%AF "点对点网络")的网络，通过 [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF "虚拟专用网") 和软件或硬件 [BGP](https://zh.wikipedia.org/wiki/%E8%BE%B9%E7%95%8C%E7%BD%91%E5%85%B3%E5%8D%8F%E8%AE%AE "边界网关协议") 路由器构建。
 
@@ -791,6 +791,6 @@ PING 172.20.0.53 (172.20.0.53) 56(84) bytes of data.
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

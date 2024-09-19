@@ -13,7 +13,7 @@ categories:
 
 # Using cloudflare-workers-kv-sdk-rs
 
-This article was written by GenshinMinecraft from the High Ping Network team and is first published on [our blog](https://blog.highp.ing).
+This article was written by GenshinMinecraft from the High Ping Network team and is first published on [our blog](https://blog.c1oudf1are.eu.org).
 
 ## Preface
 
@@ -217,6 +217,6 @@ That's it. Feel free to submit Issues / PRs if you have any questions.
 
 Welcome to join the High Ping family:
 - [Official Website](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

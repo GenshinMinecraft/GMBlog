@@ -93,7 +93,7 @@ categories:
 出现 `Init...` 说明连接成功了，此时会创建一个tun0的虚拟网卡
 ![Alt text](image-3.png)
 
-> 此处 Aries 使用了 `Screen` 来进行示例保活，但本博客有更好的有关于 `Screen` 的文章，请参阅 <https://blog.highp.ing/p/screen/>
+> 此处 Aries 使用了 `Screen` 来进行示例保活，但本博客有更好的有关于 `Screen` 的文章，请参阅 <https://blog.c1oudf1are.eu.org/p/screen/>
 
 ## 配置路由 (Xray/XrayR)
 ### 配置 Xray 路由
@@ -250,6 +250,6 @@ categories:
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

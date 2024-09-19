@@ -13,7 +13,7 @@ categories:
 
 # 搭建属于自己的 Cloudflare Workers AI Telegram Bot
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 项目地址: <https://github.com/GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot>
 
@@ -31,7 +31,7 @@ DEMO BOT: [@cloudflareworkersaibot](https://t.me/cloudflareworkersaibot)
 
 感谢各位**开源工作者**以及 **Cloudflare** 的付出！
 
-该 Bot 相关实现请看 [该博客](https://blogcdn.blog.highp.ing/p/rustcfwksaibot/)
+该 Bot 相关实现请看 [该博客](https://blog.c1oudf1are.eu.org/p/rustcfwksaibot/)
 
 ## 准备工作
 
@@ -129,6 +129,6 @@ TELEGRAM_BOTTOKEN="xxx" \
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

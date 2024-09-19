@@ -10,7 +10,7 @@ categories:
 
 # 关于 High Ping Blog 的第一个 Abuse
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 # 
 
@@ -20,7 +20,7 @@ categories:
 
 当时正半夜，我躺在床上重温《轻音少女》，所以我先回应他明天看看
 
-第二天早上起来看了一下，是有关 [利用 中国移动游戏加速器 代理 非游戏软件 实现出国代理服务 (漏洞复现)](https://blog.highp.ing/p/chinamobilegamebooster/) 这一文章的问题
+第二天早上起来看了一下，是有关 [利用 中国移动游戏加速器 代理 非游戏软件 实现出国代理服务 (漏洞复现)](https://blog.c1oudf1are.eu.org/p/chinamobilegamebooster/) 这一文章的问题
 
 问题来源于该文章中的 `基本思路` 这一节中的一个修改版 Via 浏览器 APK 文件:
 
@@ -30,7 +30,7 @@ categories:
 
 ![](index/2.png)
 
-Netcraft 公司通过扫描检测到了位于 <https://blogcdn.blog.highp.ing/p/chinamobilegamebooster/Via_com.battleon.aq3d.apk> 的文件为恶意软件
+Netcraft 公司通过扫描检测到了位于 <https://blog.c1oudf1are.eu.org/p/chinamobilegamebooster/Via_com.battleon.aq3d.apk> 的文件为恶意软件
 
 并向 Hytron 的 IP 89.185.x.x 发送了 Abuse (该 IP 为 BlogCDN 所有)
 
@@ -53,6 +53,6 @@ Via 浏览器原包名为 `mark.via`，只是将其更改为 `com.battleon.aq3d`
 欢迎加入 High Ping 大家庭:
 
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

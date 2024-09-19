@@ -11,11 +11,11 @@ categories:
 
 # 关于松鼠 AI 学习机的各种破解方法
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing/p/) 
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org/p/) 
 
 ## 前言
 
-在上篇文章 [松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)](https://blog.highp.ing/p/sqaipad/) 之前，我曾找到过许多该学习机的破解方法 / Bug，为我的 Android 研究开了一扇大门
+在上篇文章 [松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)](https://blog.c1oudf1are.eu.org/p/sqaipad/) 之前，我曾找到过许多该学习机的破解方法 / Bug，为我的 Android 研究开了一扇大门
 
 当然，本文章还是会基于 `SQAIPAD-V11` 机型进行探究，我不清楚是否适用于其他机型，请自行研究
 
@@ -64,7 +64,7 @@ categories:
 
 说了这么多，最好的方法还是完全地破解他
 
-有关 Root 等方案，可以查看[开头提到的该文章](https://blog.highp.ing/p/sqaipad/)
+有关 Root 等方案，可以查看[开头提到的该文章](https://blog.c1oudf1are.eu.org/p/sqaipad/)
 
 ## 结尾
 
@@ -73,7 +73,7 @@ SO 就这样吧，这款学习机破解起来毫无难度，希望松鼠 AI 官�
 欢迎加入 High Ping 大家庭:
 
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)
 

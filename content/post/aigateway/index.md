@@ -12,7 +12,7 @@ categories:
 
 # 初探 Cloudflare AI Gateway
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 
@@ -222,7 +222,7 @@ Universal Endpoint 可以保证服务的稳定性:
 
 - [官网](https://highp.ing)                                                                                                 
 
-- [Blog](https://blog.highp.ing)                                                                                            
+- [Blog](https://blog.c1oudf1are.eu.org)                                                                                            
 
 - [@HighPingNetwork](https://t.me/HighPingNetwork)                                                                          
 

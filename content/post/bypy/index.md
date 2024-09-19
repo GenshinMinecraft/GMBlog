@@ -11,7 +11,7 @@ categories:
 
 # 在命令行使用百度网盘 -- bypy 的使用
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 
@@ -153,10 +153,10 @@ Skip saving Hash Cache since it has not been updated.
 
 ## 小结
 
-使用还是很简单的，如果你有使用服务器下载文件的需求，建议开一个 [Screen](https://blog.highp.ing/p/screen) 窗口下载，文件再大总有一天能下完的
+使用还是很简单的，如果你有使用服务器下载文件的需求，建议开一个 [Screen](https://blog.c1oudf1are.eu.org/p/screen) 窗口下载，文件再大总有一天能下完的
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

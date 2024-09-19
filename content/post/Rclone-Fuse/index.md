@@ -11,7 +11,7 @@ categories:
 
 # Rclone挂载以及Fuse问题解决
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 关于Rclone添加储存以及文件复制的问题可以参考这一篇博客：[VPSLOG](https://vpslog.org/blog/%E4%BD%BF%E7%94%A8-rclone-%E5%9C%A8-nas-%E5%92%8C-google-drive-%E4%B9%8B%E9%97%B4%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/)，这里很好地写出了添加储存的过程。本文不再赘述。
@@ -60,6 +60,6 @@ ln /usr/bin/fusermount /usr/bin/fusermount3
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

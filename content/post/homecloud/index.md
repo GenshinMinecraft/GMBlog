@@ -11,7 +11,7 @@ categories:
 
 # HomeCloud 家庭云 折腾心得
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 作为一个 **新时代网络人**，在家里放几台小机器，运行一下内网服务，还是非常 INTERESTING 的～～
@@ -77,15 +77,15 @@ categories:
 ### Alist
 [Alist](https://alist.nn.ci/zh/) 是一个适合部署于自己服务器上的**网盘聚合文件列表**应用，其将数十个服务商的网盘服务**整合**起来，提供*网页访问*或 *Webdav 服务*，一般用于存储影视等**流媒体资源**，还是挺不错的
 
-关于在本博客上关于 [Alist](https://blog.highp.ing/categories/alist/) 的文章，请点击前字查看！
+关于在本博客上关于 [Alist](https://blog.c1oudf1are.eu.org/categories/alist/) 的文章，请点击前字查看！
 
 搭建过程很简单，就不教程了
 
 ![Alist](IMG_20231201_202722_420.jpg)
 
-对于 Alist 的使用上，我一般配合 [Rclone](https://rclone.org/) 进行使用，对于 Rclone 的各文章，请参阅[本博客的 Rclone Tag 食用](https://blog.highp.ing/categories/rclone/)
+对于 Alist 的使用上，我一般配合 [Rclone](https://rclone.org/) 进行使用，对于 Rclone 的各文章，请参阅[本博客的 Rclone Tag 食用](https://blog.c1oudf1are.eu.org/categories/rclone/)
 
-对于网盘选择，[这篇文章](https://blog.highp.ing/p/alist/)已经介绍的很清楚了！
+对于网盘选择，[这篇文章](https://blog.c1oudf1are.eu.org/p/alist/)已经介绍的很清楚了！
 
 但不妨我再说一次：Onedrive + 夸克！
 
@@ -103,7 +103,7 @@ Onedrive 用于储存一些**备份内容**，夸克因为其可以**转存 BT �
 
 其作用，有的人很需要，有的人其实没什么需要
 
-对于其搭建方法，[本博客就有](https://blog.highp.ing/p/fulltclash/)
+对于其搭建方法，[本博客就有](https://blog.c1oudf1are.eu.org/p/fulltclash/)
 
 其实现在的 FullTclash 已经**十分先进**了，由于本博客的教程有点久远(23.08)
 
@@ -128,7 +128,7 @@ Cloudflare Tunnel 有如下的优点：
 - 配置简单：官方给你一键命令，连**进程守护**都可以根据系统**自动配置**
 - 与 Cloudflare 深度绑定：与 Cloudflare 其他服务**深度绑定**，比如域名等直接**一键配置**
 
-本博客也有关于 Cloudflare Tunnel 的教程：[There](https://blog.highp.ing/p/cloudflare-tunnel/)
+本博客也有关于 Cloudflare Tunnel 的教程：[There](https://blog.c1oudf1are.eu.org/p/cloudflare-tunnel/)
 
 总结还是那句话：***Cloudflare 大爹永远是你大爹！***
 
@@ -326,7 +326,7 @@ J3455 中所有的网站均由其**管理&反代**
 ![专辑界面](Screenshot_20231126-101135.png)
 ![搜索界面](Screenshot_20231126-101150.png)
 
-**Navidrome** 的部署方法也在本博客中，详情请点击[这里](https://blog.highp.ing/p/navidrome)
+**Navidrome** 的部署方法也在本博客中，详情请点击[这里](https://blog.c1oudf1are.eu.org/p/navidrome)
 
 ~~你知道吗：在家部署一个歌曲**音质超好**的音乐云，真的很爽~~
 
@@ -376,6 +376,6 @@ qbittorrent-nox -d
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

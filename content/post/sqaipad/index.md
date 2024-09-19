@@ -11,7 +11,7 @@ categories:
 
 # 松鼠AI学习机V11|SQAIPAD-V11 破解/Root (适用于所有MTK设备)
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 Root原文方法链接：<https://blog.csdn.net/shenjingwa012/article/details/131018766>
 
@@ -90,7 +90,7 @@ adb shell pm disable-user com.boll.tutorialclasslauncher
 
 ### 安装安装狮并授权
 
-在这里下载`安装狮`APK：<https://blog.highp.ing/p/sqaipad/com.modosa.apkinstaller-3.7.5-42-231938.apk>
+在这里下载`安装狮`APK：<https://blog.c1oudf1are.eu.org/p/sqaipad/com.modosa.apkinstaller-3.7.5-42-231938.apk>
 
 通过`ADB`安装至设备上：
 ```cmd
@@ -301,6 +301,6 @@ fastboot reboot
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

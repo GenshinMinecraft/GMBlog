@@ -11,7 +11,7 @@ categories:
 
 # [测评] 虚妄猫 Nat-kvm-美国-独立v6-2号母鸡 4.9rmb/m 2c512m 40gDisk 2T 纯IPV6小鸡 测评
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 官网介绍：
 
@@ -313,6 +313,6 @@ IPV6的ping在联通和电信都挺好的，但是一到移动就拉跨了，丢
 欢迎加入 High Ping 大家庭:
 
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

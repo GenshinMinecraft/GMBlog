@@ -13,13 +13,13 @@ categories:
 
 # 仅依靠 CloudFlare 完成带路径参数重定向
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing/)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org/)
 
 ## 前言
 
 本博文会**十分短**，因为比较简单而且也是随手一记。
 
-做到的效果大约是: *中国大陆用户*访问 <https://blog.highp.ing/xxx/xxxx> 时会被 CloudFlare 在边缘重定向到 <https://nomao.blog.highp.ing/xxx/xxxx>
+做到的效果大约是: *中国大陆用户*访问 <https://blog.c1oudf1are.eu.org/xxx/xxxx> 时会被 CloudFlare 在边缘重定向到 <https://nomao.blog.highp.ing/xxx/xxxx>
 
 不论 URL 中的 *目录/请求参数* 是什么，都可以一并转发到目标网站
 
@@ -67,10 +67,10 @@ categories:
 
 保存并部署上面的重定向规则，测试完成后就差不多了！
 
-[本博客](https://blog.highp.ing) 在 *中国大陆* 地区访问会跳转到 <https://nomao.blog.highp.ing>
+[本博客](https://blog.c1oudf1are.eu.org) 在 *中国大陆* 地区访问会跳转到 <https://nomao.blog.highp.ing>
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

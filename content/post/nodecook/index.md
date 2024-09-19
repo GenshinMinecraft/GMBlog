@@ -11,7 +11,7 @@ categories:
 
 # 贡献 Nodecook 测试后端
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 
@@ -117,7 +117,7 @@ nodecook-agent -p [NCA_PORT] -a [NCA_API_KEY] -e [NCA_ENDPOINT] --debug
 - `NCA_PORT`  部分为后端监听的端口
 - `NCA_ENDPOINT` 为访问至后端的 URL，格式为: `http://[IP/DOMAIN]:[PORT]`
 
-请注意，使用命令行运行时，需要配置保活等服务，可以使用 Screen，[教程参考](https://blog.highp.ing/p/screen/)
+请注意，使用命令行运行时，需要配置保活等服务，可以使用 Screen，[教程参考](https://blog.c1oudf1are.eu.org/p/screen/)
 
 ## 配置完成
 
@@ -133,6 +133,6 @@ nodecook-agent -p [NCA_PORT] -a [NCA_API_KEY] -e [NCA_ENDPOINT] --debug
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

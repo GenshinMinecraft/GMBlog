@@ -59,7 +59,7 @@ categories:
 
 - 关于我们:  <https://highp.ing/aboutus.html> 
 - 我们的官网: <https://highp.ing>
-- 我们的博客: <https://blog.highp.ing>
+- 我们的博客: <https://blog.c1oudf1are.eu.org>
 - 我们的官方邮箱: <noc@highp.ing>
 - 我们的投诉邮箱: <abuse@highp.ing>
 - 我们的 Telegram 频道: [@HighPingNetwork](https://t.me/HighPingNetwork)
@@ -98,7 +98,7 @@ categories:
 同时非常感谢为**开源项目**做出贡献的**每一位**开源人！
 
 - 官网 <https://highp.ing> : [Vitepress](https://vitepress.dev/)
-- 博客 <https://blog.highp.ing> : [Hugo](https://gohugo.io/)
+- 博客 <https://blog.c1oudf1are.eu.org> : [Hugo](https://gohugo.io/)
 
 也非常感谢为我们提供**免费服务**的每一个服务商/人
 
@@ -123,6 +123,6 @@ categories:
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

@@ -12,7 +12,7 @@ categories:
 
 # 锐评CloudFlare（CloudFlare从来都不是减速器）
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速度，好吧不要睁着眼睛乱说，全球CDN很难的。
 
@@ -30,6 +30,6 @@ CloudFlare越来越慢了，CloudFlare哪里慢了，这么多年都是这个速
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

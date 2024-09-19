@@ -33,7 +33,7 @@ Hi! 这里是 `High Ping Network` 的官方博客
 
 我们的官网: <https://highp.ing>
 
-我们的博客: <https://blog.highp.ing>
+我们的博客: <https://blog.c1oudf1are.eu.org>
 
 ## `High Ping Network` 这一名称的由来
 `High Ping` 的意思是 **延迟高**，所以 `High Ping Network` 的意思就是 **延迟很高的网络**
@@ -75,6 +75,6 @@ Hi! 这里是 `High Ping Network` 的官方博客
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

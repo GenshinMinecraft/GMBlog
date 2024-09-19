@@ -12,7 +12,7 @@ categories:
 
 # 使用 Cloudflare Pages 部署 Feishin 用于连接音乐库来播放音乐
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 
 
@@ -218,7 +218,7 @@ Feishin 目前可以连接 [Jellyfin]([https://jellyfin.org/](https://jellyfin.o
 
 - [官网](https://highp.ing)                                                                                                                                                                   
 
-- [Blog](https://blog.highp.ing)                                                                                                                                                              
+- [Blog](https://blog.c1oudf1are.eu.org)                                                                                                                                                              
 
 - [@HighPingNetwork](https://t.me/HighPingNetwork)                                                                                                                                            
 

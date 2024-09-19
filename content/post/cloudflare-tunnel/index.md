@@ -13,7 +13,7 @@ categories:
 
 # CloudFlare Tunnel(内网穿透) 获取/使用方法
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 在生活中，我们经常会遇到需要*访问家里设备*（NAS、Router等）的情况，这个时候如果没有公网IP，将会是十分头疼的一件事情。
@@ -90,6 +90,6 @@ CloudFlare Tunnel的搭建十分简单，而且可以获得CloudFlare CDN的全�
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

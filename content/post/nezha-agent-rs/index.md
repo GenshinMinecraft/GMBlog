@@ -13,7 +13,7 @@ categories:
 
 # 使用 nezha-agent-rs
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing/)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org/)
 
 ## 前言
 
@@ -75,7 +75,7 @@ nezha-agent-rs -s example.com:5555 -p 114514
 
 当然，nezha-agent-rs 需要长时间的运行，你也许需要使用各种奇技淫巧来为其设置服务等，当然这里不再赘述
 
-也可以参考 [这一 Screen 教程](https://blog.highp.ing/p/screen/) 来为其进行简单的配置
+也可以参考 [这一 Screen 教程](https://blog.c1oudf1are.eu.org/p/screen/) 来为其进行简单的配置
 
 ## 小结
 
@@ -83,6 +83,6 @@ nezha-agent-rs -s example.com:5555 -p 114514
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

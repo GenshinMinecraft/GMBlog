@@ -12,7 +12,7 @@ categories:
 
 # 如何让 Google 快速收录你的网站 / 提升在 Google 的排名
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 针对于小型站点（博客）站长来说，让自己的内容更多人看见是主要的工作之一
@@ -166,6 +166,6 @@ Google 就会定期从 Sitemap 中查找还没添加的 Url，进行编入索引
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

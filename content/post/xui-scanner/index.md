@@ -12,7 +12,7 @@ categories:
 
 # 扫描弱密码的 X-ui 面板
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing/)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org/)
 
 ## 宇宙安全声明
 - 本人仅将本文作为技术研究文
@@ -82,7 +82,7 @@ apt install masscan libpcap-dev
 
 其他系统自行解决
 
-启动 Masscan，输入如下命令 (建议使用 Screen 进行保活，避免因为 SSH 等原因断连而导致扫描中断，[教程点我](https://blog.highp.ing/p/screen/))
+启动 Masscan，输入如下命令 (建议使用 Screen 进行保活，避免因为 SSH 等原因断连而导致扫描中断，[教程点我](https://blog.c1oudf1are.eu.org/p/screen/))
 
 ```bash
 masscan --exclude 255.255.255.255 -p54321 --max-rate 5000 -oG results.txt [上面获取的 IP Ranges, 用空格隔开]
@@ -233,6 +233,6 @@ pip install requests
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)

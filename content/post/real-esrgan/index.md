@@ -11,7 +11,7 @@ categories:
 
 # 通过 Real-ESRGAN 给图像/视频超分辨率
 
-本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.highp.ing)
+本文由 `High Ping Network` 的小伙伴 GenshinMinecraft 进行编撰，首发于 [本博客](https://blog.c1oudf1are.eu.org)
 
 ## 前言
 
@@ -180,6 +180,6 @@ ffmpeg -i [已超分视频文件] -i out.mp3 -c copy -map 0:v:0 -map 1:a:0 [最�
 
 欢迎加入 High Ping 大家庭:
 - [官网](https://highp.ing)
-- [Blog](https://blog.highp.ing)
+- [Blog](https://blog.c1oudf1are.eu.org)
 - [@HighPingNetwork](https://t.me/HighPingNetwork)
 - [@HighPingChat](https://t.me/highpingchat)
