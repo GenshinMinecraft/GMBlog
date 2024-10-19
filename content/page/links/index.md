@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Friends
 links:
   - title: 龙青的瞎羁绊哔哔
     description: 探寻极限，感受力量
@@ -17,7 +17,8 @@ menu:
 
 comments: false
 ---
+
 ## 友链哒哒哒~
-### 可以来与 High Ping Blog 交换友链哦~
-### E-mail: noc@highp.ing
-### TG: @HighPingChat
+### 可以来与 GenshinMinecraft 交换友链哦~
+### E-mail: gm@highp.ing
+### TG: @C1oudF1are

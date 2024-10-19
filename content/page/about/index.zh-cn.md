@@ -1,11 +1,10 @@
 ---
-title: 关于
+title: About
 menu:
-    main: 
+    main:
         weight: -90
         params:
             icon: user
-
 ---
 
 # GenshinMinecraftの小小藏身地
