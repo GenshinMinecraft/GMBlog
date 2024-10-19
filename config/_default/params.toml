@@ -5,8 +5,8 @@ rssFullContent = true
 favicon = "/android-chrome-512x512.png"
 
 [footer]
-since = 2020
-customText = "WE LOVE OPEN-SOURCE"
+since = 2023
+customText = "我们所经历的每个平凡的日常，也许就是连续发生的奇迹。"
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -77,7 +77,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
