@@ -176,6 +176,32 @@ BTW，我们学校教室的 Wallpaper 还是阪本先生呢！
 
 
 
+### CITY
+
+[萌娘百科](https://zh.moegirl.org.cn/CITY)
+
+![alt text](https://img.genmin.icu/p/comic/image-45.png)
+
+很牛逼的京阿尼回来了，最新力作延续其一贯传统，被看作是《日常》的续作
+
+炫技特别明显，比如 s01e05 的八宫格，观看体验及其难受，但是观感非常好 (这俩不是一个东西吗，这集有人骂死有人吹四)
+
+歌曲特特特特好听，给你们展示一下:
+
+![alt text](https://img.genmin.icu/p/comic/image-46.png)
+
+牛逼在哪呢，就是很日常，非常日常
+
+具体角色非常非常多，我相信没有几个人能记住所有的角色。与《日常上河图》相似，《CITY》中也有全家福，位于 OP 尾部
+
+
+
+## 优
+
+优就挺多了
+
+
+
 ### 摇曳露营△
 
 [萌娘百科](https://zh.moegirl.org.cn/%E6%91%87%E6%9B%B3%E9%9C%B2%E8%90%A5)
@@ -188,13 +214,9 @@ BTW，我们学校教室的 Wallpaper 还是阪本先生呢！
 
 OP / ED 也属于一流级别，比如[`《So Precious》`](https://zh.moegirl.org.cn/So_Precious)、[`《SHINY DAYS》`](https://zh.moegirl.org.cn/SHINY_DAYS)、[`《Seize The Day》`](https://zh.moegirl.org.cn/Seize_The_Day)之类
 
-其实守门员才是最难选的，我在`《悠哉日常大王》`和`《摇曳露营》`抉择了很久
+前 `神` 的守门员，因 CITY 还可以退下了
 
 
-
-## 优
-
-优就挺多了
 
 ### 悠哉日常大王
 
@@ -407,7 +429,6 @@ OP / ED 忘了，下一个
 
 
 
-
 ### 妻子变成小学生
 
 [萌娘百科](https://zh.moegirl.org.cn/%E5%A6%BB%E5%AD%90%E5%8F%98%E6%88%90%E5%B0%8F%E5%AD%A6%E7%94%9F%E3%80%82)
@@ -613,6 +634,22 @@ OP / ED 已经忘得差不多了，不做评价
 类似的动漫最喜欢在倒数几集来个刀子，最后 happy ending，习以为常了
 
 OP / ED 也非常鲜活，属于可以加入歌单级别
+
+
+
+### mono
+
+[萌娘百科](https://zh.moegirl.org.cn/Mono)
+
+![alt text](https://img.genmin.icu/p/comic/image-44.png)
+
+《摇曳露营△》作者的最新力作，我愿称之为《摇曳露营△》S04，非常多 Neta 来自《摇曳露营△》
+
+不可否认的是依旧是一个还算可以的日常美食风景番剧，但明显超越不了《摇曳露营△》
+
+作为主视觉图最显眼的全景相机在剧情中并没有发挥太大作用，而且后面怎么成恐怖片了
+
+当时那帮摄影佬推荐我这部番以为是什么类似于《New Game》这种介绍行业之作，后面还是有点失望的
 
 
 
