@@ -1,7 +1,7 @@
 ---
 title: 个人向番剧大评价 (长期更新)
 description: 天堂与地狱的区别
-date: 2025-10-01
+date: 2025-11-11
 slug: comic
 image: https://img.genmin.icu/p/comic/image-28.png
 categories:
@@ -344,6 +344,24 @@ s01 OP [`「青空狂想曲」`](https://zh.moegirl.org.cn/%E9%9D%92%E7%A9%BA%E7
 
 
 
+### 爱杀宝贝
+
+[萌娘百科](https://zh.moegirl.org.cn/%E7%88%B1%E6%9D%80%E5%AE%9D%E8%B4%9D)
+
+![alt text](https://img.genmin.icu/p/comic/image-49.png)
+
+经典的 `没头脑与不高兴` 风格作品，漫才极致
+
+[OP](https://music.163.com/#/song?id=1317156416) 异常洗脑，当年称霸舞蹈区
+
+这个翻译真的很绝，`Kill Me Baby` 翻译成 `啾咪宝贝` 和 `爱杀宝贝`，见过最有创意的译名之一
+
+还有剧情虽然说是杀手与忍者，但是其实一点相关的也没有，反而特好笑
+
+还有一位特别 阿卡林 的存在 (红毛)
+
+
+
 ### 前辈是伪娘
 
 [萌娘百科](https://zh.moegirl.org.cn/%E5%89%8D%E8%BE%88%E6%98%AF%E4%BC%AA%E5%A8%98)
@@ -365,6 +383,20 @@ s01 OP [`「青空狂想曲」`](https://zh.moegirl.org.cn/%E9%9D%92%E7%A9%BA%E7
 说句实话，如果你对这类特殊群体没有什么感觉，可以看看这部番剧
 
 还有 [ED](https://music.163.com/#/song?id=2605273789) 也是一绝，收藏级别
+
+
+
+### 樱 Trick
+
+[萌娘百科](https://zh.moegirl.org.cn/%E6%A8%B1Trick)
+
+![alt text](https://img.genmin.icu/p/comic/image-50.png)
+
+六个人，有三对，特别硬核，非百合爱好者请退场
+
+值得吹的地方有很多，比如每集两个 Trick ~~(其实应该是 Track)~~、劲爆的 [OP](https://music.163.com/song?id=28462246&uct2=U2FsdGVkX1/9hDGlC8TFX/1yXJCDzdqfR9mkNZ10Kr8=)、还有春香与美月会长的感情线、还有每个人物比喻成一个物品的同时也有小剧场
+
+每集至少一个 Kiss 还是太劲了
 
 
 
@@ -417,6 +449,7 @@ s01 OP [`「青空狂想曲」`](https://zh.moegirl.org.cn/%E9%9D%92%E7%A9%BA%E7
 很久之前看的，剧情快忘完了
 
 轻松搞笑必看之一，上就完了
+
 
 
 ### 不要欺负我，长瀞同学
@@ -842,3 +875,4 @@ OP / ED 也非常鲜活，属于可以加入歌单级别
 - 2025.09.07: 新增「万圣街」
 - 2025.10.01: 新增「CITY」、「MONO」
 - 2025.10.05: 新增「明天，美食广场见。」、「我怎么可能成为你的恋人，不行不行！（※不是不可能！？）」
+- 2024.11.15: 新增「爱杀宝贝」、「樱Trick」、「外星人沐沐」
