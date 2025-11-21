@@ -3,7 +3,7 @@ title: Rust Binary 体积优化指南
 description: 小白文章，大佬别看了
 date: 2025-11-21
 slug: rust-minimal-binary-size
-image: 
+image: https://img.genmin.icu/p/rust-minimal-binary-size/image.png
 categories:
     - Main
     - Rust
