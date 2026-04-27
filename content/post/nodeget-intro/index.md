@@ -1,7 +1,7 @@
 ---
 title: NodeGet NS 探针 Intro 
 description: 两个月啊两个月，没碰过博客
-date: 2026-4-28
+date: 2026-04-28
 slug: nodeget-intro
 image: https://img.genmin.icu/p/nodeget-intro/image-1.png
 categories:
