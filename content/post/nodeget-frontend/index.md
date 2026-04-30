@@ -9,7 +9,7 @@ categories:
     - NodeGet
 ---
 
-# NodeGet NS 探针 Intro
+# NodeGet Status Show 搭建
 
 Hi，这里是 GenshinMinecraft，NodeGet 后端已经没啥大改动了，所以临危受命来写写前端展示面板的搭建指南
 
