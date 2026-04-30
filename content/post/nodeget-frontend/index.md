@@ -1,7 +1,7 @@
 ---
 title: NodeGet Status Show 搭建
 description: 
-date: 2026-04-28
+date: 2026-04-30
 slug: nodeget-frontend
 image: https://img.genmin.icu/p/nodeget-frontend/image-16.png
 categories:
