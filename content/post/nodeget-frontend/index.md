@@ -49,7 +49,7 @@ NodeGet 的不仅是前后端分离，其前端也在正常情况下 (官方想�
 
 首先来到你的 Dashboard，来到左侧 `Token` -> `创建 Token`
 
-![alt text](image-1.png)
+![alt text](https://img.genmin.icu/p/nodeget-frontend/image-1.png)
 
 对于一般的情况 (使用官方 StatusShow)，使用预设的 Visitor 权限模版即可
 
@@ -72,7 +72,43 @@ NodeGet 的不仅是前后端分离，其前端也在正常情况下 (官方想�
 
 ![alt text](https://img.genmin.icu/p/nodeget-frontend/image-4.png)
 
-## 修改 Config
+## 一键部署
+
+点击此处以一键部署:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/NodeSeekDev/NodeGet-StatusShow&env=SITE_1,SITE_NAME,SITE_LOGO,SITE_FOOTER&envDescription=站点信息和主控连接&envLink=https://github.com/NodeSeekDev/NodeGet-StatusShow%23环境变量)
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NodeSeekDev/NodeGet-StatusShow)
+
+以 Cloudflare 为例，点击按钮后，选择你的帐号
+
+修改一下名称，点开高级设置，按照下面的规则添加环境变量
+
+![alt text](https://img.genmin.icu/p/nodeget-frontend/image-18.png)
+
+```
+SITE_NAME = 狼牙的探针
+SITE_LOGO = https://example.com/logo.png
+SITE_FOOTER = Powered by NodeGet
+SITE_1=name = "master-1",backend_url="wss://m1.example.com",token="abc123"
+SITE_2=name = "master-2",backend_url="wss://m2.example.com",token="xyz789" 
+```
+
+`SITE_n` 是主控，值用 key="value" 拿逗号串起来，值里要塞引号或反斜杠的话用 `\"` 和 `\\` 转义
+
+从 `SITE_1` 开始连续往上数，中间断了就停，所以加新主控接着 `SITE_3` `SITE_4` 就行
+
+一个 `SITE_n` 都没设的话脚本啥也不干，直接用仓库里那份 config.json 运行
+
+可以只有一个 `SITE` 不强制 `SITE_2` `SITE_3` 之类的
+
+随后即可正常部署，部署成功右上角访问
+
+![alt text](https://img.genmin.icu/p/nodeget-frontend/image-19.png)
+
+## 手动上传
+
+### 修改 Config
 
 前往 <https://github.com/NodeSeekDev/NodeGet-StatusShow/releases> 下载最新构建
 
@@ -107,7 +143,7 @@ NodeGet 的不仅是前后端分离，其前端也在正常情况下 (官方想�
 
 修改完后打包回该压缩文件
 
-## 创建 Cloudflare Pages
+### 创建 Cloudflare Pages
 
 转到 Cloudflare Dashboard，`计算` -> `Workers 和 Pages` -> `创建应用程序`
 
@@ -129,14 +165,6 @@ NodeGet 的不仅是前后端分离，其前端也在正常情况下 (官方想�
 
 ![alt text](https://img.genmin.icu/p/nodeget-frontend/image-11.png)
 
-最终成果:
-
-![alt text](https://img.genmin.icu/p/nodeget-frontend/image-12.png)
-
-![alt text](https://img.genmin.icu/p/nodeget-frontend/image-13.png)
-
-PS: 这只是对外展示的面板，真正管理面板功能更多，我自己是挺喜欢的。
-
 ## 绑定域名
 
 老生常谈，来到刚才的面板 `设置` -> `域和路由` -> `添加` -> `自定义域`
@@ -147,10 +175,10 @@ PS: 这只是对外展示的面板，真正管理面板功能更多，我自己�
 
 ![alt text](https://img.genmin.icu/p/nodeget-frontend/image-15.png)
 
-## 小结
+## 最终成果
 
-貌似还算挺充分的，简单到爆炸
+![alt text](https://img.genmin.icu/p/nodeget-frontend/image-12.png)
 
-如果你有点技术，那这文章纯流水账
+![alt text](https://img.genmin.icu/p/nodeget-frontend/image-13.png)
 
-不过酒神要求是面向小白，那就这样吧
+PS: 这只是对外展示的面板，真正管理面板功能更多，我自己是挺喜欢的。
