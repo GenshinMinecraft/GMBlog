@@ -13,6 +13,10 @@ links:
     description: 愛しの君とこの世のはたて
     website: https://xxxh.de
     image: https://xxxh.de/upload/IMG_1966.gif
+  - title: 冬冬的博客
+    description: 一个热爱技术的开发者
+    website: https://blog.udo.moe/
+    image: https://blog.udo.moe/img/avatar.webp
 menu:
     main: 
         weight: -2
