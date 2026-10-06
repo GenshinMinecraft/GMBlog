@@ -6,6 +6,7 @@ slug: esp8266-espat
 image: https://img.genmin.icu/p/esp8266-espat/image-1.png
 categories:
     - Main
+    - 嵌入式
 ---
 
 # ESP8266 AT 固件 - 将 AT 端口绑定到 UART0 - 实现使用 USB AT

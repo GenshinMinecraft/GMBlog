@@ -6,8 +6,8 @@ slug: googlepaiming
 image: https://img.genmin.icu/p/googlepaiming/image-6.png
 categories:
     - Main
-    - CloudFlare
-    - Google
+    - 博客
+    - 网络
 ---
 
 # 如何让 Google 快速收录你的网站 / 提升在 Google 的排名

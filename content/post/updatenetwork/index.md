@@ -6,6 +6,8 @@ slug: updatenetwork
 image: https://img.genmin.icu/p/updatenetwork/image-2.png
 categories:
     - Main
+    - 网络
+    - 自托管
 ---
 
 # 记一次家庭网络更新 2000mbps

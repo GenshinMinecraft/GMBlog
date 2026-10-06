@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/feishin-for-cfpages/CG10480-realesrgan-x4plus-an
 categories:
     - Main
     - Cloudflare
+    - 自托管
     - Free
 ---
 

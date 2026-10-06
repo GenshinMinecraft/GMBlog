@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-rackdogau/4Dvs6WLGZi83KwQ.jpg
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 # Rackdog 冷门商家 澳大利亚 $3 1C512M 测评

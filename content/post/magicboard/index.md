@@ -6,6 +6,7 @@ slug: magicboard
 image: https://img.genmin.icu/p/magicboard/image-17.png
 categories:
     - Main
+    - 嵌入式
 ---
 
 # 面向于国内中小学生的 创客开发板选型 / 语言选择 完全指北

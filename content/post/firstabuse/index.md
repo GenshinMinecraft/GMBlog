@@ -6,6 +6,8 @@ slug: firstabuse
 image: https://img.genmin.icu/p/firstabuse/dm.webp
 categories:
     - Main
+    - HighPing
+    - 网络
 ---
 
 # 关于 High Ping Blog 的第一个 Abuse

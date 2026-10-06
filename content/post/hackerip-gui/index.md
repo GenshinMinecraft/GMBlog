@@ -7,7 +7,7 @@ image: https://img.genmin.icu/p/hackerip-gui/image-1.png
 categories:
     - Main
     - Rust
-    - Linux
+    - CePing
 ---
 
 # IP-Hacker-GUI 发版 | 更便捷地测试 IP

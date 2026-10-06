@@ -7,6 +7,8 @@ image: https://img.genmin.icu/p/ceping-diylinkfreehk/5af86a1157cd1.jpg
 categories:
     - Main
     - CePing
+    - VPS
+    - Free
 ---
 
 # DIYLink 免费 3 年 HK 机器 测评

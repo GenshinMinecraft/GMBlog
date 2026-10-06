@@ -6,7 +6,7 @@ slug: writemarkdown
 image: https://img.genmin.icu/p/writemarkdown/image-16.png
 categories:
     - Main
-    - Blog
+    - 博客
 ---
 
 # 对于博客而言的 Markdown 写作规范

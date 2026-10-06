@@ -6,7 +6,8 @@ slug: chinamobilegamebooster
 image: https://img.genmin.icu/p/chinamobilegamebooster/img234.webp
 categories:
     - Main
-    - ChinaMobile
+    - Android
+    - 网络
 ---
 
 # 利用 中国移动游戏加速器 代理 非游戏软件 实现出国代理服务 (漏洞复现)

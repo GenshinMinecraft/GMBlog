@@ -5,7 +5,8 @@ date: 2026-09-24
 slug: macandwin
 image: https://genmin.icu/p/macandwin/image-3.png
 categories:
-  - Main
+    - Main
+    - 总结
 ---
 
 # 为何我从 Win 转 Mac 转 Win？| MacBook Pro M1 Pro 的 Mac 初体验和买与卖

@@ -7,7 +7,6 @@ image: https://img.genmin.icu/p/androidinstallgoogle/google.jpg
 categories:
     - Main
     - Android
-    - Google
 ---
 
 # 安卓设备安装Google框架方法汇总(持续更新)

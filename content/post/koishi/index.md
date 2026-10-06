@@ -1,4 +1,3 @@
-
 ---
 title: 全能机器人框架 -- Koishi
 description: Telegram 与 Discord 群组互通
@@ -8,6 +7,8 @@ image: https://img.genmin.icu/p/koishi/5b7595e429e43.jpg
 categories:
     - Main
     - Linux
+    - 自托管
+    - 网络
 ---
 
 # 全能机器人框架 -- Koishi

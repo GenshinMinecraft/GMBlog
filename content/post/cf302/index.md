@@ -6,9 +6,9 @@ slug: cf302
 image: https://img.genmin.icu/p/cf302/kS4EzZ3v7gNHWJG.jpg
 categories:
     - Main
-    - CloudFlare
-    - Free
-    - Domain
+    - Cloudflare
+    - 网络
+    - 域名
 ---
 
 # 仅依靠 CloudFlare 完成带路径参数重定向

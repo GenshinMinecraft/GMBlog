@@ -5,10 +5,10 @@ date: 2024-06-17
 slug: makerustcfwksaibot
 image: https://img.genmin.icu/p/makerustcfwksaibot/TUAPI-EEES-CC--1532922433.jpg
 categories:
-  - Main
-  - CloudFlare
-  - AI
-  - Rust
+    - Main
+    - Rust
+    - Cloudflare
+    - AI
 ---
 
 # 搭建属于自己的 Cloudflare Workers AI Telegram Bot

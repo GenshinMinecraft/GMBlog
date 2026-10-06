@@ -6,7 +6,8 @@ slug: phpblog
 image: https://img.genmin.icu/p/phpblog/image.png
 categories:
     - Main
-    - Blog
+    - 博客
+    - CePing
 ---
 
 # 使用虚妄猫 1.9/Year 虚拟主机搭建博客 | 新手向

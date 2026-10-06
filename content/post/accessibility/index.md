@@ -5,7 +5,7 @@ date: 2024-09-21
 slug: accessibility           
 image:  https://img.genmin.icu/p/accessibility/6624164248c80.webp 
 categories:
-    - Main               
+    - Main
     - Android
 ---
 

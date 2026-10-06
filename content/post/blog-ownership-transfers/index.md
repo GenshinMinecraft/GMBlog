@@ -6,6 +6,8 @@ slug: blog-ownership-transfers
 image: https://img.genmin.icu/p/blog-ownership-transfers/6624165307f9a.webp
 categories:
     - Main
+    - 博客
+    - HighPing
 ---
 
 # 本博客所有权与域名迁移

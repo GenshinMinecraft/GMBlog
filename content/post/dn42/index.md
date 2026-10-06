@@ -6,8 +6,8 @@ slug: dn42
 image: https://img.genmin.icu/p/dn42/dn42.png
 categories:
     - Main
-    - DN42
-    - ASN
+    - 网络
+    - HighPing
 ---
 
 # DN42 最简教程

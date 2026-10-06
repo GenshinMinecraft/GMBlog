@@ -5,9 +5,10 @@ date: 2024-08-23
 slug: aigateway             
 image: https://img.genmin.icu/p/aigateway/1.2KV-2-1920x1080.webp
 categories:
-    - Main               
-    - Free
+    - Main
     - Cloudflare
+    - AI
+    - Free
 ---
 
 # 初探 Cloudflare AI Gateway

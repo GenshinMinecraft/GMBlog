@@ -8,6 +8,8 @@ image: https://i2.100024.xyz/2023/07/21/sfr1h3.webp
 categories:
     - Main
     - Linux
+    - 自托管
+    - 网盘
 
 ---
 

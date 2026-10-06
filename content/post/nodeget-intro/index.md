@@ -6,7 +6,8 @@ slug: nodeget-intro
 image: https://img.genmin.icu/p/nodeget-intro/image-1.png
 categories:
     - Main
-    - NodeGet
+    - 监控
+    - Rust
 ---
 
 # NodeGet NS 探针 Intro

@@ -6,8 +6,9 @@ hidden: true
 slug: xui-scanner
 image: https://img.genmin.icu/p/xui-scanner/O1CN018qw1rw1nQWUL5Ppa7_!!2401945084.jpg
 categories:
-  - Main
-  - Linux
+    - Main
+    - Linux
+    - 网络
 ---
 
 # 扫描弱密码的 X-ui 面板

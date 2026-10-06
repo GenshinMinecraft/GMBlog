@@ -6,9 +6,8 @@ slug: nezha-agent-rs
 image: https://img.genmin.icu/p/nezha-agent-rs/dm.webp
 categories:
     - Main
-    - CloudFlare
     - Rust
-    - Linux
+    - 监控
 ---
 
 # 使用 nezha-agent-rs

@@ -6,7 +6,8 @@ slug: nodeget-frontend
 image: https://img.genmin.icu/p/nodeget-frontend/image-16.png
 categories:
     - Main
-    - NodeGet
+    - 监控
+    - Cloudflare
 ---
 
 # NodeGet Status Show 搭建

@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/bypy/TUAPI-EEES-CC--1613297185.jpg
 categories:
     - Main
     - Linux
+    - 网盘
 ---
 
 # 在命令行使用百度网盘 -- bypy 的使用

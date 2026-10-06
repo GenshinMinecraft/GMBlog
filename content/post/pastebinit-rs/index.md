@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/pastebin-rs/image.png
 categories:
     - Main
     - Rust
+    - Linux
 ---
 
 # PastebinIt-rs | 在终端中 Paste 任何东西

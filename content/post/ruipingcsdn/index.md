@@ -6,7 +6,7 @@ slug: ruipingcsdn
 image: https://img.genmin.icu/p/ruipingcsdn/2560px-CSDN_Logo.svg.png
 categories:
     - Main
-    - RuiPing
+    - 锐评
 ---
 
 # 锐评 CSDN

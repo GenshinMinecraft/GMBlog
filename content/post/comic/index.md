@@ -6,6 +6,7 @@ slug: comic
 image: https://img.genmin.icu/p/comic/image-28.png
 categories:
     - Main
+    - 二次元
 ---
 
 # 个人向番剧大评价 (长期更新)

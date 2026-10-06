@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-poloukv6/2e4c51c7b02c7ecc4c064c575b7910e3
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 # [测评] PoloCloud UKLite IPv6 1rmb小鸡 测评

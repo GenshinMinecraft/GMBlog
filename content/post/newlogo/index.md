@@ -6,7 +6,7 @@ slug: newlogo
 image: https://img.genmin.icu/p/newlogo/HighPingNetwork.png
 categories:
     - Main
-    - ASN
+    - HighPing
 ---
 
 # High Ping Network 的新 Logo

@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/navidrome/42e63ef0-8e1e-44e3-a7d2-4eafda8ba256_1
 categories:
     - Main
     - Linux
+    - 自托管
 ---
 # Navidrome 家庭音乐云 | 从入门到入土
 

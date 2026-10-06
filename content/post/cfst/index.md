@@ -6,9 +6,9 @@ slug: cfst
 image: https://img.genmin.icu/p/cfst/image-1.png
 categories:
     - Main
-    - CloudFlare
     - Rust
-    - Linux
+    - Cloudflare
+    - 网络
 ---
 
 # 搭建 Cloudflare Speedtest 后端

@@ -6,9 +6,8 @@ slug: fulltclash
 image: https://img.genmin.icu/p/fulltclash/image.png
 categories:
     - Main
-    - Free
-    - FullTclash
     - Linux
+    - 网络
 ---
 
 # FullTclash 搭建/使用方法

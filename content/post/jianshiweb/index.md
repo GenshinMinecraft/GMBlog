@@ -6,7 +6,7 @@ slug: jianshiweb
 image: https://img.genmin.icu/p/jianshiweb/e88c819ff3ff4acc929b60af5d2d68c1.png
 categories:
     - Main
-    - Domain
+    - 博客
     - Free
 ---
 

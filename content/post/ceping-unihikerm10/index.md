@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-unihikerm10/img232.webp
 categories:
     - Main
     - CePing
+    - 嵌入式
 ---
 
 # Unihiker 行空板 M10 测评

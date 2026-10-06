@@ -6,6 +6,7 @@ slug: qqpupil
 image: https://img.genmin.icu/p/qqpupil/qq.jpg
 categories:
     - Main
+    - 锐评
 ---
 
 # 总结一下"QQ小学生"的特点

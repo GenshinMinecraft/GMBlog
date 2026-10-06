@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/pingpong/image-1.png
 categories:
     - Main
     - Rust
+    - 网络
 ---
 
 # 优雅地使用 Rust 进行 ICMP Ping

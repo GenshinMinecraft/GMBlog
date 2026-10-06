@@ -6,8 +6,8 @@ slug: ruipingcloudflare
 image: https://img.genmin.icu/p/ruipingcloudflare/OIP-C.jpg
 categories:
     - Main
-    - RuiPing
-    - CloudFlare
+    - 锐评
+    - Cloudflare
 ---
 
 # 锐评CloudFlare（CloudFlare从来都不是减速器）

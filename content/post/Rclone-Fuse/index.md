@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/Rclone-Fuse/logo_on_light__horizontal_color.svg
 categories:
     - Main
     - Linux
+    - 网盘
 ---
 
 # Rclone挂载以及Fuse问题解决

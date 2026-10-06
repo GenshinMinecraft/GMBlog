@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/vps-openvpn/image.png
 categories:
     - Main
     - Linux
+    - 网络
 ---
 
 # 在 VPS 中使用 OPENVPN 内置代理

@@ -6,6 +6,8 @@ slug: esp8266-komari-agent
 image: https://img.genmin.icu/p/esp8266-komari-agent/image.png
 categories:
     - Main
+    - 嵌入式
+    - 监控
 ---
 
 # ESP8266 上 Komari Agent 使用教程

@@ -6,7 +6,7 @@ slug: nodepanels
 image: https://img.genmin.icu/p/nodepanels/image-12.png
 categories:
     - Main
-    - Linux
+    - 监控
     - Free
 ---
 

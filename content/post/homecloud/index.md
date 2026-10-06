@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/homecloud/IMG_20231126_121332_584.jpg
 categories:
     - Main
     - Linux
+    - 自托管
 ---
 
 # HomeCloud 家庭云 折腾心得

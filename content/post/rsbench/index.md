@@ -7,7 +7,7 @@ image: https://img.genmin.icu/p/rsbench/img300.webp
 categories:
     - Main
     - Rust
-    - Linux
+    - CePing
 ---
 
 # RSBench | 送给 MJJ 的新年礼物 | 最好的小鸡基准测试工具 | 2s 测试流媒体与 IP

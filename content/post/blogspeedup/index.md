@@ -6,6 +6,9 @@ slug: blogspeedup
 image: https://img.genmin.icu/p/blogspeedup/image.png
 categories:
     - Main
+    - 博客
+    - Cloudflare
+    - 网络
 ---
 
 # 博客网络优化日记

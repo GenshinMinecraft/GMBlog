@@ -6,8 +6,9 @@ slug: cloudreve
 image: https://img.genmin.icu/p/cloudreve/TUAPI-EEES-CC--860621122.jpg
 categories:
     - Main
-    - CloudFlare
-    - HomeCloud
+    - Cloudflare
+    - 自托管
+    - 网盘
 ---
 
 # 使用 Cloudreve + E5 + Workers 搭建免费高速云盘 | 跑满带宽

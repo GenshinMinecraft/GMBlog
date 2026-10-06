@@ -6,8 +6,8 @@ slug: samopenai
 image: https://img.genmin.icu/p/samopenai/1_5ecJKPe4wDKIJ197h5r3bQ.png
 categories:
     - Main
-    - CePing
     - AI
+    - CePing
 ---
 
 # OpenAI 测评

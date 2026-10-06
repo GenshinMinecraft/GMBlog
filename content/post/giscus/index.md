@@ -6,7 +6,7 @@ slug: giscus
 image: https://img.genmin.icu/p/giscus/image.png
 categories:
     - Main
-    - Blog
+    - 博客
 ---
 
 # Giscus -- 为你的博客添加一个基于 Github 的评论区

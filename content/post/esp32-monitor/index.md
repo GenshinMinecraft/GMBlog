@@ -6,6 +6,7 @@ slug: esp32-monitor
 image: https://img.genmin.icu/p/esp32-monitor/image-1.png
 categories:
     - Main
+    - 嵌入式
     - Rust
 ---
 

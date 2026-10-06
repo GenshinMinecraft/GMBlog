@@ -6,7 +6,8 @@ slug: ourasn
 image: https://img.genmin.icu/p/ourasn/466f79e8ly1fw5ohcs2vfj21380rsqmg.jpg
 categories:
     - Main
-    - ASN
+    - 网络
+    - HighPing
 ---
 
 # A "Hello, The Internet" from AS215575

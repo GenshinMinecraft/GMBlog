@@ -6,8 +6,8 @@ slug: akile-monitor-client-rs
 image: https://img.genmin.icu/p/akile-monitor-client-rs/image-3.png
 categories:
     - Main
-    - Linux
     - Rust
+    - 监控
 ---
 
 # 第三方 Akile Monitor 监控端使用

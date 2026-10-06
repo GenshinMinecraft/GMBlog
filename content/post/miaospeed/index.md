@@ -5,8 +5,9 @@ date: 2024-07-18
 slug: miaospeed
 image: https://img.genmin.icu/p/miaospeed/image.png
 categories:
-  - Main
-  - Linux
+    - Main
+    - Linux
+    - 网络
 ---
 # MiaoSpeed
 

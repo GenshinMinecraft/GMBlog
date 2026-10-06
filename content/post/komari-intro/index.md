@@ -5,7 +5,9 @@ date: 2025-09-13
 slug: komari-intro
 image: https://img.genmin.icu/p/komari-intro/image.png
 categories:
-  - Main
+    - Main
+    - 监控
+    - Linux
 ---
 
 # Komari 从入门到入土

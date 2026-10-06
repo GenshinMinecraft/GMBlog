@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/2025homecloud/image-6.png
 categories:
     - Main
     - Linux
+    - 自托管
 ---
 
 # 2025 年了，我的家里云发生了什么变化？

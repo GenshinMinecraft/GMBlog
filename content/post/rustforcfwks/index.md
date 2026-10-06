@@ -5,9 +5,9 @@ date: 2024-09-16
 slug: rustforcfwks
 image: https://img.genmin.icu/p/rustforcfwks/6624165544cd9.webp
 categories:
-  - Main
-  - CloudFlare
-  - Rust
+    - Main
+    - Rust
+    - Cloudflare
 ---
 
 # Re0: 从零开始的 Rust For Cloudflare Workers 教程

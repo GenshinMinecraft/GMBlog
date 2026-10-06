@@ -6,8 +6,9 @@ slug: 2024new
 image: https://img.genmin.icu/p/2024new/8lGqPEAUXB5HaCz.jpg
 categories:
     - Main
-    - 域名
-    - ASN
+    - HighPing
+    - 博客
+    - 网络
 ---
 
 # 新年新气象－－新博客，新域名，新ASN！

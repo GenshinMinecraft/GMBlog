@@ -7,7 +7,7 @@ image: https://i2.100024.xyz/2023/07/20/10fybfn.webp
 categories:
     - Main
     - Free
-    - Domain
+    - 域名
 ---
 # 免费领取.Link域名一年
 

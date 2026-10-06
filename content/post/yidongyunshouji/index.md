@@ -8,7 +8,6 @@ categories:
     - Main
     - Free
     - Android
-    - ChinaMobile
 ---
 
 # 每日白嫖免费移动云手机

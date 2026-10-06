@@ -6,7 +6,7 @@ slug: workersaibot
 image: https://img.genmin.icu/p/workersaibot/image.png
 categories:
     - Main
-    - CloudFlare
+    - Cloudflare
     - AI
 ---
 

@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-nomaius17/image.png
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 # 虚妄猫 美国 17 区 51 特殊优惠 1.49 RMB/M 小鸡 测评

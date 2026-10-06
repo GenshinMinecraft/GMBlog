@@ -6,6 +6,7 @@ slug: gamepadfist
 image: https://img.genmin.icu/p/gamepadfist/1259.png
 categories:
     - Main
+    - 二次元
 ---
 
 # 手柄初体验 -- 盖世小鸡启明星

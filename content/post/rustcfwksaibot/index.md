@@ -5,10 +5,10 @@ date: 2024-06-14
 slug: rustcfwksaibot
 image: https://img.genmin.icu/p/rustcfwksaibot/TUAPI-EEES-CC--615310681.jpg
 categories:
-  - Main
-  - CloudFlare
-  - AI
-  - Rust
+    - Main
+    - Rust
+    - Cloudflare
+    - AI
 ---
 
 # 200 行 Rust 代码实现简单 CF Workers AI Bot | Rust 学习日记

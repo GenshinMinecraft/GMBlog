@@ -6,9 +6,8 @@ slug: cloudflare-r2
 image: https://img.genmin.icu/p/cloudflare-r2/photo_2023-07-22_21-49-10.jpg
 categories:
     - Main
+    - Cloudflare
     - Free
-    - Domain
-    - CloudFlare
 ---
 
 # CloudFlare R2 获取/使用方法

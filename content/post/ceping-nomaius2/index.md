@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-nomaius2/5a2e8b12f2e48.jpg
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 # [测评] 虚妄猫 Nat-kvm-美国-独立v6-2号母鸡 4.9rmb/m 2c512m 40gDisk 2T 纯IPV6小鸡 测评

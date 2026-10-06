@@ -6,7 +6,7 @@ slug: nodeget-static
 image: https://img.genmin.icu/p/nodeget-static/image.png
 categories:
     - Main
-    - NodeGet
+    - 监控
 ---
 
 # NodeGet Static Bucket 功能 & 方便主题搭建

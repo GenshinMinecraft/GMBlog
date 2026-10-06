@@ -7,7 +7,7 @@ image: https://img.genmin.icu/p/hackerip/image-4.png
 categories:
     - Main
     - Rust
-    - Linux
+    - CePing
 ---
 
 # 五秒之内，我要拿到 IP 的全部信息 | IP-Hacker 简介 & 使用方法

@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-rackdog/5b7595e45ebeb.jpg
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 # [测评] Rackdog 冷门商家 美国芝加哥 $3 1C512M 测评

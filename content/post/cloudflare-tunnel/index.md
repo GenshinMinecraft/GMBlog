@@ -6,9 +6,9 @@ slug: cloudflare-tunnel
 image: https://img.genmin.icu/p/cloudflare-tunnel/image.png
 categories:
     - Main
+    - Cloudflare
     - Free
-    - Domain
-    - CloudFlare
+    - 网络
 ---
 
 # CloudFlare Tunnel(内网穿透) 获取/使用方法

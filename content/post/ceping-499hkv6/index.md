@@ -7,6 +7,7 @@ image: https://img.genmin.icu/p/ceping-499hkv6/obOsYjScKep1VQ7.jpg
 categories:
     - Main
     - CePing
+    - VPS
 ---
 
 
