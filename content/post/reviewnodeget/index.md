@@ -6,8 +6,7 @@ slug: reviewnodeget
 image: https://img.genmin.icu/p/reviewnodeget/image-2.png
 categories:
     - Main
-    - 网络
-    - 自托管
+    - 监控
 ---
 
 # 开发 NodeGet 心得 | 记一次不太完美的收尾
