@@ -1,7 +1,7 @@
 ---
 title: 开发 NodeGet 心得 | 记一次不太完美的收尾
 description: 问就是没空
-date: 2026-08-20
+date: 2026-11-01
 slug: reviewnodeget
 image: https://img.genmin.icu/p/reviewnodeget/image-2.png
 categories:
