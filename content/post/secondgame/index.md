@@ -11,7 +11,7 @@ categories:
 
 # 我的二游经历 | 二游对我的影响
 
-Hi，这里是 GenshinMinecraft
+Hi，这里是 GenshinMinecraft，推荐进入本博客阅读本文: <https://genmin.icu>
 
 ## 前言
 
